@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Hyper Cannon
+  m_EditorClassIdentifier: 
+  cost: 1
+  power: 0
+  health: 0
+  type: 14
+  color: 0
+  mainEffect: 'This Mech gains +4000 during your turn. '
+  secondaryEffect: 
+  trait: 
+  cardArt: {fileID: 21300000, guid: d9ade5ec8994c4d90823e19e192bf129, type: 3}
+  exposed: 0

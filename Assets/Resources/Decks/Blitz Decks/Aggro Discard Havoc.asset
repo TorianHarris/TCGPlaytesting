@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
+  m_Name: Aggro Discard Havoc
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 8067df15bd24a4eaea528ed8d91491f7, type: 2}
+  - {fileID: 11400000, guid: 8067df15bd24a4eaea528ed8d91491f7, type: 2}
+  - {fileID: 11400000, guid: 8067df15bd24a4eaea528ed8d91491f7, type: 2}
+  - {fileID: 11400000, guid: 6347089d306c4419492298c901df67d4, type: 2}
+  - {fileID: 11400000, guid: 6347089d306c4419492298c901df67d4, type: 2}
+  - {fileID: 11400000, guid: 6347089d306c4419492298c901df67d4, type: 2}
+  - {fileID: 11400000, guid: 82c213aecd0e94f0191aa937ed38471b, type: 2}
+  - {fileID: 11400000, guid: 82c213aecd0e94f0191aa937ed38471b, type: 2}
+  - {fileID: 11400000, guid: 82c213aecd0e94f0191aa937ed38471b, type: 2}
+  - {fileID: 11400000, guid: 87d91d1db5b474c99a2d51730b5f1fb7, type: 2}
+  - {fileID: 11400000, guid: 87d91d1db5b474c99a2d51730b5f1fb7, type: 2}
+  - {fileID: 11400000, guid: fb064442367784b31a870fc43a6f1b2f, type: 2}
+  - {fileID: 11400000, guid: fb064442367784b31a870fc43a6f1b2f, type: 2}
+  - {fileID: 11400000, guid: fb064442367784b31a870fc43a6f1b2f, type: 2}
+  - {fileID: 11400000, guid: c4c065fcd6f1c4e1aade75f0e45b9868, type: 2}
+  - {fileID: 11400000, guid: c4c065fcd6f1c4e1aade75f0e45b9868, type: 2}
+  - {fileID: 11400000, guid: c4c065fcd6f1c4e1aade75f0e45b9868, type: 2}
+  - {fileID: 11400000, guid: 812b666f7a28247ceab7074c718c990d, type: 2}
+  - {fileID: 11400000, guid: 812b666f7a28247ceab7074c718c990d, type: 2}
+  - {fileID: 11400000, guid: 91d8ece9b0ffa4906913afd2ef0231d6, type: 2}
+  - {fileID: 11400000, guid: 91d8ece9b0ffa4906913afd2ef0231d6, type: 2}
+  - {fileID: 11400000, guid: 91d8ece9b0ffa4906913afd2ef0231d6, type: 2}
+  - {fileID: 11400000, guid: c857ff4f3bb734a5088ac6f94dbec6b4, type: 2}
+  - {fileID: 11400000, guid: c62bef03cd3194ec3b90ffc0e558f754, type: 2}
+  - {fileID: 11400000, guid: c62bef03cd3194ec3b90ffc0e558f754, type: 2}
+  - {fileID: 11400000, guid: c857ff4f3bb734a5088ac6f94dbec6b4, type: 2}
+  - {fileID: 11400000, guid: c857ff4f3bb734a5088ac6f94dbec6b4, type: 2}
+  - {fileID: 11400000, guid: bf8f89c7d1ad34732aa7276df35ce997, type: 2}
+  - {fileID: 11400000, guid: bf8f89c7d1ad34732aa7276df35ce997, type: 2}
+  - {fileID: 11400000, guid: bf8f89c7d1ad34732aa7276df35ce997, type: 2}
+  - {fileID: 11400000, guid: b3ccd10269ac8469ea3abbd88cafadee, type: 2}
+  - {fileID: 11400000, guid: b3ccd10269ac8469ea3abbd88cafadee, type: 2}
+  - {fileID: 11400000, guid: 17b574c6a026246e099dbc101ae8f332, type: 2}
+  - {fileID: 11400000, guid: 17b574c6a026246e099dbc101ae8f332, type: 2}
+  - {fileID: 11400000, guid: b0287b210dc7944e9a5a27d45bd5d90e, type: 2}
+  - {fileID: 11400000, guid: b0287b210dc7944e9a5a27d45bd5d90e, type: 2}
+  - {fileID: 11400000, guid: b0287b210dc7944e9a5a27d45bd5d90e, type: 2}
+  - {fileID: 11400000, guid: 99f04b7bd982c4237a90cd05a7ca046c, type: 2}
+  - {fileID: 11400000, guid: 99f04b7bd982c4237a90cd05a7ca046c, type: 2}
+  - {fileID: 11400000, guid: 99f04b7bd982c4237a90cd05a7ca046c, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Sacred Tower
+  m_EditorClassIdentifier: 
+  cost: 2
+  power: 0
+  health: 0
+  type: 3
+  color: 6
+  mainEffect: You can have multiple copies of this card in your Realm Zone. At the
+    end of your turn, heal 1 to a Unit in this row.
+  secondaryEffect: "\r"
+  trait: 
+  cardArt: {fileID: 21300000, guid: 100f8672b680c49178cccb682e26c838, type: 3}
+  exposed: 0

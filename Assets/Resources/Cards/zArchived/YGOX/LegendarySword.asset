@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: LegendarySword
+  m_EditorClassIdentifier: 
+  cost: 1
+  power: 0
+  health: 0
+  type: 7
+  color: 3
+  mainEffect: "<b>Equlp (1): Warrior monsters</b>\nWhen you play this card, equip
+    it for no cost. \nThe equipped monster gains +1000 Power."
+  secondaryEffect: 
+  trait: 
+  cardArt: {fileID: 21300000, guid: 3ae3e28bee3164cd6b5142a0142d8660, type: 3}
+  exposed: 0

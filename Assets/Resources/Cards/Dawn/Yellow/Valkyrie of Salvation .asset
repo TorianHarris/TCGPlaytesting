@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: 'Valkyrie of Salvation '
+  m_EditorClassIdentifier: 
+  cost: 6
+  power: 6000
+  health: 1000
+  type: 0
+  color: 1
+  mainEffect: On Play - If you have more cards in your Damage Zone than your opponent,
+    send a card from your Damage Zone to the Discard Zone. If you have 5 or more
+    cards in your Damage Zone, send a card from your Damage Zone to the top of your
+    deck instead then shuffle your deck at the end of your turn.
+  secondaryEffect: "Flip a card in your Damage Zone faceup.\r"
+  trait: Angel
+  cardArt: {fileID: 21300000, guid: 64d8600b5dfd54ad7b5dcb374ac5ea19, type: 3}
+  exposed: 0

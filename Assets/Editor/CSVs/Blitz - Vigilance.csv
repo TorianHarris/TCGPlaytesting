@@ -1,0 +1,41 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Blitz
+Castle Grounds,Permanent,2,,,,"At the start of your Main Phase, convert an allied Zone into a Ramparts Zone. Action - [Exhaust this card and discard a ""Castle Grounds"" from your hand] Convert an allied Zone into a Ramparts Zone.",
+Battle Augmentation,Permanent,4,,,,"You can have multiple copies of this card in your Realm Zone. When a Unit is summoned to this Realm's row, give it +0/+1. When a Token Unit is summoned to this Realm's row, give it +1/+0.",Give an allied Unit +1/+1.
+Sword of Legend,Permanent,3,,,Gilded,"Once per turn, when you would play a Gilded Unit, reduce its cost by 1. Action - [Exhaust this card and discard a ""Sword of Gilded"" from your hand] Give an allied Gilded Unit +1/+1.",
+Knightly Tutoring,Instant,1,,,,"Give an Unit +1/+0. If that Unit occupies a Ramparts Zone, give it +1/+1 instead.",
+Bladestorm,Instant,2,,,,Deal X damage to an opposing Unit. X equals the number of allied Units.,Summon a Defender Token.
+Reinforcements,Instant,2,,,,Summon 2 Defender Tokens.,Summon a Defender Token.
+Blade Rush,Instant,3,,,,Choose an allied Unit and an opposing Unit. Give the allied Unit +1/+0 until the end of the turn then both Units battle each other.,
+Combined Might,Instant,4,,,,Draw X cards. X equals the number of allied Units.,
+Skyborne Lancer,Unit,1,1,2,,"On Summon - If you have 3 or more other allied Units, gain +1/+1.",
+Blooming Samurai,Unit,1,1,1,,On Attack - Gain +1/+0. ,
+Honored Flaguard,Unit,1,1,2,,"Once per turn, when you summon a Unit, give it Endurance.",
+Unicorn Knight,Unit,2,2,2,,"While this Unit occupies a Ramparts Zone, this Unit gains Safeguard.",
+Valiant Knight,Unit,2,2,2,,On Summon - Convert an allied Zone into a Ramparts Zone.,Convert an allied Zone into a Ramparts Zone.
+Farmland Protector,Unit,1,1,1,,On Summon - Summon a Soldier Token.,
+Iron Bladeforger,Unit,2,2,2,,On Summon - Give an allied 1-cost Unit +1/+0.,
+Techsteel Golem,Unit,2,2,2,,"Once per turn, when this Unit's Power or Health is Enhanced, convert an allied Zone into a Ramparts Zone.",
+Techno Tuner,Unit,2,1,2,,On Attack - Give another allied Unit +0/+1.,
+Shining Vanguard,Unit,3,2,3,,On Summon - Choose 1: n/1) Summon a Defender Token n/2) Give an allied Token Unit +1/+1.,
+Wandering Warrior,Unit,2,1,2,,On Summon - Summon a Soldier Token.,
+Ironheart Tiger,Unit,3,2,3,,"On Summon - If you have 2 or more other allied Units, gain +0/+1.",
+Stern Mentor,Unit,3,2,1,,On Summon - Give +1/+1 to all 1-cost Units in this Unit's row.,
+Techblader,Unit,3,2,3,,"On Attack - If you have 2 or more allied Units whose Power or Health is Enhanced, draw a card.",
+Elegant Commander,Unit,4,2,2,,On Summon - Summon a Soldier Token to all allied adjacent Zones in this Unit's row.,
+Radiant Noble,Unit,4,3,3,,"On Summon - If you have 2 or more other allied Units, draw 1.",
+Triumphant Champion,Unit,4,3,3,,On Summon - If you have 2 or more allied other Units gain +1/+1.,
+Bulwark Guardian,Unit,4,1,4,,,Summon a Defender Token.
+Silver Lancer,Unit,4,3,2,,Safeguard.,
+Dazzling General,Unit,5,2,3,,On Summon - Give all other allied Units +1/+1.,
+Adorned Battlemaiden,Unit,6,2,5,,On Summon - Summon a Defender Token. On Attack - Give another Unit +1/+1.,Summon a Defender Token.
+"Brigid, Orchid Knight",Unit,7,3,5,,"Once per turn, when an allied non-Token Unit is summoned (including this Unit) during your turn, you can summon a Defender Token. When an allied Token is summoned, it gains +1/+1.",
+"Jenos, Sunrise Knight",Unit,8,5,5,,"When this Unit attacks or retaliates, convert this Unit's Zone into a Ramparts Zone.",Reduce the next damage you take this turn by 1.
+Crowned Knight,Unit,9,4,4,,On Summon - Convert all allied Zones into Ramparts Zones. On Summon - Give all other allied Units +2/+2.,
+Glimmering Warrior,Unit,6,3,4,Gilded,Heroic - Draw a card. ,"Reveal the top card of your deck and if it is a Gilded card, add it to your hand."
+Fearless Captain,Unit,2,2,2,Gilded,Heroic - Summon a Solider Token in this Unit's column.,
+"Galahad, Mythic Paladin",Unit,3,2,3,Gilded,"Heroic - Look at the top 3 cards of your deck, add a Gilded card from amoungst them to your hand then shuffle the rest into your deck. If there is an allied Gilded Realm, you may add a Gilded card from your Discard Zone to your hand instead.",
+Gloryseeker,Unit,2,2,2,Gilded,Heroic - Gain +0/+1.,
+Opulent Hero,Unit,5,3,3,Gilded,Heroic - Gain +1/+1.,"Give an allied Unit +1/+1. If its a Gilded Unit, give it +1/+2."
+Skylight Guardian,Unit,4,3,3,Gilded,Heroic - Convert an allied Zone into a Ramparts Zone.,
+Protect the Kingdom,Instant,6,,,,Summon a Defender Token to each of your empty back row Zones then convert each of those Zones to Rampart Zones.,Summon a Defender Token.
+Fortify,Instant,1,,,,Convert an allied Zone into a Ramparts Zone and add a Ramparts Token to your hand.,Convert an allied Zone into a Ramparts Zone.

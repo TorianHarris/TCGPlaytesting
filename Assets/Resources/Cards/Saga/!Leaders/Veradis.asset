@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f880c058bec4a4c1eb07c8c8b93ca4bd, type: 3}
+  m_Name: Veradis
+  m_EditorClassIdentifier: 
+  LeaderLevels:
+  - cardName: Noble Blade, Veradis
+    level: 0
+    primaryValue: 2
+    power: 1000
+    health: 0
+    primaryColor: 1
+    secondaryColor: 0
+    mainEffect: (Lineage) On Block - [Remove a Miracle from the game] Nullify this
+      attack.
+    trait: 
+    cardArt: {fileID: 21300000, guid: a4002f759e3d34b62823839a001de3f6, type: 3}
+  - cardName: True Strike, Veradis
+    level: 1
+    primaryValue: 3
+    power: 2000
+    health: 0
+    primaryColor: 1
+    secondaryColor: 0
+    mainEffect: On Level Up - You can reveal the top card of your deck and if it
+      is White add it to your Supporter Zone.
+    trait: 
+    cardArt: {fileID: 21300000, guid: 7b740d2825c814ac0a9736edd6d4e7b6, type: 3}
+  - cardName: Honorbound Knight, Veradis
+    level: 2
+    primaryValue: 5
+    power: 3000
+    health: 0
+    primaryColor: 1
+    secondaryColor: 0
+    mainEffect: On Attack - Active an allied White Ego then give it Defender and
+      Steadfast until the end of your opponent's next turn.
+    trait: 
+    cardArt: {fileID: 21300000, guid: a06ebb63cf82044f7ad9060e76c39305, type: 3}
+  - cardName: Paragon of Truth, Veradis
+    level: 3
+    primaryValue: 7
+    power: 5000
+    health: 0
+    primaryColor: 1
+    secondaryColor: 0
+    mainEffect: 'Trigger - When this Alter is Actived by an effect, Active an allied
+      White Ego then give it Defender and Steadfast until the end of your opponent''s
+      next turn then if you have 2 or more Souls, give this Alter +1000 Power until
+      the end of your opponent''s next turn.
+
+      On Attack - Once per turn, [SB1
+      & Exhaust allied Egos whose total Level equals 3 or more] Active this Alter.'
+    trait: 
+    cardArt: {fileID: 21300000, guid: a7b73d51bfb2a4ea6a2f777ccbb1bef8, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Tempest Blast
+  m_EditorClassIdentifier: 
+  cost: 2
+  power: 0
+  health: 1000
+  type: 1
+  color: 4
+  mainEffect: Return target opposing 4-cost or lower Follower to the hand.
+  secondaryEffect: "Return an opposing 2-cost Follower to the hand.\r"
+  trait: 
+  cardArt: {fileID: 21300000, guid: c8b74c747ef5b4fd3877e45c90a1a94a, type: 3}
+  exposed: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Lord of D.
+  m_EditorClassIdentifier: 
+  cost: 1
+  power: 1000
+  health: 0
+  type: 4
+  color: 7
+  mainEffect: '<b>Shield Crush</b>: Summon this monster and give it -1000 Power.
+
+    <b>Action
+    - (Rest this monster)</b> The next time you would summon a "Blue-Eyes White Dragon"
+    from your hand this turn, reduce it cost by 1. This effect cannot stack.'
+  secondaryEffect: 
+  trait: Dark / Spellcaster
+  cardArt: {fileID: 21300000, guid: 8596241f10eaf44f388cb5109e20431f, type: 3}
+  exposed: 0

@@ -1,0 +1,30 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Blitz
+"Fujin, Eternal Windwalker",Unit,6,3,5,,Combo 3: Reduce the cost of this card in your hand by 2 this turn. On Summon - Summon a Wind Whisper Token then give First Strike and Double Attack to all Wind Whisper Tokens in your front row. ,
+Tailwinds,Spell,1,,,,Convert a Zone into a Wind Tunnel Zone and add a Slipstream Token to your hand.,
+Avian Archer,Unit,2,2,1,,On Summon - Combo 2:  Gain First Strike until the end of this turn.,
+Ace Hunter,Unit,3,2,2,,"After this Unit moves or an opposing Unit moves to this Unit's column, deal 1 damage to the front-most opposing Unit in this Unit's column.",
+Whirlwind,Spell,4,,,,Return an opposing Unit to its owner's hand. Combo 1: Draw a card.,Limit Break 2 - Return the opposing Unit with the lowest cost to its owner's hand.
+Whirling Dance,QuickSpell,1,,,,Move an allied Unit to an empty allied Wind Tunnel Zone then remove that field.,Convert a Zone into a Wind Tunnel Zone.
+Tempestuous Recall,Spell,5,,,,Return all Units to their owner's hands.,Return a 2-cost or lower opposing Unit to its owner's hand.
+Feathered Traveler,Unit,2,2,2,,"When this card moves, Active it.",
+Gilded Falcon,Unit,1,1,1,,"If this allied Unit is returned to your hand, deal 2 damage to a random opposing Unit.",
+Assault Roc,Unit,3,3,2,,On Attack - Add a Slipstream Token to your hand.,Add a Slipstream Token to your hand.
+Prince of Gales,Unit,5,3,4,,On Summon - Summon a Wind Whisper Token and Silence it. On Attack - [Return another allied Unit to your hand]  Move an opposing Unit to a Zone adjacent to it.,Move an opposing non-attacking Unit to a Zone adjacent to it.
+Foxtail Blader,Unit,2,1,2,,On Summon - Convert an empty allied Zone into a Galeforce Zone.,Convert an empty allied Zone into a Galeforce Zone.
+Gustbreaker Dragon,Unit,3,2,2,,On Attack - CConvert an empty allied Zone into a Galeforce Zone.,Convert an empty allied Zone into a Galeforce Zone.
+Festival Dancer,Unit,4,2,2,,Other alllied Sleight Units gain +1/+1. ,Give an allied Sleight Unit +1/+1.
+Turbulent Skies,Realm,2,,,,"At the start of your Main Phase, convert an empty allied Zone into a Galeforce Zone. Action - [Exhaust this card and discard a ""Turbulent Skies"" from your hand] Convert an empty allied Zone into a Galeforce Zone.",
+Tempest Fighter,Unit,2,1,2,,On Summon - Combo 2: Gain +2/+0 until the end of the turn.,
+Ebb and Flow,QuickSpell,1,,,,Move a Unit to an adjacent Zone in its column.,
+Icarus Warrior,Unit,3,2,2,,"When this Unit moves, give it +1/+1 until the end of the turn.",
+Castaway,QuickSpell,2,,,,"Return a 2-cost or lower Unit to its owner's hand and if you do, draw a card.",Return a 2-cost or lower opposing Unit to its owner's hand.
+Winged Flagbearer,Unit,2,1,3,,Action - [Exhaust this Unit] Move an allied Unit to a Zone adjacent to it.,
+Skyrend Demon,Unit,6,4,4,,On Summon - Convert a Zone into a Wind Tunnel Zone then deal 2 damage to each opposing Unit occupying a Wind Tunnel Zone.,Deal 2 damage to an opposing Unit occupying a Wind Tunnel Zone.
+Aqua Solider,Unit,1,1,1,,"When you Basic Move this Unit, it can swap places with an adjacent allied Unit (This counts as moving for a that Unit as well). ",
+Cursed Tengu,Unit,3,4,3,,This Unit cannot attack or retaliate if it did not move this turn.,
+Starlight Fairy,Unit,1,1,1,,"On Summon - If you summoned a Unit with the same name as this Unit this turn, add a Starlight Fairy to your hand. On Destroy - Shuffle a Starlight Fairy into your deck.",
+Guiding Winds,QuickSpell,1,,,,Return an allied Unit to your hand to activate this card. Draw a card.,Draw a card.
+Impetuous Gale,QuickSpell,2,,,,Return an allied Unit to your hand to activate this card. Choose 1: 1) Return a 3-cost or lower opposing Unit to its owner's hand.  2) Return a 5-cost or lower opposing Unit occupying a Wind Tunnel Zone to its owner's hand then remove that field. ,
+Songbird Magician,Unit,2,2,2,,"Once per turn, when an allied Unit moves, draw a card.",
+Seafaring Pirate,Unit,3,2,2,,"Once per turn, when this Unit enters a Wind Tunnel Zone, add a Slipstream Token to your hand.",Add a Slipstream Token to your hand.
+Sailing the Winds,Spell,1,,,,"Discard a card. Draw a card. If the card you discarded was a Slipstream Token, draw 2 cards instead.",

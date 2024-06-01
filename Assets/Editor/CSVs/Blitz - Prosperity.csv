@@ -1,0 +1,25 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Blitz
+Floral Maiden,Unit,2,2,2,,On Summon - Heal 2 to another allied Unit.,Heal 2 to an allied Unit.
+Elven Keeper,Unit,3,2,3,,"Once per turn, if this Unit is at its maximum Health after being healed, draw a card.",Summon a Pixie Token.
+Flourish,Spell,2,,,,Increase your maximum Mana by 1 or heal 3 to an allied Unit. ,
+Bounty of Nature,Spell,4,,,,Choose 2: Increase your maximum Mana by 1. Draw 2 cards. Discard up to 3 cards from your Damage Area.,
+Primal Terrabeast,Unit,6,2,6,,"When you summon a 6-cost or higher allied Unit (including this card), you can summon a Pixie Token. ",Summon a Pixie Token.
+"Persephone, Luminary Herald",Unit,3,2,2,,"On Summon - Reveal the top 7 cards of your deck and select a 6-cost or higher card from amongst them. Shuffle the rest into your deck, put the selected card on top of your deck, then if you revealed 3 or more 6-cost or higher cards from this effect, increase your maximum Mana by 1.",
+Fledgeling Seraph,Unit,2,1,2,,On Summon - Convert an allied Zone into a Sanctuary Zone.,Convert an allied Zone into a Sanctuary Zone.
+Flora Fauna,Unit,3,2,2,,On Attack - Convert an allied Zone into a Santuary Zone.,Convert an allied Zone into a Sanctuary Zone.
+Stag of Grace,Unit,4,2,2,,Other alllied Prosperity Units gain +1/+1. ,Give an allied Prosperity Unit +1/+1.
+Serene Meadows,Realm,2,,,,"At the start of your Main Phase, convert an allied Zone into a Sanctuary Zone. Action - [Exhaust this card and discard a ""Serene Meadows"" from your hand] Convert an allied Zone into a Sanctuary Zone.",
+Bird of Paradise,Unit,2,0,3,,Action - [Exhaust this card] Reduce the cost of the next Realm you play this turn by 1.,"Reveal the top card of your deck and if it is a Realm card, add it to your hand."
+Buoyant Bunny,Unit,1,0,2,,"When this Unit is healed, gain +0/+1.",
+Pixie Healing,Spell,1,,,,Heal 2 to an allied Unit.,Summon a Pixie Token.
+Holy Paradise,Realm,5,,,,"When an allied Unit is healed, that Unit gains +1/+1. Action - [Exhaust this card and discard a ""Holy Paradise"" from your hand] Summon a Pixie Token.",
+Moment of Repose,Spell,3,,,,Reduce all damage taken by both players by 2 until the start of your next turn. Both players draw a card.,
+Holy Flare,QuickSpell,3,,,,Deal X damage to an opposing Unit. X equals the Health of the allied Unit with the highest Health.,Deal X damage to an opposing Unit. X equals the Health of the allied Unit with the highest Health.
+Leafscale Stego,Unit,2,1,3,,Symbiosis.,
+"Eos, Celestial Valkyria",Unit,8,4,7,,"At the end of your turn, heal 2 to all allies and discard a card from your Damage Area. If there are no cards in your Discard Area, draw a card instead. If this card is healed apply the following effects in sequence: 1: Give this Unit Filter 2. 2: Give this Unit +1/+1. 3: Discard a random card from your Break Area. Each effect can only activate once.",
+Bashful Priest,Unit,3,0,4,,Filter 1.,Reduce all damage taken for the rest of this turn by 1.
+Frontier Wayfarer,Unit,4,2,3,,"Symbiosis. On Summon - If there is an allied 6-cost or higher Unit, gain +1/+1.",
+Exorbitant Angel,Unit,7,4,4,,"On Summon - Put 2 copies of an allied Realm into your hand. When an allied Realm is exhausted, discard a card from your Discard Area.","Reveal the top card of your deck and if it is a Realm card, add it to your hand."
+Fairy Knight,Unit,3,2,3,,"On Summon - If there is another allied Unit in this Unit's column, gain +0/+1. ",
+Paradise Valkyria,Unit,3,2,2,,"When this Unit is healed, gain 1 maximum Mana then remove this effect.",
+"Gaia, Arboreal Mother",Unit,7,3,6,,"Challenger. At the end of your turn, heal 2 to this Unit. Once per turn, if this Unit is at its maximum Health after being healed, give another allied Unit +1/+2.",

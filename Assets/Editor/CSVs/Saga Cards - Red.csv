@@ -1,0 +1,29 @@
+Name,Type,Level,Power,Boost,Trait,Effect,Supporter Effect
+Electro Pulse Drago,Unit,1,2000,2000,Dragon,[FRONT] On Attack - Gain +3000 Power until the end of the turn.,
+"Armored Hound, Balzek",Unit,1,1000,2000,Beast,Charge Guard.,"On Block - If you have 1 or less Life, this card gains +3000 Boost."
+Valiant Soldier,Unit,1,4000,1000,Humanoid,,
+Flame Spirite,Unit,1,3000,1000,Spirit,[FRONT / BACK] On Summon - Give another allied Ego +2000 until the end of turn.,"On Attack - If an opposing Ego was destroyed this turn, this card gains +2000 Boost."
+Thunder Fighter,Unit,1,3000,1000,Humanoid,"Trigger - At the start of your Main Phase, Support Charge 1 and give that card Fleeting.","On Attack - If an opposing Ego was destroyed this turn, this card gains +2000 Boost."
+Lava Lizard,Unit,1,3000,2000,Beast,[FRONT / BACK] On Summon - Discard 1. Draw 1.,
+Flame Invoker,Unit,1,3000,2000,Humanoid,"[FRONT / BACK] Cont - When an allied effect from an adjacent Ego or Alter would destroy an opposing Ego based on its Power, increase the effect's Power threshold by +2000.",
+Dragonic Warrior,Unit,2,6000,1000,Dragon,,
+Pulsar Wyvern,Unit,2,3000,2000,Dragon,[FRONT] On Attack - Gain +4000 Power until the end of the turn.,
+Wyvern Rider,Unit,2,5000,1000,Humanoid,"[FRONT] Trigger - If this Ego's attack hits and it has 7000 or more Power, this turn, give an allied Alter or Ego Charge Strike.","On Attack - If an opposing Ego was destroyed this turn, this card gains +2000 Boost."
+Captain Cannoner,Unit,2,5000,2000,Humanoid,"[FRONT] Trigger - If this Ego's attack hits and it has 7000 or more power, your opponent discards a card from their Charge Zone.",
+Fireball,Instant,2,,2000,,[SB1] Destroy an opposing Ego with 6000 or less Power.,"On Attack - If the attacking Ego hits, draw 1."
+Dragonic Rage,Instant,2,,2000,,Target an opposing Ego. That Ego cannot Boost this turn.,"On Attack - If the attacking Ego hits, draw 1."
+Dragon Lancer,Unit,2,3000,2000,Humanoid,On Attack - Support Charge 1 and give that card Fleeting.,
+Infernal Return,Instant,2,,2000,,[SB1] Summon a Red Ego with 5000 or less Power from your Discard Zone and give it +2000 Power until the end of the turn.,"On Attack - If the attacking Ego hits, draw 1."
+"Phoenix Enforcer, Rolan",Unit,2,5000,2000,Mechanical,"Trigger - If this Ego's attack hits, destroy an opposing Ego with 4000 or less Power. If this Ego's Power is 7000 or more, destroy an opposing Ego with 6000 or less instead.",
+Hellhound,Unit,3,7000,1000,Beast,"[FRONT] On Summon - If an opposing Ego was destroyed by an allied effect this turn, destroy an opposing Ego with 4000 or less Power. ","On Attack - If an opposing Ego was destroyed this turn, this card gains +2000 Boost."
+Blazing Oni,Unit,3,8000,1000,Demon,,
+"Twin Blade Marauder, Zenichi ",Unit,3,7000,2000,Mechanical,"[FRONT] Trigger - If this Ego's attack hits and it has 9000 or more power, draw 1.",
+Monk of Eternal Sealing,Unit,3,5000,2000,Humanoid,On Summon - [SB1] Destroy an opposing Ego with 8000 or less Power.,
+Meteroic Dragon,Unit,3,7000,2000,Dragon,[FRONT] On Summon - [SB2] Destroy all opposing Egos with 6000 or less Power in this Ego's lane.,
+Bullet Hell,Instant,3,,2000,,[SB3] Destroy opposing Egos whose total Power is 15000 or less.,"On Attack - If the attacking Ego hits, draw 1."
+Wyrmfire Dragoon,Unit,3,7000,1000,Dragon,[FRONT] On Attack - [Discard 1] Draw 1 for each opposing Ego destroyed this turn.,"On Attack - If an opposing Ego was destroyed this turn, this card gains +2000 Boost."
+Wyrmite Archer,Unit,1,3000,2000,Humanoid,On Attack - [SB1] Destroy an opposing Ego with 4000 or less Power.,
+Power Arm Nekomata,Unit,1,3000,2000,High Beast,"Trigger - When an opposing Ego is destroyed by an effect, this Ego gains +2000 Power until the end of this turn.",
+Dazzling General,Unit,3,7000,2000,Humanoid,"Trigger - If this Ego Boosts with a card that has Fleeting, the opposing Ego in front of it cannot Boost this turn.",
+Impish Dragoness,Unit,1,3000,2000,Dragon,"[BACK] Trigger - If an allied Ego's attack hits and it is in front of this Ego, you can draw 1 then discard 1.",
+Ember Magus,Unit,1,3000,2000,Humanoid,"[BACK] Trigger - Once per turn, when an opposing Ego is destroyed by an allied effect, draw 1 then discard 1.",

@@ -1,0 +1,21 @@
+Name,Type,Cost,Power,Health,Effect,Blitz
+Quick Shot,QuickSpell,1,,,Deal 1 damage to an opposing Unit. ,Deal 1 damage to an opposing Unit.
+Smiling Merchant,Unit,3,1,2,On Summon - Draw a card.,Draw a card. Limit Break 2 - Draw 2 instead. 
+"Velk, Savior of the Dawn",Unit,5,4,5,On Destroy - Limit Break 2: Discard a card from your Damage Area and if you do put this Unit into your Damage Area. ,Reduce the next damage you take this turn to 0. 
+Lone Adventurer,Unit,2,2,2,,
+Desert Fighter,Unit,3,2,3,,
+Plasma Whipmaster,Unit,4,3,4,,
+Feral Brute,Unit,5,5,4,,
+Ironclad Titan,Unit,6,5,6,,
+Honorable Mentor,Unit,2,1,2,Give an allied Unit +1/+0 or +0/+1.,
+Sacred Tower,Realm,2,,,"You can have multiple copies of this card in your Realm Zone. At the end of your turn, heal 1 to a Unit in this row.",
+Vigilant Shieldbearer,Unit,3,1,4,,
+Eradication,Spell,6,,,Destroy an opposing Unit or Realm.,Destroy an opposing Unit with 2 or less Health.
+Battle Blessing,Spell,2,,,Give an allied Unit +2/+0.,
+Goblin,Unit,1,1,2,,
+Sharp Shooter,Unit,3,3,2,,
+Forest Archer,Unit,3,2,2,Deal 1 damage to all opposing Units in this column. ,Deal 1 damage to the front-most opposing Unit in a column.
+Swift Raider,Unit,2,2,2,On Attack - Discard a card. Draw a card.,Discard a card. Draw a card.
+Wondrous Blessing ,Spell,3,,,Draw 2 cards.,Draw a card.
+Gentle Angel,Unit,5,4,4,On Summon - Discard a card from your Damage Area.,
+Steadfast Bowman,Unit,2,1,2,On Summon - Deal 1 to an opposing Unit.,

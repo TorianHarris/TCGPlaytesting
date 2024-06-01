@@ -1,0 +1,28 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Blitz
+Quick Shot,Reaction,1,,,,Deal 2 damage to an opposing Unit.,Deal 1 damage to an opposing Unit.
+Sacred Tower,Permanent,2,,,,"You can have multiple copies of this card in your Realm Zone. At the end of your turn, heal 1 to a Unit in this row.",
+Eradication,Instant,6,,,,Destroy an opposing Unit or Realm.,Destroy an opposing Unit with 2 or less Health.
+Battle Blessing,Instant,2,,,,Give an allied Unit +2/+0.,Give an allied Unit +1/+0.
+Wondrous Blessing ,Instant,3,,,,Draw 2 cards.,Draw a card.
+Keen Investigation,Instant,1,,,,Draw a card then shuffle 1 card from your hand into your deck.,
+Lost Treasure,Instant,2,,,,"Draw a card. If this card is discarded, draw a card.",
+Show of Splendor ,Instant,7,,,,Draw 3 cards and discard a card from your Break Area.,Draw a card.
+Smiling Merchant,Unit,3,2,2,,On Summon - Draw a card.,Draw a card.
+"Velk, Savior of the Dawn",Unit,5,4,4,,On Destroy - Limit Break 2 - Discard a card from your Damage Area and if you do put this Unit into your Damage Area. ,Reduce the next damage you take this turn to 0. 
+Lone Adventurer,Unit,2,2,2,,,
+Desert Fighter,Unit,3,2,3,,,
+Plasma Whipmaster,Unit,4,3,3,,,
+Feral Brute,Unit,5,4,4,,,
+Ironclad Titan,Unit,8,5,5,,,
+Honorable Mentor,Unit,2,2,2,,Give another allied Unit +1/+0 or +0/+1 randomly.,
+Vigilant Shieldbearer,Unit,3,1,4,,,
+Goblin,Unit,1,2,2,,,
+Sharp Shooter,Unit,3,3,2,,,
+Forest Archer,Unit,3,3,1,,Deal 1 damage to all opposing Units in this column. ,Deal 1 to an opposing Unit.
+Swift Raider,Unit,2,2,2,,On Attack - You can discard a card then draw a card.,Discard a card then draw a card.
+Gentle Angel,Unit,5,3,3,,On Summon - Discard up to 2 cards from your Damage Area.,
+Steadfast Bowman,Unit,2,2,2,,On Summon - Deal 1 to an opposing Unit.,Deal 1 to an opposing Unit.
+Brazen Gunner,Unit,4,3,2,,On Summon - Destroy an opposing 2-cost or lower Unit.,
+"Alice, Princess of Wonders",Unit,6,2,3,,Look at the top 4 cards of your deck. Add a card to your hand from amoungst them then shuffle the rest into your deck. Reduce the cost of the card added by this effect by 4 until the end of your opponent's next turn.,
+Enigmatic Cat,Unit,4,1,1,,On Summon - Give up to 2 allied Units with the same Path +1/+1.,
+Scrap Iron Warrior,Unit,5,3,4,,"Once per turn, reduce damage dealt to this Unit by 1.",

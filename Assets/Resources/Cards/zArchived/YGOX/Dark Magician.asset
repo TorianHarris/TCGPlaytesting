@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Dark Magician
+  m_EditorClassIdentifier: 
+  cost: 2
+  power: 4000
+  health: 0
+  type: 4
+  color: 7
+  mainEffect: <b>On Summon</b> - Look at the top 3 cards of your deck, then set a
+    [Dark Magic] spell from amoungst them. Shuffle the rest into your deck. If you
+    did not set a card from this effect, gain 1 Spell Mana.
+  secondaryEffect: 
+  trait: Dark / Spellcaster / Dark Magic
+  cardArt: {fileID: 21300000, guid: a4f429e51627241b6b1eb2d67112c51b, type: 3}
+  exposed: 0

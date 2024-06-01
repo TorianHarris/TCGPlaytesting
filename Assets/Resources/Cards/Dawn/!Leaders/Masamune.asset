@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f880c058bec4a4c1eb07c8c8b93ca4bd, type: 3}
+  m_Name: Masamune
+  m_EditorClassIdentifier: 
+  LeaderLevels:
+  - cardName: 'Crimson General, Masamune '
+    level: 0
+    primaryValue: 0
+    power: 3000
+    health: 0
+    primaryColor: 0
+    secondaryColor: 0
+    mainEffect: Trigger - Once per turn, when you check a Critical during your turn,
+      you can treat it as a True Critical.
+    trait: Humanoid
+    cardArt: {fileID: 21300000, guid: 48cc58c85f82a482babcf50ae9120517, type: 3}

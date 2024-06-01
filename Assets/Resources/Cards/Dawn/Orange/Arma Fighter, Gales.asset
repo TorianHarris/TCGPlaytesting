@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Arma Fighter, Gales
+  m_EditorClassIdentifier: 
+  cost: 2
+  power: 5000
+  health: 1000
+  type: 0
+  color: 7
+  mainEffect: Trigger - Once per turn, when this Ego is Upgraded, create an Automaton
+    Token in your Ex Zone and give it Proximate equal to its Level +1.
+  secondaryEffect: "If the Boosted Ego is Upgraded, this card gains +2000 Boost.\r"
+  trait: 
+  cardArt: {fileID: 21300000, guid: 4a7b6ed21191e402fa29eac7e1a86dcf, type: 3}
+  exposed: 0

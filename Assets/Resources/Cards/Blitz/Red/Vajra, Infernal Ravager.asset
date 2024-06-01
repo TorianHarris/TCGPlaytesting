@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Vajra, Infernal Ravager
+  m_EditorClassIdentifier: 
+  cost: 6
+  power: 4
+  health: 4
+  type: 0
+  color: 0
+  mainEffect: Breakthrough. On Attack - Give another allied Unit +1/+0. During your
+    turn this Unit gains +X/+0. X equals the number of other allied Units whose Power
+    is Enhanced.
+  secondaryEffect: "\r"
+  trait: 
+  cardArt: {fileID: 21300000, guid: dd88cec5d16a14d49b988a25bbbbc842, type: 3}
+  exposed: 0

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f880c058bec4a4c1eb07c8c8b93ca4bd, type: 3}
+  m_Name: Peony
+  m_EditorClassIdentifier: 
+  LeaderLevels:
+  - cardName: Blooming Maiden, Peony
+    level: 0
+    primaryValue: 2
+    power: 1000
+    health: 0
+    primaryColor: 3
+    secondaryColor: 0
+    mainEffect: (Lineage) On Block - [Remove a Miracle from the game] Nullify this
+      attack.
+    trait: 
+    cardArt: {fileID: 21300000, guid: 01818ab59529f4e649259b1972e6885e, type: 3}
+  - cardName: Petal Dancer, Peony
+    level: 1
+    primaryValue: 3
+    power: 2000
+    health: 0
+    primaryColor: 3
+    secondaryColor: 0
+    mainEffect: On Level Up - Reveal the top card of your deck and if it is Green,
+      add it to your Supporter Zone.
+    trait: 
+    cardArt: {fileID: 21300000, guid: d537dc7e18e4648c5ad72ba3af558f7e, type: 3}
+  - cardName: Floral Artisan, Peony
+    level: 2
+    primaryValue: 5
+    power: 3000
+    health: 0
+    primaryColor: 3
+    secondaryColor: 0
+    mainEffect: On Level Up - Summon a Green Ego from your Supporter Zone and give
+      it +1000 until the end of the turn.
+    trait: 
+    cardArt: {fileID: 21300000, guid: 406fe918c3fad4c709caefa1e5738e1b, type: 3}
+  - cardName: Blossom Harvester, Peony
+    level: 3
+    primaryValue: 7
+    power: 5000
+    health: 0
+    primaryColor: 3
+    secondaryColor: 0
+    mainEffect: 'Cont - While you have 1 or more Soul, instead of performing Charge
+      1 during your Draw and Charge Phase, Scry equal to the number of your Soul
+      then Charge 2.
+
+      On Attack - [SB1] Send an Ego to your Charge Zone then
+      summon a Green Ego from your Charge Zone and give it +1000 until the end of
+      the turn.'
+    trait: 
+    cardArt: {fileID: 21300000, guid: cba426409e05a4189a2b82aa2d078c62, type: 3}

@@ -1,0 +1,34 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Blitz
+Enlightenment,QuickSpell,1,,,,Draw a card.,Draw a card.
+Magic Bolt,QuickSpell,2,,,,Deal 2 damage to your opponent or an opposing Unit.,Deal 2 damage to the front-most opposing Unit in a column.
+Scattershot,QuickSpell,1,,,,Deal 1 damage to the front-most opposing Unit in each column.,Deal 1 damage to the front-most opposing Unit in a column.
+Surging Strike,QuickSpell,2,,,,"Deal 3 damage to an opposing Unit. If that Unit is destroyed, convert that Zone into a Conductive Sigil Zone.",
+Magical Demonstration ,QuickSpell,2,,,,Convert an opposing Zone into a Conductive Sigil Zone then deal 1 damage to an opposing Unit.,Convert an opposing Zone into a Conductive Sigil Zone.
+Accelerated Blast,QuickSpell,3,,,,Deal 4 damage to an opposing Unit. Draw a card if this effect's damage was increased.,
+Astral Observatory,Realm,2,,,,"When you Scry from an allied effect, scry 1 additional card. Action - [Exhaust this card and discard an ""Astral Observatory"" from your hand] Draw 2 cards then put a card from your hand on top of your deck.",
+Conjuring Sigil,Realm,2,,,,"At the start of your Main Phase, convert an opposing Zone into a Conductive Sigil Zone. Action - [Exhaust this card and discard a ""Conjuring Sigil"" from your hand] Convert an opposing Zone into a Conductive Sigil Zone.",
+Magical Library,Realm,3,,,,"When you play a Spell, if its the second one this turn, draw a card. Action - [Exhaust this card and discard a ""Magical Library"" from your hand] Scry 3 and put a Spell from amoungst them into your hand. Put the rest to the top or bottom of your deck in any order.",
+Charge Shot,Spell,1,,,,Deal 1 damage to an opposing Unit. Create a Flash Shot Token in your hand and increase its cost and the damage done by its effect by 1. ,
+Lightning Party,Spell,1,,,,"Summon a Sparkling Token to an opposing front row Zone and if you do, summon a Sparkling Token to an allied front row Zone in the same column.",
+Crystal Ball,Spell,1,,,,"Scry 2, you can put 1 of them face-up at the bottom of your deck, then put the rest to the top or bottom of your deck in any order.","Scry 2, Predict 1."
+Echoing Invocation,Spell,2,,,,Summon Sparkling Tokens in each empty allied Zone in a column.,
+Enchanted Calling,Spell,2,,,,Summon a Sparkling Token and convert an opposing Zone into a Conductive Sigil Zone.,Convert an opposing Zone into a Conductive Sigil Zone.
+Chain Lightning,Spell,3,,,,Convert an opposing Zone to a Conductive Sigil Zone. Deal 2 damage to an opposing Unit and 1 damage to each adjacent opposing Unit.,
+Brainstorm,Spell,4,,,,Scry 4 and add up to 3 Spells from amoungst them to your hand. Put the rest to the top or bottom of your deck in any order.,Reveal the top card of your deck and if it's a Spell add it to your hand.
+Supercharged,Spell,5,,,,"Summon 3 Sparkling Tokens. This turn, give all Sparkling Tokens the following effect: ""On Attack - Gain +X/+0 until the end of the turn. X is equal to the number of Conductive Sigils you control in this Unit's column"".",
+Accumulated Force,Spell,25,,,,Reduce this card's cost by your Enlightenment. Deal 7 Breakthrough damage to your opponent.,
+Concentrated Will,Spell,2,,,,Draw a card. Enlightment 5 - Deal 2 damage to an opposing Unit. Enlightenment 10 - Deal 2 damage to your opponent.,
+Arcane Researcher,Unit,2,0,3,,Action - [Exhaust this card] Reduce the cost of the next Spell you play this turn by 1.,"Reveal the top card of your deck and if it is a Spell card, add it to your hand."
+Lightning Evoker,Unit,2,1,2,,On Summon - Convert an opposing Zone into a Conductive Sigil Zone.,Convert an opposing Zone into a Conductive Sigil Zone.
+Arcane Spellblade,Unit,2,2,2,,"If you played a Spell this turn, gain +1/+0 and Spellstrike.",
+Stellar Witch,Unit,2,2,2,,"On Summon - Scry 3, discard any of them, then put the rest to the top or bottom of your deck in any order.",Scry 1 and put them to the top or bottom of your deck in any order.
+Spark Mage,Unit,1,0,1,,On Summon - Summon a Sparkling Token.,
+Rune Diviner,Unit,2,1,2,,On Summon - Scry 2 and add a Spell from amoungst them into your hand. Put the rest to the top or bottom of your deck in any order.,
+Mad Alchemist,Unit,3,2,2,,"When you play a Spell, deal 1 damage to the front-most opposing Unit in this Unit's column.",
+Crystalline Beast,Unit,3,2,2,,On Attack -  Convert an opposing Zone into a Conductive Sigil Zone.,Convert an opposing Zone into a Conductive Sigil Zone.
+Spark Wielder,Unit,4,1,4,,"On Summon - Summon a Sparkling Token. During your turn when a Sparkling Token(s) is summoned, convert an opposing Zone into a Conductive Sigil Zone.",Convert an opposing Zone into a Conductive Sigil Zone.
+Thunderstorm Magus,Unit,5,4,3,,"On Summon - Deal 1 damage to the front-most opposing Unit in each column. When an opposing Unit is destroyed by damage from an allied effect, convert that Unit's Zone into a Conductive Sigil Zone.",Deal 2 damage to the front-most opposing Unit in a column.
+"Thoth, Master Alchemist",Unit,6,2,6,,"Spellstrike. Action - [Send a Spell in your hand to the Void] Once per turn, send a 2-cost or lower Spell in your Discard Area to the Void then play it. When you deal increased Spell damage, deal 1 damage to your opponent. Enlightenment 10 - Deal 2 damage instead.",
+Charming Genius,Unit,4,2,2,,Other alllied Brilliance Units gain +1/+1. ,Give an allied Brilliance Unit +1/+1.
+Apprentice Alchemist,Unit,2,2,1,,"Once per turn, when you play a Spell, convert the front-most opposing Zone in this Unit's column into a Conductive Sigil Zone.",
+Arcane Storm,Spell,6,,,,Deal 3 damage to all opposing Units.,Deal 1 damage to all opposing Units.

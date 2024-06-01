@@ -1,0 +1,28 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Blitz
+"Skadi, Wintry Matriarch",Unit,7,2,7,,"On Attack - Freeze an opposing Unit and give it -2/-0 then give all Frozen opposing Units -0/-2. Quick Action - Once per turn, when your opponent attacks with a column, Freeze the strongest opposing attacking Unit in that column and give it -2/-0. ",
+Ice Break,Spell,2,,,,Deal 2 damage to all opposing Frozen Units.,
+Snowflake Witch,Unit,2,1,2,,On Summon - Convert an opposing Zone into a Frozen Nexus Zone.,Convert an opposing Zone into a Frozen Nexus Zone.
+Frostblade Swordsman,Unit,3,2,2,,On Attack - Convert an opposing Zone into a Frozen Nexus Zone.,Convert an opposing Zone into a Frozen Nexus Zone.
+Soul Guardian,Unit,4,2,2,,Other alllied Oblivion Units gain +1/+1. ,Give an allied Oblivion Unit +1/+1.
+Winter's Enclave,Realm,2,,,,"At the start of your Main Phase, convert an opposing Zone into a Frozen Nexus Zone. Action - [Exhaust this card and discard a ""Winter's Enclave"" from your hand] Convert an opposing Zone into a Frozen Nexus Zone.",
+Doombound Mage,Unit,2,1,2,,On Destroy - Draw a card.,
+Frostfall Sorceress,Unit,6,3,5,,"On Summon - Convert an opposing Zone into a Frozen Nexus Zone then exhaust and Freeze an opposing Unit. When a opposing Unit is Frozen, give it -1/-1.",Exhaust and Freeze an opposing Unit.
+Hailstorm,QuickSpell,4,,,,"Freeze up to 2 opposing Units. If either are already Frozen, give them -2/-2 instead.",
+Crystal Maiden,Unit,4,2,3,,On Summon - Freeze an opposing Unit. On Destroy - Freeze an opposing Unit.,
+Glacial Crash,Spell,7,,,,Destroy all opposing Frozen Units then Freeze all opposing Units.,Exhaust and Freeze an opposing Unit.
+Debilitate,QuickSpell,1,,,,"Give an opposing Unit -2/-0 until the end of this turn. If that Unit is Frozen, give them -5/-0 instead.",Give an opposing Unit -2/-0 until the end of this turn.
+Soulstrike,Spell,2,,,,Destroy an allied Unit. Destroy an opposing Unit whose cost is equal to or less than the cost of the allied destroyed Unit.,
+Hell Wyvern,Unit,3,2,3,,"Once per turn, when an opposing Unit is destroyed by its maximum Health becoming 0 or less, draw a card.",
+Gift of Life,QuickSpell,1,,,,Destroy an allied Unit. Draw 2 cards.,
+Feral Gravedigger,Unit,3,3,2,,On Summon - Mill 3. Action - [Exhaust this Unit] Add a Unit from your Discard Area to your hand.,
+Mass Reanimation,Spell,6,,,,Summon up to 3 2-cost or lower Units from your Discard Area.,
+Ice Titan,Unit,8,4,5,,"When this Unit battles another Unit, Freeze it.",Convert all opposing Zones in a column into Frozen Nexus Zones. 
+Cursed Specter,Unit,2,1,1,,"On Summon - You can destroy this Unit and if you do, give an opposing Unit -0/-2.",
+Dark Jewel Knight ,Unit,2,2,1,,On Attack - Give an opposing Unit -1/-0.,
+Dark Shaman,Unit,2,2,2,,On Summon - Mill 2.,"Mill 2. If you have 10 or more cards in your Discard Area, draw a card."
+Death Gryffon,Unit,6,2,5,,On Summon - Give all opposing Units -1/-1 then give all opposing Frozen Units -2/-2.,
+Deadly Necromancer,Unit,4,2,2,,On Summon - Summon a 2-cost or lower Unit from your Discard Zone.,
+Curse Seeker,Unit,2,1,2,,"On Destroy - Give a random opposing Unit, -1/-1.",
+Frostbite,Spell,1,,,,"Freeze an opposing Unit that occupies a Zone with a Frozen Nexus you control, then remove that field.",
+Pale Luster Huntress,Unit,3,2,2,,"When this Unit battles a Frozen opposing Unit, gain +1/+1.",
+Crystalline Behemoth,Unit,10,0,6,,"Breakthrough. On Summon - Freeze all opposing Units then gain +X/+0. X is equal to half the number of times an opposing Unit was Frozen by an allied effect this game, rounded up. ",Exhaust and Freeze an opposing Unit.

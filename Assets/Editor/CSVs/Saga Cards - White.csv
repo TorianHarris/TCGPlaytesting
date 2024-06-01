@@ -1,0 +1,16 @@
+Name,Type,Level,Power,Boost,Trait,Effect,Supporter Effect
+Honored Flaguard,Unit,1,3000,2000,,"Trigger - When this Ego is Actived by an allied effect, [SB1] give your Alter +1000 Power until the end of your opponent's next turn.",
+"Shield Bearer, Melissa",Unit,1,1000,2000,,Charge Guard.,"On Block - If you have 1 or less Life, this card gains +3000 Boost."
+Armed Seraph,Unit,1,4000,1000,Angel,,
+Cheer Captain,Unit,1,3000,2000,,Allied Active Egos gain +1000 Power during your opponent's turn.,
+Reinforcements,Instant,1,,2000,,[SB1] Look at the top 4 cards of your deck and add up to 2 White Egos from amoungst them to your hand. Send the rest to the bottom of your deck.,"On Block - If the attacker's Power is greater than its original Power, this card gains +2000 Boost."
+Glimmering Warrior,Unit,2,6000,1000,,,
+Beauty Commander,Unit,2,5000,2000,,"Trigger - When this Ego is Actived by an allied effect, [SB1] Look at the top 4 cards of your deck and add a White Ego from amoungst them to your hand. Send the rest to the bottom of your deck.",
+"Divine Priestess, Selene",Unit,2,5000,2000,,"Trigger - Once per turn, when an allied Ego is destroyed, [SB1] add that Ego to your hand.",
+Pegasus Knight,Unit,2,5000,1000,Humanoid,On End Phase - Active this Ego.,"On Block - If the blocker is Active, this card gains +2000 Boost."
+Aegis Defense,Instant,2,,2000,,"Until the end of your opponent's next turn, give an allied White Ego ""On Attack - Active this Ego then give it Defender and Steadfast until the end of your opponent's next turn"".","On Block - If the attacker's Power is greater than its original Power, this card gains +2000 Boost."
+Skylight Guardian,Unit,3,7000,1000,,On Attack - Active another allied White Ego and give it Defender. Allied Active Egos gain +1000 Power during your opponent's turn.,"On Block - If the blocker is Active, this card gains +2000 Boost."
+Mighty Paladin,Unit,3,8000,1000,,,
+Paradise Vanguard,Unit,3,7000,1000,Angel,"Trigger - If this Ego is Actived by an allied effect, Active your Alter at the end of this turn.","On Block - If the blocker is Active, this card gains +2000 Boost."
+Holy Tiger,Unit,2,5000,1000,Beast,"Cont - While all your Egos and Alter are Active, your Active gains +1000 Power.","On Block - If the blocker is Active, this card gains +2000 Boost."
+Blade Dance,Instant,3,,2000,,"If your Alter is White, reduce this card's cost by 1 SB for each of your Souls. [SB3] Your Alter gains ""On Attack - Active this Alter"" until the end of the turn"". You can only gain this ability once per turn. ","On Block - If the attacker's Power is greater than its original Power, this card gains +2000 Boost."

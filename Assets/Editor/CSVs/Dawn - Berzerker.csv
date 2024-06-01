@@ -1,0 +1,17 @@
+Name,Type,Level,Power,Boost,Trait,Effect,Awakened Effect
+"Crimson General, Masamune",Unit,4,5000,1000,Humanoid,"On Play/On Attack - Give target allied Follower or Ruler +1 Critical Check for the turn. Trigger - When you get a Critical, give target allied Follower or Ruler +1000 Power for the turn.",Give an allied Follower or Ruler +1 Critical Check for the turn.
+Armored Dragon,Unit,1,3000,0,War Dragon,,
+Crimson Warrior,Unit,2,4000,0,,,
+Lightning Wyvern,Unit,3,5000,0,Thunder Dragon,,
+Warring Hound,Unit,1,1000,2000,Beast,"If your Boost with this card from your hand during your opponent's turn, it gains +1000 Boost for each card you have in your Damage Zone more than your opponent.",
+Feral Raze,Instant,2,,1000,,Destroy target opposing Follower with 6000 or less Power.,
+Impish Dragoness,Unit,2,2000,500,Dragonkin,Haste.,"This turn, target allied Follower or Ruler gains +1000 Power."
+Dragon Rider,Unit,2,3000,500,Humanoid,Cont - This Follower gains +1 Critical Check.,"This turn, target allied Follower or Ruler gains +1000 Power."
+Chaos Magus,Unit,2,5000,1000,,"On Play - If you have 5 or less damage, you can add a card from your hand to your damage. If you do, this turn, give an opposing Unit -7000 Power.",
+Rampaging Ogre,Unit,3,4000,1000,Demon,Indomitable,
+Ironforged Dragoon,Unit,3,4000,1000,Dragonkin,Cont - This Follower gains +1 Critical Check.,
+Ignis Spirit,Unit,1,2000,1000,Spirit,On Play - Destroy target opposing Follower with 2000 or less Power.,Destroy an opposing Follower with 2000 or less Power.
+Grim Axebearer,Unit,4,5000,1000,Humanoid,On Play/On Attack - Destroy target opposing Follower with 3000 or less Power.,Destroy an opposing Follower with 3000 or less Power.
+Dragonic Spirit,Instant,1,,1000,,"Give target allied Follower Indomitable and ""On Attack - This turn, gain +1000 Power"" until the start of your next turn.",
+Fire Lizard,Unit,1,2000,1000,Beast,On Play - Draw a card then shuffle a card from your hand into your deck.,Draw a card if you have 4 or less cards in your hand.
+Wicked Oni,Unit,3,4000,500,,"Check Zone - During your turn, this card is treated as a Critical.",

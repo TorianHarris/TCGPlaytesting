@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Reinforcements
+  m_EditorClassIdentifier: 
+  cost: 1
+  power: 0
+  health: 2000
+  type: 1
+  color: 1
+  mainEffect: '[SB1] Look at the top 4 cards of your deck and add up to 2 White Egos
+    from amoungst them to your hand. Send the rest to the bottom of your deck.'
+  secondaryEffect: "On Block - If the attacker's Power is greater than its original
+    Power, this card gains +2000 Boost.\r"
+  trait: 
+  cardArt: {fileID: 21300000, guid: 89c32ea67a80240dcb56d3b9402b701f, type: 3}
+  exposed: 0

@@ -1,0 +1,16 @@
+Name,Type,Level,Power,Boost,Trait,Effect,Supporter Effect
+Curious Tinkerer,Unit,1,3000,2000,,On Summon - Choose 1: 1) [CB1] Create an Automaton Token in your EX Zone and give it Proximate equal to its level. 2) Upgrade another allied Ego.,
+"Chrono Gardna, Rinos",Unit,1,1000,2000,,Charge Guard.,"On Block - If you have 1 or less Life, this card gains +3000 Boost."
+Gadget Blaster,Unit,1,4000,1000,,,
+Galvanized Hound,Unit,1,3000,2000,,Cont - All allied Upgraded Egos gain +1000 Power.,
+Hammer Crusher,Unit,2,6000,1000,,,
+"Arma Fighter, Gales",Unit,2,5000,1000,,"Trigger - Once per turn, when this Ego is Upgraded, create an Automaton Token in your Ex Zone and give it Proximate equal to its Level +1.","If the Boosted Ego is Upgraded, this card gains +2000 Boost."
+Workshop Inventor,Unit,2,5000,2000,,On Summon - Choose 1: 1) [CB1] Create an Automaton Token in your EX Zone and give it Proximate equal to its level. 2) Upgrade another allied Ego.,
+Astral Starstrider,Unit,1,3000,2000,,Action - [Exhaust this card] Choose 1: 1) Remove 1 Proximate from an Ego in your Ex Zone. 2) Add 1 Stasis to an Ego in the opposing Ex Zone.,
+Time Warp,Instant,1,,2000,,[CB1] Give an opposing Level 3 or lower Ego Stasis 2.,On Attack - Upgrade an allied Ego.
+Acceleration Matrix,Instant,1,,2000,,[CB1] Remove 2 Proximate from an Ego in your EX Zone.,On Attack - Upgrade an allied Ego.
+Retrograde Dragon,Unit,3,7000,1000,,"On Attack - [CB1] Give an opposing Level 2 or lower Ego Stasis 2. If this Ego is Upgraded, give an opposing Level 3 or lower Ego Stasis 2 instead.","If the Boosted Ego is Upgraded, this card gains +2000 Boost."
+Magnasteel Bull,Unit,3,8000,1000,,,
+Gear Force Machina,Unit,3,7000,1000,,"On Summon - Create an Automaton Token in your Ex Zone and give it Proximate equal to its Level +2. Trigger - If this Ego's attack hits, remove 2 Proximate from an Ego in your EX Zone.","If the Boosted Ego is Upgraded, this card gains +2000 Boost."
+Gear Forger,Unit,1,3000,2000,,"Trigger - Once per turn, when this Ego is Upgraded, remove 1 Proximate from an Ego in your EX Zone.",
+Automatron Attendants,Unit,2,5000,2000,,"Trigger - At the start of your Main Phase, remove 1 Proximate from an Ego in your EX Zone. If this Unit is Upgraded, remove 1 Proximate from all Egos in your EX Zone.",

@@ -1,0 +1,16 @@
+Name,Type,Level,Power,Boost,Trait,Effect,Supporter Effect
+"Bird of Paradise, Jubilee",Unit,1,1000,2000,Avian,Charge Guard.,"On Block - If you have 1 or less Life, this card gains +2000 Boost."
+Forest Archer,Unit,1,4000,1000,Humanoid,,
+Gilded Falcon,Unit,1,3000,2000,Avian,"Trigger - When this Ego is summoned from the Supporter Zone, it gains +2000 Power until the end of the turn.",
+Petal Paladin,Unit,1,3000,2000,Dryad,"Trigger - If this Ego's attack hits, reveal the top card of your deck and if it is Green, Charge 1.",
+Spring Caller,Unit,1,3000,1000,Dryad,On Summon - Summon a Green Ego from your Supporter Zone.,"If an Ego was summoned from your Supporter Zone this turn, this card gains +2000 Boost."
+Flora Maiden,Unit,2,5000,1000,Dryad,On Summon - Summon a Green Ego from your Supporter Zone.,"If an Ego was summoned from your Supporter Zone this turn, this card gains +2000 Boost."
+Flower Minx,Unit,2,6000,1000,Beast,,
+Hunting Call,Instant,2,,2000,,"This turn, each of your Egos gains +1000 Power for each Ego summoned from your Supporter Zone this turn.",On Attack - Charge 1. This ability can only be used once per turn. 
+Rosescaled Slayer,Unit,2,5000,2000,Insect,"Trigger - When this Ego is summoned from the Supporter Zone, it gains +2000 Power until the end of the turn.",
+"Whirlwind Shinobi, Kuma",Unit,2,5000,2000,,"Trigger - When this Ego is summoned from the Supporter Zone, send an opposing Level 1 or lower Ego to its owner's Supporter Zone facedown.",
+Geovita Beast,Unit,3,8000,1000,Beast,,
+Maiden of Thorns,Unit,3,7000,1000,Dryad,On Attack - [SB1] Send an opposing Level 2 or lower Ego to its owner's Supporter Zone facedown.,"If an Ego was summoned from your Supporter Zone this turn, this card gains +2000 Boost."
+Nature's Bounty,Instant,3,,2000,,"Reveal the top 3 cards of your deck and add a Green card amoungst them to your Charge Zone. Afterward send the rest to the bottom of your deck. If you have 2 or more Soul, you can add up to 2 Green cards instead.",On Attack - Charge 1. This ability can only be used once per turn. 
+"Sylvan Hunter, Falk",Unit,3,7000,2000,High Beast,"Trigger - When this Ego is summoned from the Supporter Zone, [SB1] it gains Piercing until the end of the turn.",
+Autumn Archer,Unit,3,5000,2000,Humanoid,On Summon - [SB2] This Ego gains Piercing until the end of the turn.,

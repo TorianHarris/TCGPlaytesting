@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Crystalline Behemoth
+  m_EditorClassIdentifier: 
+  cost: 10
+  power: 0
+  health: 6
+  type: 0
+  color: 4
+  mainEffect: 'Breakthrough. On Summon - Freeze all opposing Units then gain +X/+0.
+    X is equal to half the number of times an opposing Unit was Frozen by an allied
+    effect this game, rounded up. '
+  secondaryEffect: Exhaust and Freeze an opposing Unit.
+  trait: 
+  cardArt: {fileID: 21300000, guid: be1ceb8b3b8f548b3a2bcb9666de7d72, type: 3}
+  exposed: 0

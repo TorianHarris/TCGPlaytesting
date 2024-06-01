@@ -1,0 +1,14 @@
+Name,Type,Level,Power,Boost,Trait,Effect,Awakened Effect
+"Sage of Omniscience, Galileo",Unit,4,7000,1000,Humanoid,On Play - Add up to 2 different Spells from your Discard Zone to your hand. ,Add a Spell from your Discard Zone to your hand.
+Novice Battlemage,Unit,1,5000,0,War Dragon,,
+Flow Fighter,Unit,2,6000,0,Humanoid,,
+Coral Dragon,Unit,3,7000,0,Water Dragon,,
+Lovely Cheer Girl,Unit,1,1000,2000,Beast,"If your Guard with this card from your hand, it gains +1000 Boost for each card you have in your Damage Zone more than than your opponent.",
+River Dancer,Unit,1,4000,1000,Humanoid,On Play - Draw a card then shuffle a card from your hand into your deck.,Draw a card if you have 2 or less cards in your hand.
+Enlightenment,Instant,1,,1000,,Predict 1. Draw 1.,Predict 1.
+Grimoire Sage,Unit,4,7000,1000,Humanoid,Spellslinger. On Play - All allied Followers gain Spellslinger this turn.,Shuffle 2 Spells into your deck then draw 1.
+Brillant Hydromancer,Unit,3,5000,1000,Humanoid,"Trigger - Once per turn, when you Critical Check a Spell, add it to your hand.",Add a Spell from your Discard Zone to your hand.
+Rune Witch,Unit,2,5000,500,Humanoid,Spellslinger,Give an allied Follower with Spellslinger +1000 Power this turn.
+Sorcerer's Welcome,Instant,1,,1000,,Summon an Academy Mage Token.,Give an allied Follower with Spellslinger +1000 Power this turn.
+Enchanted Owl,Unit,1,4000,1000,Avian,(Mana Zone) Action - [Rest this card] Predict 1.,
+Tempest Blast,Instant,2,,1000,,Return target opposing 4-cost or lower Follower to the hand.,Return an opposing 2-cost Follower to the hand.

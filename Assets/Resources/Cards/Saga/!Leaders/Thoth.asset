@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f880c058bec4a4c1eb07c8c8b93ca4bd, type: 3}
+  m_Name: Thoth
+  m_EditorClassIdentifier: 
+  LeaderLevels:
+  - cardName: Untapped Genius, Thoth
+    level: 0
+    primaryValue: 2
+    power: 1000
+    health: 0
+    primaryColor: 7
+    secondaryColor: 0
+    mainEffect: (Lineage) On Block - [Remove a Miracle from the game] Nullify this
+      attack.
+    trait: 
+    cardArt: {fileID: 21300000, guid: 186b269e06b5b4d66911c0c7293d82c5, type: 3}
+  - cardName: Fervent Wisdom, Thoth
+    level: 1
+    primaryValue: 3
+    power: 2000
+    health: 0
+    primaryColor: 7
+    secondaryColor: 0
+    mainEffect: On Level Up - Reveal the top card of your deck and if it is Orange,
+      add it to your Supporter Zone.
+    trait: 
+    cardArt: {fileID: 21300000, guid: c68c0078970dd45fca719af73c632236, type: 3}
+  - cardName: Chrono Magus, Thoth
+    level: 2
+    primaryValue: 5
+    power: 3000
+    health: 0
+    primaryColor: 7
+    secondaryColor: 0
+    mainEffect: On Attack - Resonate a card in your Supporter Zone to an allied Ego
+      then that Ego gains Safeguard until the end of your opponent's next turn.
+    trait: 
+    cardArt: {fileID: 21300000, guid: fe90f51824b3d4e56a9bb85bd2a6030a, type: 3}
+  - cardName: Temporal Rifter, Thoth
+    level: 3
+    primaryValue: 7
+    power: 5000
+    health: 0
+    primaryColor: 7
+    secondaryColor: 0
+    mainEffect: "Trigger - When a card is Resonated to an allied Ego, that Ego gains
+      Safeguard until the end of your opponent's next turn.\nAction - Resonate a
+      card in your Supporter Zone to an allied Ego then draw 1. \nOn Attack - Return
+      an opposing Ego whose Level is equal to or lower than the total amount of cards
+      Resonated to your allied Egos to the bottom of the deck."
+    trait: 
+    cardArt: {fileID: 21300000, guid: 1466dbe42c6464cf7ac10da9790bb602, type: 3}

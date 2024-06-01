@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Hunting Call
+  m_EditorClassIdentifier: 
+  cost: 2
+  power: 0
+  health: 2000
+  type: 1
+  color: 3
+  mainEffect: This turn, each of your Egos gains +1000 Power for each Ego summoned
+    from your Supporter Zone this turn.
+  secondaryEffect: "On Attack - Charge 1. This ability can only be used once per
+    turn. \r"
+  trait: 
+  cardArt: {fileID: 21300000, guid: a5535df1fb8d5491baaae92998df874a, type: 3}
+  exposed: 0
