@@ -2892,6 +2892,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 320385840}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &516018057 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7502914534837026089, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
+    type: 3}
+  m_PrefabInstance: {fileID: 320385840}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb5a4d4b5dee14b14bf7dc5c162cf032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &518937691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4716,9 +4728,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 663926453}
-        m_TargetAssemblyTypeName: DeckManager, Assembly-CSharp
-        m_MethodName: Draw
+      - m_Target: {fileID: 516018057}
+        m_TargetAssemblyTypeName: NumCounter, Assembly-CSharp
+        m_MethodName: plusMaxNum
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4728,19 +4740,7 @@ MonoBehaviour:
           m_StringArgument: jkhkkhkj
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 663926453}
-        m_TargetAssemblyTypeName: DeckManager, Assembly-CSharp
-        m_MethodName: turnCounter
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1416197283}
         m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
         m_MethodName: ActiveAllCards
         m_Mode: 1
@@ -4752,7 +4752,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 466853419}
+      - m_Target: {fileID: 709693032}
         m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
         m_MethodName: ActiveAllCards
         m_Mode: 1
@@ -4764,9 +4764,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 131871227}
+      - m_Target: {fileID: 501233237}
         m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
-        m_MethodName: ActiveAllLeaders
+        m_MethodName: ActiveAllCards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1787644907}
+        m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
+        m_MethodName: ActiveAllCards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1639181612}
+        m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
+        m_MethodName: ActiveAllCards
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5493,7 +5517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   go: {fileID: 1427656515}
   keyCode: 32
-  playerDeck: {fileID: 11400000, guid: fdd0888fbee8944d7b6e30df86468653, type: 2}
+  playerDeck: {fileID: 11400000, guid: 6f857d270bf4a4756986f73be73b579e, type: 2}
   opponentDeck: {fileID: 11400000, guid: 42747fbca62784321b8e93da0438b396, type: 2}
   cardframe: {fileID: 1197341219709977740, guid: d7fd54a5d8c5c403aaed11e4be5d7665,
     type: 3}
@@ -5856,7 +5880,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1346386375}
-  - component: {fileID: 1346386374}
+  - component: {fileID: 1346386376}
   m_Layer: 0
   m_Name: Card Generator
   m_TagString: Untagged
@@ -5864,22 +5888,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1346386374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1346386373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: 031ebb30321b843c099dc5221ac88909, type: 3}
-  gameFolder: 2
-  classFolder: 3
-  Generate: 0
 --- !u!4 &1346386375
 Transform:
   m_ObjectHideFlags: 0
@@ -5895,6 +5903,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1346386376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346386373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de1e366d0fb24beeaa8d6a905cab543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Generate: 0
+  sprites:
+  - {fileID: 21300000, guid: 030ea3ec6123844e0b170a904b0327ea, type: 3}
+  - {fileID: 21300000, guid: ffb225205c6884eb68eaef33a6fe5860, type: 3}
+  - {fileID: 21300000, guid: e1431e2a5a2094ad3b73d11d15b5d31f, type: 3}
+  - {fileID: 21300000, guid: a0e0da33b1574421a83ea9b444dcd7be, type: 3}
+  - {fileID: 21300000, guid: 3b63cc9f6eedc49c2a282ace867f89de, type: 3}
+  - {fileID: 21300000, guid: c65f33b8259744565991efc98bf61065, type: 3}
+  - {fileID: 21300000, guid: a84dd8bd5d6a0400fa8b69132ef8f076, type: 3}
+  - {fileID: 21300000, guid: 257c292f5ea9649af80b370075d4b6b0, type: 3}
+  - {fileID: 21300000, guid: d806b413517fa40dcaaa30a9d2d569c7, type: 3}
+  - {fileID: 21300000, guid: 03d642ab58916452d98a06268ec68aa6, type: 3}
+  - {fileID: 21300000, guid: d4a90612e57b8477481f1e8969b487bf, type: 3}
+  - {fileID: 21300000, guid: 5615ca1c8ba4b4ff18343dd3b5179199, type: 3}
+  - {fileID: 21300000, guid: 3056f86ecead640fdaaf76338ec4fd3f, type: 3}
+  - {fileID: 21300000, guid: 69ad9d798449b4a1a89f83de72b5780d, type: 3}
+  - {fileID: 21300000, guid: 31e619e11cd854ebf88ee7d68f2d65b2, type: 3}
+  - {fileID: 21300000, guid: 44851c8ecf02a428ba1f0d82cf5cb854, type: 3}
+  - {fileID: 21300000, guid: e7b9bbc0c1f44483da3e79f4966642a3, type: 3}
 --- !u!1001 &1381338994
 PrefabInstance:
   m_ObjectHideFlags: 0
