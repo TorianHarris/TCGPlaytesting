@@ -5,8 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    public GameObject go;
-    public KeyCode keyCode;
+    //public GameObject go;
+    //public KeyCode keyCode;
     public Deck playerDeck;
     public Deck opponentDeck;
     public GameObject cardframe;
@@ -57,8 +57,8 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(keyCode))
-            go.SetActive(!go.activeSelf);
+        //if (Input.GetKeyDown(keyCode))
+        //    go.SetActive(!go.activeSelf);
     }
 
 }

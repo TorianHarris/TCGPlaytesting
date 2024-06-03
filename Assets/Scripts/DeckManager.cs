@@ -85,7 +85,7 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
 	void Update () {
         deckCount.text = cards.Count.ToString();
 
-        if (Input.GetKeyDown(KeyCode.R) && mouseOver)
+        if (Input.GetKeyDown(KeyCode.Space) && mouseOver)
         {
             deckViewer.SetActive(!deckViewer.activeSelf);
             if (deckViewer.activeSelf) deckViewer.GetComponent<DeckSearcher>().GetDeckContents(cards, GameManager.Instance.mainDeckSearchable, cards);
@@ -97,7 +97,11 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
             if (deckViewer.activeSelf) deckViewer.GetComponent<DeckSearcher>().GetDeckContents(extraDeckCards, GameManager.Instance.extraDeckSearchable, extraDeckCards);
             else deckViewer.GetComponent<DeckSearcher>().RemoveContents();
         }
-        if (Input.GetKeyDown(KeyCode.S) && mouseOver) shuffle();
+        if (Input.GetKeyDown(KeyCode.S) && mouseOver)
+        {
+            shuffle();
+            print("Shuffled the deck!");
+        }
 
         if (Input.GetKeyDown(KeyCode.Alpha2) && mouseOver)
         {
