@@ -10,31 +10,38 @@ public class DeckSearcher : MonoBehaviour
 {
     public DeckManager dm;
     public Button buttonPrefab;
+    public GameObject deckHeaderPrefab;
     public Transform viewport;
     private Transform playArea;
-    // Start is called before the first frame update
+
     void Start()
     {
         playArea = GameObject.FindGameObjectWithTag("Play Area").transform;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GetDeckContents()
     {
-        
+        if (dm.cards.Count > 0) CreateDeckView(dm.cards, true);
+        if (dm.extraDeckCards.Count > 0) CreateDeckView(dm.extraDeckCards, false);
     }
 
-    public void GetDeckContents(List<Card>cards, bool canCreateCards, List<Card> deck)
+    public void CreateDeckView(List<Card> cardPool, bool mainDeck)
     {
-        cards = cards.OrderBy(c => c.name).ToList();
+        List<Card> cards = new List<Card>();
+        cards.AddRange(cardPool.OrderBy(x => x.name).ToList());
+        GameObject dh = Instantiate(deckHeaderPrefab, viewport);
+        dh.GetComponentInChildren<TMP_Text>().text = mainDeck ? "Main Deck" : "Extra Deck";
+
         foreach (Card card in cards)
         {
-            if(!viewport.Find(card.name))
+            if (!viewport.Find(card.name))
             {
                 Button btn = Instantiate(buttonPrefab, viewport);
                 btn.name = card.name;
                 btn.transform.GetChild(0).GetComponent<TMP_Text>().text = card.name;
-                if (canCreateCards) btn.onClick.AddListener(delegate { create(card, deck); });
+
+                bool isSearchable = mainDeck ? GameManager.Instance.mainDeckSearchable : GameManager.Instance.extraDeckSearchable;
+                if (isSearchable) btn.onClick.AddListener(delegate { create(card, mainDeck ? dm.cards : dm.extraDeckCards); });
             }
             else
             {
