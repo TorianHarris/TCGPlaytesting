@@ -5758,8 +5758,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 423bc95ee086b424ba4ddeb7bb793122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerDeck: {fileID: 11400000, guid: c5e2292d4f1bf46298c2f75c94f86981, type: 2}
-  opponentDeck: {fileID: 11400000, guid: 6f857d270bf4a4756986f73be73b579e, type: 2}
+  playerDeck: {fileID: 11400000, guid: 4b8c16dd10b5a4e4eb2fd4336452c717, type: 2}
+  opponentDeck: {fileID: 11400000, guid: dc9a86962968947e49a034fa88169e44, type: 2}
   cardframe: {fileID: 1197341219709977740, guid: d7fd54a5d8c5c403aaed11e4be5d7665,
     type: 3}
   leaderCardframe: {fileID: 6190421512664949010, guid: 1259f63fe79c046c9b0f6a292c1056f7,
@@ -6158,22 +6158,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Generate: 0
   sprites:
-  - {fileID: 21300000, guid: adccaa0f000f943f5a7c09c6fff278c7, type: 3}
-  - {fileID: 21300000, guid: 31b012562be9646f4b6a662c8f2f0990, type: 3}
-  - {fileID: 21300000, guid: 27b821ff8e9da40b193dac0689403913, type: 3}
-  - {fileID: 21300000, guid: 93aa40a113bd24fcd9d177590ae903a6, type: 3}
-  - {fileID: 21300000, guid: 573a217feb6ed40c4ae30470bfee029c, type: 3}
-  - {fileID: 21300000, guid: 665a66042120e47de9de6d1a006edfa9, type: 3}
-  - {fileID: 21300000, guid: 56a7402a5dce04c61a833d143b73c15f, type: 3}
-  - {fileID: 21300000, guid: 4235042e5344f4c5c9dd7c03df4e2ebe, type: 3}
-  - {fileID: 21300000, guid: ef7fd8ff63a0441eaa2f048540f18abe, type: 3}
-  - {fileID: 21300000, guid: 53485b6c8778843d7a68a14d2eaf5da6, type: 3}
-  - {fileID: 21300000, guid: f365c05753017417ea703991297acf80, type: 3}
-  - {fileID: 21300000, guid: c823d8fac20774baa83ff83b0dfa0d06, type: 3}
-  - {fileID: 21300000, guid: 94eb867c3679e4fc6a9f7e1b5ed85faa, type: 3}
-  - {fileID: 21300000, guid: f3fc5f556f262402886c15bcfdad055d, type: 3}
-  - {fileID: 21300000, guid: 3ba613c5ee63f411caffdd0f3d28a617, type: 3}
-  - {fileID: 21300000, guid: c07ee23d55aae44ec96b3666228cddbe, type: 3}
+  - {fileID: 21300000, guid: ade13ef4ade224024b03bdcda0f0957f, type: 3}
+  - {fileID: 21300000, guid: eec9113599991449fbf672dff1b9ca1e, type: 3}
+  - {fileID: 21300000, guid: 702d8f341748c4e839e95d1b0f7430fc, type: 3}
+  - {fileID: 21300000, guid: 40fda1be99c8741f0b299f3ef281d3e0, type: 3}
+  - {fileID: 21300000, guid: 2031adc20e837407285af63f0fcabf6d, type: 3}
+  - {fileID: 21300000, guid: 5421cd05470754e46bcec17bcd98fade, type: 3}
+  - {fileID: 21300000, guid: cb2447da77bba4c6189dcd7ae44d8c9e, type: 3}
+  - {fileID: 21300000, guid: deecd5d01118c4e43b7154fa46dd4033, type: 3}
+  - {fileID: 21300000, guid: 3f3ef1e81e7fb4aec8f16d0667c580d4, type: 3}
+  - {fileID: 21300000, guid: baa01bbdf0887478cb670fe32eca67ec, type: 3}
+  - {fileID: 21300000, guid: 344d0661c0bcc4589b818cda4f018a25, type: 3}
+  - {fileID: 21300000, guid: 58b096bae0e0846169255e4ad2df3efc, type: 3}
+  - {fileID: 21300000, guid: 4a7f8b2ad26424c7786b7fb96f82b8b5, type: 3}
+  - {fileID: 21300000, guid: 24d16ede6f63d4a31a716d59365ce3d4, type: 3}
+  - {fileID: 21300000, guid: 01507b79738ce4548a6d7f9cc0352d50, type: 3}
+  - {fileID: 21300000, guid: 0a26ac0ac80f049b597b5e67018d847b, type: 3}
 --- !u!1001 &1381338994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7837,7 +7837,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 2836, y: 1595.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1894349828
 GameObject:
