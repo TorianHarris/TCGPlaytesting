@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Dream Eater
+  m_Name: Goddess of the Full Moon, Tsukuyomi
   m_EditorClassIdentifier: 
   cost: 0
-  power: 0
-  health: 0
+  power: 4
+  health: 4
   type: 0
   color: 0
   mainEffect: 
   secondaryEffect: 
   trait: 
-  cardArt: {fileID: 21300000, guid: 2031adc20e837407285af63f0fcabf6d, type: 3}
+  cardArt: {fileID: 21300000, guid: deecd5d01118c4e43b7154fa46dd4033, type: 3}
   exposed: 0

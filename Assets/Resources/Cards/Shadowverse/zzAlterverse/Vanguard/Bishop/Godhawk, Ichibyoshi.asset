@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Oracle Guardian, Wiseman
+  m_Name: Godhawk, Ichibyoshi
   m_EditorClassIdentifier: 
   cost: 0
   power: 0
   health: 0
-  type: 0
+  type: 3
   color: 0
   mainEffect: 
   secondaryEffect: 
   trait: 
-  cardArt: {fileID: 21300000, guid: 24d16ede6f63d4a31a716d59365ce3d4, type: 3}
+  cardArt: {fileID: 21300000, guid: baa01bbdf0887478cb670fe32eca67ec, type: 3}
   exposed: 0
