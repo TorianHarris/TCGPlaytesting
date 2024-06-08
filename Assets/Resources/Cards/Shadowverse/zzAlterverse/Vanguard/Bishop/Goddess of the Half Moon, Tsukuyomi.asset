@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Silent Tom [Evolve]
+  m_Name: Goddess of the Half Moon, Tsukuyomi
   m_EditorClassIdentifier: 
   cost: 0
-  power: 0
-  health: 0
+  power: 2
+  health: 3
   type: 0
   color: 0
   mainEffect: 
   secondaryEffect: 
   trait: 
-  cardArt: {fileID: 21300000, guid: 01507b79738ce4548a6d7f9cc0352d50, type: 3}
+  cardArt: {fileID: 21300000, guid: 3f3ef1e81e7fb4aec8f16d0667c580d4, type: 3}
   exposed: 0

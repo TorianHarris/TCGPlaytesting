@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Emergency Alarm
+  m_Name: Silent Tom
   m_EditorClassIdentifier: 
   cost: 0
-  power: 0
-  health: 0
+  power: 3
+  health: 3
   type: 0
   color: 0
   mainEffect: 
   secondaryEffect: 
   trait: 
-  cardArt: {fileID: 21300000, guid: 5421cd05470754e46bcec17bcd98fade, type: 3}
+  cardArt: {fileID: 21300000, guid: 0a26ac0ac80f049b597b5e67018d847b, type: 3}
   exposed: 0
