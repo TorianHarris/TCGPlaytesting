@@ -12,7 +12,7 @@ public class CSVtoSO : MonoBehaviour
 {
 
     public TextAsset CSV;
-    public enum gameName { Blitz, Saga, Dawn }
+    public enum gameName { Blitz, Saga, Dawn, BXD }
     public enum className { Red, Yellow, Purple, Green, Blue, White, Gray, Orange, Black }
     public gameName gameFolder;
     public className classFolder;
