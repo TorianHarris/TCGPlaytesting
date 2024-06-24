@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 1
   type: 0
   color: 0
-  mainEffect: Haste.
+  mainEffect: '[Blitz]'
   secondaryEffect: "\r"
   trait: Humanoid
   cardArt: {fileID: 21300000, guid: 6ad12209b03df4df8b547bd6cf62c4f1, type: 3}

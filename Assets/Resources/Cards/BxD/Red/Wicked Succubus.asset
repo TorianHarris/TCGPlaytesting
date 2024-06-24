@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wicked Succubus
   m_EditorClassIdentifier: 
   cost: 1
-  power: 1
+  power: 2
   health: 1
   type: 0
   color: 0

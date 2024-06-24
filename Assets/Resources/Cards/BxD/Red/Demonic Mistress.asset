@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Demonic Mistress
+  m_EditorClassIdentifier: 
+  cost: 5
+  power: 3
+  health: 3
+  type: 0
+  color: 0
+  mainEffect: On Play - Look at the top 5 cards of your deck and summon up to 2 Units
+    from amoungst them whose total cost is 3 or less. Put the rest to the bottom
+    of your deck. Deal 2 damage to your Leader for each Unit summoned by this effect.
+  secondaryEffect: 
+  trait: Demon
+  cardArt: {fileID: 21300000, guid: 1aee4613395994ecdaf76f59c26da529, type: 3}
+  exposed: 0

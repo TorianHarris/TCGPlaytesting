@@ -6,10 +6,10 @@ using UnityEngine.EventSystems;
 
 public class numModifer : MonoBehaviour, IPointerClickHandler
 {
+    public int startingNum;
     CardManager card;
     TMP_Text txt;
     int currentNum;
-    int originalNum;
     Color origColor;
     public bool alterColors = true;
 
@@ -18,8 +18,9 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
     {
         //card = transform.GetComponentInParent<CardManager>();
         txt = GetComponent<TMP_Text>();
-        int.TryParse(txt.text, out originalNum);
-        currentNum = originalNum;
+        int.TryParse(txt.text, out startingNum);
+        //txt.text = startingNum.ToString();
+        currentNum = startingNum;
         origColor = txt.color; 
     }
 
@@ -34,9 +35,9 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
             txt.text = currentNum.ToString();
         if (alterColors)
         {
-            if (currentNum > originalNum)
+            if (currentNum > startingNum)
                 txt.color = new Color32(1, 139, 1, 255);
-            else if (currentNum < originalNum)
+            else if (currentNum < startingNum)
                 txt.color = Color.red;
             else
                 txt.color = origColor;

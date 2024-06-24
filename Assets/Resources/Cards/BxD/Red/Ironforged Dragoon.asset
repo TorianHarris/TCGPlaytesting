@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 0
-  mainEffect: 'On Play - [Brave](2) Gain +0/+2 and deal 1 damage to the opposing
-    Leader.n/Bloodlust 2: This Unit has Haste and Targeted Strike. '
+  mainEffect: On Play - [Deal 2 damage to your Leader] Gain Rush and Lifesteal. Bloodlust
+    2 - Gain Haste and Lifesteal instead.
   secondaryEffect: "\r"
   trait: Dragonkin
   cardArt: {fileID: 21300000, guid: 6c2eeaf978aa64d209c07f04594f2ba0, type: 3}

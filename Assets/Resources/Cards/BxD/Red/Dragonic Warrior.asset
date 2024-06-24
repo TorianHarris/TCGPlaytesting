@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Dragonic Warrior
   m_EditorClassIdentifier: 
   cost: 4
-  power: 4
+  power: 3
   health: 3
   type: 0
   color: 0
-  mainEffect: On Attack - Deal 2 damage to the opposing Leader.
+  mainEffect: '[Rush]n/On Attack - Bloodlust 1: Gain +1/+1.'
   secondaryEffect: "\r"
   trait: Dragon
   cardArt: {fileID: 21300000, guid: 4504fa49e321941239f0f09d58804046, type: 3}

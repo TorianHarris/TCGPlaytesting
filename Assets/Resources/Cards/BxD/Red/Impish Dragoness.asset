@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 2
   power: 2
-  health: 1
+  health: 2
   type: 0
   color: 0
   mainEffect: '[Brave]'
