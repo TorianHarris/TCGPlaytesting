@@ -18,9 +18,9 @@ MonoBehaviour:
   type: 0
   color: 3
   mainEffect: '[Rush][Ambush][Breakthrough]n/On Play - Choose an opposing Unit. If
-    that Unit is Exhausted, it does not Active during your opponent''s next Active
-    Phase. Otherwise, Exhaust that Unit. Attuned: Do this 2 times.'
+    that Unit is Exhausted, Ensnare it. Otherwise, Exhaust that Unit. Attuned: Do
+    this 2 times.'
   secondaryEffect: "\r"
-  trait: Humanoid
+  trait: Plumed / Serpent
   cardArt: {fileID: 21300000, guid: 827c031f25b3d4ac698a099822fa5685, type: 3}
   exposed: 0

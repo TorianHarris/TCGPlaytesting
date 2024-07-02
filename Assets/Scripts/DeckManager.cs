@@ -6,7 +6,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler {
+public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
+{
 
     public bool mainPlayer;
     public GameObject hand;
@@ -27,7 +28,8 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
     private int turnCount;
     private bool mouseOver = false;
 
-    public void Start() {
+    public void Start()
+    {
         deck = mainPlayer ? deck = GameManager.Instance.playerDeck : GameManager.Instance.opponentDeck;
         cardFrame = GameManager.Instance.cardframe;
         leaderCardFrame = GameManager.Instance.leaderCardframe;
@@ -41,9 +43,9 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         extraDeckCards.AddRange(deck.extraDeck);
         shuffle();
         //draw starting hand
-        if(deck.leader)
+        if (deck.leader)
         {
-            for (int i = deck.leader.LeaderLevels.Length - 1; i >= 0 ; i--)
+            for (int i = deck.leader.LeaderLevels.Length - 1; i >= 0; i--)
             {
                 deck.leader.LeaderLevels[i].createLeader(leaderCardFrame, leaderZone.transform);
             }
@@ -62,27 +64,29 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         if (mainPlayer) turnCount = 1;
     }
 
-	public void Draw () {
-        cards[0].createCard(cardFrame, hand.transform, this);
+    public void Draw()
+    {
+        cards[0].createCard(cardFrame, hand.transform, this, true);
         cards.RemoveAt(0);
         exposedCheck();
     }
 
     public void CreateShield()
     {
-        cards[0].createCard(cardFrame, shield.transform, this);
+        cards[0].createCard(cardFrame, shield.transform, this, true);
         cards.RemoveAt(0);
         exposedCheck();
     }
 
     public void AddToDamageArea()
     {
-        cards[0].createCard(cardFrame, damageArea, this);
+        cards[0].createCard(cardFrame, damageArea, this, true);
         cards.RemoveAt(0);
         exposedCheck();
     }
-	
-	void Update () {
+
+    void Update()
+    {
         deckCount.text = cards.Count.ToString();
 
         if (Input.GetKeyDown(KeyCode.Space) && mouseOver)
@@ -114,11 +118,12 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         }
     }
 
-    public void shuffle () {
+    public void shuffle()
+    {
         cards = cards.OrderBy(x => UnityEngine.Random.value).ToList();
     }
 
-    public void shuffleTopX (int num)
+    public void shuffleTopX(int num)
     {
         List<Card> firstPart = cards.Take(num).ToList();
         List<Card> secondPart = cards.Skip(num).ToList();
@@ -128,72 +133,57 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         print("shuffled top " + num);
     }
 
-    public void backToDeck(string c, bool exposed)
+    // public void backToDeck(string c, bool exposed)
+    // {
+    //     foreach (Card item in cardLibrary)
+    //     {
+    //         if (item.name.Equals(c))
+    //         {
+    //             Card createdCard = ScriptableObject.Instantiate(item);
+    //             createdCard.name = createdCard.name.Replace("(Clone)", "").Trim();
+    //             createdCard.exposed = exposed;
+    //             cards.Add(createdCard);
+    //             shuffle();
+    //             exposedCheck();
+    //             return;
+    //         }
+    //     }
+    // }
+
+    public void backToDeck(Card c, bool mainDeck, bool exposed)
     {
-        foreach (Card item in cardLibrary)
-        {
-            if (item.name.Equals(c))
-            {
-                Card createdCard = ScriptableObject.Instantiate(item);
-                createdCard.name = createdCard.name.Replace("(Clone)", "").Trim();
-                createdCard.exposed = exposed;
-                cards.Add(createdCard);
-                shuffle();
-                exposedCheck();
-                return;
-            }
-        }
+        (mainDeck ? cards : extraDeckCards).Add(c);
+        shuffle();
+        exposedCheck();
+        return;
     }
 
-    public void topOfDeck(string c, bool exposed)
+    public void topOfDeck(Card c, bool mainDeck, bool exposed)
     {
-        foreach (Card item in cardLibrary)
-        {
-            if (item.name.Equals(c))
-            {
-                Card createdCard = ScriptableObject.Instantiate(item);
-                createdCard.name = createdCard.name.Replace("(Clone)", "").Trim();
-                createdCard.exposed = exposed;
-                cards.Insert(0, createdCard);
-                exposedCheck();
-                return;
-            }
-
-        }
+        c.exposed = exposed;
+        (mainDeck ? cards : extraDeckCards).Insert(0, c);
+        exposedCheck();
+        return;
     }
 
-    public void bottomOfDeck (string c, bool exposed) {
-        foreach (Card item in cardLibrary)
-        {
-            if (item.name.Equals(c))
-            {
-                Card createdCard = ScriptableObject.Instantiate(item);
-                createdCard.name = createdCard.name.Replace("(Clone)", "").Trim();
-                createdCard.exposed = exposed;
-                cards.Add(createdCard);
-                exposedCheck();
-                return;
-            }
-        }
+    public void bottomOfDeck(Card c, bool mainDeck, bool exposed)
+    {
+        c.exposed = exposed;
+        (mainDeck ? cards : extraDeckCards).Add(c);
+        exposedCheck();
+        return;
     }
 
-    public void cloneCard(string c, Vector2 pos)
+    public void cloneCard(Card c, Vector2 pos)
     {
-        foreach (Card item in cardLibrary)
-        {
-            if (item.name == c)
-            {
-                item.createCard(cardFrame, GameObject.FindGameObjectWithTag("Play Area").transform, this, pos);
-                return;
-            }
-        }
+        c.createCard(cardFrame, GameObject.FindGameObjectWithTag("Play Area").transform, this, pos, true);
     }
 
     public void exposedCheck()
     {
         if (cards[0].exposed)
         {
-            cards[0].createCard(cardFrame, transform, this);
+            cards[0].createCard(cardFrame, transform, this, true);
             cards.RemoveAt(0);
             exposedCheck();
         }
@@ -209,7 +199,7 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         }
     }
 
-    public void turnCounter ()
+    public void turnCounter()
     {
         turnCount++;
         print((mainPlayer ? "Player Turn Count: " : "Opponent Turn Count: ") + turnCount);

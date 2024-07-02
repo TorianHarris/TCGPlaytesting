@@ -19,6 +19,6 @@ MonoBehaviour:
   color: 3
   mainEffect: '[Rush]n/On Attack - Gain a Mana Fragment.'
   secondaryEffect: "\r"
-  trait: 
+  trait: Avian
   cardArt: {fileID: 21300000, guid: b8c24cc7ffd724dc1a596678c5af99c2, type: 3}
   exposed: 0

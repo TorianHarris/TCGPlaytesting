@@ -20,5 +20,5 @@ MonoBehaviour:
   mainEffect: '[Breakthrough] On Play - Attuned: Gain +1/+1.'
   secondaryEffect: "\r"
   trait: Insect
-  cardArt: {fileID: 0}
+  cardArt: {fileID: 21300000, guid: da30649c2932e4e40b2ff4f3a8e11282, type: 3}
   exposed: 0

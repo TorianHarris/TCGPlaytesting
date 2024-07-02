@@ -19,6 +19,6 @@ MonoBehaviour:
   color: 3
   mainEffect: On Play - Exhaust an opposing Unit.
   secondaryEffect: "\r"
-  trait: 
+  trait: Elf
   cardArt: {fileID: 21300000, guid: 1dbcc525515f54c8abb2887a2e2c035e, type: 3}
   exposed: 0

@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Sylvain Hunter, Robin Hood
+  m_Name: Lightning Strike
   m_EditorClassIdentifier: 
-  cost: 5
-  power: 4
-  health: 3
-  type: 0
-  color: 3
-  mainEffect: On Play - Exhaust an opposing Unit. It does not Active during your
-    opponent's next Active Phase. At the end of your turn, deal 3 damage to an opposing
-    Exhausted Unit.
-  secondaryEffect: "\r"
+  cost: 0
+  power: 0
+  health: 0
+  type: 1
+  color: 0
+  mainEffect: 
+  secondaryEffect: 
   trait: 
-  cardArt: {fileID: 21300000, guid: c4ef19905e6444cb8969e952356b7dc6, type: 3}
+  cardArt: {fileID: 21300000, guid: c04ff2a4f54da4ea194192d14b8aa04c, type: 3}
   exposed: 0

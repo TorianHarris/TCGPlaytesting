@@ -2,7 +2,8 @@
 using UnityEngine.UI;
 using TMPro;
 
-public class CardManager : MonoBehaviour {
+public class CardManager : MonoBehaviour
+{
     public TMP_Text cardNameText;
     public TMP_Text cardType;
     public TMP_Text costText;
@@ -23,6 +24,7 @@ public class CardManager : MonoBehaviour {
     public DeckManager deck;
     [HideInInspector]
     public Card cardReference;
+    public bool isInMainDeck;
 
 
 
@@ -63,7 +65,8 @@ public class CardManager : MonoBehaviour {
     }
 
     //for cards in a deck
-    public void FillCardInfo (string cardName, int cost, int power, int health, Card.cardType type, string typeName, Color color, string mainEffect, string secondaryEffect, Sprite art, string trait, Card reference, DeckManager d) {
+    public void FillCardInfo(string cardName, int cost, int power, int health, Card.cardType type, string typeName, Color color, string mainEffect, string secondaryEffect, Sprite art, string trait, Card reference, DeckManager d, bool mainDeck)
+    {
         if (cardNameText)
             cardNameText.text = cardName;
         if (costText)
@@ -96,5 +99,6 @@ public class CardManager : MonoBehaviour {
         if (secondaryFrame) secondaryFrame.SetActive(!string.IsNullOrWhiteSpace(secondaryEffect));
 
         cardReference = reference;
+        isInMainDeck = mainDeck;
     }
 }

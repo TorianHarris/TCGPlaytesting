@@ -3,9 +3,10 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 
-public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IDropHandler 
+public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IDropHandler
 {
     private Transform canvas;
+    private CardManager cardManager;
     [HideInInspector]
     public GameObject deck;
     [HideInInspector]
@@ -29,8 +30,9 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     public void Start()
     {
         canvas = GameObject.FindGameObjectWithTag("Play Area").transform;
-        faceDownCover = gameObject.GetComponent<CardManager>().faceDownCover;
-        iceOverlay = gameObject.GetComponent<CardManager>().iceOverlay;
+        cardManager = gameObject.GetComponent<CardManager>();
+        faceDownCover = cardManager.faceDownCover;
+        iceOverlay = cardManager.iceOverlay;
         canvasGroup = GetComponent<CanvasGroup>();
         currentParent = transform.parent;
         origSize = GetComponent<RectTransform>().localScale;
@@ -43,7 +45,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         {
             string s = string.Format("Shuffled {0} back into the deck", name);
             print(s);
-            gameObject.GetComponent<CardManager>().deck.backToDeck(name, exposed);
+            cardManager.deck.backToDeck(cardManager.cardReference, cardManager.isInMainDeck, exposed);
             Destroy(gameObject);
         }
 
@@ -63,7 +65,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         if (Input.GetKeyDown(KeyCode.C) && mouseOver)
         {
             Vector2 v = new Vector2(transform.position.x + 50, transform.position.y + 50);
-            gameObject.GetComponent<CardManager>().deck.cloneCard(name, v);
+            cardManager.deck.cloneCard(cardManager.cardReference, v);
         }
 
         // Expose
@@ -78,7 +80,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         {
             string s = string.Format("Added {0} to the top of the deck", name);
             print(s);
-            gameObject.GetComponent<CardManager>().deck.topOfDeck(name, exposed);
+            cardManager.deck.topOfDeck(cardManager.cardReference, cardManager.isInMainDeck, exposed);
             Destroy(gameObject);
         }
 
@@ -87,7 +89,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         {
             string s = string.Format("Added {0} to the bottom of the deck", name);
             print(s);
-            gameObject.GetComponent<CardManager>().deck.bottomOfDeck(name, exposed);
+            cardManager.deck.bottomOfDeck(cardManager.cardReference, cardManager.isInMainDeck, exposed);
             Destroy(gameObject);
         }
 
@@ -141,7 +143,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     {
         if (eventData.pointerDrag != null)
         {
-            if(eventData.pointerDrag.tag == "Counter")
+            if (eventData.pointerDrag.tag == "Counter")
                 eventData.pointerDrag.transform.SetParent(transform);
             else// if (eventData.pointerDrag.tag == "Card")
             {
@@ -172,21 +174,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
     public void enhanceCard()
     {
-        //if(!resized)
-        //{
-        //    GetComponent<RectTransform>().localScale = new Vector3(GetComponent<RectTransform>().localScale.x * GameManager.Instance.cardZoomSize, GetComponent<RectTransform>().localScale.y * GameManager.Instance.cardZoomSize, 1);
-        //    resized = true;
-        //    transform.SetParent(canvas);
-        //    transform.SetAsLastSibling();
-        //}
-        //else
-        //{
-        //    GetComponent<RectTransform>().localScale = origSize;
-        //    resized = false;
-        //    transform.SetParent(currentParent);
-        //    transform.SetAsLastSibling();
-        //}
-        gameObject.GetComponent<CardManager>().cardReference.changeEnhancedCard();
+        cardManager.cardReference.changeEnhancedCard();
         GameManager.Instance.enhancedCardPanel.SetActive(true);
     }
 

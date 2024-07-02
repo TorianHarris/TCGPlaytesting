@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
-  m_Name: '[SVE] Oracle Think Tank'
+  m_Name: "[SVE] Oracle Think Tank \u304A\u3059\u3059\u3081"
   m_EditorClassIdentifier: 
   leader: {fileID: 11400000, guid: 3840c6b256530416ebb1473409a9cb6f, type: 2}
   cards:
   - {fileID: 11400000, guid: 1e7373e21ee4844fbb515ca42e7391d3, type: 2}
   - {fileID: 11400000, guid: 1e7373e21ee4844fbb515ca42e7391d3, type: 2}
   - {fileID: 11400000, guid: 1e7373e21ee4844fbb515ca42e7391d3, type: 2}
-  - {fileID: 11400000, guid: 726393476fb184fb28dc0b68c6d172dc, type: 2}
-  - {fileID: 11400000, guid: 726393476fb184fb28dc0b68c6d172dc, type: 2}
-  - {fileID: 11400000, guid: 726393476fb184fb28dc0b68c6d172dc, type: 2}
+  - {fileID: 11400000, guid: 55d8d25531e554e7d991a9bdbd74500f, type: 2}
+  - {fileID: 11400000, guid: 55d8d25531e554e7d991a9bdbd74500f, type: 2}
+  - {fileID: 11400000, guid: 55d8d25531e554e7d991a9bdbd74500f, type: 2}
   - {fileID: 11400000, guid: af5555cbb95e440aead264d39bd5d84c, type: 2}
   - {fileID: 11400000, guid: af5555cbb95e440aead264d39bd5d84c, type: 2}
   - {fileID: 11400000, guid: af5555cbb95e440aead264d39bd5d84c, type: 2}
@@ -43,12 +43,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f80873963ce484c32b8ac9d594e10185, type: 2}
   - {fileID: 11400000, guid: f80873963ce484c32b8ac9d594e10185, type: 2}
   - {fileID: 11400000, guid: 5ab15ee399595436696bc4aafabc0f31, type: 2}
-  - {fileID: 11400000, guid: 5ab15ee399595436696bc4aafabc0f31, type: 2}
-  - {fileID: 11400000, guid: 5ab15ee399595436696bc4aafabc0f31, type: 2}
+  - {fileID: 11400000, guid: 3cc48a95dfcd74107a1def7bac7bdf1c, type: 2}
+  - {fileID: 11400000, guid: 3cc48a95dfcd74107a1def7bac7bdf1c, type: 2}
   - {fileID: 11400000, guid: a40e0244860d444059ccb21083e32185, type: 2}
   - {fileID: 11400000, guid: a40e0244860d444059ccb21083e32185, type: 2}
   - {fileID: 11400000, guid: a40e0244860d444059ccb21083e32185, type: 2}
-  - {fileID: 11400000, guid: 9697fd2a11d664056b4f713bca08aaef, type: 2}
+  - {fileID: 11400000, guid: 3cc48a95dfcd74107a1def7bac7bdf1c, type: 2}
   - {fileID: 11400000, guid: 9697fd2a11d664056b4f713bca08aaef, type: 2}
   - {fileID: 11400000, guid: 9697fd2a11d664056b4f713bca08aaef, type: 2}
   - {fileID: 11400000, guid: 0a9ba7080da114b91a2a64a4afc15567, type: 2}

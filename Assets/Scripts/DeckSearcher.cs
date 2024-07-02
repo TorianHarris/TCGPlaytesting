@@ -41,7 +41,7 @@ public class DeckSearcher : MonoBehaviour
                 btn.transform.GetChild(0).GetComponent<TMP_Text>().text = card.name;
 
                 bool isSearchable = mainDeck ? GameManager.Instance.mainDeckSearchable : GameManager.Instance.extraDeckSearchable;
-                if (isSearchable) btn.onClick.AddListener(delegate { create(card, mainDeck ? dm.cards : dm.extraDeckCards); });
+                if (isSearchable) btn.onClick.AddListener(delegate { create(card, mainDeck, mainDeck ? dm.cards : dm.extraDeckCards); });
             }
             else
             {
@@ -60,9 +60,9 @@ public class DeckSearcher : MonoBehaviour
         }
     }
 
-    public void create(Card card, List<Card> deck)
+    public void create(Card card, bool mainDeck, List<Card> deck)
     {
-        card.createCard(GameManager.Instance.cardframe, playArea, dm);
+        card.createCard(GameManager.Instance.cardframe, playArea, dm, mainDeck);
         deck.Remove(card);
         gameObject.SetActive(!gameObject.activeSelf);
         RemoveContents();

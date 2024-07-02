@@ -21,6 +21,6 @@ MonoBehaviour:
     Units from amoungst them to your hand then send the rest to the bottom of your
     deck.'
   secondaryEffect: "\r"
-  trait: 
+  trait: Elemental
   cardArt: {fileID: 21300000, guid: 9860e1660cd1541bead38c9cd679c2ac, type: 3}
   exposed: 0

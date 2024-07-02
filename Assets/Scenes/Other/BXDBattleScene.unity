@@ -6086,7 +6086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerDeck: {fileID: 11400000, guid: 977cf20edf92d455c8dc43269b6fa0e8, type: 2}
-  opponentDeck: {fileID: 11400000, guid: 3641020101e6f4ab0a5ac2a1e7448917, type: 2}
+  opponentDeck: {fileID: 11400000, guid: 67e40ff38c39c4f1c89f026d2f8de7c4, type: 2}
   cardframe: {fileID: 1722740845861868, guid: f38ecf1d31a674d79adb0736e6d8a3bf, type: 3}
   leaderCardframe: {fileID: 1722740845861868, guid: 384c5f8139a534a05aace5db0b3e38e0,
     type: 3}
@@ -6707,9 +6707,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: 9c49d507a3d4a4a98b478be83bd0743e, type: 3}
+  CSV: {fileID: 4900000, guid: 624e9b13976ae4ea087a1a4f15bd4862, type: 3}
   gameFolder: 3
-  classFolder: 3
+  classFolder: 5
   Generate: 0
 --- !u!1001 &1381338994
 PrefabInstance:

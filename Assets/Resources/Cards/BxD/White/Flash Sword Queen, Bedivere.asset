@@ -19,7 +19,8 @@ MonoBehaviour:
   color: 5
   mainEffect: 'On Play - Add 2 Knight Tokens to your hand and change their cost to
     0 this turn. Valor 10: Add 2 Knight Tokens and 2 Defender Tokens to your hand
-    instead.n/When a Token Unit is played, deal 1 damage to an opposing Unit or Leader.'
+    instead.n/When a Token Unit is played during your turn, deal 1 damage to an opposing
+    Unit.'
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 4d813e1b062aa4ef389c4335f4587300, type: 3}

@@ -17,9 +17,8 @@ MonoBehaviour:
   health: 2
   type: 0
   color: 3
-  mainEffect: Choose an opposing Exhausted Unit. That Unit does not Active during
-    your opponent's next Active Phase.
+  mainEffect: Choose an opposing Exhausted Unit. Ensnare it.
   secondaryEffect: "\r"
   trait: Elf
-  cardArt: {fileID: 0}
+  cardArt: {fileID: 21300000, guid: 8d968bd97a3b94501bde6a6d27ac1e07, type: 3}
   exposed: 0

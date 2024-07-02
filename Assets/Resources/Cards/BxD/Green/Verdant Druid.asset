@@ -19,6 +19,6 @@ MonoBehaviour:
   color: 3
   mainEffect: At the end of your turn, gain 2 Mana Fragments.
   secondaryEffect: "\r"
-  trait: 
+  trait: Beast
   cardArt: {fileID: 21300000, guid: 742b5490967774624931705d44f47e25, type: 3}
   exposed: 0

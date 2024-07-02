@@ -3,8 +3,8 @@
 [CreateAssetMenu(fileName = "NewCard", menuName = "ScriptableObjects/NewCard", order = 1)]
 public class Card : ScriptableObject
 {
-    public enum cardType {Unit, Instant, Flash, Permanent, Reaction, Equip}
-    public enum classColor {Red, Yellow, Purple, Green, Blue, White, Gray, Orange, Black}
+    public enum cardType { Unit, Instant, Flash, Permanent, Reaction, Equip }
+    public enum classColor { Red, Yellow, Purple, Green, Blue, White, Gray, Orange, Black }
 
     //public string cardName;
     public int cost;
@@ -22,7 +22,8 @@ public class Card : ScriptableObject
     [HideInInspector]
     public bool exposed = false;
 
-    public Color getColor () {
+    public Color getColor()
+    {
         switch (color)
         {
             case classColor.Red:
@@ -83,16 +84,17 @@ public class Card : ScriptableObject
         return card;
     }
 
-    public void createCard (GameObject c, Transform t, DeckManager d) {
+    public void createCard(GameObject c, Transform t, DeckManager d, bool mainDeck)
+    {
         GameObject card = Instantiate(c, t);
-        card.GetComponent<CardManager>().FillCardInfo(name, cost, power, health, type, getTypeName(), getColor(), mainEffect, secondaryEffect, cardArt, trait, this, d);
+        card.GetComponent<CardManager>().FillCardInfo(name, cost, power, health, type, getTypeName(), getColor(), mainEffect, secondaryEffect, cardArt, trait, this, d, mainDeck);
         card.name = name;
     }
 
-    public void createCard(GameObject c, Transform t, DeckManager d, Vector2 pos)
+    public void createCard(GameObject c, Transform t, DeckManager d, Vector2 pos, bool mainDeck)
     {
         GameObject card = Instantiate(c, t);
-        card.GetComponent<CardManager>().FillCardInfo(name, cost, power, health, type, getTypeName(), getColor(), mainEffect, secondaryEffect, cardArt, trait, this, d);
+        card.GetComponent<CardManager>().FillCardInfo(name, cost, power, health, type, getTypeName(), getColor(), mainEffect, secondaryEffect, cardArt, trait, this, d, mainDeck);
         card.name = name;
         card.transform.position = pos;
     }
