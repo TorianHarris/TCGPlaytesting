@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 4
   mainEffect: 'On Play - Look at the top 5 cards of your deck and add a Spell from
-    amoungst them to your hand. Put the rest to the bottom of your deck. Wisdom 10:
+    amoungst them to your hand. Put the rest to the bottom of your deck. Wisdom 7:
     Add up to 2 Spells instead.'
   secondaryEffect: "\r"
   trait: 

@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 4
-  mainEffect: 'Choose 1. Wisdom 10: Choose all 3 instead:n/1) Draw 2.n/2)Deal 5 damage
+  mainEffect: 'Choose 1. Wisdom 15: Choose all 3 instead:n/1) Draw 2.n/2)Deal 5 damage
     to an opposing Unit.n/3)Give an allied Unit Blitz.'
   secondaryEffect: "\r"
   trait: 

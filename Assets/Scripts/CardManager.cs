@@ -78,7 +78,7 @@ public class CardManager : MonoBehaviour
         if (healthText)
             healthText.text = healthPrefix + health.ToString();
         if (mainEffectText)
-            mainEffectText.text = mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("n/", "\n");
+            mainEffectText.text = mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("n/", "\n").Replace("<<", "<b><i>").Replace(">>", "</i></b>");
         if (secondaryEffectText)
             secondaryEffectText.text = secondaryEffect;
         if (cardArt)

@@ -1,7 +1,7 @@
 Name,Type,Cost,Power,Health,Trait,Effect,Other
 Honored Flaguard,Unit,2,2,2,,On Play - Summon a Knight Token.,
 Combat Mentor,Unit,1,1,1,,"On Play - [Brave](2) Summon a Knight Token.n/On Play - Give an allied Token Unit Rush, Assault, and +1/+0.",
-Glory Trumpeter,Unit,3,2,3,Angel,On Play - Look at the top 4 cards of your deck and add a Unit from amoungst them to your hand. Put the rest to the bottom of your deck.,
+Glory Trumpeter,Unit,3,3,3,Angel,On Play - Look at the top 4 cards of your deck and add a Unit from amoungst them to your hand. Put the rest to the bottom of your deck.,
 Shining Vanguard,Unit,3,2,2,,On Play - Summon 2 Knight Tokens. Valor 5: Give them +0/+1.,
 Reinforcements,Instant,2,,,,[Brave][Quick] Summon 2 Knight Tokens. Valor 10: Summon 2 Defender Tokens instead. ,
 Glimmering Warrior,Unit,4,3,4,,On Play - Add a Rallying Order Token to your hand. On Destroy - Summon a Knight Token.,

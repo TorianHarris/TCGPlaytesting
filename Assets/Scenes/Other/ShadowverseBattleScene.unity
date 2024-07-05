@@ -5902,7 +5902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerDeck: {fileID: 11400000, guid: a3e30d9211fb84fc8ac877ea0bd7acb9, type: 2}
-  opponentDeck: {fileID: 11400000, guid: dec418300a4c74f17b487655c2ef98e3, type: 2}
+  opponentDeck: {fileID: 11400000, guid: d7ded2df8884c4e17965219f1e370936, type: 2}
   cardframe: {fileID: 1197341219709977740, guid: d7fd54a5d8c5c403aaed11e4be5d7665,
     type: 3}
   leaderCardframe: {fileID: 6190421512664949010, guid: 1259f63fe79c046c9b0f6a292c1056f7,
@@ -6298,9 +6298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Generate: 0
-  sprites:
-  - {fileID: 21300000, guid: b5daa1e8b24ba43f88313305a8f57566, type: 3}
-  - {fileID: 21300000, guid: a47b5034d50cc4fe9a453f74cb4df277, type: 3}
+  sprites: []
 --- !u!1001 &1381338994
 PrefabInstance:
   m_ObjectHideFlags: 0

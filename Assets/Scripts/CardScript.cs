@@ -7,8 +7,8 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 {
     private Transform canvas;
     private CardManager cardManager;
-    [HideInInspector]
-    public GameObject deck;
+    // [HideInInspector]
+    // public GameObject deck;
     [HideInInspector]
     public Transform currentParent;
     [HideInInspector]
@@ -25,6 +25,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     private bool exposed;
     private bool resized;
     private Vector3 origSize;
+    private Color32 logColor;
 
 
     public void Start()
@@ -36,6 +37,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         canvasGroup = GetComponent<CanvasGroup>();
         currentParent = transform.parent;
         origSize = GetComponent<RectTransform>().localScale;
+        if (cardManager.deck) logColor = cardManager.deck.mainPlayer ? GameManager.Instance.playerLog : GameManager.Instance.opponentLog;
     }
 
     public void Update()
@@ -43,8 +45,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         // Shuffle into deck
         if (Input.GetKeyDown(KeyCode.S) && mouseOver)
         {
-            string s = string.Format("Shuffled {0} back into the deck", name);
-            print(s);
+            GameManager.log(gameObject.name + " was shuffled into the deck.", logColor);
             cardManager.deck.backToDeck(cardManager.cardReference, cardManager.isInMainDeck, exposed);
             Destroy(gameObject);
         }
@@ -52,18 +53,21 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         // Face Down
         if (Input.GetKeyDown(KeyCode.F) && mouseOver)
         {
+            GameManager.log(gameObject.name + " was placed facedown.", logColor);
             faceDownCover.SetActive(!faceDownCover.activeSelf);
         }
 
         // Ice Overlay
         if (Input.GetKeyDown(KeyCode.I) && mouseOver)
         {
+            GameManager.log(gameObject.name + " was Frozen.", logColor);
             iceOverlay.SetActive(!iceOverlay.activeSelf);
         }
 
         // Clone
         if (Input.GetKeyDown(KeyCode.C) && mouseOver)
         {
+            GameManager.log(gameObject.name + " was Cloned.", logColor);
             Vector2 v = new Vector2(transform.position.x + 50, transform.position.y + 50);
             cardManager.deck.cloneCard(cardManager.cardReference, v);
         }
@@ -78,8 +82,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         // Go to top of deck
         if (Input.GetKeyDown(KeyCode.T) && mouseOver)
         {
-            string s = string.Format("Added {0} to the top of the deck", name);
-            print(s);
+            GameManager.log(gameObject.name + " added to the top of the deck.", logColor);
             cardManager.deck.topOfDeck(cardManager.cardReference, cardManager.isInMainDeck, exposed);
             Destroy(gameObject);
         }
@@ -87,8 +90,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         // Go to bottom of deck
         if (Input.GetKeyDown(KeyCode.B) && mouseOver)
         {
-            string s = string.Format("Added {0} to the bottom of the deck", name);
-            print(s);
+            GameManager.log(gameObject.name + " added to the bottom of the deck.", logColor);
             cardManager.deck.bottomOfDeck(cardManager.cardReference, cardManager.isInMainDeck, exposed);
             Destroy(gameObject);
         }
@@ -102,8 +104,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         //Destroy (mainly for tokens)
         if (Input.GetKeyDown(KeyCode.X) && mouseOver)
         {
-            string s = string.Format("Removed {0} from the game", name);
-            print(s);
+            GameManager.log(gameObject.name + " was removed from the game.", logColor);
             Destroy(gameObject);
         }
     }
@@ -133,7 +134,11 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
             transform.SetParent(currentParent);
         }
         else
+        {
+            GameManager.log($"{gameObject.name} was moved from {currentParent.name} to {newParent.name}", logColor);
             currentParent = newParent;
+        }
+
         GameManager.Instance.itemBeingDragged = null;
         canvasGroup.blocksRaycasts = true;
     }
@@ -169,6 +174,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         if (eventData.button == PointerEventData.InputButton.Right)
         {
             ToggleActive();
+            GameManager.log(gameObject.name + (active ? " was Actived." : " was Exhausted."), logColor);
         }
     }
 
@@ -181,9 +187,13 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     public void ToggleActive()
     {
         if (active)
+        {
             transform.Rotate(0, 0, -90);
+        }
         else
+        {
             transform.Rotate(0, 0, 90);
+        }
         active = !active;
     }
 

@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     public bool extraDeckSearchable = true;
     public GameObject enhancedCardPanel;
     public CardManager enhanceCard;
+    public TMPro.TMP_Text logText;
     public Color32 Red;
     public Color32 Yellow;
     public Color32 Purple;
@@ -29,7 +30,8 @@ public class GameManager : MonoBehaviour
     public Color32 Gray;
     public Color32 Orange;
     public Color32 Black;
-
+    public Color32 playerLog;
+    public Color32 opponentLog;
     public string unitName = "Unit";
     public string instantName = "Spell";
     public string flashName = "Quick Spell";
@@ -45,7 +47,7 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance !=null && Instance != this)
+        if (Instance != null && Instance != this)
         {
             Destroy(this);
         }
@@ -59,6 +61,16 @@ public class GameManager : MonoBehaviour
     {
         //if (Input.GetKeyDown(keyCode))
         //    go.SetActive(!go.activeSelf);
+    }
+
+    public static void log(string msg)
+    {
+        Instance.logText.text = $"{Instance.logText.text}<color=white>{msg}</color>\n";
+    }
+    public static void log(string msg, Color clr)
+    {
+        if (clr == null || ColorUtility.ToHtmlStringRGBA(clr) == "00000000") clr = Color.white;
+        Instance.logText.text = $"{Instance.logText.text}<color=#{ColorUtility.ToHtmlStringRGBA(clr)}>{msg}</color>\n";
     }
 
 }

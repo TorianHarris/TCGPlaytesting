@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 4
-  mainEffect: 'On Play - Add a Magic Bolt Token to your hand. Wisdom 5: Add 2 instead.'
+  mainEffect: 'On Play - Add a Magic Bolt Token to your hand. Wisdom 10: Add 2 instead.'
   secondaryEffect: "\r"
   trait: 
   cardArt: {fileID: 21300000, guid: d6356267de5b04f248711276a97ae4cf, type: 3}

@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 4
   mainEffect: If you played a Spell this turn, this Unit gains Rush. If you played
     at least 3 Spells this turn, this card gains Blitz.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 0}
   exposed: 0

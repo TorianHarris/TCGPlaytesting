@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
-  m_Name: '[SVE] Blockade Kagero'
+  m_Name: '[SVE] Tempo Kagero'
   m_EditorClassIdentifier: 
   leader: {fileID: 11400000, guid: c5a9567563aea4f1e9bb6852247a7417, type: 2}
   cards:
@@ -48,9 +48,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fee9733c92bb041ecbb67d0dbaa9a730, type: 2}
   - {fileID: 11400000, guid: fee9733c92bb041ecbb67d0dbaa9a730, type: 2}
   - {fileID: 11400000, guid: 527e88b997a504d089fade1e27187838, type: 2}
-  - {fileID: 11400000, guid: 17cbfa357916c49519d8dd28b953bf5c, type: 2}
-  - {fileID: 11400000, guid: 17cbfa357916c49519d8dd28b953bf5c, type: 2}
-  - {fileID: 11400000, guid: 17cbfa357916c49519d8dd28b953bf5c, type: 2}
+  - {fileID: 11400000, guid: d7f7b8740d1234c87aeee74045de4cfd, type: 2}
+  - {fileID: 11400000, guid: d7f7b8740d1234c87aeee74045de4cfd, type: 2}
+  - {fileID: 11400000, guid: d7f7b8740d1234c87aeee74045de4cfd, type: 2}
   - {fileID: 11400000, guid: d23791a15a4b342acb012c43eb5e9198, type: 2}
   - {fileID: 11400000, guid: d23791a15a4b342acb012c43eb5e9198, type: 2}
   - {fileID: 11400000, guid: d23791a15a4b342acb012c43eb5e9198, type: 2}

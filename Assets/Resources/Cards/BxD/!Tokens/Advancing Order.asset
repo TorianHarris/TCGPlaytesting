@@ -19,6 +19,6 @@ MonoBehaviour:
   color: 5
   mainEffect: '[Brave] Give all allied Units +1/+0 and Rush.'
   secondaryEffect: 
-  trait: 
+  trait: Stratagem
   cardArt: {fileID: 21300000, guid: 46059b8d32ef04134a2ac5ed8ad262ed, type: 3}
   exposed: 0

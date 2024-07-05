@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Verdant Druid
   m_EditorClassIdentifier: 
   cost: 3
-  power: 3
-  health: 3
+  power: 2
+  health: 2
   type: 0
   color: 3
   mainEffect: At the end of your turn, gain 2 Mana Fragments.

@@ -169,6 +169,7 @@ MonoBehaviour:
   - {fileID: 1912867587607932008}
   deck: {fileID: 0}
   cardReference: {fileID: 0}
+  isInMainDeck: 0
 --- !u!114 &114141951651382698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1788,7 +1789,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Deal 3 damage to all enemies then draw a card.
+  m_text: '[<sprite name="Fire"><sprite name="Fire"><sprite name="Fire">] Deal 3
+    damage to all enemies then draw a card.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

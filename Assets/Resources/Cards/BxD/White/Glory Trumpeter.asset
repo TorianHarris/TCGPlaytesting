@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Glory Trumpeter
   m_EditorClassIdentifier: 
   cost: 3
-  power: 2
+  power: 3
   health: 3
   type: 0
   color: 5

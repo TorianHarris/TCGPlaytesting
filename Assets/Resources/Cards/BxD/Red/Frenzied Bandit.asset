@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 3
   power: 3
-  health: 2
+  health: 3
   type: 0
   color: 0
   mainEffect: 'On Play - Bloodlust 1: Draw 1.n/On Play - If you have 10 or less Life,
