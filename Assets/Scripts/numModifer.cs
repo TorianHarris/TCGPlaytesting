@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class numModifer : MonoBehaviour, IPointerClickHandler
 {
     public int startingNum;
-    CardManager card;
+    private string nameInLog;
     TMP_Text txt;
     int currentNum;
     Color origColor;
@@ -16,23 +16,29 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
     // Start is called before the first frame update
     void Start()
     {
-        //card = transform.GetComponentInParent<CardManager>();
+        nameInLog = transform.GetComponentInParent<CardManager>() ? $"{transform.GetComponentInParent<CardManager>().name}'s {gameObject.name}" : transform.parent.name;
         txt = GetComponent<TMP_Text>();
         int.TryParse(txt.text, out startingNum);
         //txt.text = startingNum.ToString();
         currentNum = startingNum;
-        origColor = txt.color; 
+        origColor = txt.color;
     }
 
-    public void OnPointerClick (PointerEventData eventData)
+    public void OnPointerClick(PointerEventData eventData)
     {
-        //if(card.cardType.text == "Unit" || card.cardType.text == "Token Unit")
-        //{
-            if (eventData.button == PointerEventData.InputButton.Right)
-                currentNum--;
-            else
-                currentNum++;
-            txt.text = currentNum.ToString();
+        if (eventData.button == PointerEventData.InputButton.Right)
+        {
+            currentNum--;
+            GameManager.holdLog(nameInLog + " was changed: ", currentNum + 1, currentNum);
+        }
+
+        else
+        {
+            currentNum++;
+            GameManager.holdLog(nameInLog + " was changed: ", currentNum - 1, currentNum);
+        }
+
+        txt.text = currentNum.ToString();
         if (alterColors)
         {
             if (currentNum > startingNum)

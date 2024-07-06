@@ -23,7 +23,8 @@ public class CardZone : MonoBehaviour, IDropHandler
     {
         foreach (CardScript card in transform.GetComponentsInChildren<CardScript>())
         {
-            if (!card.active) card.ToggleActive();
+            if (card.iceOverlay.activeSelf) card.iceOverlay.SetActive(false);
+            else if (!card.active) card.ToggleActive();
         }
     }
 

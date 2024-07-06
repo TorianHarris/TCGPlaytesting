@@ -15,7 +15,7 @@ public class TokenSpawn : MonoBehaviour
 
     void Start()
     {
-        cards = Resources.LoadAll<Card>(GameManager.Instance.tokenTolder);
+        cards = Resources.LoadAll<Card>(GameManager.Instance.tokenFolder);
         playArea = GameObject.FindGameObjectWithTag("Play Area").transform;
         foreach (var card in cards)
         {
@@ -28,5 +28,6 @@ public class TokenSpawn : MonoBehaviour
     public void create(Card card)
     {
         card.createCard(GameManager.Instance.cardframe, playArea);
+        GameManager.log(card.name + " Token was Created");
     }
 }
