@@ -12,7 +12,7 @@ public class CSVtoSO : MonoBehaviour
 {
 
     public TextAsset CSV;
-    public enum gameName { Blitz, Saga, Dawn, BXD }
+    public enum gameName { Blitz, Saga, Dawn, BXD, Break }
     public enum className { Red, Yellow, Purple, Green, Blue, White, Gray, Orange, Black }
     public gameName gameFolder;
     public className classFolder;
@@ -26,7 +26,7 @@ public class CSVtoSO : MonoBehaviour
             throw new ArgumentException("You must provide a CSV.");
 
         Card.classColor clr = Card.classColor.Gray;
-        
+
         switch (classFolder)
         {
             case className.Red:
@@ -63,7 +63,7 @@ public class CSVtoSO : MonoBehaviour
         string folderToPopulate = gameFolder.ToString() + "/" + classFolder.ToString();
         string[] allLines = CSV.text.Split(Environment.NewLine.ToCharArray());
         allLines = allLines.Skip(1).ToArray();
-        
+
         foreach (string s in allLines)
         {
             Regex CSVParser = new Regex(",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))");
@@ -80,7 +80,7 @@ public class CSVtoSO : MonoBehaviour
             }
             else
             {
-                    guid = guids[0];
+                guid = guids[0];
             }
 
             //print(guids[0]);

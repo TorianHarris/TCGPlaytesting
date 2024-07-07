@@ -135,7 +135,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         }
         else
         {
-            GameManager.log($"{gameObject.name} was moved from {currentParent.name} to {newParent.name}", logColor);
+            GameManager.log($"{gameObject.name} was moved from {currentParent.name} to {(newParent.GetComponent<CardManager>() ? newParent.parent.name : newParent.name)}", logColor);
             currentParent = newParent;
         }
 

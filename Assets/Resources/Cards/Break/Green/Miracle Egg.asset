@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Miracle Egg
+  m_EditorClassIdentifier: 
+  cost: 0
+  power: 1
+  health: 1
+  type: 0
+  color: 3
+  mainEffect: 'Hand: [Discard this card and a Breaker with 7 or more Power from your
+    hand] Gauge Charge 1. You can only use the effect of Miracle Egg once per turn.'
+  secondaryEffect: "G\r"
+  trait: Dino
+  cardArt: {fileID: 21300000, guid: 009dcd673e3d7435faeb8b1bd72ff1f4, type: 3}
+  exposed: 0
