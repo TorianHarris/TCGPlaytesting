@@ -6257,6 +6257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logKeyCode: 108
+  diceKeyCode: 114
   logger: {fileID: 8345362246178943852}
   heldMsg: 
   originalHeldNum: 0
@@ -6264,7 +6265,7 @@ MonoBehaviour:
   holding: 0
   holdingTimer: 0
   timeTilRelease: 5
-  playerDeck: {fileID: 11400000, guid: 18036b70e1a194bb8bee05ed0b05c4fd, type: 2}
+  playerDeck: {fileID: 11400000, guid: 977cf20edf92d455c8dc43269b6fa0e8, type: 2}
   opponentDeck: {fileID: 11400000, guid: 67e40ff38c39c4f1c89f026d2f8de7c4, type: 2}
   cardframe: {fileID: 1722740845861868, guid: f38ecf1d31a674d79adb0736e6d8a3bf, type: 3}
   leaderCardframe: {fileID: 1722740845861868, guid: 384c5f8139a534a05aace5db0b3e38e0,
@@ -6878,9 +6879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: 86d89abd0e76a45dfbf1211c5626c6f2, type: 3}
+  CSV: {fileID: 4900000, guid: 105e0a4ad78134f05a40244cf0b467ab, type: 3}
   gameFolder: 3
-  classFolder: 4
+  classFolder: 2
   Generate: 0
 --- !u!1001 &1381338994
 PrefabInstance:

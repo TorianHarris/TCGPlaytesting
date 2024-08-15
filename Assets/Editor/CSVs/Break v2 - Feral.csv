@@ -2,16 +2,16 @@ Name,Clan,Cost,Power,Force,Type,Effect,Rarity
 Slipstream Wyvern,Unit,0,1,1,Dragon,"Invoke: Until the end of the next turn, reduce the cost of the next Slipstream Drake you play by 1.",B
 Slipstream Drake,Unit,1,4,1,Dragon,"Invoke: Until the end of the next turn, reduce the cost of the next Slipstream Dragoon you play by 1.",B
 Slipstream Dragoon,Unit,2,7,1,Dragon,"Invoke: If ""Slipstream Wyvern"" and ""Slipstream Drake"" are in your Gauge, this Breaker gains +3 Power.",S
-Miracle Egg,Unit,0,1,1,Dino,"Hand: [Discard this card and a Breaker with 7 or more Power from your hand] Gauge Charge 1. You can only use the effect of ""Miracle Egg"" once per turn.",G
+Miracle Egg,Unit,0,1,1,Dino,"Hand: [EB3, Discard this card and a Breaker with 7 or more Power from your hand] Gauge Charge 1. You can only use the effect of ""Miracle Egg"" once per turn.",G
 Moonlight Dragon,Unit,2,7,1,Dragon,"Invoke: Look at the top 4 cards of your deck, add a Breaker from amoungst them to your Gauge. Shuffle the rest into your deck.",G
 Blitz Strike Dragon,Unit,2,7,1,Dragon,Const: This card's entire cost may be payed for with one Dragon-type Breaker in your Gauge with 7 or more Power.,S
-Ace Dragonute,Unit,0,0,1,Dragon,Invoke: Discard 1.,B
-Omniflare Dragon,Unit,3,9,2,Dragon,"Invoke: This Breaker gains +2 Power for each Breaker with 7 or more Power used to pay for this card's cost. Invoke: If this card's Power is 10 or higher, discard a Breaker in the opposing Gauge.",L
+Ace Dragonute,Unit,0,0,1,Dragon,Hand: [Remove this card from the game] Your opponent's Active Breaker becomes Zer0ed. Gain 1 EP.,B
+Omniflare Dragon,Unit,3,9,2,Dragon,"Modifier: This Breaker gains +1 Power for each Breaker with 7 or more Power used to pay for this card's cost. Invoke: If this card's Power is 12 or higher, discard a Breaker in the opposing Gauge.",L
 Backdraft Wyvern,Unit,2,9,1,Dragon,Victory Cry: Search your deck for a Dragon-type Breaker with 7 or more Power and add it to your hand.,G
-Savage Fang,Unit,0,3,1,Beast,"Const: If you have 2 or more Breakers in your Gauge with 7 or more Power, this card has [Striker +1].",B
-Enigmatic Egg,Unit,0,2,1,Dino,Debris: Look at the top 3 cards of your deck and add a Breaker with 5 or more Power to your hand then shuffle the rest into your deck.,B
-Surge Falcon,Unit,1,6,1,Avian,"Trigger: When this card is used as cost to play a Breaker with 7 or more Power, give that Breaker +1 Power. ",B
+Savage Fang,Unit,0,3,1,Beast,"Modifier: If you put a Breaker in your Gauge by card effect during your last turn, this card has [Striker +1].",B
+Enigmatic Egg,Unit,0,2,1,Dino,Debris: Look at the top 5 cards of your deck. [Discard this card] Add a Breaker with 5 or more Power from amoungst them to your hand then shuffle the rest into your deck.,B
+Surge Falcon,Unit,1,6,1,Avian,"Trigger: [EB2] After this card is discarded as cost to play a Breaker with 7 or more Power, give that Breaker +1 Power. ",B
 Flame Hound,Unit,0,3,1,Beast,Invoke [Union]: [Discard 1] Draw 1.,B
 Flame Imp,Unit,0,2,1,Demon,Invoke: [Gauge Break 1 & add a Breaker in your hand to the bottom of your Gauge] Draw 1.,S
 Beast Colossus,Unit,2,8,1,Beast,Steadfast.,B
-Dragon Tamer,Unit,0,2,1,Humanoid,Invoke:  Look at the top 3 cards of your deck and add a Dragon-Type Breaker from amoungst them to your hand. Shuffle the rest into your deck.,S
+Dragon Tamer,Unit,0,2,1,Humanoid,Invoke: Look at the top 3 cards of your deck. [EB3] Add a Dragon-Type Breaker from amoungst them to your hand then shuffle the rest into your deck.,S

@@ -35,4 +35,12 @@ public class CardZone : MonoBehaviour, IDropHandler
             if (!leader.active) leader.ToggleActive();
         }
     }
+
+    public void IncreaseLeaderNum()
+    {
+        foreach (LeaderManager leader in transform.GetComponentsInChildren<LeaderManager>())
+        {
+            if (leader.GetComponentInChildren<numModifer>()) leader.GetComponentInChildren<numModifer>().increaseNum();
+        }
+    }
 }

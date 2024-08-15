@@ -129,7 +129,6 @@ public class GameManager : MonoBehaviour
         Instance.originalHeldNum = 0;
         Instance.changedHeldNum = 0;
         //Instance.holding = false;
-        print("releaseing my message!");
     }
 
     // public static void holdLog(string msg, int num, Color clr)

@@ -2699,9 +2699,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: NumCounter, Assembly-CSharp
-        m_MethodName: plusMaxNum
+      - m_Target: {fileID: 858522062}
+        m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
+        m_MethodName: IncreaseLeaderNum
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4414,9 +4414,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: NumCounter, Assembly-CSharp
-        m_MethodName: plusMaxNum
+      - m_Target: {fileID: 131871227}
+        m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
+        m_MethodName: IncreaseLeaderNum
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5275,7 +5275,7 @@ MonoBehaviour:
   playerDeck: {fileID: 11400000, guid: 8c7dd9f3faca74607a5172ac4368ce1d, type: 2}
   opponentDeck: {fileID: 11400000, guid: 8c7dd9f3faca74607a5172ac4368ce1d, type: 2}
   cardframe: {fileID: 1722740845861868, guid: 5041c4ece97204455a3c3504e6a81b15, type: 3}
-  leaderCardframe: {fileID: 1722740845861868, guid: 384c5f8139a534a05aace5db0b3e38e0,
+  leaderCardframe: {fileID: 1722740845861868, guid: a117de9a56e964ae6a3ecf7011b10ebb,
     type: 3}
   startingHandSize: 5
   startingShields: 4

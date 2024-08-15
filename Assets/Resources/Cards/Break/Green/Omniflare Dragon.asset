@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 2
   type: 0
   color: 3
-  mainEffect: 'Invoke: This Breaker gains +2 Power for each Breaker with 7 or more
-    Power used to pay for this card''s cost. Invoke: If this card''s Power is 10
+  mainEffect: 'Modifier: This Breaker gains +1 Power for each Breaker with 7 or more
+    Power used to pay for this card''s cost. Invoke: If this card''s Power is 12
     or higher, discard a Breaker in the opposing Gauge.'
   secondaryEffect: "L\r"
   trait: Dragon

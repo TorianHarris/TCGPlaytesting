@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Emissary of Faith
+  m_EditorClassIdentifier: 
+  cost: 10
+  power: 5
+  health: 10
+  type: 0
+  color: 1
+  mainEffect: This Unit cost 1 less for each time you healed your Leader this turn.
+    [Blitz][Blocker][Veil]n/When your Leader takes damage from an opposing card,
+    Active this Unit.
+  secondaryEffect: 
+  trait: 
+  cardArt: {fileID: 0}
+  exposed: 0

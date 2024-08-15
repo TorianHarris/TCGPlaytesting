@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 1
   type: 0
   color: 3
-  mainEffect: 'Invoke: Look at the top 4 cards of your deck, add a Breaker from amoungst
-    them to your Gauge. Shuffle the rest into your deck.'
+  mainEffect: 'Invoke: [EB4] Look at the top 4 cards of your deck, add a Breaker
+    from amoungst them to your Gauge. Shuffle the rest into your deck.'
   secondaryEffect: "G\r"
   trait: Dragon
   cardArt: {fileID: 21300000, guid: 6c36a98b50e8442dc98b5c00df991735, type: 3}

@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 1
   type: 0
   color: 3
-  mainEffect: 'Const: If you have 2 or more Breakers in your Gauge with 7 or more
-    Power, this card has [Striker +1].'
+  mainEffect: 'Modifier: If you put a Breaker in your Gauge by card effect during
+    your last turn, this card has [Striker +1].'
   secondaryEffect: "B\r"
   trait: Beast
   cardArt: {fileID: 21300000, guid: 651b46ffc29cc487fbe5b196712ff5d3, type: 3}

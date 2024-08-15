@@ -28,16 +28,30 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
     {
         if (eventData.button == PointerEventData.InputButton.Right)
         {
-            currentNum--;
-            GameManager.holdLog(nameInLog + " was changed: ", currentNum + 1, currentNum);
+            decreaseNum();
         }
 
         else
         {
-            currentNum++;
-            GameManager.holdLog(nameInLog + " was changed: ", currentNum - 1, currentNum);
+            increaseNum();
         }
+    }
+    public void decreaseNum()
+    {
+        currentNum--;
+        GameManager.holdLog(nameInLog + " was changed: ", currentNum + 1, currentNum);
+        displayNum();
+    }
 
+    public void increaseNum()
+    {
+        currentNum++;
+        GameManager.holdLog(nameInLog + " was changed: ", currentNum - 1, currentNum);
+        displayNum();
+    }
+
+    private void displayNum()
+    {
         txt.text = currentNum.ToString();
         if (alterColors)
         {
@@ -48,7 +62,5 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
             else
                 txt.color = origColor;
         }
-
-        //}
     }
 }
