@@ -4,8 +4,9 @@ using UnityEngine.EventSystems;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
-public class LeaderManager : MonoBehaviour , IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+public class LeaderManager : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     public TMP_Text cardNameText;
     public TMP_Text levelText;
@@ -33,23 +34,25 @@ public class LeaderManager : MonoBehaviour , IBeginDragHandler, IDragHandler, IE
     public bool mouseOver = false;
     public static GameObject itemBeingDragged;
     private CanvasGroup canvasGroup;
-    private bool resized;
-    private Vector3 origSize;
-
-    public void FillLeaderInfo(string cardName, int level, int primaryValue, int power, int health, Color primaryColor, Color secondaryColor, string type, string mainEffect, string trait, Sprite art )
+    private Leader.leaderLevel leader;
+    public void FillLeaderInfo(Leader.leaderLevel l)
     {
-        if (cardNameText) cardNameText.text = cardName;
-        if (levelText) levelText.text = level.ToString();
-        if (primaryValueText) primaryValueText.text = primaryValue.ToString();
-        if (powerText) powerText.text = power.ToString();
-        if (healthText) healthText.text = health.ToString();
-        if (nameFrame) nameFrame.color = primaryColor;
+        leader = l;
+        Color32 primaryColor = leader.getColor(leader.primaryColor.ToString());
+        Color32 secondaryColor = leader.secondaryColor.ToString() == "None" ? leader.getColor(leader.primaryColor.ToString()) : leader.getColor(leader.secondaryColor.ToString());
+
+        if (cardNameText) cardNameText.text = leader.cardName;
+        if (levelText) levelText.text = leader.level.ToString();
+        if (primaryValueText) primaryValueText.text = leader.primaryValue.ToString();
+        if (powerText) powerText.text = leader.power.ToString();
+        if (healthText) healthText.text = leader.health.ToString();
+        if (nameFrame) nameFrame.color = leader.getColor(leader.primaryColor.ToString());
         if (secondaryCardColor) secondaryCardColor.effectColor = secondaryColor;
         if (secondaryNameFrame) secondaryNameFrame.color = secondaryColor;
-        if (typeText) typeText.text = type;
-        if (mainEffectText) mainEffectText.text = mainEffect.Replace("[", "<b>[").Replace("]", "]</b>");
-        if (traitText) traitText.text = trait;
-        if (cardArt) cardArt.sprite = art;
+        if (typeText) typeText.text = GameManager.Instance.leaderName;
+        if (mainEffectText) mainEffectText.text = leader.mainEffect.Replace("[", "<b>[").Replace("]", "]</b>");
+        if (traitText) traitText.text = leader.trait;
+        if (cardArt) cardArt.sprite = leader.cardArt;
 
         foreach (Image img in toPrimaryColor)
         {
@@ -62,7 +65,6 @@ public class LeaderManager : MonoBehaviour , IBeginDragHandler, IDragHandler, IE
         canvas = GameObject.FindGameObjectWithTag("Play Area").transform;
         canvasGroup = GetComponent<CanvasGroup>();
         currentParent = transform.parent;
-        origSize = GetComponent<RectTransform>().localScale;
     }
 
     public void Update()
@@ -134,22 +136,11 @@ public class LeaderManager : MonoBehaviour , IBeginDragHandler, IDragHandler, IE
         }
     }
 
-    public void Resize()
+    public void enhanceCard()
     {
-        if (!resized)
-        {
-            GetComponent<RectTransform>().localScale = new Vector3(GetComponent<RectTransform>().localScale.x * 2, GetComponent<RectTransform>().localScale.y * 2, 1);
-            resized = true;
-            transform.SetParent(canvas);
-            transform.SetAsLastSibling();
-        }
-        else
-        {
-            GetComponent<RectTransform>().localScale = origSize;
-            resized = false;
-            transform.SetParent(currentParent);
-            transform.SetAsLastSibling();
-        }
+        GameManager.Instance.magnifiedLeaderCard.GetComponent<LeaderManager>().FillLeaderInfo(leader);
+        GameManager.Instance.magnifiedLeaderCard.SetActive(true);
+        GameManager.Instance.magnifier.SetActive(true);
     }
 
     public void ToggleActive()

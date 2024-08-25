@@ -388,6 +388,11 @@ PrefabInstance:
       propertyPath: dm
       value: 
       objectReference: {fileID: 663926453}
+    - target: {fileID: 6640346894460689125, guid: 5dd0e6bddd40a4b908bdb3739820a523,
+        type: 3}
+      propertyPath: dm
+      value: 
+      objectReference: {fileID: 663926453}
     - target: {fileID: 6823911500504744998, guid: 5dd0e6bddd40a4b908bdb3739820a523,
         type: 3}
       propertyPath: dm
@@ -678,18 +683,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 518937691}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &130930030 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3337332830822151891, guid: 63a8a7cc0691f4e23a07fd5c950aa021,
-    type: 3}
-  m_PrefabInstance: {fileID: 4565882162108761941}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46da2d4c6bc5c42c19a4113765afc1bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &131871225
 GameObject:
   m_ObjectHideFlags: 0
@@ -4420,6 +4413,11 @@ PrefabInstance:
       propertyPath: dm
       value: 
       objectReference: {fileID: 342874287}
+    - target: {fileID: 6640346894460689125, guid: 5dd0e6bddd40a4b908bdb3739820a523,
+        type: 3}
+      propertyPath: dm
+      value: 
+      objectReference: {fileID: 342874287}
     - target: {fileID: 8345362245506424533, guid: 5dd0e6bddd40a4b908bdb3739820a523,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -5625,15 +5623,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logKeyCode: 108
   diceKeyCode: 114
-  logger: {fileID: 1636970004}
   heldMsg: 
   originalHeldNum: 0
   changedHeldNum: 0
   holding: 0
   holdingTimer: 0
   timeTilRelease: 0
-  playerDeck: {fileID: 11400000, guid: a3e30d9211fb84fc8ac877ea0bd7acb9, type: 2}
-  opponentDeck: {fileID: 11400000, guid: d7ded2df8884c4e17965219f1e370936, type: 2}
+  playerDeck: {fileID: 11400000, guid: 8f2382e9e86ba4a3487f733603fa7ca4, type: 2}
+  opponentDeck: {fileID: 11400000, guid: 4b8c16dd10b5a4e4eb2fd4336452c717, type: 2}
   cardframe: {fileID: 1197341219709977740, guid: d7fd54a5d8c5c403aaed11e4be5d7665,
     type: 3}
   leaderCardframe: {fileID: 6190421512664949010, guid: 1259f63fe79c046c9b0f6a292c1056f7,
@@ -5644,9 +5641,8 @@ MonoBehaviour:
   tokenFolder: Tokens/ShadowverseTokens
   mainDeckSearchable: 1
   extraDeckSearchable: 1
-  enhancedCardPanel: {fileID: 1836505288}
-  enhanceCard: {fileID: 130930030}
   logText: {fileID: 1840217157}
+  palette: {fileID: 11400000, guid: 72b9ee46a1b414254810c960a0aa7ab1, type: 2}
   Red:
     serializedVersion: 2
     rgba: 4278323864
@@ -5688,6 +5684,10 @@ MonoBehaviour:
   equipName: 
   leaderName: Alter
   itemBeingDragged: {fileID: 0}
+  logger: {fileID: 1636970004}
+  magnifier: {fileID: 1836505288}
+  magnifiedCard: {fileID: 0}
+  magnifiedLeaderCard: {fileID: 0}
 --- !u!4 &1104206486
 Transform:
   m_ObjectHideFlags: 0
@@ -9697,8 +9697,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: Card Enhancer
       objectReference: {fileID: 0}
+    - target: {fileID: 4565882162728918943, guid: 63a8a7cc0691f4e23a07fd5c950aa021,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565882162728918943, guid: 63a8a7cc0691f4e23a07fd5c950aa021,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565882162728918943, guid: 63a8a7cc0691f4e23a07fd5c950aa021,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1104206485}
+    - target: {fileID: 4565882162728918943, guid: 63a8a7cc0691f4e23a07fd5c950aa021,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: magnifierToggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565882162728918943, guid: 63a8a7cc0691f4e23a07fd5c950aa021,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565882162728918943, guid: 63a8a7cc0691f4e23a07fd5c950aa021,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3440902793134046121, guid: 63a8a7cc0691f4e23a07fd5c950aa021, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63a8a7cc0691f4e23a07fd5c950aa021, type: 3}

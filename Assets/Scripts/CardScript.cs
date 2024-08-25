@@ -181,7 +181,8 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     public void enhanceCard()
     {
         cardManager.cardReference.changeEnhancedCard();
-        GameManager.Instance.enhancedCardPanel.SetActive(true);
+        GameManager.Instance.magnifiedCard.SetActive(true);
+        GameManager.Instance.magnifier.SetActive(true);
     }
 
     public void ToggleActive()

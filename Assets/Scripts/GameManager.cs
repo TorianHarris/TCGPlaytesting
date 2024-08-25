@@ -1,13 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
+public class Colors
+{
+
+}
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    public KeyCode logKeyCode;
-    public KeyCode diceKeyCode;
-    public GameObject logger;
+    [HideInInspector]
+    public KeyCode logKeyCode = KeyCode.L;
+    [HideInInspector]
+    public KeyCode diceKeyCode = KeyCode.R;
+
     [HideInInspector]
     public string heldMsg = "";
     [HideInInspector]
@@ -30,19 +38,30 @@ public class GameManager : MonoBehaviour
     public string tokenFolder;
     public bool mainDeckSearchable = false;
     public bool extraDeckSearchable = true;
-    public GameObject enhancedCardPanel;
-    public CardManager enhanceCard;
+
     public TMPro.TMP_Text logText;
+    public ColorPalette palette;
+    [HideInInspector]
     public Color32 Red;
+    [HideInInspector]
     public Color32 Yellow;
+    [HideInInspector]
     public Color32 Purple;
+    [HideInInspector]
     public Color32 Green;
+    [HideInInspector]
     public Color32 Blue;
+    [HideInInspector]
     public Color32 White;
+    [HideInInspector]
     public Color32 Gray;
+    [HideInInspector]
     public Color32 Orange;
+    [HideInInspector]
     public Color32 Black;
+    [HideInInspector]
     public Color32 playerLog;
+    [HideInInspector]
     public Color32 opponentLog;
     public string unitName = "Unit";
     public string instantName = "Spell";
@@ -56,6 +75,12 @@ public class GameManager : MonoBehaviour
 
     [HideInInspector]
     public GameObject itemBeingDragged;
+    public GameObject logger;
+    public GameObject magnifier;
+    [HideInInspector]
+    public GameObject magnifiedCard;
+    [HideInInspector]
+    public GameObject magnifiedLeaderCard;
 
     void Awake()
     {
@@ -67,6 +92,29 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
         }
+
+        magnifiedCard = Instantiate(cardframe, magnifier.transform);
+        magnifiedCard.transform.localScale = new Vector3(3, 3);
+        magnifiedCard.GetComponent<Button>().enabled = false;
+        magnifiedCard.GetComponent<CardScript>().enabled = false;
+        magnifiedCard.SetActive(false);
+
+        magnifiedLeaderCard = Instantiate(leaderCardframe, magnifier.transform);
+        magnifiedLeaderCard.transform.localScale = new Vector3(3, 3);
+        magnifiedLeaderCard.GetComponent<Button>().enabled = false;
+        magnifiedLeaderCard.SetActive(false);
+
+        Red = palette.Red;
+        Yellow = palette.Yellow;
+        Purple = palette.Purple;
+        Green = palette.Green;
+        Blue = palette.Blue;
+        White = palette.White;
+        Gray = palette.Gray;
+        Orange = palette.Orange;
+        Black = palette.Black;
+        playerLog = palette.playerLog;
+        opponentLog = palette.opponentLog;
     }
 
     void Update()
@@ -92,6 +140,12 @@ public class GameManager : MonoBehaviour
             log("Dice Roll: " + randomNumber);
         }
 
+    }
+    public static void magnifierToggle()
+    {
+        Instance.magnifier.SetActive(false);
+        Instance.magnifiedCard.SetActive(false);
+        Instance.magnifiedLeaderCard.SetActive(false);
     }
 
     public static void log(string msg)

@@ -72,8 +72,8 @@ public class Card : ScriptableObject
 
     public void changeEnhancedCard()
     {
-        GameManager.Instance.enhanceCard.GetComponent<CardManager>().FillCardInfo(name, cost, power, health, type, getTypeName(), getColor(), mainEffect, secondaryEffect, cardArt, trait, this);
-        GameManager.Instance.enhanceCard.name = name;
+        GameManager.Instance.magnifiedCard.GetComponent<CardManager>().FillCardInfo(name, cost, power, health, type, getTypeName(), getColor(), mainEffect, secondaryEffect, cardArt, trait, this);
+        GameManager.Instance.magnifiedCard.name = name;
     }
 
     public GameObject createCard(GameObject c, Transform t)

@@ -23,7 +23,7 @@ public class Leader : ScriptableObject
         public string trait;
         public Sprite cardArt;
 
-        public Color getColor(string color)
+        public Color32 getColor(string color)
         {
             switch (color)
             {
@@ -53,7 +53,7 @@ public class Leader : ScriptableObject
         public void createLeader(GameObject c, Transform t)
         {
             GameObject leader = Instantiate(c, t);
-            leader.GetComponent<LeaderManager>().FillLeaderInfo(cardName, level, primaryValue, power, health, getColor(primaryColor.ToString()), secondaryColor == secondaryClassColor.None ? getColor(primaryColor.ToString()) : getColor(secondaryColor.ToString()), GameManager.Instance.leaderName, mainEffect, trait, cardArt);
+            leader.GetComponent<LeaderManager>().FillLeaderInfo(this);
             leader.name = cardName;
             //return card;
         }
@@ -61,5 +61,5 @@ public class Leader : ScriptableObject
 
     public leaderLevel[] LeaderLevels;
 
-    
+
 }

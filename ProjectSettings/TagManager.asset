@@ -8,6 +8,8 @@ TagManager:
   - Counter
   - Card
   - FactionColor
+  - Logger
+  - Magnifier
   layers:
   - Default
   - TransparentFX
