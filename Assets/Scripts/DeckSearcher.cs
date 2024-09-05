@@ -39,9 +39,7 @@ public class DeckSearcher : MonoBehaviour
                 Button btn = Instantiate(buttonPrefab, viewport);
                 btn.name = card.name;
                 btn.transform.GetChild(0).GetComponent<TMP_Text>().text = card.name;
-
-                bool isSearchable = mainDeck ? GameManager.Instance.mainDeckSearchable : GameManager.Instance.extraDeckSearchable;
-                if (isSearchable) btn.onClick.AddListener(delegate { create(card, mainDeck, mainDeck ? dm.cards : dm.extraDeckCards); });
+                btn.onClick.AddListener(delegate { create(card, mainDeck, mainDeck ? dm.cards : dm.extraDeckCards); });
             }
             else
             {

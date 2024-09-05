@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 8345362245619791464}
   - component: {fileID: 8345362245619791465}
   - component: {fileID: 8345362245619791466}
-  - component: {fileID: 6640346894460689125}
+  - component: {fileID: 323093886336301575}
   m_Layer: 5
   m_Name: Deck Searcher
   m_TagString: Untagged
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.30980393, g: 0.30980393, b: 0.30980393, a: 0.6666667}
+  m_Color: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 0.6666667}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6640346894460689125
+--- !u!114 &323093886336301575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -453,7 +453,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.000050306717}
-  m_SizeDelta: {x: -260.8, y: 14}
+  m_SizeDelta: {x: -260.8, y: 10}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &8345362245969460994
 MonoBehaviour:

@@ -1,13 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Colors
-{
-
-}
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
@@ -29,17 +26,29 @@ public class GameManager : MonoBehaviour
     public float timeTilRelease;
     public Deck playerDeck;
     public Deck opponentDeck;
-    public GameObject cardframe;
-    public GameObject leaderCardframe;
     public int startingHandSize = 3;
     public int startingShields = 0;
-    public float cardZoomSize = 2;
-    //public enum classColor { Red, Yellow, Purple, Green, Blue, White, Gray, Orange, Black }
     public string tokenFolder;
-    public bool mainDeckSearchable = false;
-    public bool extraDeckSearchable = true;
+    [Space(10)]
+    public string unitName = "Unit";
+    public string instantName = "Spell";
+    public string permanentName = "Artifact";
+    public string leaderName = "Leader";
+    public string flashName = "Quick Spell";
+    public string reactionName = "Reaction";
+    public string equipName = "Equip";
 
+    [HideInInspector]
+    public GameObject itemBeingDragged;
+    [Space(10)]
+    public GameObject logger;
+    [HideInInspector]
     public TMPro.TMP_Text logText;
+    public GameObject magnifier;
+    [HideInInspector]
+    public GameObject magnifiedCard;
+    [HideInInspector]
+    public GameObject magnifiedLeaderCard;
     public ColorPalette palette;
     [HideInInspector]
     public Color32 Red;
@@ -63,24 +72,8 @@ public class GameManager : MonoBehaviour
     public Color32 playerLog;
     [HideInInspector]
     public Color32 opponentLog;
-    public string unitName = "Unit";
-    public string instantName = "Spell";
-    public string flashName = "Quick Spell";
-    public string permanentName = "Artifact";
-    [Space(10)]
-    public string reactionName = "Reaction";
-    public string equipName = "Equip";
-    [Space(10)]
-    public string leaderName = "Leader";
-
-    [HideInInspector]
-    public GameObject itemBeingDragged;
-    public GameObject logger;
-    public GameObject magnifier;
-    [HideInInspector]
-    public GameObject magnifiedCard;
-    [HideInInspector]
-    public GameObject magnifiedLeaderCard;
+    public GameObject cardframe;
+    public GameObject leaderCardframe;
 
     void Awake()
     {
@@ -92,6 +85,7 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
         }
+        logText = logger.GetComponentInChildren<TMP_Text>();
 
         magnifiedCard = Instantiate(cardframe, magnifier.transform);
         magnifiedCard.transform.localScale = new Vector3(3, 3);
@@ -99,10 +93,14 @@ public class GameManager : MonoBehaviour
         magnifiedCard.GetComponent<CardScript>().enabled = false;
         magnifiedCard.SetActive(false);
 
-        magnifiedLeaderCard = Instantiate(leaderCardframe, magnifier.transform);
-        magnifiedLeaderCard.transform.localScale = new Vector3(3, 3);
-        magnifiedLeaderCard.GetComponent<Button>().enabled = false;
-        magnifiedLeaderCard.SetActive(false);
+        if (leaderCardframe)
+        {
+            magnifiedLeaderCard = Instantiate(leaderCardframe, magnifier.transform);
+            magnifiedLeaderCard.transform.localScale = new Vector3(3, 3);
+            magnifiedLeaderCard.GetComponent<Button>().enabled = false;
+            magnifiedLeaderCard.SetActive(false);
+        }
+
 
         Red = palette.Red;
         Yellow = palette.Yellow;
@@ -145,7 +143,7 @@ public class GameManager : MonoBehaviour
     {
         Instance.magnifier.SetActive(false);
         Instance.magnifiedCard.SetActive(false);
-        Instance.magnifiedLeaderCard.SetActive(false);
+        if (Instance.leaderCardframe) Instance.magnifiedLeaderCard.SetActive(false);
     }
 
     public static void log(string msg)
