@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Beast Tamer, Cybele
+  m_EditorClassIdentifier: 
+  cost: 3
+  power: 1
+  health: 3
+  type: 0
+  color: 1
+  mainEffect: Invoke - Summon a Beast Token. Give all allied Tokens +1/+1 and Defender.
+    Trigger - When an allied Token is summoned, give it +1/1 and Defender.
+  secondaryEffect: "\r"
+  trait: Lvl 4
+  cardArt: {fileID: 0}
+  exposed: 0

@@ -64,6 +64,6 @@ public class DeckSearcher : MonoBehaviour
         deck.Remove(card);
         gameObject.SetActive(!gameObject.activeSelf);
         RemoveContents();
-        GameManager.log($"{card.name} was added from {(dm.mainPlayer ? "Player's" : "Opponent's")} {(mainDeck ? "Main Deck" : "Extra Deck")}", dm.mainPlayer ? GameManager.Instance.playerLog : GameManager.Instance.opponentLog);
+        GameManager.log($"{card.name} was added from {(dm.mainPlayer ? "Player's" : "Opponent's")} {(mainDeck ? "Main Deck" : "Extra Deck")}", dm.mainPlayer);
     }
 }

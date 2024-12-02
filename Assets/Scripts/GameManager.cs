@@ -69,9 +69,9 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public Color32 Black;
     [HideInInspector]
-    public Color32 playerLog;
+    public Color32 playerLogColor;
     [HideInInspector]
-    public Color32 opponentLog;
+    public Color32 opponentLogColor;
     public GameObject cardframe;
     public GameObject leaderCardframe;
 
@@ -111,8 +111,8 @@ public class GameManager : MonoBehaviour
         Gray = palette.Gray;
         Orange = palette.Orange;
         Black = palette.Black;
-        playerLog = palette.playerLog;
-        opponentLog = palette.opponentLog;
+        playerLogColor = palette.playerLogColor;
+        opponentLogColor = palette.opponentLogColor;
     }
 
     void Update()
@@ -151,10 +151,10 @@ public class GameManager : MonoBehaviour
         if (Instance.heldMsg != "") releaseHeldMsg();
         Instance.logText.text = $"{Instance.logText.text}<color=white>{msg}</color>\n";
     }
-    public static void log(string msg, Color clr)
+    public static void log(string msg, bool mainPlayer)
     {
         if (Instance.heldMsg != "") releaseHeldMsg();
-        if (clr == null || ColorUtility.ToHtmlStringRGBA(clr) == "00000000") clr = Color.white;
+        Color clr = mainPlayer ? Instance.playerLogColor : Instance.opponentLogColor;
         Instance.logText.text = $"{Instance.logText.text}<color=#{ColorUtility.ToHtmlStringRGBA(clr)}>{msg}</color>\n";
     }
     public static void holdLog(string msg, int originalNum, int changedNum)

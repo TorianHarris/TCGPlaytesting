@@ -66,6 +66,7 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
 
     public void Draw()
     {
+        GameManager.log((mainPlayer ? "Player" : "Opponent") + " drew " + cards[0].name, mainPlayer);
         cards[0].createCard(cardFrame, hand.transform, this, true);
         cards.RemoveAt(0);
         exposedCheck();
@@ -99,7 +100,7 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         if (Input.GetKeyDown(KeyCode.S) && mouseOver)
         {
             shuffle();
-            print("Shuffled the deck!");
+            GameManager.log((mainPlayer ? "Player" : "Opponent") + " shuffled their deck", mainPlayer);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2) && mouseOver)
@@ -202,7 +203,7 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
     public void turnCounter()
     {
         turnCount++;
-        print((mainPlayer ? "Player Turn Count: " : "Opponent Turn Count: ") + turnCount);
+        GameManager.log((mainPlayer ? "Player Turn Count: " : "Opponent Turn Count: ") + turnCount);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

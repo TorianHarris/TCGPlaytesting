@@ -12,6 +12,6 @@ public class ColorPalette : ScriptableObject
     public Color32 Gray;
     public Color32 Orange;
     public Color32 Black;
-    public Color32 playerLog;
-    public Color32 opponentLog;
+    public Color32 playerLogColor;
+    public Color32 opponentLogColor;
 }

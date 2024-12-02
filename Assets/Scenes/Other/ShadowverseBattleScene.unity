@@ -3612,6 +3612,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 342874287}
+        m_TargetAssemblyTypeName: DeckManager, Assembly-CSharp
+        m_MethodName: turnCounter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &643876604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4841,6 +4853,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 663926453}
+        m_TargetAssemblyTypeName: DeckManager, Assembly-CSharp
+        m_MethodName: turnCounter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &892472635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5639,8 +5663,8 @@ MonoBehaviour:
   holding: 0
   holdingTimer: 0
   timeTilRelease: 0
-  playerDeck: {fileID: 11400000, guid: d7ded2df8884c4e17965219f1e370936, type: 2}
-  opponentDeck: {fileID: 11400000, guid: 14583f2a5c73047f0add8d98175a4f2b, type: 2}
+  playerDeck: {fileID: 11400000, guid: 4b8c16dd10b5a4e4eb2fd4336452c717, type: 2}
+  opponentDeck: {fileID: 11400000, guid: ed880a37931b24764a79cfb4b838cc5d, type: 2}
   startingHandSize: 4
   startingShields: 0
   tokenFolder: Tokens/ShadowverseTokens
@@ -5685,12 +5709,12 @@ MonoBehaviour:
   Black:
     serializedVersion: 2
     rgba: 0
-  playerLog:
+  playerLogColor:
     serializedVersion: 2
-    rgba: 4294922050
-  opponentLog:
+    rgba: 0
+  opponentLogColor:
     serializedVersion: 2
-    rgba: 4285555449
+    rgba: 0
   cardframe: {fileID: 1197341219709977740, guid: d7fd54a5d8c5c403aaed11e4be5d7665,
     type: 3}
   leaderCardframe: {fileID: 6190421512664949010, guid: 1259f63fe79c046c9b0f6a292c1056f7,
@@ -6044,7 +6068,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Generate: 0
   sprites:
-  - {fileID: 21300000, guid: c56cd80b422da473abb41b93a023d928, type: 3}
+  - {fileID: 21300000, guid: 8607ca1591c6f4c2f92274e13cb16ab6, type: 3}
+  - {fileID: 21300000, guid: c1e4d3c1ba37b4d5c852bdfadd68b803, type: 3}
+  - {fileID: 21300000, guid: b8ddfd618430844a3bd82deb18905b5c, type: 3}
+  - {fileID: 21300000, guid: 2eef810ceeb78498f890ec0ef8a56cd4, type: 3}
+  - {fileID: 21300000, guid: 6f188eb55a757464a9e0981e1e9f4d5b, type: 3}
+  - {fileID: 21300000, guid: 43694f26da8cc490ba46926db6c6e7b4, type: 3}
+  - {fileID: 21300000, guid: 5773b78d2a3ae458f9c3c4c65f5b5895, type: 3}
+  - {fileID: 21300000, guid: 5709b81a6a3d84c379993276946c8f71, type: 3}
+  - {fileID: 21300000, guid: f19b4b3919a2c40c0bcd8daf578fcd82, type: 3}
+  - {fileID: 21300000, guid: e91f3e6ac10844edfbff31040ff21c63, type: 3}
+  - {fileID: 21300000, guid: d7afbb2e8e0624886bdb3bdf4b5e21e7, type: 3}
+  - {fileID: 21300000, guid: 9e5e7f52869b148deb8d24b7467b8c1b, type: 3}
+  - {fileID: 21300000, guid: dde3cdaaf12054092bf37fd531c1ca8e, type: 3}
+  - {fileID: 21300000, guid: d8fc8a6ea43bf420a87ec9dcffe3a113, type: 3}
+  - {fileID: 21300000, guid: 0fa1a1a17d5f74002ac67b7cbfd26a9a, type: 3}
+  - {fileID: 21300000, guid: 232ca4b14e3bf4e829d3c877d4a45495, type: 3}
+  - {fileID: 21300000, guid: fca3a2d8ee430472a976575295e85f55, type: 3}
+  - {fileID: 21300000, guid: 807c5757e8f9a41f9b062ef3b65df45d, type: 3}
+  - {fileID: 21300000, guid: 324f8c12571df40608b437ac6acd535f, type: 3}
+  - {fileID: 21300000, guid: 40ec44daf4ea54ce79e97bc79f97c449, type: 3}
+  - {fileID: 21300000, guid: ff304bb7f70b944b9ab42578091b81b6, type: 3}
+  - {fileID: 21300000, guid: dac59a6b6bc3b4ff898da4c5141abfc6, type: 3}
+  - {fileID: 21300000, guid: e21f3255025894d5a96d57e361023ed5, type: 3}
+  - {fileID: 21300000, guid: bbbb1927301ee442695f15315b5c939e, type: 3}
+  - {fileID: 21300000, guid: 20d89fe1299224d30aa2fff51f29e225, type: 3}
 --- !u!1001 &1381338994
 PrefabInstance:
   m_ObjectHideFlags: 0
