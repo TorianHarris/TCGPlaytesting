@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Flame Hound
+  m_Name: Ashen Traveler
   m_EditorClassIdentifier: 
   cost: 0
   power: 3
   health: 1
   type: 0
-  color: 3
+  color: 6
   mainEffect: 'Invoke [Union]: [Discard 1] Draw 1.'
   secondaryEffect: "B\r"
-  trait: Beast
-  cardArt: {fileID: 21300000, guid: 68492d17b18dd41b2ad0b31a039d24d0, type: 3}
+  trait: Humanoid
+  cardArt: {fileID: 21300000, guid: 4c43f4db2beee463888294a854cac5b9, type: 3}
   exposed: 0

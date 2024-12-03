@@ -276,6 +276,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1743393993}
     m_Modifications:
+    - target: {fileID: 323093886336301575, guid: 5dd0e6bddd40a4b908bdb3739820a523,
+        type: 3}
+      propertyPath: dm
+      value: 
+      objectReference: {fileID: 663926453}
     - target: {fileID: 6640346894460689125, guid: 5dd0e6bddd40a4b908bdb3739820a523,
         type: 3}
       propertyPath: dm
@@ -1019,7 +1024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &227816825
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2713,7 +2718,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 757255990}
         m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
-        m_MethodName: ActiveAllCards
+        m_MethodName: IncreaseLeaderNum
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3625,6 +3630,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1743393993}
     m_Modifications:
+    - target: {fileID: 832689562921941589, guid: 11bed580e495e477bbcdaab2a8b9b055,
+        type: 3}
+      propertyPath: m_text
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2662605190291732393, guid: 11bed580e495e477bbcdaab2a8b9b055,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4063,6 +4073,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2097482769}
     m_Modifications:
+    - target: {fileID: 323093886336301575, guid: 5dd0e6bddd40a4b908bdb3739820a523,
+        type: 3}
+      propertyPath: dm
+      value: 
+      objectReference: {fileID: 342874287}
     - target: {fileID: 6640346894460689125, guid: 5dd0e6bddd40a4b908bdb3739820a523,
         type: 3}
       propertyPath: dm
@@ -4452,7 +4467,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 501233237}
         m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
-        m_MethodName: ActiveAllCards
+        m_MethodName: IncreaseLeaderNum
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5265,7 +5280,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logKeyCode: 108
   diceKeyCode: 114
-  logger: {fileID: 8345362246178943852}
   heldMsg: 
   originalHeldNum: 0
   changedHeldNum: 0
@@ -5274,18 +5288,23 @@ MonoBehaviour:
   timeTilRelease: 5
   playerDeck: {fileID: 11400000, guid: 8c7dd9f3faca74607a5172ac4368ce1d, type: 2}
   opponentDeck: {fileID: 11400000, guid: 8c7dd9f3faca74607a5172ac4368ce1d, type: 2}
-  cardframe: {fileID: 1722740845861868, guid: 5041c4ece97204455a3c3504e6a81b15, type: 3}
-  leaderCardframe: {fileID: 1722740845861868, guid: a117de9a56e964ae6a3ecf7011b10ebb,
-    type: 3}
   startingHandSize: 5
-  startingShields: 4
-  cardZoomSize: 3
+  startingShields: 0
   tokenFolder: Cards/BxD/!Tokens
-  mainDeckSearchable: 1
-  extraDeckSearchable: 1
-  enhancedCardPanel: {fileID: 1836505288}
-  enhanceCard: {fileID: 1817871766}
+  unitName: Unit
+  instantName: Spell
+  permanentName: Artifact
+  leaderName: Leader
+  flashName: Skill
+  reactionName: 
+  equipName: 
+  itemBeingDragged: {fileID: 0}
+  logger: {fileID: 8345362246178943852}
   logText: {fileID: 1847760938}
+  magnifier: {fileID: 1836505288}
+  magnifiedCard: {fileID: 0}
+  magnifiedLeaderCard: {fileID: 0}
+  palette: {fileID: 11400000, guid: 72b9ee46a1b414254810c960a0aa7ab1, type: 2}
   Red:
     serializedVersion: 2
     rgba: 4278323864
@@ -5313,20 +5332,15 @@ MonoBehaviour:
   Black:
     serializedVersion: 2
     rgba: 0
-  playerLog:
+  playerLogColor:
     serializedVersion: 2
-    rgba: 4293295741
-  opponentLog:
+    rgba: 0
+  opponentLogColor:
     serializedVersion: 2
-    rgba: 4288251639
-  unitName: Unit
-  instantName: Spell
-  flashName: Skill
-  permanentName: Artifact
-  reactionName: 
-  equipName: 
-  leaderName: Leader
-  itemBeingDragged: {fileID: 0}
+    rgba: 0
+  cardframe: {fileID: 1722740845861868, guid: 5041c4ece97204455a3c3504e6a81b15, type: 3}
+  leaderCardframe: {fileID: 1722740845861868, guid: a117de9a56e964ae6a3ecf7011b10ebb,
+    type: 3}
 --- !u!4 &1104206486
 Transform:
   m_ObjectHideFlags: 0
@@ -5490,6 +5504,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2097482769}
     m_Modifications:
+    - target: {fileID: 832689562921941589, guid: 11bed580e495e477bbcdaab2a8b9b055,
+        type: 3}
+      propertyPath: m_text
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2662605190291732393, guid: 11bed580e495e477bbcdaab2a8b9b055,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6518,18 +6537,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 857274570}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1817871766 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114281631621584534, guid: 5041c4ece97204455a3c3504e6a81b15,
-    type: 3}
-  m_PrefabInstance: {fileID: 857274570}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46da2d4c6bc5c42c19a4113765afc1bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1830882459
 GameObject:
   m_ObjectHideFlags: 0

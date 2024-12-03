@@ -20,7 +20,7 @@ MonoBehaviour:
     health: 0
     primaryColor: 3
     secondaryColor: 0
-    mainEffect: 'Action: [EB6] The next time you play a Breaker with 7 or more Power,
+    mainEffect: 'Action: [EB10] The next time you play a Breaker with 7 or more Power,
       it cost 1 less.'
     trait: Dragon
     cardArt: {fileID: 21300000, guid: 4d05cda62b70248dca3c6e2bcc631187, type: 3}

@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Ace Dragonute
+  m_Name: Guardian Angel
   m_EditorClassIdentifier: 
   cost: 0
   power: 0
   health: 1
   type: 0
-  color: 3
-  mainEffect: 'Hand: [Remove this card from the game] Your opponent''s Active Breaker
-    becomes Zer0ed. Gain 1 EP.'
+  color: 6
+  mainEffect: 'ACE
+
+    Burst: [Remove this card from the game] Your opponent''s
+    Active Breaker becomes Zer0ed. Gain 1 EP.'
   secondaryEffect: "B\r"
-  trait: Dragon
-  cardArt: {fileID: 21300000, guid: 95683199ab21b4e2ea94ce80960a40f2, type: 3}
+  trait: Angel
+  cardArt: {fileID: 21300000, guid: 2e0ea1ea72a3341c3b5dca106d43bbbc, type: 3}
   exposed: 0

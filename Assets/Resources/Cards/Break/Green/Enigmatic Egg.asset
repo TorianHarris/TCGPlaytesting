@@ -17,9 +17,9 @@ MonoBehaviour:
   health: 1
   type: 0
   color: 3
-  mainEffect: 'Debris: Look at the top 5 cards of your deck. [Discard this card]
-    Add a Breaker with 5 or more Power from amoungst them to your hand then shuffle
-    the rest into your deck.'
+  mainEffect: 'Debris: Look at the top 5 cards of your deck. [GB this card] Add a
+    Breaker with 5 or more Power from amoungst them to your hand then shuffle the
+    rest into your deck.'
   secondaryEffect: "B\r"
   trait: Dino
   cardArt: {fileID: 21300000, guid: 9a251d91adcd94af6a1c0a3b31cdd171, type: 3}

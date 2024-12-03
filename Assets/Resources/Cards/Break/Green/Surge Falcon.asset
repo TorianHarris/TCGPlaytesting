@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 1
   type: 0
   color: 3
-  mainEffect: 'Trigger: [EB2] After this card is discarded as cost to play a Breaker
-    with 7 or more Power, give that Breaker +1 Power. '
+  mainEffect: 'Gauge: [EB2, GB this card] The next Breaker you play this turn gains
+    Striker +2.'
   secondaryEffect: "B\r"
   trait: Avian
   cardArt: {fileID: 21300000, guid: e17f37c4e050b4ed8855d7b4b7394f09, type: 3}

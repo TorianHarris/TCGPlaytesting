@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 1
   type: 0
   color: 3
-  mainEffect: 'Invoke: [Gauge Break 1 & add a Breaker in your hand to the bottom
-    of your Gauge] Draw 1.'
+  mainEffect: 'Invoke: [GB1 & add a Breaker in your hand to the bottom of your Gauge]
+    Draw 1.'
   secondaryEffect: "S\r"
   trait: Demon
   cardArt: {fileID: 21300000, guid: 1d37142ccdb7346298135a609275c0c4, type: 3}

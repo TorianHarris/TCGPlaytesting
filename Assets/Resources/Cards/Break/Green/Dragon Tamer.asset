@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 1
   type: 0
   color: 3
-  mainEffect: 'Invoke: Look at the top 3 cards of your deck. [EB3] Add a Dragon-Type
-    Breaker from amoungst them to your hand then shuffle the rest into your deck.'
+  mainEffect: 'Invoke: [EB5] Add a random non-Ace Dragon-Type Breaker from your deck
+    to your hand.'
   secondaryEffect: S
   trait: Humanoid
   cardArt: {fileID: 21300000, guid: 7f87ae6266dc3484ebbe62f498786332, type: 3}
