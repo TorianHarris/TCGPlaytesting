@@ -29,12 +29,12 @@ public class CardManager : MonoBehaviour
 
 
     //for card viewer
-    public void FillCardInfo(string cardName, int cost, int power, int health, Card.cardType type, string typeName, Color color, string mainEffect, string secondaryEffect, Sprite art, string trait, Card reference)
+    public void FillCardInfo(string cardName, string cost, int power, int health, Card.cardType type, string typeName, Color color, string mainEffect, string secondaryEffect, Sprite art, string trait, Card reference)
     {
         if (cardNameText)
             cardNameText.text = cardName;
         if (costText)
-            costText.text = cost.ToString();
+            costText.text = cost.Replace("F", "<sprite name=\"Fire\">");
         if (cardType)
             cardType.text = typeName;
         if (powerText)
@@ -65,12 +65,12 @@ public class CardManager : MonoBehaviour
     }
 
     //for cards in a deck
-    public void FillCardInfo(string cardName, int cost, int power, int health, Card.cardType type, string typeName, Color color, string mainEffect, string secondaryEffect, Sprite art, string trait, Card reference, DeckManager d, bool mainDeck)
+    public void FillCardInfo(string cardName, string cost, int power, int health, Card.cardType type, string typeName, Color color, string mainEffect, string secondaryEffect, Sprite art, string trait, Card reference, DeckManager d, bool mainDeck)
     {
         if (cardNameText)
             cardNameText.text = cardName;
         if (costText)
-            costText.text = cost.ToString();
+            costText.text = cost.Replace("F", "<sprite name=\"Fire\">");
         if (cardType)
             cardType.text = typeName;
         if (powerText)

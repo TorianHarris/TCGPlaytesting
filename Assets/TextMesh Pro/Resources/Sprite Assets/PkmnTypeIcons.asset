@@ -90,13 +90,13 @@ MonoBehaviour:
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 1
-    m_Scale: 0.8
+    m_Scale: 0.7
     m_Name: Fire
     m_HashCode: 2629304
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 2
-    m_Scale: 0.8
+    m_Scale: 0.7
     m_Name: Water
     m_HashCode: 104373205
   - m_ElementType: 2
@@ -166,8 +166,8 @@ MonoBehaviour:
     sprite: {fileID: -855013709, guid: b260f1b7f7d114ea8bb2aa4aaa5ab7fc, type: 3}
   - m_Index: 1
     m_Metrics:
-      m_Width: 104.20781
-      m_Height: 104.17316
+      m_Width: 104
+      m_Height: 104
       m_HorizontalBearingX: -0
       m_HorizontalBearingY: 88.32
       m_HorizontalAdvance: 104.20781

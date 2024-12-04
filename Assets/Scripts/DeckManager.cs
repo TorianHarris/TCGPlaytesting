@@ -14,6 +14,7 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
     public GameObject shield;
     public GameObject leaderZone;
     public Text deckCount;
+    public Text extraDeckCount;
 
     public Transform damageArea;
     public GameObject deckViewer;
@@ -41,7 +42,8 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         }
         cards = cardLibrary;
         extraDeckCards.AddRange(deck.extraDeck);
-        shuffle();
+        shuffle(cards);
+        shuffle(extraDeckCards);
         //draw starting hand
         if (deck.leader)
         {
@@ -72,6 +74,14 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         exposedCheck();
     }
 
+    public void drawFromExtraDeck()
+    {
+        GameManager.log((mainPlayer ? "Player" : "Opponent") + " drew " + cards[0].name, mainPlayer);
+        extraDeckCards[0].createCard(cardFrame, hand.transform, this, false);
+        extraDeckCards.RemoveAt(0);
+        exposedCheck();
+    }
+
     public void CreateShield()
     {
         cards[0].createCard(cardFrame, shield.transform, this, true);
@@ -89,6 +99,7 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
     void Update()
     {
         deckCount.text = cards.Count.ToString();
+        if (extraDeckCount) extraDeckCount.text = extraDeckCards.Count.ToString();
 
         if (Input.GetKeyDown(KeyCode.Space) && mouseOver)
         {
@@ -99,7 +110,13 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
 
         if (Input.GetKeyDown(KeyCode.S) && mouseOver)
         {
-            shuffle();
+            shuffle(cards);
+            GameManager.log((mainPlayer ? "Player" : "Opponent") + " shuffled their deck", mainPlayer);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z) && mouseOver)
+        {
+            shuffle(extraDeckCards);
             GameManager.log((mainPlayer ? "Player" : "Opponent") + " shuffled their deck", mainPlayer);
         }
 
@@ -119,9 +136,18 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         }
     }
 
-    public void shuffle()
+    public void shuffle(List<Card> list)
     {
-        cards = cards.OrderBy(x => UnityEngine.Random.value).ToList();
+        for (int i = list.Count - 1; i > 0; i--)
+        {
+            // Get a random index
+            int randomIndex = UnityEngine.Random.Range(0, i + 1);
+
+            // Swap the elements
+            Card temp = list[i];
+            list[i] = list[randomIndex];
+            list[randomIndex] = temp;
+        }
     }
 
     public void shuffleTopX(int num)
@@ -154,7 +180,7 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
     public void backToDeck(Card c, bool mainDeck, bool exposed)
     {
         (mainDeck ? cards : extraDeckCards).Add(c);
-        shuffle();
+        shuffle(mainDeck ? cards : extraDeckCards);
         exposedCheck();
         return;
     }

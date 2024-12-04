@@ -7,7 +7,7 @@ public class Card : ScriptableObject
     public enum classColor { Red, Yellow, Purple, Green, Blue, White, Gray, Orange, Black }
 
     //public string cardName;
-    public int cost;
+    public string cost;
     public int power;
     public int health;
     public cardType type;

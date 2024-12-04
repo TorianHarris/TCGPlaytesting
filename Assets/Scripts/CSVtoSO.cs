@@ -88,7 +88,7 @@ public class CSVtoSO : MonoBehaviour
             card = (Card)AssetDatabase.LoadAssetAtPath(AssetDatabase.GUIDToAssetPath(guid), typeof(Card));
             card.name = splitData[0].Replace("\"", "");
             card.type = (Card.cardType)Enum.Parse(typeof(Card.cardType), splitData[1]);
-            card.cost = int.Parse(splitData[2]);
+            card.cost = splitData[2];
             card.power = splitData[3] == "" ? 0 : int.Parse(splitData[3]);
             card.health = splitData[4] == "" ? 0 : int.Parse(splitData[4]);
             card.trait = splitData[5].Replace("\"", "");

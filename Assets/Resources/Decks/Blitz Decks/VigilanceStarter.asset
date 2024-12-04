@@ -54,3 +54,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4a809c5cb871c4627b9ae7713d4d0e45, type: 2}
   - {fileID: 11400000, guid: 4a809c5cb871c4627b9ae7713d4d0e45, type: 2}
   - {fileID: 11400000, guid: 4a809c5cb871c4627b9ae7713d4d0e45, type: 2}
+  extraDeck:
+  - {fileID: 11400000, guid: 4e3f50f27ce5949319b8d0c6f867c24e, type: 2}
+  - {fileID: 11400000, guid: 33f8b498ba2fb40bb917118c2a930e3e, type: 2}
+  - {fileID: 11400000, guid: b9979e6d2ee9341349e5d643c1bd0d01, type: 2}
+  - {fileID: 11400000, guid: 67b60f8946eb14e1996f4591e8e39c65, type: 2}
+  - {fileID: 11400000, guid: bd3f961895ca54d6096444b1c1fb283f, type: 2}
+  - {fileID: 11400000, guid: c5cc9c026d0a347e3bc0f32e4a29259f, type: 2}
+  - {fileID: 11400000, guid: c5cc9c026d0a347e3bc0f32e4a29259f, type: 2}
