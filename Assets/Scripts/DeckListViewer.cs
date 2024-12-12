@@ -68,7 +68,7 @@ public class DeckListViewer : MonoBehaviour
         }
     }
 
-    public void newDeck ()
+    public void newDeck()
     {
         foreach (Transform child in viewport)
         {
@@ -81,7 +81,7 @@ public class DeckListViewer : MonoBehaviour
         sendMessage("Cleared the deck!");
     }
 
-    public void loadDeck ()
+    public void loadDeck()
     {
 
         if (deck)
@@ -92,14 +92,14 @@ public class DeckListViewer : MonoBehaviour
             {
                 addCard(card);
             }
-            sendMessage("Loaded " + deck.name + ".");
+            //sendMessage("Loaded " + deck.name + ".");
         }
-        else
-            sendMessage("No deck to load!");
+        //else
+        //sendMessage("No deck to load!");
 
     }
 
-    public void saveDeck ()
+    public void saveDeck()
     {
         if (viewingDeck.Count == maxCardsInDeck)
         {
@@ -113,12 +113,12 @@ public class DeckListViewer : MonoBehaviour
             sendMessage("Deck incomplete! Cannot save.");
     }
 
-    public void sendMessage (string message)
+    public void sendMessage(string message)
     {
-        messager.color = Color.white;
+        //messager.color = Color.white;
         messager.text = message;
         LeanTween.cancel(messager.gameObject);
-        LeanTween.value(messager.gameObject, updateValueExampleCallback, messager.color, new Color(1f,1f,1f,0f), 0.2f).setDelay(2f);
+        LeanTween.value(messager.gameObject, updateValueExampleCallback, messager.color, new Color(1f, 1f, 1f, 0f), 0.2f).setDelay(2f);
     }
 
     void updateValueExampleCallback(Color val)

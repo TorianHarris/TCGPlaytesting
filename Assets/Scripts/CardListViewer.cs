@@ -21,15 +21,18 @@ public class CardListViewer : MonoBehaviour
         foreach (Transform child in viewport)
         {
             Destroy(child.gameObject);
+            currentCards.Clear();
         }
 
-        List<Card> cardsToView;
+        //List<Card> cardsToView;
 
-        cardsToView = Resources.LoadAll<Card>("Cards/" + folder).ToList();
-        cardsToView = cardsToView.OrderBy(c => c.cost).ThenBy(c => c.type).ThenBy(c => c.name).ToList();
-        foreach (Card card in cardsToView)
+        currentCards = Resources.LoadAll<Card>("Cards/" + folder).ToList();
+        currentCards = currentCards.OrderBy(c => c.cost).ThenBy(c => c.type).ThenBy(c => c.name).ToList();
+        foreach (Card card in currentCards)
         {
             GameObject newCard = card.createCard(cardFrame, viewport);
+            newCard.transform.localScale = new Vector2(newCard.transform.localScale.x * 2, newCard.transform.localScale.y * 2);
+            newCard.GetComponent<Button>().onClick = new Button.ButtonClickedEvent();
             newCard.GetComponent<Button>().onClick.AddListener(delegate { deckListViewer.addCard(card); });
         }
     }

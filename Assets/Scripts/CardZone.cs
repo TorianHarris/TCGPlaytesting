@@ -26,10 +26,6 @@ public class CardZone : MonoBehaviour, IDropHandler
             if (card.iceOverlay.activeSelf) card.iceOverlay.SetActive(false);
             else if (!card.active) card.ToggleActive();
         }
-    }
-
-    public void ActiveAllLeaders()
-    {
         foreach (LeaderManager leader in transform.GetComponentsInChildren<LeaderManager>())
         {
             if (!leader.active) leader.ToggleActive();

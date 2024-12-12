@@ -34,7 +34,7 @@ public class CardManager : MonoBehaviour
         if (cardNameText)
             cardNameText.text = cardName;
         if (costText)
-            costText.text = cost.Replace("F", "<sprite name=\"Fire\">");
+            costText.text = cost.Replace("O", "<sprite name=\"Orange\">").Replace("R", "<sprite name=\"Red\">").Replace("G", "<sprite name=\"Green\">").Replace("Y", "<sprite name=\"Yellow\">").Replace("N1", "<sprite name=\"N1\">").Replace("N2", "<sprite name=\"N2\">").Replace("N3", "<sprite name=\"N3\">").Replace("N4", "<sprite name=\"N4\">");
         if (cardType)
             cardType.text = typeName;
         if (powerText)
@@ -42,7 +42,7 @@ public class CardManager : MonoBehaviour
         if (healthText)
             healthText.text = healthPrefix + health.ToString();
         if (mainEffectText)
-            mainEffectText.text = mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("n/", "\n");
+            mainEffectText.text = mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("n/", "\n").Replace("<<", "<b><i>").Replace(">>", "</i></b>").Replace("#O", "<sprite name=\"Orange\">");
         if (secondaryEffectText)
             secondaryEffectText.text = secondaryEffect;
         if (cardArt)
@@ -70,7 +70,7 @@ public class CardManager : MonoBehaviour
         if (cardNameText)
             cardNameText.text = cardName;
         if (costText)
-            costText.text = cost.Replace("F", "<sprite name=\"Fire\">");
+            costText.text = cost.Replace("O", "<sprite name=\"Orange\">").Replace("R", "<sprite name=\"Red\">").Replace("G", "<sprite name=\"Green\">").Replace("Y", "<sprite name=\"Yellow\">").Replace("N1", "<sprite name=\"N1\">").Replace("N2", "<sprite name=\"N2\">").Replace("N3", "<sprite name=\"N3\">").Replace("N4", "<sprite name=\"N4\">");
         if (cardType)
             cardType.text = typeName;
         if (powerText)
@@ -78,7 +78,7 @@ public class CardManager : MonoBehaviour
         if (healthText)
             healthText.text = healthPrefix + health.ToString();
         if (mainEffectText)
-            mainEffectText.text = mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("n/", "\n").Replace("<<", "<b><i>").Replace(">>", "</i></b>");
+            mainEffectText.text = mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("n/", "\n").Replace("<<", "<b><i>").Replace(">>", "</i></b>").Replace("#O", "<sprite name=\"Orange\">").Replace("#R", "<sprite name=\"Red\">").Replace("#G", "<sprite name=\"Green\">").Replace("#Y", "<sprite name=\"Yellow\">").Replace("N1", "<sprite name=\"N1\">").Replace("N2", "<sprite name=\"N2\">").Replace("N3", "<sprite name=\"N3\">").Replace("N4", "<sprite name=\"N4\">");
         if (secondaryEffectText)
             secondaryEffectText.text = secondaryEffect;
         if (cardArt)

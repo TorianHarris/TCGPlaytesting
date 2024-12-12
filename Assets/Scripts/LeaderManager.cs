@@ -22,6 +22,9 @@ public class LeaderManager : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     public GameObject iceOverlay;
     public Image nameFrame;
     public Image secondaryNameFrame;
+    public GameObject powerFrame;
+    public GameObject healthFrame;
+    public GameObject primaryValueFrame;
     public Image[] toPrimaryColor;
 
     private Transform canvas;
@@ -44,13 +47,16 @@ public class LeaderManager : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         if (cardNameText) cardNameText.text = leader.cardName;
         if (levelText) levelText.text = leader.level.ToString();
         if (primaryValueText) primaryValueText.text = leader.primaryValue.ToString();
+        else primaryValueFrame.SetActive(false);
         if (powerText) powerText.text = leader.power.ToString();
+        else powerFrame.SetActive(false);
         if (healthText) healthText.text = leader.health.ToString();
+        else healthFrame.SetActive(false);
         if (nameFrame) nameFrame.color = leader.getColor(leader.primaryColor.ToString());
         if (secondaryCardColor) secondaryCardColor.effectColor = secondaryColor;
         if (secondaryNameFrame) secondaryNameFrame.color = secondaryColor;
         if (typeText) typeText.text = GameManager.Instance.leaderName;
-        if (mainEffectText) mainEffectText.text = leader.mainEffect.Replace("[", "<b>[").Replace("]", "]</b>");
+        if (mainEffectText) mainEffectText.text = leader.mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("<<", "<b><i><u>").Replace(">>", "</u></i></b>").Replace("#O", "<sprite name=\"Orange\">").Replace("#R", "<sprite name=\"Red\">").Replace("#G", "<sprite name=\"Green\">").Replace("#Y", "<sprite name=\"Yellow\">").Replace("N1", "<sprite name=\"N1\">").Replace("N2", "<sprite name=\"N2\">").Replace("N3", "<sprite name=\"N3\">").Replace("N4", "<sprite name=\"N4\">");
         if (traitText) traitText.text = leader.trait;
         if (cardArt) cardArt.sprite = leader.cardArt;
 

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f880c058bec4a4c1eb07c8c8b93ca4bd, type: 3}
+  m_Name: Zephos
+  m_EditorClassIdentifier: 
+  LeaderLevels:
+  - cardName: Zephos, Forest Guardian
+    level: 0
+    primaryValue: 0
+    power: 0
+    health: 0
+    primaryColor: 3
+    secondaryColor: 0
+    mainEffect: '<<OPT>> When a Unit is suspended by an allied effect, [Flip an Aether
+      facedown] sync an Aether to an allied Unit.
+
+
+      Aether Surge - #G#GN2'
+    trait: 
+    cardArt: {fileID: 21300000, guid: 622ef80aa1c894427bbb6a59b5a73124, type: 3}
+  - cardName: Zephos, Sylvain Ranger
+    level: 0
+    primaryValue: 3
+    power: 4
+    health: 4
+    primaryColor: 3
+    secondaryColor: 0
+    mainEffect: '<<OPT>> When a Unit is suspended by an allied effect, [Flip an Aether
+      facedown] sync an Aether to an allied Unit.
+
+
+      Ferocity +1
+
+      <<OPT>>
+      On Attack - Suspend a Unit. If you suspended an allied Unit, unsuspend this
+      Unit. It cannot attack directly for the rest of this turn.
+
+
+'
+    trait: 
+    cardArt: {fileID: 21300000, guid: 394f79963d3e34587a13abeede150b5d, type: 3}

@@ -154,6 +154,19 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
                 eventData.pointerDrag.transform.SetParent(transform.parent);
                 eventData.pointerDrag.GetComponent<CardScript>().newParent = transform;
                 eventData.pointerDrag.transform.position = transform.parent.position;
+                if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+                {
+                    eventData.pointerDrag.transform.SetAsFirstSibling();
+                }
+                if (Input.GetKey(KeyCode.Q))
+                {
+
+                    eventData.pointerDrag.GetComponent<CardScript>().faceDownCover.SetActive(!faceDownCover.activeSelf);
+                    eventData.pointerDrag.transform.SetAsFirstSibling();
+                    eventData.pointerDrag.GetComponent<CardScript>().ToggleActive();
+                    GameManager.log(gameObject.name + " was placed facedown", mainPlayersCard);
+                    GameManager.log(gameObject.name + (active ? " was Actived" : " was Exhausted"), mainPlayersCard);
+                }
             }
         }
     }

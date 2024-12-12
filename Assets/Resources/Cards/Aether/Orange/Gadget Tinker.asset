@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Gadget Tinker
+  m_EditorClassIdentifier: 
+  cost: O
+  power: 0
+  health: 1
+  type: 0
+  color: 7
+  mainEffect: Summon a Scrap Drone Token.
+  secondaryEffect: "Humanoid\r"
+  trait: 1
+  cardArt: {fileID: 21300000, guid: fd555c020d57c4bbda854d7f5a57a64f, type: 3}
+  exposed: 0

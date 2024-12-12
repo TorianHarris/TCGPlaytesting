@@ -4344,9 +4344,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: 7e6a3c12f57c64c7fa8fbd6e0dfe80ee, type: 3}
-  gameFolder: 0
-  classFolder: 1
+  CSV: {fileID: 4900000, guid: b89dd8fdd29f84abb93e6b8ecf639f64, type: 3}
+  gameFolder: 6
+  classFolder: 7
   Generate: 0
 --- !u!1 &1189129353
 GameObject:
