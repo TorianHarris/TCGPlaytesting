@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 3
   mainEffect: On Summon - Predict 1 from your Aether Deck.
-  secondaryEffect: "\r"
+  secondaryEffect: "Nymph\r"
   trait: 1
   cardArt: {fileID: 21300000, guid: 01818ab59529f4e649259b1972e6885e, type: 3}
   exposed: 0

@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 3
   mainEffect: Rush. On Summon - Suspend a Unit.
-  secondaryEffect: "\r"
+  secondaryEffect: "High Beast\r"
   trait: 2
   cardArt: {fileID: 21300000, guid: 14ecb0c959a9e43d08300dc464150e96, type: 3}
   exposed: 0

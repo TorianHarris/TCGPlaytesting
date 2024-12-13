@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Mecha Mechanic
+  m_Name: Blade Arts Mentor
   m_EditorClassIdentifier: 
-  cost: ON1
+  cost: Y
   power: 2
-  health: 3
+  health: 1
   type: 0
-  color: 7
-  mainEffect: Clockwork - Target allied Automation heals 1. Aether Charge - All allied
-    Automatons heal 1 instead.
-  secondaryEffect: "Humanoid\r"
+  color: 5
+  mainEffect: On Summon - Give another allied Unit Vigilance until the start of your
+    next turn.
+  secondaryEffect: Humanoid
   trait: 1
-  cardArt: {fileID: 0}
+  cardArt: {fileID: 21300000, guid: 20f0e8380725742e19da83d430562180, type: 3}
   exposed: 0

@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Magnasteel Bull
   m_EditorClassIdentifier: 
   cost: ON2
-  power: 5
+  power: 4
   health: 4
   type: 0
   color: 7
   mainEffect: On Summon - Give this Unit Stasis 2.
   secondaryEffect: "Automaton\r"
-  trait: 1
+  trait: 2
   cardArt: {fileID: 21300000, guid: 7bfcecade955c4f8785f6f78f02c582b, type: 3}
   exposed: 0

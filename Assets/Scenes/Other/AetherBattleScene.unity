@@ -3336,8 +3336,6 @@ GameObject:
   - component: {fileID: 539198157}
   - component: {fileID: 539198156}
   - component: {fileID: 539198155}
-  - component: {fileID: 539198154}
-  - component: {fileID: 539198158}
   m_Layer: 5
   m_Name: Player Storage Zone
   m_TagString: Untagged
@@ -3364,20 +3362,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1333, y: -173}
   m_SizeDelta: {x: 200, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &539198154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539198152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bffb9a4f3ce194319916fb1604acab97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotate: 1
-  facedown: 0
 --- !u!114 &539198155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3428,32 +3412,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 539198152}
   m_CullTransparentMesh: 1
---- !u!114 &539198158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539198152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: -47
-    m_Bottom: 0
-  m_ChildAlignment: 4
-  m_Spacing: -275
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
 --- !u!1 &545972737
 GameObject:
   m_ObjectHideFlags: 0
@@ -3914,11 +3872,11 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 342874287}
         m_TargetAssemblyTypeName: DeckManager, Assembly-CSharp
-        m_MethodName: drawFromExtraDeck
-        m_Mode: 1
+        m_MethodName: extraDeckToZone
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 905281924}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5568,11 +5526,11 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 663926453}
         m_TargetAssemblyTypeName: DeckManager, Assembly-CSharp
-        m_MethodName: drawFromExtraDeck
-        m_Mode: 1
+        m_MethodName: extraDeckToZone
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 466853418}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6507,7 +6465,7 @@ MonoBehaviour:
   holdingTimer: 0
   timeTilRelease: 0
   playerDeck: {fileID: 11400000, guid: 2fbf15114beef45238768ed570aad7d1, type: 2}
-  opponentDeck: {fileID: 11400000, guid: f1d99db6f77a14f88b62362d967795f4, type: 2}
+  opponentDeck: {fileID: 11400000, guid: 8886eeeb15a0c4beba25f14877b1f254, type: 2}
   startingHandSize: 3
   startingShields: 4
   tokenFolder: Tokens/AetherTokens
@@ -6516,7 +6474,7 @@ MonoBehaviour:
   permanentName: Construct
   leaderName: Leader
   flashName: Quick Spell
-  reactionName: 
+  reactionName: CORE
   equipName: AETHER
   itemBeingDragged: {fileID: 0}
   logger: {fileID: 1636970004}
@@ -6908,9 +6866,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: 03f49cecfbc9b4db28504026ed35e10e, type: 3}
+  CSV: {fileID: 4900000, guid: 79175ffa3794544138b3a73bcfdb4e89, type: 3}
   gameFolder: 6
-  classFolder: 0
+  classFolder: 5
   Generate: 0
 --- !u!1 &1357150941
 GameObject:
@@ -10548,8 +10506,6 @@ GameObject:
   - component: {fileID: 2013991341}
   - component: {fileID: 2013991340}
   - component: {fileID: 2013991339}
-  - component: {fileID: 2013991338}
-  - component: {fileID: 2013991342}
   m_Layer: 5
   m_Name: Opponent Storage Zone
   m_TagString: Untagged
@@ -10576,20 +10532,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1333, y: 173}
   m_SizeDelta: {x: 200, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2013991338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013991336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bffb9a4f3ce194319916fb1604acab97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotate: 1
-  facedown: 0
 --- !u!114 &2013991339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10640,32 +10582,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013991336}
   m_CullTransparentMesh: 1
---- !u!114 &2013991342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013991336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: -47
-    m_Bottom: 0
-  m_ChildAlignment: 4
-  m_Spacing: -275
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
-  m_ReverseArrangement: 1
 --- !u!224 &2037096381 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 805381935686180775, guid: 0b41352d9c501430290f0e81fa27dbf9,

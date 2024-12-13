@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 3
   mainEffect: While you have 6 or more Aether this card has Defender.
-  secondaryEffect: "\r"
+  secondaryEffect: "Fae\r"
   trait: 1
   cardArt: {fileID: 0}
   exposed: 0

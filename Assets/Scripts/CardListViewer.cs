@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class CardListViewer : MonoBehaviour
 {
+    public string baseFolder;
     public GameObject cardFrame;
     public Transform viewport;
     public List<Card> currentCards;
@@ -26,7 +27,7 @@ public class CardListViewer : MonoBehaviour
 
         //List<Card> cardsToView;
 
-        currentCards = Resources.LoadAll<Card>("Cards/" + folder).ToList();
+        currentCards = Resources.LoadAll<Card>("Cards/" + baseFolder + "/" + folder).ToList();
         currentCards = currentCards.OrderBy(c => c.cost).ThenBy(c => c.type).ThenBy(c => c.name).ToList();
         foreach (Card card in currentCards)
         {

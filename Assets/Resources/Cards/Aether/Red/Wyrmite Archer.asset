@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 0
   mainEffect: Swift Strike.
-  secondaryEffect: "\r"
+  secondaryEffect: "Humanoid\r"
   trait: 1
   cardArt: {fileID: 21300000, guid: 5355056fcf4584d6eb50c6811e300356, type: 3}
   exposed: 0

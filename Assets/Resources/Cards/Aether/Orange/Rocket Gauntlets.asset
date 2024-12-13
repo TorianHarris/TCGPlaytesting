@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 5
   color: 7
-  mainEffect: Generates a Chrono Mana.n/Suspend this card when played.n/On Sync #O#O
+  mainEffect: Generates a Chrono Mana.n/Suspend this card when played.n/On Sync #ON1
     - The attached Unit gains Breakthrough.
   secondaryEffect: "\r"
   trait: 

@@ -206,6 +206,14 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         c.createCard(cardFrame, GameObject.FindGameObjectWithTag("Play Area").transform, this, pos, true);
     }
 
+    // for games with land-like cards in extra deck like Aether
+    public void extraDeckToZone(Transform Zone)
+    {
+        GameManager.log((mainPlayer ? "Player" : "Opponent") + " drew " + extraDeckCards[0].name, mainPlayer);
+        extraDeckCards[0].createCard(cardFrame, Zone, this, false);
+        extraDeckCards.RemoveAt(0);
+    }
+
     public void exposedCheck()
     {
         if (cards[0].exposed)

@@ -20,12 +20,12 @@ MonoBehaviour:
     health: 0
     primaryColor: 3
     secondaryColor: 0
-    mainEffect: '<<OPT>> When a Unit is suspended by an allied effect, [Flip an Aether
-      facedown] sync an Aether to an allied Unit.
+    mainEffect: '<<OPT>> When a Unit is suspended by an allied effect, sync an Aether
+      to an allied Unit.
 
 
       Aether Surge - #G#GN2'
-    trait: 
+    trait: High Beast
     cardArt: {fileID: 21300000, guid: 622ef80aa1c894427bbb6a59b5a73124, type: 3}
   - cardName: Zephos, Sylvain Ranger
     level: 0
@@ -46,5 +46,5 @@ MonoBehaviour:
 
 
 '
-    trait: 
+    trait: High Beast
     cardArt: {fileID: 21300000, guid: 394f79963d3e34587a13abeede150b5d, type: 3}

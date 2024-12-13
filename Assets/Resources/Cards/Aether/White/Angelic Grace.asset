@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Angelic Grace
+  m_EditorClassIdentifier: 
+  cost: Y
+  power: 0
+  health: 0
+  type: 2
+  color: 5
+  mainEffect: Miracle - Play this card for no cost.n/Choose 1:n/1) Target allied
+    Unit heals 2.n/2) Gain 2 Durability.
+  secondaryEffect: "\r"
+  trait: 
+  cardArt: {fileID: 21300000, guid: 02ca2290641424d01a883470387a8577, type: 3}
+  exposed: 0

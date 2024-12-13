@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 0
   mainEffect: Miracle - Summon this card for no cost.
-  secondaryEffect: "\r"
+  secondaryEffect: "Beast\r"
   trait: 1
   cardArt: {fileID: 21300000, guid: 1baadf8eae06847a5a8fb08f4e46d20e, type: 3}
   exposed: 0

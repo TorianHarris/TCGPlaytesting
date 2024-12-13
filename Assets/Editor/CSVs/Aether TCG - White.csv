@@ -1,0 +1,16 @@
+Name,Type,Cost,Power,Health,Size,Effect,Trait
+Palace Guard,Unit,YN1,1,3,1,Miracle - Summon a Seraph Token. Defender.,Humanoid
+Valkyrie of Salvation,Unit,YYN3,4,5,3,On Summon - Add the top card of your deck to the top your Shields face-down and set your Durability to 1. ,Angel
+Angelic Grace,Flash,Y,,,,Miracle - Play this card for no cost.n/Choose 1:n/1) Target allied Unit heals 2.n/2) Gain 2 Durability.,
+Royal Capital,Equip,,,,,Generates a Light Mana or a Mana from your Leader's Element.,
+Prayer Grounds ,Equip,,,,,"Generates a Light Mana.n/When you play this card, gain 1 Durability.",
+Adorned Armor,Equip,,,,,Generates a Light Mana.n/On Sync - Heal 1 to the attached Unit. ,
+Icarus Warrior,Unit,Y,1,2,1,Vigilance.,Angel
+Radiant Guardna,Unit,YN2,2,3,1,Vigilance. Defender.,Automaton
+Glory Trumpeter,Unit,YN1,1,4,1,On Attack - Give another allied Unit Vigilance until the start of your next turn.,Humanoid
+Holy Dragonling,Unit,Y,1,2,1,"<<OPT>> When this Unit is healed, it gains +1/+1.",Dragon
+Holy Dragon Knight,Unit,YN3,2,5,2,Defender. On Attack/On Block - All allied Units heal 1.,Dragon
+Holy Flare,Flash,YN1,,,,Miracle - Play this card from no cost.n/Banish an opposing Unit with 3 or less Health.,
+Divine Wrath,Instant,YYN2,,,,Destroy all Units.,
+Skylight Guardian,Unit,YN3,2,3,2,On Summon - Summon 2 Seraph Tokens and give them Vigilance.,Humanoid
+Blade Arts Mentor,Unit,Y,2,1,1,On Summon - Give another allied Unit Vigilance until the start of your next turn.,Humanoid

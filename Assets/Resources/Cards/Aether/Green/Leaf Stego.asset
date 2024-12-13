@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 3
   mainEffect: While there are 2 or more opposing Suspended Units, this card has Defender.
-  secondaryEffect: "\r"
+  secondaryEffect: "Beast / Ancient\r"
   trait: 1
   cardArt: {fileID: 21300000, guid: 3877f610831a04aea9eb3d664eafa810, type: 3}
   exposed: 0

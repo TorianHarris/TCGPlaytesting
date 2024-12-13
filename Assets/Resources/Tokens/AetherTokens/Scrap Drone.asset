@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Scrap Drone
   m_EditorClassIdentifier: 
   cost: O
-  power: 0
+  power: 1
   health: 1
   type: 0
   color: 7
   mainEffect: Clockwork - Gain +1/+1. (Activates at the beginning of your turn.)
   secondaryEffect: Automaton
-  trait: 0
-  cardArt: {fileID: 21300000, guid: 5ff8777cc97b44dfda548c0de66851c4, type: 3}
+  trait: 1
+  cardArt: {fileID: 21300000, guid: 27641b6d9403b4580a03d5b31ef006ed, type: 3}
   exposed: 0

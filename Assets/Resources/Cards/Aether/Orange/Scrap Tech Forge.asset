@@ -12,14 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Scrap Tech Forge
   m_EditorClassIdentifier: 
-  cost: ON3
+  cost: ON2
   power: 0
   health: 0
-  type: 5
+  type: 3
   color: 7
-  mainEffect: 'Generates a Chrono Mana.n/Construct: Clockwork - Summon a Scrap Drone
-    Token.'
-  secondaryEffect: "Construct\r"
+  mainEffect: Clockwork - Summon a Scrap Drone Token.
+  secondaryEffect: "Automaton\r"
   trait: 
   cardArt: {fileID: 0}
   exposed: 0

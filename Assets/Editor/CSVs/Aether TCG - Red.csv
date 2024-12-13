@@ -1,11 +1,11 @@
 Name,Type,Cost,Power,Health,Size,Effect,Trait
-Blazing Hound,Unit,R,2,1,1,Miracle - Summon this card for no cost.,
-Flame Blader,Unit,R,1,1,0,Haste.,
+Blazing Hound,Unit,R,2,1,1,Miracle - Summon this card for no cost.,Beast
+Flame Blader,Unit,R,1,1,0,Haste.,Humanoid
 Fireball,Flash,RN1,,,,Miracle - Play this card for no cost.n/Deal 3 damage to an opposing Unit.,
 Dragonic Warrior,Unit,RN2,2,3,1,Defender.,Dragon
 Hammer Dragon,Unit,RN1,2,2,1,"On Attack - If this is the second or more attack you've done this turn, this card gains +1/+1. ",Dragon
 Blitz Wyvern,Unit,RN2,3,2,0,Haste. ,Dragon
-Wyrmite Archer,Unit,RN1,2,1,1,Swift Strike.,
+Wyrmite Archer,Unit,RN1,2,1,1,Swift Strike.,Humanoid
 Badlands,Equip,,,,,Generates a Fire Mana or a Mana from your Leader's Element.,
 Basic Red,Unit,R,2,2,1,,
 Novice Power Red,Unit,RN1,3,2,1,,

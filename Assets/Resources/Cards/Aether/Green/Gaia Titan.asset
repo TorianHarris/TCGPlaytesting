@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 3
   mainEffect: On Summon - Suspend all opposing Units. [Sync a Water Aether to this
     Unit] Opposing Units do not Unsuspend at the start your opponent's next turn.
-  secondaryEffect: "\r"
+  secondaryEffect: "Beast / Titan\r"
   trait: 3
   cardArt: {fileID: 21300000, guid: d580108cf4f5e42d898364f4052525c5, type: 3}
   exposed: 0

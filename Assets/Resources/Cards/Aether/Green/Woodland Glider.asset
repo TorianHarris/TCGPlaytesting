@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 3
   mainEffect: On Summon - Your opponent targets 1 of their Units and suspend it.
-  secondaryEffect: "\r"
+  secondaryEffect: "Beast\r"
   trait: 1
   cardArt: {fileID: 21300000, guid: a8b76ba284b2045a9a932096ef00f6cc, type: 3}
   exposed: 0

@@ -17,9 +17,9 @@ MonoBehaviour:
   health: 2
   type: 0
   color: 7
-  mainEffect: On Summon - Discover 3 and add an 3-cost or lower Automaton Unit to
-    your hand. (Check the top 3 cards of your deck and do the rest of the effect.
-    Remaining checked cards go to the bottom of your deck in any order.)
+  mainEffect: On Summon - Discover 5 and add an Automaton card to your hand. (Check
+    the top 3 cards of your deck and do the rest of the effect. Remaining checked
+    cards go to the bottom of your deck in any order.)
   secondaryEffect: "Humanoid\r"
   trait: 1
   cardArt: {fileID: 21300000, guid: 2d55160855dde49a8af0b00ba891bf90, type: 3}

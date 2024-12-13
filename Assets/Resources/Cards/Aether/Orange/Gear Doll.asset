@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: O
   power: 1
-  health: 1
+  health: 2
   type: 0
   color: 7
   mainEffect: When a Clockwork effect is triggered, gain +0/+1.
