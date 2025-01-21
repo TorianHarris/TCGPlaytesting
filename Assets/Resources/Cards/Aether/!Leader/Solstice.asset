@@ -20,12 +20,12 @@ MonoBehaviour:
     health: 0
     primaryColor: 5
     secondaryColor: 0
-    mainEffect: '<<OPT>> When an allied Unit unsuspends, sync an Aether to that Unit
-      and it heals equal to the number of Aether attached to it.
+    mainEffect: '<<OPT>> When an allied Unit unsuspends, you can sync an Aether to
+      that Unit then that Unit heals equal to the number of Aether attached to it.
 
 
-      Aether Surge
-      - #Y#YN2
+      Awaken
+      - #Y#YL2
 
 
 '
@@ -34,19 +34,19 @@ MonoBehaviour:
   - cardName: Solstice, Zenith Star
     level: 0
     primaryValue: 3
-    power: 3
+    power: 2
     health: 5
     primaryColor: 5
     secondaryColor: 0
-    mainEffect: '<<OPT>> When an allied Unit unsuspends, sync an Aether to that Unit
-      and it heals equal to the number of Aether attached to it.
+    mainEffect: '<<OPT>> When an allied Unit unsuspends, you can sync an Aether to
+      that Unit then that Unit heals equal to the number of Aether attached to it.
 
 
       Defender.
       Vigilance.
 
-      <<OPT>> When an Aether is synced to an allied Unit, it is
-      unaffected by opposing effects this turn.
+      <<OPT>> When an Aether is synced to an allied Unit, it gains
+      Divine Shield.
 
 '
     trait: Dragon

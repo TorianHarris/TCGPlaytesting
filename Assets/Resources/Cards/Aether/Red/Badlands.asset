@@ -17,8 +17,9 @@ MonoBehaviour:
   health: 0
   type: 5
   color: 0
-  mainEffect: Generates a Fire Mana or a Mana from your Leader's Element.
-  secondaryEffect: "\r"
+  mainEffect: Generate a Fire Mana. On Sync - If you attacked this turn, the attached
+    Unit gains +1/+0 this turn.
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 6bedd1b24db474775bc842e0b0a9a5e2, type: 3}
   exposed: 0

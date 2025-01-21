@@ -1,0 +1,15 @@
+Name,Type,Cost,Power,Health,Size,Effect,Trait
+Magical Observatory,Equip,,,,,"Generates a Water Mana.n/On Sync - If you played a Spell this turn, Predict 1. ",
+Tidal Wave,Instant,BBN3,,,,"Return all Units back to the hand. If you played another Spell this turn, you may target a Unit and return all other Units back to the hand instead.",
+Hydro Bolt,Flash,N1,,,,Return a suspended 2-Cost or lower Unit to the hand. ,
+Vanishing Trick,Flash,BN1,,,,Miracle - Play this card for no cost.n/Return a suspended 3-Cost or lower Unit to the hand. ,
+Foresight,Flash,N1,,,,Miracle - Play this card for no cost.n/Predict 1. Draw 1.,
+Magical Mastery,Flash,BN2,,,,"Draw 2. If you have played a Spell this turn, reduce this card's cost by N1.",
+Familiar Call,Instant,B,,,,Summon a Water Slime Token.,
+Mana Owl,Unit,BN1,1,1,1,Hexproof. Conduit N1,Avian
+Aqua Soldier,Unit,B,2,1,1,Hexproof.,Aquatic / Dragon
+Brillant Hydromancer,Unit,N3,2,3,2,On Attack - Summon a Water Slime Token.,Humanoid
+Bubble Draco,Unit,B,1,2,1,"<<OPT>> During your turn, when you play a Spell, this card gains +1/+1.",Aquatic / Dragon
+Magical Alchemist,Unit,BN3,3,3,2,Conduit #Bn/On Summon - Add a Spell from your deck to your hand.,Humanoid
+Concentration,Flash,BN1Nx,,,,Draw X cards.,
+Alchemic Magus,Unit,BBN4,3,3,3,"On Summon - [Discard a Spell from your hand] Play a Spell from your Discard Zone with a cost of 4 or lower for no cost. Banish it afterward or if that Spell's Element was Water, add it to your hand instead.",Humanoid

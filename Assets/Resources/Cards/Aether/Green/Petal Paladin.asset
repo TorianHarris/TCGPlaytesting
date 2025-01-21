@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Petal Paladin
   m_EditorClassIdentifier: 
-  cost: G
+  cost: N1
   power: 1
   health: 3
   type: 0

@@ -45,13 +45,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5090159108d5b44759b909c7c8be5c33, type: 2}
   - {fileID: 11400000, guid: 5090159108d5b44759b909c7c8be5c33, type: 2}
   extraDeck:
-  - {fileID: 11400000, guid: 545d6090aa6174028900210a56937ff9, type: 2}
-  - {fileID: 11400000, guid: 545d6090aa6174028900210a56937ff9, type: 2}
-  - {fileID: 11400000, guid: 545d6090aa6174028900210a56937ff9, type: 2}
-  - {fileID: 11400000, guid: 545d6090aa6174028900210a56937ff9, type: 2}
-  - {fileID: 11400000, guid: 545d6090aa6174028900210a56937ff9, type: 2}
-  - {fileID: 11400000, guid: 545d6090aa6174028900210a56937ff9, type: 2}
-  - {fileID: 11400000, guid: 545d6090aa6174028900210a56937ff9, type: 2}
-  - {fileID: 11400000, guid: 545d6090aa6174028900210a56937ff9, type: 2}
+  - {fileID: 11400000, guid: 134d3494e404d459ebc86bf1fad44062, type: 2}
+  - {fileID: 11400000, guid: 134d3494e404d459ebc86bf1fad44062, type: 2}
+  - {fileID: 11400000, guid: 134d3494e404d459ebc86bf1fad44062, type: 2}
+  - {fileID: 11400000, guid: 134d3494e404d459ebc86bf1fad44062, type: 2}
+  - {fileID: 11400000, guid: 134d3494e404d459ebc86bf1fad44062, type: 2}
+  - {fileID: 11400000, guid: 134d3494e404d459ebc86bf1fad44062, type: 2}
+  - {fileID: 11400000, guid: 134d3494e404d459ebc86bf1fad44062, type: 2}
+  - {fileID: 11400000, guid: 134d3494e404d459ebc86bf1fad44062, type: 2}
   - {fileID: 11400000, guid: cb03d2731e6704923b8cba7c4cca3657, type: 2}
   - {fileID: 11400000, guid: cb03d2731e6704923b8cba7c4cca3657, type: 2}
+  - {fileID: 11400000, guid: 253c456a39905448dbe03e167f6c9acd, type: 2}

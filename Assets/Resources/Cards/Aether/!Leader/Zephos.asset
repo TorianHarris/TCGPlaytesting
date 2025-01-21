@@ -24,7 +24,7 @@ MonoBehaviour:
       to an allied Unit.
 
 
-      Aether Surge - #G#GN2'
+      Awaken - #G#GL2'
     trait: High Beast
     cardArt: {fileID: 21300000, guid: 622ef80aa1c894427bbb6a59b5a73124, type: 3}
   - cardName: Zephos, Sylvain Ranger
@@ -34,15 +34,15 @@ MonoBehaviour:
     health: 4
     primaryColor: 3
     secondaryColor: 0
-    mainEffect: '<<OPT>> When a Unit is suspended by an allied effect, [Flip an Aether
-      facedown] sync an Aether to an allied Unit.
+    mainEffect: '<<OPT>> When a Unit is suspended by an allied effect, sync an Aether
+      to an allied Unit.
 
 
       Ferocity +1
 
-      <<OPT>>
-      On Attack - Suspend a Unit. If you suspended an allied Unit, unsuspend this
-      Unit. It cannot attack directly for the rest of this turn.
+      <<OPT>> On Attack - Suspend a
+      Unit. If you suspended an allied Unit, unsuspend this Unit. It cannot attack
+      directly for the rest of this turn.
 
 
 '

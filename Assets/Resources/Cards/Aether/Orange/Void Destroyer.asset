@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 7
-  mainEffect: On Aether Charge - Once per turn, summon a Scrap Drone Token. When
-    another Automaton Unit attacks, give it +1/+1.
+  mainEffect: On Sync - Once per turn, summon a Scrap Drone Token. When another Automaton
+    Unit attacks, give it +1/+1.
   secondaryEffect: "Automaton\r"
   trait: 2
   cardArt: {fileID: 21300000, guid: fa942e1012fa14cdcb2bd887b25c8adf, type: 3}

@@ -56,7 +56,7 @@ public class LeaderManager : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         if (secondaryCardColor) secondaryCardColor.effectColor = secondaryColor;
         if (secondaryNameFrame) secondaryNameFrame.color = secondaryColor;
         if (typeText) typeText.text = GameManager.Instance.leaderName;
-        if (mainEffectText) mainEffectText.text = leader.mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("<<", "<b><i><u>").Replace(">>", "</u></i></b>").Replace("#O", "<sprite name=\"Orange\">").Replace("#R", "<sprite name=\"Red\">").Replace("#G", "<sprite name=\"Green\">").Replace("#Y", "<sprite name=\"Yellow\">").Replace("N1", "<sprite name=\"N1\">").Replace("N2", "<sprite name=\"N2\">").Replace("N3", "<sprite name=\"N3\">").Replace("N4", "<sprite name=\"N4\">");
+        if (mainEffectText) mainEffectText.text = leader.mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("<<", "<b><i><u>").Replace(">>", "</u></i></b>").Replace("#O", "<sprite name=\"Orange\">").Replace("#R", "<sprite name=\"Red\">").Replace("#G", "<sprite name=\"Green\">").Replace("#Y", "<sprite name=\"Yellow\">").Replace("#B", "<sprite name=\"Blue\">").Replace("#P", "<sprite name=\"Purple\">").Replace("N1", "<sprite name=\"N1\">").Replace("N2", "<sprite name=\"N2\">").Replace("N3", "<sprite name=\"N3\">").Replace("N4", "<sprite name=\"N4\">").Replace("L1", "<sprite name=\"L1\">").Replace("L2", "<sprite name=\"L2\">");
         if (traitText) traitText.text = leader.trait;
         if (cardArt) cardArt.sprite = leader.cardArt;
 

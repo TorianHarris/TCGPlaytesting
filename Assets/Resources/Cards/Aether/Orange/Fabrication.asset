@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 7
-  mainEffect: Summon 2 Scrap Drone Tokens.
+  mainEffect: Summon a Scrap Drone Token and add a Scrap Drone Token to your hand.
   secondaryEffect: "\r"
   trait: 
   cardArt: {fileID: 21300000, guid: bc05a6640e4144d8fb9c73e74f334e13, type: 3}

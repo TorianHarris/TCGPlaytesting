@@ -19,6 +19,6 @@ MonoBehaviour:
   color: 7
   mainEffect: On Summon - Give all other Units +1/+1.
   secondaryEffect: "Humanoid\r"
-  trait: 1
+  trait: 2
   cardArt: {fileID: 21300000, guid: 7db35f7b13b9a458395f7efad5524200, type: 3}
   exposed: 0

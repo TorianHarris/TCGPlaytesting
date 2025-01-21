@@ -3139,7 +3139,7 @@ PrefabInstance:
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
       propertyPath: m_text
-      value: +1/+0
+      value: Vigil
       objectReference: {fileID: 0}
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
@@ -6042,17 +6042,17 @@ PrefabInstance:
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
       propertyPath: m_text
-      value: +1/+1
+      value: Shr
       objectReference: {fileID: 0}
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
       propertyPath: m_fontSize
-      value: 16.8
+      value: 20.01
       objectReference: {fileID: 0}
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
       propertyPath: m_fontSizeBase
-      value: 16.8
+      value: 20.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6465,7 +6465,7 @@ MonoBehaviour:
   holdingTimer: 0
   timeTilRelease: 0
   playerDeck: {fileID: 11400000, guid: 2fbf15114beef45238768ed570aad7d1, type: 2}
-  opponentDeck: {fileID: 11400000, guid: 8886eeeb15a0c4beba25f14877b1f254, type: 2}
+  opponentDeck: {fileID: 11400000, guid: ac90c468e7474467d9e9a609a2688b8c, type: 2}
   startingHandSize: 3
   startingShields: 4
   tokenFolder: Tokens/AetherTokens
@@ -6866,9 +6866,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: 79175ffa3794544138b3a73bcfdb4e89, type: 3}
+  CSV: {fileID: 4900000, guid: b89dd8fdd29f84abb93e6b8ecf639f64, type: 3}
   gameFolder: 6
-  classFolder: 5
+  classFolder: 7
   Generate: 0
 --- !u!1 &1357150941
 GameObject:

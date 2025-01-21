@@ -18,8 +18,7 @@ MonoBehaviour:
   type: 0
   color: 3
   mainEffect: 'Hand: [EB6, Discard this card and a Breaker with 7 or more Power from
-    your hand] Gauge Charge 1. You can only use the effect of Miracle Egg once per
-    turn.'
+    your hand] Gauge Charge 1.'
   secondaryEffect: "G\r"
   trait: Dino
   cardArt: {fileID: 21300000, guid: 009dcd673e3d7435faeb8b1bd72ff1f4, type: 3}

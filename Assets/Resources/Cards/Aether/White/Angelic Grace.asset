@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Angelic Grace
   m_EditorClassIdentifier: 
-  cost: Y
+  cost: N1
   power: 0
   health: 0
   type: 2

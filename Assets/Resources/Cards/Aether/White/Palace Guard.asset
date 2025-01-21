@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 5
-  mainEffect: Miracle - Summon a Seraph Token. Defender.
+  mainEffect: Miracle - Summon a Seraph Token and discard this card.n/Defender.
   secondaryEffect: "Humanoid\r"
   trait: 1
   cardArt: {fileID: 21300000, guid: 184509a2da5ff4a0e9f28f4e314c988f, type: 3}

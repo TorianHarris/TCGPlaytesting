@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 5
   type: 0
   color: 5
-  mainEffect: Defender. On Attack/On Block - All allied Units heal 1.
+  mainEffect: Defender. Clockwork - All allied Units heal 1.
   secondaryEffect: "Dragon\r"
   trait: 2
   cardArt: {fileID: 21300000, guid: d8dc8b88cbf724d02a76583298bce702, type: 3}

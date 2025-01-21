@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Gadget Tinker
   m_EditorClassIdentifier: 
-  cost: O
-  power: 0
-  health: 1
+  cost: ON1
+  power: 2
+  health: 2
   type: 0
   color: 7
-  mainEffect: Summon a Scrap Drone Token.
+  mainEffect: On Summon - Add 2 Scrap Drone Tokens to your hand.
   secondaryEffect: "Humanoid\r"
   trait: 1
   cardArt: {fileID: 21300000, guid: fd555c020d57c4bbda854d7f5a57a64f, type: 3}

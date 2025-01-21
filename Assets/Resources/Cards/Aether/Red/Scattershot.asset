@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 1
   color: 0
   mainEffect: Deal 1 damage to all opposing Units.
-  secondaryEffect: 
+  secondaryEffect: "\r"
   trait: 
   cardArt: {fileID: 0}
   exposed: 0
