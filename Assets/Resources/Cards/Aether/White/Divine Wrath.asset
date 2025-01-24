@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 1
   color: 5
   mainEffect: Banish all Units.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: cf3d46833e8b4493e991c0b4ea7c98ac, type: 3}
   exposed: 0

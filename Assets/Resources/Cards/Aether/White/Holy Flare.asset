@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 5
   mainEffect: Miracle - Play this card from no cost.n/Banish an opposing Unit with
     3 or less Health.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 781645fbbdd804081abfbd5044e55ea1, type: 3}
   exposed: 0

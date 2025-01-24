@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 3
   mainEffect: 
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 2
   cardArt: {fileID: 0}
   exposed: 0

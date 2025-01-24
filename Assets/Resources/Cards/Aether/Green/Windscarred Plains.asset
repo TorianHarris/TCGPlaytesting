@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 3
   mainEffect: 'Generates a Nature Mana.n/On Sync - If a Unit was suspended by an
     allied effect this turn, the attached Unit gains +1 Attack this turn. '
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 74820298ab9674f0eafc20f21126bf9c, type: 3}
   exposed: 0

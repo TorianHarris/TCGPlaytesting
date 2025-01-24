@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 5
   mainEffect: Miracle - Play this card for no cost.n/Choose 1:n/1) Target allied
     Unit heals 2.n/2) Gain 2 Durability.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 02ca2290641424d01a883470387a8577, type: 3}
   exposed: 0

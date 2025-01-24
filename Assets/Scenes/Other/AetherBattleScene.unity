@@ -6465,7 +6465,7 @@ MonoBehaviour:
   holdingTimer: 0
   timeTilRelease: 0
   playerDeck: {fileID: 11400000, guid: 2fbf15114beef45238768ed570aad7d1, type: 2}
-  opponentDeck: {fileID: 11400000, guid: ac90c468e7474467d9e9a609a2688b8c, type: 2}
+  opponentDeck: {fileID: 11400000, guid: f200b371bb72e44348e10a33c1e20796, type: 2}
   startingHandSize: 3
   startingShields: 4
   tokenFolder: Tokens/AetherTokens
@@ -6866,9 +6866,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: b89dd8fdd29f84abb93e6b8ecf639f64, type: 3}
+  CSV: {fileID: 4900000, guid: 260ef35a918b54744a8b041d3ed9113c, type: 3}
   gameFolder: 6
-  classFolder: 7
+  classFolder: 3
   Generate: 0
 --- !u!1 &1357150941
 GameObject:

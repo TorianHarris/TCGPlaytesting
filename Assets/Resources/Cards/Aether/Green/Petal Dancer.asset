@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 3
   mainEffect: Miracle - Play the top card from your Aether Deck and suspend it. On
     Summon - Play the top card from your Aether Deck and suspend it.
-  secondaryEffect: "Nymph\r"
+  secondaryEffect: Nymph
   trait: 1
   cardArt: {fileID: 0}
   exposed: 0

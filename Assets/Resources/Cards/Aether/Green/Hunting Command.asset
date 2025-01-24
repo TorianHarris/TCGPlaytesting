@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 1
   color: 3
   mainEffect: Give an allied Unit Rush.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: a5535df1fb8d5491baaae92998df874a, type: 3}
   exposed: 0

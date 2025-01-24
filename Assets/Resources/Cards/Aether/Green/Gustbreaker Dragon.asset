@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 3
   mainEffect: On Summon - Suspend another Unit. If this effect suspended an allied
     Unit, [Flip an Aether facedown] Unsuspend an Aether.
-  secondaryEffect: "Dragon\r"
+  secondaryEffect: Dragon
   trait: 1
   cardArt: {fileID: 21300000, guid: 20d99984fb83f47d0a187a9763cfd9fa, type: 3}
   exposed: 0

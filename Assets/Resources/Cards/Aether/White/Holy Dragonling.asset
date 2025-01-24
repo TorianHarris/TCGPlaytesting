@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 5
   mainEffect: <<OPT>> During your turn, when this Unit is healed, it gains +1/+1.
-  secondaryEffect: "Dragon\r"
+  secondaryEffect: Dragon
   trait: 1
   cardArt: {fileID: 21300000, guid: 54dcea705864a413aa8eac7fb45172c3, type: 3}
   exposed: 0

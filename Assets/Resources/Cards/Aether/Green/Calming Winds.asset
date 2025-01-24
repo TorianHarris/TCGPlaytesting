@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 1
   color: 3
   mainEffect: Miracle - Play this card for no cost.n/Suspend an opposing Unit.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 98399213c7de542c49b6d7eaa0f70442, type: 3}
   exposed: 0

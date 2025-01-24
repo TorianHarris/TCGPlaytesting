@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 3
   mainEffect: Miracle - Play this card for no cost. Deal damage to an opposing Unit
     equal to the highest cost amongst your allied Units.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: f7a63761d18e24f99a81d0a9b59f1c34, type: 3}
   exposed: 0

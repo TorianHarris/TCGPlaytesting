@@ -17,9 +17,9 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 3
-  mainEffect: Give an allied Unit Rush and +0/+1. If you have 6 or more allied Aether,
+  mainEffect: Give an allied Unit Rush and +0/+1. If you have 7 or more allied Aether,
     give all allied Units Rush and +0/+1 instead.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: b416996f3d6ee4b2cb27b8acd2992861, type: 3}
   exposed: 0

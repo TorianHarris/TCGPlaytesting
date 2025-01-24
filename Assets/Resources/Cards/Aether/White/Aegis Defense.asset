@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 1
   color: 5
   mainEffect: Choose 1. If you have less Shields than your opponent, choose both
-    in sequence:n/1) Summon a Seraph Token.n/2)Give an allied Unit Divine Shield.
+    in sequence:n/1) Summon a Seraph Token.n/2)Give an allied Unit Vigilance.
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 1d7b05b6bcb014f59ba7703df9ef3838, type: 3}

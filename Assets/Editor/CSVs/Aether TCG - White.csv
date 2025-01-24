@@ -15,4 +15,5 @@ Divine Wrath,Instant,YYN4,,,,Banish all Units.,
 Skylight Commander,Unit,YN4,3,4,2,"On Summon - Give all allied Units Vigilance until the start of your next turn. If a Unit already has Vigilance, it gains +1/+1 instead.",Humanoid
 Blade Arts Mentor,Unit,Y,2,1,1,On Summon - Give another allied Unit Vigilance until the start of your next turn.,Humanoid
 Fledgling Seraph,Unit,YN1,1,2,1,On Destroy - Summon a Seraph Token.,Humanoid
-Aegis Defense,Instant,YN1,,,,"Choose 1. If you have less Shields than your opponent, choose both in sequence:n/1) Summon a Seraph Token.n/2)Give an allied Unit Divine Shield.",
+Aegis Defense,Instant,YN1,,,,"Choose 1. If you have less Shields than your opponent, choose both in sequence:n/1) Summon a Seraph Token.n/2)Give an allied Unit Vigilance.",
+Sanctus Dominus,Unit,YYN7,8,8,3,"Breakthrough. Vigilance. Defender. Veil.n/If this card would be removed from the field, [Shuffle 2 Aether in your Aether Zone into your Aether Deck] this card remains on the field but set its Health to 1.",Angel

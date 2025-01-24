@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 5
   mainEffect: On Attack - Give another allied Unit Vigilance until the start of your
     next turn.
-  secondaryEffect: "Humanoid\r"
+  secondaryEffect: Humanoid
   trait: 1
   cardArt: {fileID: 21300000, guid: 55d3b6d606dc74ecf8a6a5b80cabeeb9, type: 3}
   exposed: 0

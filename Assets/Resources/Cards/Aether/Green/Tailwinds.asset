@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 3
   color: 3
   mainEffect: All allied Units gain Rush.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: ff05e363da9d04276aee156d52b8a5e0, type: 3}
   exposed: 0

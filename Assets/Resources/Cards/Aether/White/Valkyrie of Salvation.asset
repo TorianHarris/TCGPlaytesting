@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 5
   mainEffect: 'On Summon - Add the top card of your deck to the top your Shields
     face-down and set your Durability to 1. '
-  secondaryEffect: "Angel\r"
+  secondaryEffect: Angel
   trait: 3
   cardArt: {fileID: 21300000, guid: 64d8600b5dfd54ad7b5dcb374ac5ea19, type: 3}
   exposed: 0

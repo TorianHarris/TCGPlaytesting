@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 5
   color: 5
   mainEffect: Generates a Light Mana.n/On Play - Gain 1 Durability.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 760aa97bf3085424f984568c75c0a068, type: 3}
   exposed: 0

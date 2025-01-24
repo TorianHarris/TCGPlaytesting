@@ -61,7 +61,8 @@ public class CSVtoSO : MonoBehaviour
         }
 
         string folderToPopulate = gameFolder.ToString() + "/" + classFolder.ToString();
-        string[] allLines = CSV.text.Split(Environment.NewLine.ToCharArray());
+        string[] allLines = CSV.text.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+        foreach (string s in allLines)
         allLines = allLines.Skip(1).ToArray();
 
         foreach (string s in allLines)
@@ -83,7 +84,6 @@ public class CSVtoSO : MonoBehaviour
                 guid = guids[0];
             }
 
-            //print(guids[0]);
             print((Card)AssetDatabase.LoadAssetAtPath(AssetDatabase.GUIDToAssetPath(guid), typeof(Card)));
             card = (Card)AssetDatabase.LoadAssetAtPath(AssetDatabase.GUIDToAssetPath(guid), typeof(Card));
             card.name = splitData[0].Replace("\"", "");

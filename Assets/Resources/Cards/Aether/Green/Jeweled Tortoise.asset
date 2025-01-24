@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 3
   mainEffect: Defender.
-  secondaryEffect: "Beast\r"
+  secondaryEffect: Beast
   trait: 1
   cardArt: {fileID: 21300000, guid: e53a6e7da45b9474a8c6adce03389c8d, type: 3}
   exposed: 0

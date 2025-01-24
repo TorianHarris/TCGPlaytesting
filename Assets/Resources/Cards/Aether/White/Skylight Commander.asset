@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 5
   mainEffect: On Summon - Give all allied Units Vigilance until the start of your
     next turn. If a Unit already has Vigilance, it gains +1/+1 instead.
-  secondaryEffect: "Humanoid\r"
+  secondaryEffect: Humanoid
   trait: 2
   cardArt: {fileID: 21300000, guid: 7b2a5f9e30a0340c0ad7d482c00d8404, type: 3}
   exposed: 0

@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 3
   mainEffect: Rush. Ferocity +1.n/If your Leader's Element is Fire, this card gains
     Swift Strike.
-  secondaryEffect: "Beast\r"
+  secondaryEffect: Beast
   trait: 3
   cardArt: {fileID: 21300000, guid: 151ed456bb2224a64833deda37d56974, type: 3}
   exposed: 0

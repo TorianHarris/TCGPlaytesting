@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Gaia Titan
   m_EditorClassIdentifier: 
-  cost: GN5
-  power: 5
-  health: 6
+  cost: GGN6
+  power: 7
+  health: 8
   type: 0
   color: 3
-  mainEffect: On Summon - Suspend all opposing Units. [Sync a Water Aether to this
-    Unit] Opposing Units do not Unsuspend at the start your opponent's next turn.
-  secondaryEffect: "Beast / Titan\r"
+  mainEffect: On Summon - Suspend all opposing Units. Opposing Units do not Unsuspend
+    at the start your opponent's next turn.n/Allied Units gain Ferocity +X where
+    X is the number of opposing suspended Units +1.
+  secondaryEffect: Beast / Titan
   trait: 3
   cardArt: {fileID: 21300000, guid: d580108cf4f5e42d898364f4052525c5, type: 3}
   exposed: 0

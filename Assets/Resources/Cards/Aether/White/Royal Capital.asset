@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 5
   color: 5
   mainEffect: Generates a Light Mana or a Mana from your Leader's Element.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 629ad752da4e740819dcb006f3e46638, type: 3}
   exposed: 0

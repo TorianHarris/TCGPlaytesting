@@ -17,8 +17,9 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 3
-  mainEffect: When a Unit is suspended by an allied effect, this Unit gains Rush.
-  secondaryEffect: "Humanoid / Beast\r"
+  mainEffect: If a Unit was suspended by an allied effect this turn, this Unit gains
+    Rush.
+  secondaryEffect: Humanoid / Beast
   trait: 1
   cardArt: {fileID: 21300000, guid: 78490230ec75c404a8784113e7152358, type: 3}
   exposed: 0

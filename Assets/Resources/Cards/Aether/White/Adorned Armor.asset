@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 5
   color: 5
   mainEffect: 'Generates a Light Mana.n/On Sync - Heal 1 to the attached Unit. '
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: ea95ed1d9294649368d7c2a6a5eca107, type: 3}
   exposed: 0

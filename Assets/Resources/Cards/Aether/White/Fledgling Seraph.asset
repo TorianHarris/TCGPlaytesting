@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 5
   mainEffect: On Destroy - Summon a Seraph Token.
-  secondaryEffect: "Humanoid\r"
+  secondaryEffect: Humanoid
   trait: 1
   cardArt: {fileID: 0}
   exposed: 0
