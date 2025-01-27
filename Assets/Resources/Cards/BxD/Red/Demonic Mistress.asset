@@ -17,9 +17,9 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 0
-  mainEffect: On Play - Look at the top 5 cards of your deck and summon up to 2 Units
-    from amoungst them whose total cost is 3 or less. Put the rest to the bottom
-    of your deck. Deal 1 damage to your Leader for each Unit summoned by this effect.
+  mainEffect: On Play - Add 2 Rage Tokens to your hand and if you have 10 or less
+    Life, recover 2 Mana.n/When your Leader takes damage by an allied effect, deal
+    2 damage to an opposing Unit or Leader.
   secondaryEffect: 
   trait: Demon
   cardArt: {fileID: 21300000, guid: 1aee4613395994ecdaf76f59c26da529, type: 3}

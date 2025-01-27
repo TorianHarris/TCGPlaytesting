@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Ignis Spirit
   m_EditorClassIdentifier: 
   cost: 2
-  power: 1
-  health: 3
+  power: 2
+  health: 2
   type: 0
   color: 0
-  mainEffect: On Play - Give another allied Unit +2/+0.
-  secondaryEffect: "\r"
+  mainEffect: On Destroy - Deal 2 damage to the oppsing Leader.
+  secondaryEffect: 
   trait: Spirit
   cardArt: {fileID: 21300000, guid: 21b2f0c1a46cd45788812e8e93a29a9e, type: 3}
   exposed: 0

@@ -17,11 +17,10 @@ MonoBehaviour:
   health: 5
   type: 0
   color: 5
-  mainEffect: 'On Play - Add 2 Knight Tokens to your hand and change their cost to
-    0 this turn. Valor 10: Add 2 Knight Tokens and 2 Defender Tokens to your hand
-    instead.n/When a Token Unit is played during your turn, deal 1 damage to an opposing
-    Unit.'
+  mainEffect: '[Rush]n/On Play - Summon 2 Knight Tokens. Valor 10: Summon 2 Defender
+    Tokens instead.n/On Attack - Deal damage to an opposing Unit or Leader for each
+    other allied Unit.'
   secondaryEffect: 
-  trait: 
+  trait: Soldier
   cardArt: {fileID: 21300000, guid: 4d813e1b062aa4ef389c4335f4587300, type: 3}
   exposed: 0

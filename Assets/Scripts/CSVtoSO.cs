@@ -10,7 +10,6 @@ using System.Text.RegularExpressions;
 
 public class CSVtoSO : MonoBehaviour
 {
-
     public TextAsset CSV;
     public enum gameName { Blitz, Saga, Dawn, BXD, Break, WitchAcademy, Aether }
     public enum className { Red, Yellow, Purple, Green, Blue, White, Gray, Orange, Black }
@@ -62,7 +61,6 @@ public class CSVtoSO : MonoBehaviour
 
         string folderToPopulate = gameFolder.ToString() + "/" + classFolder.ToString();
         string[] allLines = CSV.text.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
-        foreach (string s in allLines)
         allLines = allLines.Skip(1).ToArray();
 
         foreach (string s in allLines)

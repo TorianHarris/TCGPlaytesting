@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1
   power: 1
-  health: 1
+  health: 2
   type: 0
   color: 5
   mainEffect: On Play - [Brave](2) Summon a Knight Token.n/On Play - Give an allied
-    Token Unit Rush, Assault, and +1/+0.
-  secondaryEffect: "\r"
-  trait: 
+    Token Unit Rush and +1/+0.
+  secondaryEffect: 
+  trait: Soldier
   cardArt: {fileID: 21300000, guid: 4c43f4db2beee463888294a854cac5b9, type: 3}
   exposed: 0

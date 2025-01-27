@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 4
   mainEffect: 'On Play - Choose a 2 cost or lower Spell from your Discard Zone. Play
     it then banish it. Wisdom 10: Choose a 4 cost or lower Spell instead.'
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: a973debc732bb461292f52c2ba819e4a, type: 3}
   exposed: 0

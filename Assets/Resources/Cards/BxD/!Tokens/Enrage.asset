@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Study Hour
+  m_Name: Enrage
   m_EditorClassIdentifier: 
   cost: 1
   power: 0
   health: 0
   type: 1
-  color: 4
-  mainEffect: Scry 1. Gain 1 Wisdom.
+  color: 0
+  mainEffect: '[Brave]Deal 1 damage to your Leader. Give an allied Unit +1/+0. If
+    you have 10 or less Life, give all allied Units +1/+0 instead. '
   secondaryEffect: 
-  trait: 
-  cardArt: {fileID: 0}
+  trait: Rage
+  cardArt: {fileID: 21300000, guid: 8bae4ff4185acf44c9cde39d3ec876e1, type: 3}
   exposed: 0

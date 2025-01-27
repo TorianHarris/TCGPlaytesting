@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 4
   mainEffect: 'Choose 1. Wisdom 15: Choose all 3 instead:n/1) Draw 2.n/2)Deal 5 damage
     to an opposing Unit.n/3)Give an allied Unit Blitz.'
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 07dcbf6e6fdfe44eaa22997e3441566f, type: 3}
   exposed: 0

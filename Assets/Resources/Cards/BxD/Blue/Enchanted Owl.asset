@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 4
   mainEffect: Gain 1 Wisdom.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 73d2ef14870ef47a791332b8be755ce6, type: 3}
   exposed: 0

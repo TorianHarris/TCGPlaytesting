@@ -17,9 +17,9 @@ MonoBehaviour:
   health: 4
   type: 0
   color: 0
-  mainEffect: On Play - Choose 1. If you have 10 or less Life, choose both instead:n/1)
-    Gain Blitz.n/2) Deal 2 damage to all opposing Units.
-  secondaryEffect: "\r"
+  mainEffect: '[Blitz]n/On Attack - If you have 10 or less Life, deal 2 damage to
+    all opposing Units.'
+  secondaryEffect: 
   trait: Humanoid
   cardArt: {fileID: 21300000, guid: dd88cec5d16a14d49b988a25bbbbc842, type: 3}
   exposed: 0

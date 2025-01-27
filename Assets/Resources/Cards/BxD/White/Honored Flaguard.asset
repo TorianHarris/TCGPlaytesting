@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 5
   mainEffect: On Play - Summon a Knight Token.
-  secondaryEffect: "\r"
-  trait: 
+  secondaryEffect: 
+  trait: Soldier
   cardArt: {fileID: 21300000, guid: 04eef6ee061f045008c4c40532ba9d09, type: 3}
   exposed: 0

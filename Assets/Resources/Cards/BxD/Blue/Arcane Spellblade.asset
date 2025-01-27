@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 2
   type: 0
   color: 4
-  mainEffect: 'On Play: Wisdom 5: Gain +1/+1 and Rush. Wisdom 15: Gain +3/+1.'
-  secondaryEffect: "\r"
+  mainEffect: '[Rush]n/On Play: Gain +1/+1 for every 5 Wisdom you have.'
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 7aa9364e43a1747969706da700f66b81, type: 3}
   exposed: 0

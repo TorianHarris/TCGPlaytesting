@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 5
   mainEffect: On Play - Add a Rallying Order Token to your hand. On Destroy - Summon
     a Knight Token.
-  secondaryEffect: "\r"
-  trait: 
+  secondaryEffect: 
+  trait: Soldier
   cardArt: {fileID: 21300000, guid: 97dfc1ec24c4c4f25904293141be2567, type: 3}
   exposed: 0

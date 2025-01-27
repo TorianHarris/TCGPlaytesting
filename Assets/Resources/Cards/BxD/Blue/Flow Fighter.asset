@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 4
   mainEffect: On Play - [Discard a Spell] Draw 1. Deal 1 damage to the opposing Leader.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: a51de6c5ceefa4ce697d09dfac6ac4d4, type: 3}
   exposed: 0

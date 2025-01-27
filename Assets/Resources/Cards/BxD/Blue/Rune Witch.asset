@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 4
   mainEffect: On Play - Add a Magic Bolt Token to your hand.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: e139168983e30454797520a7a34b3090, type: 3}
   exposed: 0

@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 5
   mainEffect: '[Brave][Quick] Summon 2 Knight Tokens. Valor 10: Summon 2 Defender
     Tokens instead. '
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 89c32ea67a80240dcb56d3b9402b701f, type: 3}
   exposed: 0

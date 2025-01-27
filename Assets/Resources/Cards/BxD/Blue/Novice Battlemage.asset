@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Novice Battlemage
   m_EditorClassIdentifier: 
   cost: 2
-  power: 2
-  health: 2
+  power: 3
+  health: 1
   type: 0
   color: 4
   mainEffect: If you played a Spell this turn, this Unit gains Rush. If you played
-    at least 3 Spells this turn, this card gains Blitz.
+    at least 2 Spells this turn, this card gains Blitz.
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 0}

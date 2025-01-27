@@ -6465,7 +6465,7 @@ MonoBehaviour:
   holdingTimer: 0
   timeTilRelease: 0
   playerDeck: {fileID: 11400000, guid: 2fbf15114beef45238768ed570aad7d1, type: 2}
-  opponentDeck: {fileID: 11400000, guid: f200b371bb72e44348e10a33c1e20796, type: 2}
+  opponentDeck: {fileID: 11400000, guid: ac90c468e7474467d9e9a609a2688b8c, type: 2}
   startingHandSize: 3
   startingShields: 4
   tokenFolder: Tokens/AetherTokens

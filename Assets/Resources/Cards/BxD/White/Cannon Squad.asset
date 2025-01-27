@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Study Hour
+  m_Name: Cannon Squad
   m_EditorClassIdentifier: 
-  cost: 1
+  cost: 2
   power: 0
   health: 0
-  type: 1
-  color: 4
-  mainEffect: Scry 1. Gain 1 Wisdom.
+  type: 3
+  color: 5
+  mainEffect: On Play - Add an Advancing Order Token to your hand. When a <<Stratagem>>
+    Token is played, deal 2 damage to the opposing Leader.
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 0}

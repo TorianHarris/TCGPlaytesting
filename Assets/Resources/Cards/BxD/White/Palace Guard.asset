@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 5
   mainEffect: '[Blocker]'
-  secondaryEffect: "\r"
-  trait: 
+  secondaryEffect: 
+  trait: Soldier
   cardArt: {fileID: 21300000, guid: 184509a2da5ff4a0e9f28f4e314c988f, type: 3}
   exposed: 0

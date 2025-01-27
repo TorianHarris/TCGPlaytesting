@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 0
-  mainEffect: '[Rush]n/On Attack - Bloodlust 1: Gain +1/+1.'
-  secondaryEffect: "\r"
+  mainEffect: '[Rush]n/On Attack - Bloodlust: Gain +1/+1.'
+  secondaryEffect: 
   trait: Dragon
   cardArt: {fileID: 21300000, guid: 4504fa49e321941239f0f09d58804046, type: 3}
   exposed: 0

@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 4
-  mainEffect: '[Brave][Quick]Deal 2 damage to all opposing Units.'
-  secondaryEffect: "\r"
+  mainEffect: '[Brave][Quick]Deal 5 damage divided between up to 3 opposing Units.'
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: b9c93f9e81d054cc18b43d7a7c9180ae, type: 3}
   exposed: 0

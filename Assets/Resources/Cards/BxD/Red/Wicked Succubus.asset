@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 0
   mainEffect: Deal 1 damage to both Leaders.
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: Demon
   cardArt: {fileID: 21300000, guid: 058a78a2657f647b197e6ea6463e32c7, type: 3}
   exposed: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 6
-  mainEffect: '[Brave]n/Destroy an opposing Unit or Artifact.'
+  mainEffect: '[Brave]n/Destroy an opposing Unit.'
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: b5b23c9b945d242b4bdc46f822085761, type: 3}

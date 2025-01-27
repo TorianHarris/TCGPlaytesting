@@ -17,9 +17,9 @@ MonoBehaviour:
   health: 4
   type: 0
   color: 0
-  mainEffect: On Play - Deal 4 damage to an opposing Unit. Deal 2 damage to your
-    Leader.
-  secondaryEffect: "\r"
+  mainEffect: On Play -  Deal 2 damage to your Leader. Split 4 damage between up
+    to 2 opposing Units.
+  secondaryEffect: 
   trait: Dragonkin
   cardArt: {fileID: 21300000, guid: 8e8d6d404b98f4aa6a5795d10117de54, type: 3}
   exposed: 0

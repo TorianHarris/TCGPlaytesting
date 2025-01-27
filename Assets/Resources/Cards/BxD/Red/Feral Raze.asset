@@ -17,9 +17,9 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 0
-  mainEffect: '[Brave][Quick]n/Deal 5 damage to an opposing Unit. Bloodlust 1: Draw
+  mainEffect: '[Brave][Quick]n/Deal 5 damage to an opposing Unit. Bloodlust: Draw
     1.'
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: d0a4bd9f0fa754063af7824c80c1240a, type: 3}
   exposed: 0

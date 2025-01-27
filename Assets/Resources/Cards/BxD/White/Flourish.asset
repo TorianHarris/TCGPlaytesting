@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 5
   mainEffect: '[Brave][Quick] Deal X damage to an opposing Unit. X equals the number
     of allied Units.'
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 41c7dc248955b4257965c99ba6fea7b9, type: 3}
   exposed: 0

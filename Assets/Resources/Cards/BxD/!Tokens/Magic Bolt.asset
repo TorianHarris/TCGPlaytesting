@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 4
-  mainEffect: '[Brave][Quick]Deal 2 to an opposing Unit. Wisdom 10: Deal 3 damage
-    instead then deal 1 damage to the opposing Leader.'
+  mainEffect: '[Brave][Quick]Deal 2 to an opposing Unit. Wisdom 10: Deal 2 damage
+    to the opposing Leader.'
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 822d4fd67575a459cb781b6b8841d98e, type: 3}

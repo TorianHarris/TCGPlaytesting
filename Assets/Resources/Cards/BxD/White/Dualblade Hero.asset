@@ -17,9 +17,8 @@ MonoBehaviour:
   health: 2
   type: 0
   color: 5
-  mainEffect: '[Rush]n/On Destroy - Valor 5: Add an Advancing Order Token to your
-    hand.'
-  secondaryEffect: "\r"
-  trait: 
+  mainEffect: '[Rush]n/On Attack - Valor 5: Give another allied Unit +1/+1.'
+  secondaryEffect: 
+  trait: Soldier
   cardArt: {fileID: 21300000, guid: 9fe6779b03bc94dafb98ee3216812c73, type: 3}
   exposed: 0

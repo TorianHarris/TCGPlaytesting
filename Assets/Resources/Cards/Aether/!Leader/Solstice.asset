@@ -20,15 +20,11 @@ MonoBehaviour:
     health: 0
     primaryColor: 5
     secondaryColor: 0
-    mainEffect: '<<OPT>> When an allied Unit unsuspends, you can sync an Aether to
-      that Unit then that Unit heals equal to the number of Aether attached to it.
+    mainEffect: '<<OPT>> During your opponent''s turn, when an allied Unit unsuspends,
+      you can sync an Aether to that Unit.
 
 
-      Awaken
-      - #Y#YL2
-
-
-'
+      Awaken - N2L2'
     trait: 
     cardArt: {fileID: 21300000, guid: dee43fbe2920b4193a7c2f0cc9eba17f, type: 3}
   - cardName: Solstice, Zenith Star
@@ -38,16 +34,15 @@ MonoBehaviour:
     health: 5
     primaryColor: 5
     secondaryColor: 0
-    mainEffect: '<<OPT>> When an allied Unit unsuspends, you can sync an Aether to
-      that Unit then that Unit heals equal to the number of Aether attached to it.
+    mainEffect: '<<OPT>> During your opponent''s turn, when an allied Unit unsuspends,
+      you can sync an Aether to that Unit.
 
+      
 
-      Defender.
-      Vigilance.
+      Defender. Vigilance.
 
-      <<OPT>> When an Aether is synced to an allied Unit, it gains
-      Divine Shield.
-
-'
+      <<OPT>>
+      When an allied Unit unsuspends, give it +0/+1 for each Aether synced to that
+      Unit.'
     trait: Dragon
     cardArt: {fileID: 21300000, guid: 9a9d1b026d18f43aba4f99a692be9257, type: 3}

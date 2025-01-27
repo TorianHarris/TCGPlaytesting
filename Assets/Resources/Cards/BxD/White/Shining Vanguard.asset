@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 5
   mainEffect: 'On Play - Summon 2 Knight Tokens. Valor 5: Give them +0/+1.'
-  secondaryEffect: "\r"
-  trait: 
+  secondaryEffect: 
+  trait: Soldier
   cardArt: {fileID: 21300000, guid: 575860e5924464aae8f3b58bb44819ad, type: 3}
   exposed: 0

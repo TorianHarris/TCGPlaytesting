@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 0
   mainEffect: '[Brave]'
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: Dragonkin
   cardArt: {fileID: 21300000, guid: 4ba6a4054ab39493e961b110a2d25c9f, type: 3}
   exposed: 0

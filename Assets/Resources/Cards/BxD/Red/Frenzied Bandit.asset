@@ -17,9 +17,9 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 0
-  mainEffect: 'On Play - Bloodlust 1: Draw 1.n/On Play - If you have 10 or less Life,
+  mainEffect: 'On Play - Bloodlust: Draw 1.n/On Play - If you have 10 or less Life,
     Draw 1. '
-  secondaryEffect: "\r"
+  secondaryEffect: 
   trait: Demon
   cardArt: {fileID: 21300000, guid: 291abd231db68434181e563b47a55101, type: 3}
   exposed: 0
