@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
+  m_Name: '[PWX]Test'
+  m_EditorClassIdentifier: 
+  leader: {fileID: 0}
+  cards:
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
+  - {fileID: 11400000, guid: 784601c4520279c4e8963db6d829940e, type: 2}
+  - {fileID: 11400000, guid: 784601c4520279c4e8963db6d829940e, type: 2}
+  - {fileID: 11400000, guid: 784601c4520279c4e8963db6d829940e, type: 2}
+  - {fileID: 11400000, guid: 784601c4520279c4e8963db6d829940e, type: 2}
+  - {fileID: 11400000, guid: 784601c4520279c4e8963db6d829940e, type: 2}
+  - {fileID: 11400000, guid: 784601c4520279c4e8963db6d829940e, type: 2}
+  - {fileID: 11400000, guid: 784601c4520279c4e8963db6d829940e, type: 2}
+  - {fileID: 11400000, guid: 784601c4520279c4e8963db6d829940e, type: 2}
+  - {fileID: 11400000, guid: 4415c1a1d4fd3414481f9a7b64bd0e41, type: 2}
+  - {fileID: 11400000, guid: 4415c1a1d4fd3414481f9a7b64bd0e41, type: 2}
+  - {fileID: 11400000, guid: 4415c1a1d4fd3414481f9a7b64bd0e41, type: 2}
+  - {fileID: 11400000, guid: 4415c1a1d4fd3414481f9a7b64bd0e41, type: 2}
+  - {fileID: 11400000, guid: 4415c1a1d4fd3414481f9a7b64bd0e41, type: 2}
+  - {fileID: 11400000, guid: 4415c1a1d4fd3414481f9a7b64bd0e41, type: 2}
+  - {fileID: 11400000, guid: 4415c1a1d4fd3414481f9a7b64bd0e41, type: 2}
+  - {fileID: 11400000, guid: 4415c1a1d4fd3414481f9a7b64bd0e41, type: 2}
+  - {fileID: 11400000, guid: 755f3612955383144901e9b8bf68e9d1, type: 2}
+  - {fileID: 11400000, guid: 755f3612955383144901e9b8bf68e9d1, type: 2}
+  - {fileID: 11400000, guid: 755f3612955383144901e9b8bf68e9d1, type: 2}
+  - {fileID: 11400000, guid: 755f3612955383144901e9b8bf68e9d1, type: 2}
+  - {fileID: 11400000, guid: 755f3612955383144901e9b8bf68e9d1, type: 2}
+  - {fileID: 11400000, guid: 755f3612955383144901e9b8bf68e9d1, type: 2}
+  - {fileID: 11400000, guid: 755f3612955383144901e9b8bf68e9d1, type: 2}
+  - {fileID: 11400000, guid: 755f3612955383144901e9b8bf68e9d1, type: 2}
+  - {fileID: 11400000, guid: 755f3612955383144901e9b8bf68e9d1, type: 2}
+  - {fileID: 11400000, guid: 755f3612955383144901e9b8bf68e9d1, type: 2}
+  - {fileID: 11400000, guid: 753dec955c608454eaccf0cb5904001b, type: 2}
+  - {fileID: 11400000, guid: 753dec955c608454eaccf0cb5904001b, type: 2}
+  - {fileID: 11400000, guid: 753dec955c608454eaccf0cb5904001b, type: 2}
+  - {fileID: 11400000, guid: 753dec955c608454eaccf0cb5904001b, type: 2}
+  - {fileID: 11400000, guid: 753dec955c608454eaccf0cb5904001b, type: 2}
+  - {fileID: 11400000, guid: 753dec955c608454eaccf0cb5904001b, type: 2}
+  - {fileID: 11400000, guid: 753dec955c608454eaccf0cb5904001b, type: 2}
+  - {fileID: 11400000, guid: 753dec955c608454eaccf0cb5904001b, type: 2}
+  extraDeck: []

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Wingal
+  m_EditorClassIdentifier: 
+  cost: 1
+  power: 2
+  health: 2
+  type: 0
+  color: 5
+  mainEffect: On Play - [Reveal an Avatar Unit in your hand and send it to the bottom
+    of your deck] Add from your deck an Avatar Unit with a different name from the
+    revealed card and add it to your hand.
+  secondaryEffect: 
+  trait: Royal Paladin / High Beast
+  cardArt: {fileID: 21300000, guid: 24ee8103dc49c0d4da5a1e58ff39f1ab, type: 3}
+  exposed: 0

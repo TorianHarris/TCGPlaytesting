@@ -7,11 +7,13 @@ using UnityEngine.EventSystems;
 public class numModifer : MonoBehaviour, IPointerClickHandler
 {
     public int startingNum;
+    public int increment = 1;
     private string nameInLog;
     TMP_Text txt;
     int currentNum;
     Color origColor;
     public bool alterColors = true;
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +21,6 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
         nameInLog = transform.GetComponentInParent<CardManager>() ? $"{transform.GetComponentInParent<CardManager>().name}'s {gameObject.name}" : transform.parent.name;
         txt = GetComponent<TMP_Text>();
         int.TryParse(txt.text, out startingNum);
-        //txt.text = startingNum.ToString();
         currentNum = startingNum;
         origColor = txt.color;
     }
@@ -28,6 +29,7 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
     {
         if (eventData.button == PointerEventData.InputButton.Right)
         {
+            //this is a comment
             decreaseNum();
         }
 
@@ -38,15 +40,15 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
     }
     public void decreaseNum()
     {
-        currentNum--;
-        GameManager.holdLog(nameInLog + " was changed: ", currentNum + 1, currentNum);
+        currentNum-= increment;
+        GameManager.holdLog(nameInLog + " was changed: ", currentNum + increment, currentNum);
         displayNum();
     }
 
     public void increaseNum()
     {
-        currentNum++;
-        GameManager.holdLog(nameInLog + " was changed: ", currentNum - 1, currentNum);
+        currentNum+= increment;
+        GameManager.holdLog(nameInLog + " was changed: ", currentNum - increment, currentNum);
         displayNum();
     }
 

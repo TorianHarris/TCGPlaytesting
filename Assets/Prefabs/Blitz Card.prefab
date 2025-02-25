@@ -404,6 +404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingNum: 0
+  increment: 1
   alterColors: 1
 --- !u!1 &1554055008519921954
 GameObject:
@@ -1240,7 +1241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0785, y: 3.7}
+  m_AnchoredPosition: {x: 0, y: 3.7}
   m_SizeDelta: {x: 157.5797, y: 22.394}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1778153016798600663
@@ -1374,7 +1375,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.3, y: -12.46}
+  m_AnchoredPosition: {x: 0, y: -12.46}
   m_SizeDelta: {x: 144.53, y: 13.5788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2247377688883443401
@@ -1622,6 +1623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingNum: 0
+  increment: 1
   alterColors: 1
 --- !u!1 &4534620745427157759
 GameObject:
@@ -1817,21 +1819,21 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
+  m_fontSize: 13
   m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 8
-  m_fontSizeMax: 16
+  m_fontSizeMax: 13
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 5.14
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 1.9
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -1896,7 +1898,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -56.66}
+  m_AnchoredPosition: {x: 100, y: -53.595}
   m_SizeDelta: {x: 210, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3967459652035600539
@@ -2204,6 +2206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingNum: 0
+  increment: 1
   alterColors: 0
 --- !u!1 &9051769654794399279
 GameObject:

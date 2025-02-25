@@ -15,6 +15,7 @@ public class CSVtoSO : MonoBehaviour
     public enum className { Red, Yellow, Purple, Green, Blue, White, Gray, Orange, Black }
     public gameName gameFolder;
     public className classFolder;
+    public string altFolder;
 
     [InspectorButton("GenerateCards", ButtonWidth = 160)]
     public bool Generate;
@@ -59,7 +60,7 @@ public class CSVtoSO : MonoBehaviour
                 break;
         }
 
-        string folderToPopulate = gameFolder.ToString() + "/" + classFolder.ToString();
+        string folderToPopulate = gameFolder.ToString() + "/" + (altFolder != "" ? altFolder : classFolder.ToString());
         string[] allLines = CSV.text.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
         allLines = allLines.Skip(1).ToArray();
 

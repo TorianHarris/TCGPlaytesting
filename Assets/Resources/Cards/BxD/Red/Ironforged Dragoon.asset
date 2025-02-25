@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 0
-  mainEffect: '[Rush]n/On Play - If your Leader is not in Bloodlust, deal 1 damage
-    to your Leader. Otherwise gain Blitz.'
+  mainEffect: On Play - If your Leader is not in Bloodlust, deal 1 damage to your
+    Leader. Otherwise gain Blitz.
   secondaryEffect: 
   trait: Dragonkin
   cardArt: {fileID: 21300000, guid: 6c2eeaf978aa64d209c07f04594f2ba0, type: 3}

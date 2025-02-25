@@ -18,8 +18,8 @@ MonoBehaviour:
   type: 0
   color: 5
   mainEffect: '[Rush]n/On Play - Summon 2 Knight Tokens. Valor 10: Summon 2 Defender
-    Tokens instead.n/On Attack - Deal damage to an opposing Unit or Leader for each
-    other allied Unit.'
+    Tokens instead.n/On Attack - Deal damage to an opposing Unit for each other allied
+    Unit.'
   secondaryEffect: 
   trait: Soldier
   cardArt: {fileID: 21300000, guid: 4d813e1b062aa4ef389c4335f4587300, type: 3}

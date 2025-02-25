@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 4
-  mainEffect: '[Brave][Quick]Deal 2 to an opposing Unit. Wisdom 10: Deal 2 damage
+  mainEffect: '[Brave][Quick]Deal 2 to an opposing Unit. Wisdom 10: Deal 1 damage
     to the opposing Leader.'
   secondaryEffect: 
   trait: 

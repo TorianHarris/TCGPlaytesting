@@ -30,9 +30,9 @@ MonoBehaviour:
     health: 0
     primaryColor: 4
     secondaryColor: 0
-    mainEffect: 'On Awaken - Draw 1.
+    mainEffect: 'On Awaken - Draw 2. Discard 1.
 
-      Once per turn, when you draw a card(s)
-      by an allied effect, gain 1 Wisdom.'
+      Once per turn, when you draw
+      a card(s) by an allied effect, gain 1 Wisdom.'
     trait: 
     cardArt: {fileID: 21300000, guid: 580cc1091c358402e9216b8824eb01fa, type: 3}
