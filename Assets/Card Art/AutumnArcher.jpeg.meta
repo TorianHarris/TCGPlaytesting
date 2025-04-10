@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 36611cd4910f74580bec89ec70a04b1e
+labels:
+- Archer
+- Green
+- Plant
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

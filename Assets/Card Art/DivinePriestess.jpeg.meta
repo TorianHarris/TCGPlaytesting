@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: f2a960f2b4ca347d5ba2684cba86ba8e
+labels:
+- Caster
+- Holy
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

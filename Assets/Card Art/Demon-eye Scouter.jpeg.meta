@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 0eb24fbcad9e44d3b87ecc2a98b9befb
+labels:
+- Mecha
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

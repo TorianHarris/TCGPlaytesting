@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 464cfbd04869742aa847d35cda94a854
+labels:
+- Bird
+- Fire
+- Red
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

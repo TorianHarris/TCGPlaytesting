@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 3d43cacb46a43471cb6b3748e8c2909b
+labels:
+- Avatar
+- Fable
+- Gray
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

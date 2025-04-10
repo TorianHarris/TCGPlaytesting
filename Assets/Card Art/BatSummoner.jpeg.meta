@@ -1,5 +1,11 @@
 fileFormatVersion: 2
 guid: 34570f03d0b6e4a0ead3bff2b24a6580
+labels:
+- Bat
+- Demon
+- Purple
+- Red
+- Summoner
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

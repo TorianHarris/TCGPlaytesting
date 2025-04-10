@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 4
-  mainEffect: 'Draw 2. Wisdom 7: Gain 1 Mana.'
+  mainEffect: 'Draw 2. Wisdom 7: Gain 1 Over Mana.'
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: ae4c0c5f498864b62b08e9228e90afa9, type: 3}

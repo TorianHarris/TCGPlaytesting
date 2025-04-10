@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: fd555c020d57c4bbda854d7f5a57a64f
+labels:
+- Engineer
+- Gear
+- Orange
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

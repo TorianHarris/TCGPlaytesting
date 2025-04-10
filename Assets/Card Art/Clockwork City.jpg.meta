@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: f73ee4c1581bf4cbb998eb652e416186
+labels:
+- Gear
+- Orange
+- Permanent
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

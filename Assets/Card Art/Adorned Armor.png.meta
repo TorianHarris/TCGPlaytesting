@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: ea95ed1d9294649368d7c2a6a5eca107
+labels:
+- Armor
+- Equip
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

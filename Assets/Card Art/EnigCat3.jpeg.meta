@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 6dbd70ca4c276449faeab5aa640e4c69
+labels:
+- Fable
+- Gray
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

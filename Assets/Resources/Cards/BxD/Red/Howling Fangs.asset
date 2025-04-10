@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 0
-  mainEffect: '[Brave][Quick]n/Deal 3 damage to an opposing Unit. If you have 10
-    or less Life, heal 2 to your Leader.'
+  mainEffect: '[Overcast][Quick]n/Deal 3 damage to an opposing Unit. If you have
+    10 or less Life, heal 2 to your Leader.'
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 16ceee45c0baf024a9ff11de6c781b79, type: 3}

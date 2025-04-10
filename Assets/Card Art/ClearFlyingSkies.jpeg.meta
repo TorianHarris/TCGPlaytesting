@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 683c2e61a44ec49229357402cc12ca57
+labels:
+- Green
+- Permanent
+- White
+- Wind
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

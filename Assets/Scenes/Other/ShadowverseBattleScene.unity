@@ -2399,6 +2399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingNum: 0
+  increment: 1
   alterColors: 0
 --- !u!114 &464822406
 MonoBehaviour:
@@ -5311,6 +5312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingNum: 0
+  increment: 1
   alterColors: 0
 --- !u!114 &1028469453
 MonoBehaviour:
@@ -5665,7 +5667,7 @@ MonoBehaviour:
   holding: 0
   holdingTimer: 0
   timeTilRelease: 0
-  playerDeck: {fileID: 11400000, guid: 58670d05018314b43b03da26de2ad8f1, type: 2}
+  playerDeck: {fileID: 11400000, guid: d28e43c2e244446f7aeda83db99aeb7b, type: 2}
   opponentDeck: {fileID: 11400000, guid: ba87318bd689a4c9db55de1e272484a5, type: 2}
   startingHandSize: 4
   startingShields: 0

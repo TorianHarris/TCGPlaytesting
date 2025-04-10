@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 1d7b05b6bcb014f59ba7703df9ef3838
+labels:
+- Equip
+- Orange
+- Shield
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

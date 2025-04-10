@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Pongal
   m_EditorClassIdentifier: 
   cost: 2
-  power: 2
+  power: 3
   health: 2
   type: 0
   color: 5
   mainEffect: 'If a Unit was played by an allied effect this turn, this Unit gains
-    Rush. Valor 10: Gain Haste instead.'
+    Rush. Valor 10: Gain Blitz instead.'
   secondaryEffect: 
   trait: Royal Paladin / High Beast
   cardArt: {fileID: 21300000, guid: 24369433a647a994fa5c19cf3bf1e3e5, type: 3}

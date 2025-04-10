@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: e10632cb9164246a9b5e65f162c05307
+labels:
+- Purple
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

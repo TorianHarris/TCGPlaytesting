@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: a87221b01680a404cacb1fe153a50fcf
+labels:
+- Dragon
+- Orange
+- Time
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

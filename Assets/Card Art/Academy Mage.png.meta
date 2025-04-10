@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 64787521375744433bbc5eee138b0326
+labels:
+- Blue
+- Caster
+- Mage
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

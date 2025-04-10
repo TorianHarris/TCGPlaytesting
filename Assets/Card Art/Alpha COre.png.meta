@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 7d9bc6dcd93be4937bec02167baedf52
+labels:
+- Core
+- Mecha
+- Orange
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

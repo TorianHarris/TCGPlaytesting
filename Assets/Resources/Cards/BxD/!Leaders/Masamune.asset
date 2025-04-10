@@ -30,10 +30,10 @@ MonoBehaviour:
     health: 0
     primaryColor: 0
     secondaryColor: 0
-    mainEffect: 'On Awakening: Put 3 counters on this card.
+    mainEffect: 'On Awakening: Add an Inner Rage Token to your hand.
 
-      Once per turn,
-      [Remove a counter from this card] deal 1 damage to your Leader and give an
-      allied Unit +1/+0.'
+      Once
+      per turn, when you summon a Unit, if you took damage this turn, give that Unit
+      +1/+0.'
     trait: Slayer
     cardArt: {fileID: 21300000, guid: 48cc58c85f82a482babcf50ae9120517, type: 3}

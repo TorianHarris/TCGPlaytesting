@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
+  m_Name: '[SCI] Red Starter'
+  m_EditorClassIdentifier: 
+  leader: {fileID: 11400000, guid: e6019af9507aa49d88b46279cb849b17, type: 2}
+  cards:
+  - {fileID: 11400000, guid: 3777a9aed104d414ba2a5d27b898d79e, type: 2}
+  - {fileID: 11400000, guid: 3777a9aed104d414ba2a5d27b898d79e, type: 2}
+  - {fileID: 11400000, guid: 3777a9aed104d414ba2a5d27b898d79e, type: 2}
+  - {fileID: 11400000, guid: 3777a9aed104d414ba2a5d27b898d79e, type: 2}
+  - {fileID: 11400000, guid: f52c1d76b940b704ebacfbfe1340fe4e, type: 2}
+  - {fileID: 11400000, guid: f52c1d76b940b704ebacfbfe1340fe4e, type: 2}
+  - {fileID: 11400000, guid: f52c1d76b940b704ebacfbfe1340fe4e, type: 2}
+  - {fileID: 11400000, guid: f52c1d76b940b704ebacfbfe1340fe4e, type: 2}
+  - {fileID: 11400000, guid: 2048e6ae4b847c749afcea2061ee1ef5, type: 2}
+  - {fileID: 11400000, guid: 2048e6ae4b847c749afcea2061ee1ef5, type: 2}
+  - {fileID: 11400000, guid: 2048e6ae4b847c749afcea2061ee1ef5, type: 2}
+  - {fileID: 11400000, guid: 2048e6ae4b847c749afcea2061ee1ef5, type: 2}
+  - {fileID: 11400000, guid: a8c228ed354b76f4880da015a1cd0e24, type: 2}
+  - {fileID: 11400000, guid: a8c228ed354b76f4880da015a1cd0e24, type: 2}
+  - {fileID: 11400000, guid: a8c228ed354b76f4880da015a1cd0e24, type: 2}
+  - {fileID: 11400000, guid: a8c228ed354b76f4880da015a1cd0e24, type: 2}
+  - {fileID: 11400000, guid: 9e836df30be138442b60751cce9dea2f, type: 2}
+  - {fileID: 11400000, guid: 9e836df30be138442b60751cce9dea2f, type: 2}
+  - {fileID: 11400000, guid: 9e836df30be138442b60751cce9dea2f, type: 2}
+  - {fileID: 11400000, guid: 9e836df30be138442b60751cce9dea2f, type: 2}
+  - {fileID: 11400000, guid: d10b632986ed6644ba3e2a790a7e6096, type: 2}
+  - {fileID: 11400000, guid: d10b632986ed6644ba3e2a790a7e6096, type: 2}
+  - {fileID: 11400000, guid: d10b632986ed6644ba3e2a790a7e6096, type: 2}
+  - {fileID: 11400000, guid: 5160109bea7242c47a404a5722d44d85, type: 2}
+  - {fileID: 11400000, guid: 5160109bea7242c47a404a5722d44d85, type: 2}
+  - {fileID: 11400000, guid: 5160109bea7242c47a404a5722d44d85, type: 2}
+  - {fileID: 11400000, guid: 5160109bea7242c47a404a5722d44d85, type: 2}
+  - {fileID: 11400000, guid: c64708662cfb5b64ea10ccabcb65d6c6, type: 2}
+  - {fileID: 11400000, guid: c64708662cfb5b64ea10ccabcb65d6c6, type: 2}
+  - {fileID: 11400000, guid: c64708662cfb5b64ea10ccabcb65d6c6, type: 2}
+  - {fileID: 11400000, guid: c64708662cfb5b64ea10ccabcb65d6c6, type: 2}
+  - {fileID: 11400000, guid: d48e9c8a325dfcc43a3884fc18bf1969, type: 2}
+  - {fileID: 11400000, guid: d48e9c8a325dfcc43a3884fc18bf1969, type: 2}
+  - {fileID: 11400000, guid: d48e9c8a325dfcc43a3884fc18bf1969, type: 2}
+  - {fileID: 11400000, guid: d48e9c8a325dfcc43a3884fc18bf1969, type: 2}
+  - {fileID: 11400000, guid: b3bd4afc972dc694a89d048e76ff7990, type: 2}
+  - {fileID: 11400000, guid: b3bd4afc972dc694a89d048e76ff7990, type: 2}
+  - {fileID: 11400000, guid: b3bd4afc972dc694a89d048e76ff7990, type: 2}
+  - {fileID: 11400000, guid: b3bd4afc972dc694a89d048e76ff7990, type: 2}
+  - {fileID: 11400000, guid: 7f596743abb735f4d89cd5f03964e334, type: 2}
+  - {fileID: 11400000, guid: 7f596743abb735f4d89cd5f03964e334, type: 2}
+  - {fileID: 11400000, guid: 7f596743abb735f4d89cd5f03964e334, type: 2}
+  - {fileID: 11400000, guid: 7f596743abb735f4d89cd5f03964e334, type: 2}
+  - {fileID: 11400000, guid: 718f573a8339a2541aa9284adcea7507, type: 2}
+  - {fileID: 11400000, guid: 718f573a8339a2541aa9284adcea7507, type: 2}
+  - {fileID: 11400000, guid: cb81e7ff165458e4dacb3f25efb17929, type: 2}
+  - {fileID: 11400000, guid: cb81e7ff165458e4dacb3f25efb17929, type: 2}
+  - {fileID: 11400000, guid: f8e592bec8048a5438f51826769f2338, type: 2}
+  - {fileID: 11400000, guid: f8e592bec8048a5438f51826769f2338, type: 2}
+  - {fileID: 11400000, guid: f8e592bec8048a5438f51826769f2338, type: 2}
+  extraDeck: []

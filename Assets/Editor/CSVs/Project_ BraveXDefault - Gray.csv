@@ -1,0 +1,5 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Other
+Scattershot,Instant,1,,,,[Overcast][Quick]n/Deal 1 damage to up to 2 opposing Units.,
+Eradication,Instant,5,,,,[Overcast]n/Destroy an opposing Unit.,
+Quickshot,Instant,1,,,,[Overcast][Quick]n/Deal 2 damage to an opposing Unit.,
+Lone Wanderer,Unit,2,2,2,,On Play - Discard 1. Draw 1.,

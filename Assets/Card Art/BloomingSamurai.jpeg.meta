@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 40cafa0f770d54d33baadb237b1936f4
+labels:
+- Feudal
+- Red
+- Samural
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

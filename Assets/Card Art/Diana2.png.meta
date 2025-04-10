@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 18114f63d0d5040c2a2f0c4acfeec4cc
+labels:
+- Avatar
+- Beast
+- Green
+- Tamer
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

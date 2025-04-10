@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: f7424069447c74d968808babbb6015a9
+labels:
+- Dragon
+- Fairy
+- Green
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 31a515c848c354727abf0cce32f3e967
+labels:
+- Pkmn
+- Red
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 01818ab59529f4e649259b1972e6885e
+labels:
+- Green
+- Plant
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

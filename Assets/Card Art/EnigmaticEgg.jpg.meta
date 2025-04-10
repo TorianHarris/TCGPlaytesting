@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 9a251d91adcd94af6a1c0a3b31cdd171
+labels:
+- Dino
+- Egg
+- Green
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

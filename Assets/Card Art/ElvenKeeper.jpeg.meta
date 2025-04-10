@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: b3b63d70a15d94d87abfc5759d06745e
+labels:
+- Fairy
+- Green
+- Summoner
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

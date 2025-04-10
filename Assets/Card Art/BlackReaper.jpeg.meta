@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 75b14505dc8cd48c5935150141507fe3
+labels:
+- Avatar
+- Purple
+- Reaper
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

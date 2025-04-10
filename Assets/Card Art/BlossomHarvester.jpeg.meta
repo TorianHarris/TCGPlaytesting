@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: cba426409e05a4189a2b82aa2d078c62
+labels:
+- Avatar
+- Green
+- Plant
+- Reaper
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

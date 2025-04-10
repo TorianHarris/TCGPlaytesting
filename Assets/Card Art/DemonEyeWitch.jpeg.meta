@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 55dc6268760c34974864294589c814ad
+labels:
+- Demon
+- Ice
+- Purple
+- Shadow
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

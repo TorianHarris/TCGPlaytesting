@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 3aee4c8b46685437bb7be938abcf39bc
+labels:
+- Demon
+- Fire
+- Red
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

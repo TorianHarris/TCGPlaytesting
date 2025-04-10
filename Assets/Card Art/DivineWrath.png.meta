@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: cf3d46833e8b4493e991c0b4ea7c98ac
+labels:
+- Holy
+- Spell
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

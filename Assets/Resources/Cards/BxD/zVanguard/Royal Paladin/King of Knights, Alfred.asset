@@ -17,10 +17,10 @@ MonoBehaviour:
   health: 4
   type: 0
   color: 5
-  mainEffect: '[Exceed 4 - Avatar]n/On Play - Summon a Level 2 or lower Royal Paladin
-    Unit from your deck and give it +1/+1. If you Exceeded, summon a Level 4 or lower
-    Royal Paladin Unit instead.'
+  mainEffect: '[Exceed 3 - Blaster Blade]n/On Play - Summon a Level 2 or lower Royal
+    Paladin Unit from your deck and give it +1/+1. If this Unit Exceeded, summon
+    a Level 4 or lower Royal Paladin Unit instead.'
   secondaryEffect: 
-  trait: Royal Paladin / Soldier / Avatar
+  trait: Royal Paladin / Soldier
   cardArt: {fileID: 21300000, guid: d7f094ee119842545b346e50674e8115, type: 3}
   exposed: 0

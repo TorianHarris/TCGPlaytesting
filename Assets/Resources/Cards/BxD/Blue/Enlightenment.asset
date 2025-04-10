@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 4
-  mainEffect: '[Quick]Draw 1.'
+  mainEffect: '[Overcast][Quick]n/Draw 1.'
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: c88bab5b553494da6a50743a2da0b0fd, type: 3}

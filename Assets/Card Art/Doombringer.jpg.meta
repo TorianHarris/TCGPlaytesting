@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: efd6f20024ca441c5abe248528ee8d63
+labels:
+- Gray
+- Purple
+- Shadow
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

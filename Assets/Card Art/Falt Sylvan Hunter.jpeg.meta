@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 622ef80aa1c894427bbb6a59b5a73124
+labels:
+- Archer
+- Avatar
+- Beast
+- Green
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

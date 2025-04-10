@@ -17,9 +17,8 @@ MonoBehaviour:
   health: 5
   type: 0
   color: 5
-  mainEffect: '[Veil]n/On Play - Give all other allied Units +2/+2.n/When an allied
-    Unit is summoned, give it +1/+1.'
+  mainEffect: On Play - Give all other allied Royal Paladin Units +2/+2.
   secondaryEffect: 
-  trait: Royal Paladin
+  trait: Royal Paladin / Dragon
   cardArt: {fileID: 21300000, guid: a91d3b7da417da14e88f8a2159fd36da, type: 3}
   exposed: 0

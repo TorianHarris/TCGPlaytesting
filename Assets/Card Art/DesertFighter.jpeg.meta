@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: ea4ca62433a4342a88b842696bb34042
+labels:
+- Basic
+- Gray
+- Warrior
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 866cb5bfeab884682983b7b36fffc214
+labels:
+- Aqua
+- Dragon
+- Water
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

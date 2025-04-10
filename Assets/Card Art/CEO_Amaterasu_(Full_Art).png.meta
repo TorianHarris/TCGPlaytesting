@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: f9adb9569bdd81a4ca4c8c17724e2e9d
+labels:
+- Blue
+- Seer
+- Vanguard
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

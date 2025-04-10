@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 4
   type: 0
   color: 0
-  mainEffect: '[Blitz]n/On Attack - If you have 10 or less Life, deal 2 damage to
-    all opposing Units.'
+  mainEffect: '[Blitz]n/On Attack - If you have 10 or less Life, target opposing
+    Unit cannot block during the next Block Step.'
   secondaryEffect: 
   trait: Humanoid
   cardArt: {fileID: 21300000, guid: dd88cec5d16a14d49b988a25bbbbc842, type: 3}

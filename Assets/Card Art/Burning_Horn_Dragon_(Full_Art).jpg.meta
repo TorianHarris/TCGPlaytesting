@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: bf6dd75e2ee09944dbb416a5fc0c57db
+labels:
+- Dragon
+- Lightning
+- Red
+- Vanguard
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

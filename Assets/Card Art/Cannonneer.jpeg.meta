@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: e1d33da9cb1704715bd5cdefe023bf85
+labels:
+- Gunner
+- Red
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

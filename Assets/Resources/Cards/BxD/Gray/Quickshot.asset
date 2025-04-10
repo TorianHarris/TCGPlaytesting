@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 6
-  mainEffect: '[Brave][Quick]n/Deal 2 to an opposing Unit. '
+  mainEffect: '[Overcast][Quick]n/Deal 2 damage to an opposing Unit.'
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: b8eb69181b5ce488fae9ae4ec81627e2, type: 3}

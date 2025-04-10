@@ -20,6 +20,6 @@ MonoBehaviour:
   mainEffect: 'On Play - Deal X damage to an opposing Unit. X equals the number of
     allied Units. Valor 10: Double this damage'
   secondaryEffect: 
-  trait: Royal Paladin / Soldier / Avatar
+  trait: Royal Paladin / Soldier
   cardArt: {fileID: 21300000, guid: 7dec49832f137544587c4327683ad181, type: 3}
   exposed: 0

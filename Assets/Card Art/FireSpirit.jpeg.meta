@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 21b2f0c1a46cd45788812e8e93a29a9e
+labels:
+- Fire
+- Red
+- Spirit
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 4fb8511e955894b8e8229472357bd7a5
+labels:
+- Purple
+- Shadow
+- Vamplre
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 319f06190b594594fad6572bf254e42e
+labels:
+- Vanguard
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

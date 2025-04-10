@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 48cc58c85f82a482babcf50ae9120517
+labels:
+- Avatar
+- Feudal
+- Red
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -17,9 +17,8 @@ MonoBehaviour:
   health: 2
   type: 0
   color: 5
-  mainEffect: On Play - [Reveal an Avatar Unit in your hand and send it to the bottom
-    of your deck] Add from your deck an Avatar Unit with a different name from the
-    revealed card and add it to your hand.
+  mainEffect: On Play - [Discard a Royal Paladin card] Add a Blaster Blade or King
+    of Knights, Alfred from your deck to your hand.
   secondaryEffect: 
   trait: Royal Paladin / High Beast
   cardArt: {fileID: 21300000, guid: 24ee8103dc49c0d4da5a1e58ff39f1ab, type: 3}

@@ -1,0 +1,4 @@
+Name,Type,Level/Cost,HP,AP,Trait,Effect,Blitz
+Favor's Fortune,Instant,2,,,,Draw 2 cards.,
+Feral Raider,Unit,1,50,10,Human,"N1 Cycle Slash: +10 APn/You may draw 1. If you do, discard 1.",
+Black Iron Soldier,Unit,2,80,20,Human,"N1 Cycle Slash: +10 APn/You may draw 1. If you do, discard 1.",

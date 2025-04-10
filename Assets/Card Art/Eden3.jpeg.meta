@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: ff3a0052d228f4f14b04c864b07e67b9
+labels:
+- Avatar
+- Mecha
+- Orange
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 23f1b2840462c47d3b5874951b1d3bc0
+labels:
+- Archer
+- Green
+- Spell
+- Wind
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

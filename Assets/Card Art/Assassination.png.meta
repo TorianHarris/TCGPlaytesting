@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: cd534ce5b4d9244ecb2655edc6bf70d8
+labels:
+- Ninja
+- Purple
+- Spell
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

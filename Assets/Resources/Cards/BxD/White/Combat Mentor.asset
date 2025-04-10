@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 2
   type: 0
   color: 5
-  mainEffect: On Play - [Brave](2) Summon a Knight Token.n/On Play - Give an allied
+  mainEffect: On Play - [Overcast](2) Summon a Knight Token.n/On Play - Give an allied
     Token Unit Rush and +1/+0.
   secondaryEffect: 
   trait: Soldier

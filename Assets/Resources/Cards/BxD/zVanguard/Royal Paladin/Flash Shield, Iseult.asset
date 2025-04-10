@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 5
-  mainEffect: '[Brave][Quick]n/Deal 2 damage to an opposing Unit. Valor 5: Deal 3
-    damage instead.'
+  mainEffect: '[Overcast][Quick]n/Deal 2 damage to an opposing Unit. Valor 5: Deal
+    3 damage instead.'
   secondaryEffect: 
   trait: Royal Paladin
   cardArt: {fileID: 21300000, guid: aa74b860bfcd8674db7f531a5c9b0790, type: 3}

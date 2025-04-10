@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 7f210faed704b40ae8b143427c0b3c1e
+labels:
+- Dancer
+- Water
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

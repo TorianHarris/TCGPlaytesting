@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 5
-  mainEffect: '[Brave][Quick] Summon 2 Knight Tokens. Valor 10: Summon 2 Defender
+  mainEffect: '[Overcast][Quick] Summon 2 Knight Tokens. Valor 10: Summon 2 Defender
     Tokens instead. '
   secondaryEffect: 
   trait: 

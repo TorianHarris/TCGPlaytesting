@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 5f09c8ba9ed844dc597702c73315e32e
+labels:
+- Blue
+- Caster
+- Crystal
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

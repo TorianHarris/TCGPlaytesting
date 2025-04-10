@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 1287e0947bdf84101888e7c3120ac3f7
+labels:
+- Fire
+- Pkmn
+- Red
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

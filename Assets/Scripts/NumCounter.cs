@@ -7,15 +7,14 @@ public class NumCounter : MonoBehaviour
 {
     public Text text;
     public int num = 1;
-    public int maxNum = 0;
+    private int maxNum = 1;
+    public bool hasMaxNum;
     public bool resetNumOnMaxIncrease = true;
-    private bool hasMaxNum;
-
 
     // Use this for initialization
     void Start()
     {
-        if (maxNum > 0) hasMaxNum = true;
+        if (hasMaxNum) maxNum = num;
         updateTxt();
     }
 

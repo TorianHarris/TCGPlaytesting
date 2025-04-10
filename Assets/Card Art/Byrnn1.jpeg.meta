@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: cfafba3ad5bbf414186ddfe31833e262
+labels:
+- Avatar
+- Forest
+- Green
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

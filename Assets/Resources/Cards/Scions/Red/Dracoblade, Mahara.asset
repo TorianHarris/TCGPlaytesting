@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Dracoblade, Mahara
+  m_EditorClassIdentifier: 
+  cost: 3
+  power: 100
+  health: 30
+  type: 0
+  color: 0
+  mainEffect: 'N2 Searing Sword: +20 APn/If this Scion Ascended from a Scion with
+    Mahara in its name this turn, Discover 5: A Scion with Mahara in its name.'
+  secondaryEffect: 
+  trait: Dragon
+  cardArt: {fileID: 21300000, guid: 38f43769d9c331a41a2723ebbbac45e8, type: 3}
+  exposed: 0

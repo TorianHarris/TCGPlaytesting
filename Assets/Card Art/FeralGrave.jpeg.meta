@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 0a720333668ba45b987640a3379e659f
+labels:
+- Beast
+- Purple
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 8d1d611d236a84bc2861037cea51b82d
+labels:
+- Caster
+- Purple
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

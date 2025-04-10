@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 77669241d86d443a5a4e61f5c0610afb
+labels:
+- Demon
+- Purple
+- Red
+- Summoner
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

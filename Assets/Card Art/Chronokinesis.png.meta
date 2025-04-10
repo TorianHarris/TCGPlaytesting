@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 1c5d278d4a5d34a78a4d7c5e01394734
+labels:
+- Gear
+- Orange
+- Spell
+- Time
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

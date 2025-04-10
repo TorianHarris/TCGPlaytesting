@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: b63011509bcdb471e9b513ac7eaa099e
+labels:
+- Avatar
+- Fable
+- Purple
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

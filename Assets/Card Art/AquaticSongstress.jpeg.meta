@@ -1,5 +1,11 @@
 fileFormatVersion: 2
 guid: 25b5713d0c18542e182f19fbd75d2c28
+labels:
+- Aqua
+- Blue
+- Mermaid
+- Music
+- Water
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

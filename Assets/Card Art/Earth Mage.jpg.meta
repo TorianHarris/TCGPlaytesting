@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: fe8badc807c824104b3e4e9949b7ceca
+labels:
+- Caster
+- Earth
+- Summoner
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

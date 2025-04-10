@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 809df08fc0b5440d789f83f49dcee465
+labels:
+- Caster
+- Purple
+- Witch
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

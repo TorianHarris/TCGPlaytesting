@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 7dcabb7c119d741ae8a4ee98969e2ddd
+labels:
+- Jester
+- Wind
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

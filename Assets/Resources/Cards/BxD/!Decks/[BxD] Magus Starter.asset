@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leader: {fileID: 11400000, guid: 1b12b05b983544d84b16638aa1edead7, type: 2}
   cards:
-  - {fileID: 11400000, guid: da2248d4a72554080bc064826778956d, type: 2}
-  - {fileID: 11400000, guid: da2248d4a72554080bc064826778956d, type: 2}
-  - {fileID: 11400000, guid: da2248d4a72554080bc064826778956d, type: 2}
+  - {fileID: 11400000, guid: 5406987d1a51448cba67b305218564a3, type: 2}
+  - {fileID: 11400000, guid: 5406987d1a51448cba67b305218564a3, type: 2}
+  - {fileID: 11400000, guid: 5406987d1a51448cba67b305218564a3, type: 2}
   - {fileID: 11400000, guid: 4ceec6e22643b4ae38b871ca3c4c8287, type: 2}
   - {fileID: 11400000, guid: 4ceec6e22643b4ae38b871ca3c4c8287, type: 2}
   - {fileID: 11400000, guid: 4ceec6e22643b4ae38b871ca3c4c8287, type: 2}

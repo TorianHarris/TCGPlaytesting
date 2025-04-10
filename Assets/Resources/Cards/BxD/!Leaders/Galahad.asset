@@ -30,7 +30,7 @@ MonoBehaviour:
     health: 0
     primaryColor: 5
     secondaryColor: 0
-    mainEffect: 'On Awakening - Valor 10: Gain 3 Fragmented Mana.
+    mainEffect: 'On Awakening - Valor 10: Summon a Knight Token.
 
       At the end
       of your turn, give an allied Unit +1/+1.'

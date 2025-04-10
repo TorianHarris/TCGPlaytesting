@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 7dec49832f137544587c4327683ad181
+labels:
+- Avatar
+- Knight
+- Vanguard
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

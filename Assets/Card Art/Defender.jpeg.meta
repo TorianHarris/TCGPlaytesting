@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 6b1f4520575ad441fa08d76fe6e43908
+labels:
+- Knight
+- Shield
+- Token
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

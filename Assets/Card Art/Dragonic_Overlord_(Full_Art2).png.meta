@@ -1,5 +1,11 @@
 fileFormatVersion: 2
 guid: 35acd2b4dc8a4fc4db77b4c43cee4d87
+labels:
+- Armed
+- Avatar
+- Dragon
+- Red
+- Vanguard
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

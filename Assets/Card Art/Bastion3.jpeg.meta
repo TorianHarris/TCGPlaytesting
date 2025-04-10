@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 67e0f2cecdfff4ccbb1648eedaf16d2e
+labels:
+- Permanent
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

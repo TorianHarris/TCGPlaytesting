@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 463815cf5257243fb8bd873743d173f6
+labels:
+- Equip
+- Knight
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

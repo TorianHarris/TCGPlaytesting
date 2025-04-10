@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 0
-  mainEffect: '[Brave][Quick]n/Deal 2 damage to an opposing Unit. Bloodlust: Deal
-    3 damage instead.'
+  mainEffect: '[Overcast][Quick]n/Deal 2 damage to an opposing Unit. Fury: Deal 3
+    damage instead.'
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: bb353dd532267416ea938be7b2d0774e, type: 3}

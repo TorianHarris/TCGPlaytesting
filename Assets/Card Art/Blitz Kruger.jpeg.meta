@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 252ee4c7a97ac47cb9a8f866bde285ea
+labels:
+- Mecha
+- Red
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

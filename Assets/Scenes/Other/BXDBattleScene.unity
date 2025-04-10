@@ -2812,6 +2812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingNum: 20
+  increment: 1
   alterColors: 0
 --- !u!114 &464822406
 MonoBehaviour:
@@ -5765,6 +5766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingNum: 20
+  increment: 1
   alterColors: 0
 --- !u!114 &1028469453
 MonoBehaviour:
@@ -6120,7 +6122,7 @@ MonoBehaviour:
   holdingTimer: 0
   timeTilRelease: 5
   playerDeck: {fileID: 11400000, guid: 3641020101e6f4ab0a5ac2a1e7448917, type: 2}
-  opponentDeck: {fileID: 11400000, guid: 292110587ade2814d90e7445f1470716, type: 2}
+  opponentDeck: {fileID: 11400000, guid: 67e40ff38c39c4f1c89f026d2f8de7c4, type: 2}
   startingHandSize: 4
   startingShields: 0
   tokenFolder: Cards/BxD/!Tokens
@@ -6659,10 +6661,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: f1ef17ee48b26054896d96aeaf398a82, type: 3}
+  CSV: {fileID: 4900000, guid: 624e9b13976ae4ea087a1a4f15bd4862, type: 3}
   gameFolder: 3
   classFolder: 5
-  altFolder: zVanguard/Royal Paladin
+  altFolder: 
   Generate: 0
 --- !u!1001 &1381338994
 PrefabInstance:

@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: fc57da45cbb30497694e6d3d268753f3
+labels:
+- Avatar
+- Dragon
+- Fire
+- Red
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

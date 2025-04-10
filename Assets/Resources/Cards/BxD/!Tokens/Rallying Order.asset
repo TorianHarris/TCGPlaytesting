@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 5
-  mainEffect: '[Brave] Give all allied Units +1/+1.'
+  mainEffect: '[Overcast] Give all allied Units +1/+1.'
   secondaryEffect: 
   trait: Stratagem
   cardArt: {fileID: 21300000, guid: ac1e72c55450241579616ffd5d0b8e12, type: 3}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: fbe7de2f00c17425082ddcbe4d167fd9
+labels:
+- Orange
+- Time
+- Void
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

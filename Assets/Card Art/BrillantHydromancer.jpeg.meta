@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 47ba30fa3e2524c17bcead07ac0e2f29
+labels:
+- Blue
+- Orange
+- Summoner
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

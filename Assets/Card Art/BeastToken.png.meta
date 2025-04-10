@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: a8ea371d4f6604a508740e2fb56caceb
+labels:
+- Beast
+- Gray
+- Token
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,10 @@
 fileFormatVersion: 2
 guid: 27641b6d9403b4580a03d5b31ef006ed
+labels:
+- Bot
+- Mecha
+- Orange
+- Token
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

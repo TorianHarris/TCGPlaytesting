@@ -1,5 +1,11 @@
 fileFormatVersion: 2
 guid: be1ceb8b3b8f548b3a2bcb9666de7d72
+labels:
+- Beast
+- Behemoth
+- Blue
+- Crystal
+- Ice
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 1815c91d1759940228975fbc48cbd4e8
+labels:
+- Purple
+- Spell
+- Vamplre
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 317259938960c4843ab2e9aa9f47ce20
+labels:
+- Earth
+- Fighter
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

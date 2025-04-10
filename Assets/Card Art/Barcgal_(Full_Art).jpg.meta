@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: d85e60d73182f64408771508e79143b8
+labels:
+- Beast
+- Vanguard
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

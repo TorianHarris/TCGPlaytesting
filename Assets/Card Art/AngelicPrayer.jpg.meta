@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 guid: 2d057377d7f244c7f9dd6ed7284a5a79
+labels:
+- Angel
+- Spell
+- White
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

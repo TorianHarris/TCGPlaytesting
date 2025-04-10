@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: fb439f51196ff46efb219cc5c343e5ce
+labels:
+- Red
+- Rider
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
