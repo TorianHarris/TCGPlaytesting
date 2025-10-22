@@ -74,6 +74,9 @@ public class GameManager : MonoBehaviour
     public Color32 opponentLogColor;
     public GameObject cardframe;
     public GameObject leaderCardframe;
+    [Space(10)]
+    public List<CardZone> playerCardZones;
+    public List<CardZone> opponentCardZones;
 
     void Awake()
     {
@@ -139,6 +142,26 @@ public class GameManager : MonoBehaviour
         }
 
     }
+    public void ActiveAllPlayerZones()
+    {
+        {
+            foreach (CardZone zone in playerCardZones)
+            {
+                zone.ActiveAllCards();
+            }
+        }
+    }
+
+    public void ActiveAllOpponentZones()
+    {
+        {
+            foreach (CardZone zone in opponentCardZones)
+            {
+                zone.ActiveAllCards();
+            }
+        }
+    }
+
     public static void magnifierToggle()
     {
         Instance.magnifier.SetActive(false);

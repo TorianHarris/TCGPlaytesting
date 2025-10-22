@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Magic Bolt
   m_EditorClassIdentifier: 
-  cost: 2
+  cost: 1
   power: 0
   health: 0
   type: 1
   color: 4
-  mainEffect: '[Overcast][Quick]Deal 2 to an opposing Unit. Wisdom 10: Deal 1 damage
-    to the opposing Leader.'
+  mainEffect: '[Overcast][Quick]Deal 1 damage to an opposing Unit or Leader.'
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 822d4fd67575a459cb781b6b8841d98e, type: 3}

@@ -13,7 +13,7 @@ public class LeaderManager : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     public TMP_Text primaryValueText;
     public TMP_Text powerText;
     public TMP_Text healthText;
-    public Outline secondaryCardColor;
+    public Image secondaryCardColor;
     public TMP_Text typeText;
     public TMP_Text mainEffectText;
     public TMP_Text traitText;
@@ -53,10 +53,10 @@ public class LeaderManager : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         if (healthText) healthText.text = leader.health.ToString();
         else healthFrame.SetActive(false);
         if (nameFrame) nameFrame.color = leader.getColor(leader.primaryColor.ToString());
-        if (secondaryCardColor) secondaryCardColor.effectColor = secondaryColor;
+        if (secondaryCardColor) secondaryCardColor.color = secondaryColor;
         if (secondaryNameFrame) secondaryNameFrame.color = secondaryColor;
         if (typeText) typeText.text = GameManager.Instance.leaderName;
-        if (mainEffectText) mainEffectText.text = leader.mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("<<", "<b><i><u>").Replace(">>", "</u></i></b>").Replace("#O", "<sprite name=\"Orange\">").Replace("#R", "<sprite name=\"Red\">").Replace("#G", "<sprite name=\"Green\">").Replace("#Y", "<sprite name=\"Yellow\">").Replace("#B", "<sprite name=\"Blue\">").Replace("#P", "<sprite name=\"Purple\">").Replace("N1", "<sprite name=\"N1\">").Replace("N2", "<sprite name=\"N2\">").Replace("N3", "<sprite name=\"N3\">").Replace("N4", "<sprite name=\"N4\">").Replace("L1", "<sprite name=\"L1\">").Replace("L2", "<sprite name=\"L2\">");
+        if (mainEffectText) mainEffectText.text = leader.mainEffect.Replace("[", "<b>[").Replace("]", "]</b>").Replace("<<", "<b><i><u>").Replace(">>", "</u></i></b>").Replace("#O", "<sprite name=\"Orange\">").Replace("#R", "<sprite name=\"Red\">").Replace("#G", "<sprite name=\"Green\">").Replace("#Y", "<sprite name=\"Yellow\">").Replace("#B", "<sprite name=\"Blue\">").Replace("#P", "<sprite name=\"Purple\">").Replace("N0", "<sprite name=\"N0\">").Replace("N1", "<sprite name=\"N1\">").Replace("N2", "<sprite name=\"N2\">").Replace("N3", "<sprite name=\"N3\">").Replace("N4", "<sprite name=\"N4\">").Replace("L1", "<sprite name=\"L1\">").Replace("L2", "<sprite name=\"L2\">");
         if (traitText) traitText.text = leader.trait;
         if (cardArt) cardArt.sprite = leader.cardArt;
 

@@ -30,9 +30,7 @@ MonoBehaviour:
     health: 0
     primaryColor: 5
     secondaryColor: 0
-    mainEffect: 'On Awakening - Valor 10: Summon a Knight Token.
-
-      At the end
-      of your turn, give an allied Unit +1/+1.'
+    mainEffect: At the end of your turn, give an allied Unit Vigilance until the
+      start of your next turn and+1/+1.
     trait: Soldier/Elite
     cardArt: {fileID: 21300000, guid: 6684eed5836c041e5a31b9e192cc994d, type: 3}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Concentrated Will
+  m_EditorClassIdentifier: 
+  cost: 2
+  power: 0
+  health: 0
+  type: 1
+  color: 2
+  mainEffect: Draw a card. Enlightment 5 - Deal 2 damage to an opposing Unit. Enlightenment
+    10 - Deal 2 damage to your opponent.
+  secondaryEffect: "\r"
+  trait: 
+  cardArt: {fileID: 21300000, guid: 2c19621f0428d4e93b047f080ba48067, type: 3}
+  exposed: 0

@@ -20,5 +20,5 @@ MonoBehaviour:
   mainEffect: On Play - Discard 1. Draw 1.
   secondaryEffect: 
   trait: 
-  cardArt: {fileID: 0}
+  cardArt: {fileID: 21300000, guid: 43c159f9064814b34820b32ed94f946b, type: 3}
   exposed: 0

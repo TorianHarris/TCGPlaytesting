@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Sanguine Fervor
+  m_EditorClassIdentifier: 
+  cost: 1
+  power: 0
+  health: 0
+  type: 1
+  color: 0
+  mainEffect: 'Deal 1 damage to a Unit. If it survives, draw 1. '
+  secondaryEffect: Manifest a copy of this card.
+  trait: 
+  cardArt: {fileID: 21300000, guid: fb3325f5a7ebf4385b75bd3fe80aa23d, type: 3}
+  exposed: 0

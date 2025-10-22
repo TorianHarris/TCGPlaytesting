@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 4
   power: 3
-  health: 4
+  health: 3
   type: 0
   color: 5
-  mainEffect: On Play - Add a Rallying Order Token to your hand. On Destroy - Summon
-    a Knight Token.
+  mainEffect: On Play - Empower another allied Unit twice. If its an Infantry Unit,
+    Empower it 3 times instead.
   secondaryEffect: 
-  trait: Soldier
+  trait: 
   cardArt: {fileID: 21300000, guid: 97dfc1ec24c4c4f25904293141be2567, type: 3}
   exposed: 0

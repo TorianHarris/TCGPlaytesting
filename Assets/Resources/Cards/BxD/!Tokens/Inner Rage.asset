@@ -19,8 +19,8 @@ MonoBehaviour:
   color: 0
   mainEffect: '[Overcast]
 
-    Deal 1 damage to your Leader. Give an allied Unit
-    +1/+0.'
+    When this card is played or discarded, deal 1 damage
+    to your Leader then give an allied Unit +1/+0.'
   secondaryEffect: 
   trait: Rage
   cardArt: {fileID: 21300000, guid: 8bae4ff4185acf44c9cde39d3ec876e1, type: 3}

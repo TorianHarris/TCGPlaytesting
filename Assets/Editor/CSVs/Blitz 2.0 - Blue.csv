@@ -1,0 +1,16 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Blitz
+Death,Instant,4,,,,Destroy an opposing Unit.,LB2: Destroy an opposing Unit.
+Blizzard,Instant,3,,,Ice,Deal 2 to all Units.n/Magick LV1 - Deal 2 to all opposing Units instead.,Manifest a copy this card.
+Fire,Instant,2,,,Fire,Deal 3 damage to an opposing Unit.n/Magick LV1 - Split 3 damage between up to 3 opposing Units instead.,Manifest a copy this card.
+Enlightenment,Instant,1,,,,Draw 1.,Draw 1.
+Magical Mastery,Instant,3,,,,Draw 2.n/Magick LV1 - Refresh 1 Mana.,LB2: Draw 2.
+Ruin,Instant,2,,,,Deal 2 damage to an opposing Unit.,Deal 2 damage to an opposing Unit.
+Thunder,Instant,1,,,Thunder,Deal 1 damage to an opposing Unit or opposing Leader.n/Magick Lv1 - Do this again.,Manifest a copy this card.
+Ultima,Instant,8,,,,Destroy all opposing Units.n/Magick LV2 - Exile all opposing Units instead.,LB4: Destroy all Units.
+Concerntrated Will,Instant,3,,,,Deal 4 damage to an opposing Unit. Deal X damage to the opposing Leader. X equals your Leader's Magick LV.,
+Magitech Golem,Unit,4,3,3,,[Guardian][Veil]n/On Play - Magick LV 2 - Gain +2/+2.,
+Animated Golem,Unit,1,1,3,,"When you play a Spell, this card gains Guardian until the start of your next turn.",
+Grimoire Sage,Unit,3,3,3,,On Play - Discover 3: Any Spell.,
+Meteor,Instant,8,,,,Deal X damage to all opposing Units. X equals your Leader's Magick Lv +1.,
+Moogle,Unit,2,2,3,,On Play - Draw 1. Send a card from your hand to the bottom of your deck.,
+Accumulated Force,Instant,7,,,,Deal X damage to an opposing Unit or Leader. X equals your Leader's Magick Lv x 2.,Deal X damage to an opposing Unit. X equals your Leader's Magick Lv.

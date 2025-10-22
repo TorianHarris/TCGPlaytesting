@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Blizzard
+  m_EditorClassIdentifier: 
+  cost: 3
+  power: 0
+  health: 0
+  type: 1
+  color: 4
+  mainEffect: Deal 2 to all Units.n/Magick LV1 - Deal 2 to all opposing Units instead.
+  secondaryEffect: Manifest a copy this card.
+  trait: Ice
+  cardArt: {fileID: 21300000, guid: 19d39ae907a574005ade379a3e80d46a, type: 3}
+  exposed: 0

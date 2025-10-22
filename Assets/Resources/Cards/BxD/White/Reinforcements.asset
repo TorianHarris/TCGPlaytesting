@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 5
-  mainEffect: '[Overcast][Quick] Summon 2 Knight Tokens. Valor 10: Summon 2 Defender
-    Tokens instead. '
+  mainEffect: '[Overcast]n/Summon 2 Knight Tokens. Valor 10: Summon a Cavalier and
+    a Knight Token instead. '
   secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 89c32ea67a80240dcb56d3b9402b701f, type: 3}

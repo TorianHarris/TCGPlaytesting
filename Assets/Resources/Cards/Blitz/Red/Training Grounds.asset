@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Training Grounds
+  m_EditorClassIdentifier: 
+  cost: 3
+  power: 0
+  health: 0
+  type: 3
+  color: 0
+  mainEffect: When an allied Unit is summoned to this card's Line, give it +1/+1.n/ACT
+    Echo Burst - Give an allied Unit +1/+1.
+  secondaryEffect: 
+  trait: 
+  cardArt: {fileID: 0}
+  exposed: 0

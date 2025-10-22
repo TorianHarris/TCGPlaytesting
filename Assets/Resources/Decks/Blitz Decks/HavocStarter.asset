@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
   m_Name: HavocStarter
   m_EditorClassIdentifier: 
-  leader: {fileID: 0}
+  leader: {fileID: 11400000, guid: 051e9469b28f32c46bb9c0a2e2b7f9b0, type: 2}
   cards:
   - {fileID: 11400000, guid: ce60a65e65a7e4b0bb9560cfe3466818, type: 2}
   - {fileID: 11400000, guid: 8067df15bd24a4eaea528ed8d91491f7, type: 2}
@@ -54,3 +54,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: acaf0301ed41641c4be1173ad5d3c374, type: 2}
   - {fileID: 11400000, guid: 82c213aecd0e94f0191aa937ed38471b, type: 2}
   - {fileID: 11400000, guid: 82c213aecd0e94f0191aa937ed38471b, type: 2}
+  extraDeck: []

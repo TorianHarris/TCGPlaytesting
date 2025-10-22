@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
   m_Name: SleightStarter
   m_EditorClassIdentifier: 
+  leader: {fileID: 11400000, guid: d6c6745cbe0aa3541864787484b1d80f, type: 2}
   cards:
   - {fileID: 11400000, guid: 9b4df8741611b4ccaa94a66ba553bf1d, type: 2}
   - {fileID: 11400000, guid: 9b4df8741611b4ccaa94a66ba553bf1d, type: 2}
@@ -53,3 +54,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3807c02716d8d435a9f40429e53109fa, type: 2}
   - {fileID: 11400000, guid: 4936320a9f03e4a88b3dc28af9a2e203, type: 2}
   - {fileID: 11400000, guid: 4936320a9f03e4a88b3dc28af9a2e203, type: 2}
+  extraDeck: []

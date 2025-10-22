@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f880c058bec4a4c1eb07c8c8b93ca4bd, type: 3}
+  m_Name: Vivi, Elemental Magus
+  m_EditorClassIdentifier: 
+  LeaderLevels:
+  - cardName: Vivi, Elemental Magus
+    level: 0
+    primaryValue: 0
+    power: 0
+    health: 0
+    primaryColor: 4
+    secondaryColor: 0
+    mainEffect: 'Magick Mastery 5
+
+      <<1/Turn>> ACT N2 - Draw 1 and gain 2 Magick
+      EXP.
+
+      <<1/Game>> ACT N0 - Manabreak 8 - The next Spell you play this
+      turn has its cost reduced by X. X equals your Magick Lv.'
+    trait: 
+    cardArt: {fileID: 21300000, guid: bc125e4a8a78e9f409cdef1e59d18dd8, type: 3}

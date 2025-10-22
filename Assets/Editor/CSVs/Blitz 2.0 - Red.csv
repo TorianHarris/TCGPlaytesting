@@ -1,0 +1,20 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Blitz
+"Trina, Sky Lancer",Unit,5,3,5,,[Rush]n/On Attack - Give another allied Unit +1/+1.,
+Prim Princess,Unit,5,3,3,,"On Play - If this Unit is in the Backline, summon 2 Defender Tokens in the Frontline.",LB2: Summon a Defender Token.
+Fearless Captain,Unit,2,1,2,,On Play - Summon a Knight Token.,Summon a Knight Token.
+Palace Guard,Unit,2,2,3,,[Guardian],
+Jack of Knights,Unit,3,2,2,,On Play - Summon 2 Knight Tokens in this Unit's Line. ,
+Armored Hero,Unit,1,1,1,,On Destroy - Summon a Knight Token.,
+Dark General,Unit,4,4,2,,On Play - Deal 3 damage to an opposing Unit at random.,
+"Jenos, Sunrise Knight",Unit,7,5,5,,On Play - Choose 1. Legion 3 - Choose both instead:n/1) Give this Unit Haste.n/2) Destroy an opposing Unit.,LB3: Destroy an opposing Unit.
+Glory Trumpeter,Unit,3,3,3,,On Play - Discover 3: Any Unit. ,
+Glimmering Warrior,Unit,6,3,6,,[Guardian][Rush]n/On Destroy - Summon a Defender Token.,
+Honored Flaguard,Unit,2,2,3,,On Play - Legion 3: Give another allied Unit +1/+1.,
+Legend of a Hero,Permanent,2,,,,Your Leader has Legion +1.n/ACT N2 - Summon a Knight Token.n/ACT Echo Burst - Summon a Knight Token.,
+Training Grounds,Permanent,3,,,,"When an allied Unit is summoned to this card's Line, give it +1/+1.n/ACT Echo Burst - Give an allied Unit +1/+1.",
+Rallying Order,Instant,4,,,,Summon a Knight Token then give all allied Units +1/+1.,LB1: Manifest a copy of this card.
+Cross Slash,Instant,2,,,,Deal X+1 to an opposing Unit. X is equal to your Legion.,Manifest a copy of this card 
+Battle Formation,Instant,6,,,,"Summon 6 Knight Tokens. For each Unit not summoned, give a random allied Unit +1/+1.",LB2: Summon a Knight Token and give it +1/+1.
+"Brutus, Iron Juggernaut ",Unit,8,3,9,,"[Rush]n/During your turn, if this Unit survives damage, set it to Active. ",
+Sanguine Fervor,Instant,1,,,,"Deal 1 damage to a Unit. If it survives, draw 1. ",Manifest a copy of this card.
+Frenzied Dragon,Unit,2,1,4,,"<<1/Turn>> During your turn, if this Unit survives damage, this Unit gains +1/+1.",

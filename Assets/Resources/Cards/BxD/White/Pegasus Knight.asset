@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 5
-  mainEffect: On Play - [Overcast](2) Summon a Defender Token and give it +1/+1.
+  mainEffect: On Play - [Overcast](2) Summon a Cavalier Token.
   secondaryEffect: 
-  trait: Soldier
+  trait: 
   cardArt: {fileID: 21300000, guid: 0854f22baf9da4d6ba9d2978d4209689, type: 3}
   exposed: 0

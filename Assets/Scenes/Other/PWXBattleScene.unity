@@ -1714,6 +1714,11 @@ PrefabInstance:
       propertyPath: num
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7502914534837026089, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
+        type: 3}
+      propertyPath: hasMaxNum
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7502914534837026091, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
         type: 3}
       propertyPath: m_Name
@@ -2350,6 +2355,11 @@ PrefabInstance:
     - target: {fileID: 7502914534837026089, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
         type: 3}
       propertyPath: num
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502914534837026089, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
+        type: 3}
+      propertyPath: hasMaxNum
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7502914534837026091, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
@@ -6293,7 +6303,7 @@ MonoBehaviour:
   holdingTimer: 0
   timeTilRelease: 5
   playerDeck: {fileID: 11400000, guid: b168bed799849514288632f220bfe4ce, type: 2}
-  opponentDeck: {fileID: 11400000, guid: e707047b64838fe42907fea2bb553c6e, type: 2}
+  opponentDeck: {fileID: 11400000, guid: b168bed799849514288632f220bfe4ce, type: 2}
   startingHandSize: 6
   startingShields: 6
   tokenFolder: Cards/BxD/!Tokens
