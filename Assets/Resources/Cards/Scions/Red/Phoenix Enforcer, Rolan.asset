@@ -12,14 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Phoenix Enforcer, Rolan
   m_EditorClassIdentifier: 
-  cost: 2
+  cost: 1
   power: 80
   health: 20
   type: 0
   color: 0
-  mainEffect: 'Flame Cycle [On Ascend] - You may draw 1. If you do, discard 1.n/N1
-    Blazing Pummel: +10 APn/If you discarded a card this turn, this attack gains
-    +10 AP.'
+  mainEffect: 'Burning Soul [On Play] - Banish 4 cards and if you do, Charge 1.n/N1
+    Burning Fist: +10 AP'
   secondaryEffect: 
   trait: Automata
   cardArt: {fileID: 21300000, guid: 8432cda5f141f4b10b5abe0f67af33b1, type: 3}

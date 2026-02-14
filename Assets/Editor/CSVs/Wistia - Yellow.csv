@@ -1,0 +1,41 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Rarity
+Castle Attendants,Unit,1,1,3,,On Play -  Heal 1.Bastion: Heal 2 instead.,1 - BRONZE
+Palace Guard,Unit,2,1,4,,[Guardian],1 - BRONZE
+Battle Forge,Permanent,3,,,,"Durability 4.n/When an allied Unit is played to this Zone, [exhaust this card] give it +1/+1.",2 - SILVER
+Radiant Guardna,Unit,3,2,3,,[Guardian]n/On Play - Bastion: Gain +1/+1.,2 - SILVER
+Angelic Blessing,Instant,2,,,,Bastion - This card costs -1.n/Give an allied Unit +1/+1.,1 - BRONZE
+Toy Crafter,Unit,2,2,3,,On Play - Bastion: Summon an Automaton Token to this Zone.,1 - BRONZE
+Holy Temple,Permanent,2,,,,ACT N1 - Heal 1 and Charge 1.,1 - BRONZE
+Gear Doll,Unit,1,1,3,,"Once per turn, when an allied Construct in this Zone exhausts, Charge 1.",1 - BRONZE
+Energize,Instant,3,,,,Exhaust any number of allied cards. Draw X and Charge X. X is equal to half the number of cards exhausted by this effect rounded up. ,1 - BRONZE
+Gadget Blaster,Unit,2,1,4,,"Once per turn, when you play or exhaust a Construct, give this Unit +1/+0.",1 - BRONZE
+Junk Salvager,Unit,2,2,3,,On Play - Add 1 Durability to an allied Construct in this Zone.,1 - BRONZE
+Reinforcements,Instant,2,,,,Summon 2 Automaton Tokens to a Zone.,1 - BRONZE
+Assembly Nexus,Permanent,5,,,,ACT N0 - Summon a Automaton Token to this Zone.n/ACT N2 - Summon an Automaton Token and give it +2/+2.,3 - GOLD
+Rallying Banner,Permanent,4,,,,ACT N4 - Give all allied Units in this Zone +1/+1. Destroy this card.n/On Play - Give all allied Units in this Zone +1/+1.,3 - GOLD
+Suntech Wyvern,Unit,6,3,4,,On Play - Gain +1/+1 for each allied Construct in this Zone.,1 - BRONZE
+Skylight Commander,Unit,6,2,5,,"[Guardian]n/When another allied Unit in this Zone attacks, give it +1/+1.",3 - GOLD
+,,,,,,,1 - BRONZE
+,,,,,,,1 - BRONZE
+,,,,,,,1 - BRONZE
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,1 - BRONZE
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,3 - GOLD
+,,,,,,,3 - GOLD
+,,,,,,,3 - GOLD
+,,,,,,,3 - GOLD
+,,,,,,,3 - GOLD
+,,,,,,,3 - GOLD
+,,,,,,,4 - DIAMOND
+,,,,,,,4 - DIAMOND

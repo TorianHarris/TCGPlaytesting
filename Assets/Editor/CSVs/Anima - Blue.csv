@@ -1,0 +1,11 @@
+Name,Type,Level/Cost,HP,AP,Trait,Effect,Blitz
+River Dancer,Unit,1,0,1,,On Play - Discover 2: Blue card. ,
+Bubble Draco,Unit,1,1,2,,On Play/On Move - Give an opposing Unit -1 cost this turn. ,
+Snow Witch,Unit,2,2,2,,On Play - Freeze an opposing 1 cost Unit.,
+Frigid Sorceress,Unit,4,3,4,,On Play - Freeze an opposing 2 cost or lower Unit.,
+Frostbite,Instant,2,,,,[Quick] Freeze an opposing 2 cost or lower non-attacking Unit.,
+Crystalline Behemoth,Unit,6,5,6,,On Play - Freeze opposing Units with the total cost of 4 or lower.,
+Insight,Instant,1,,,,Draw 1.,
+Martial Mermaid,Unit,3,3,3,,On Play/On Attack -  Give an opposing Unit -1 cost this turn. ,
+Ice Titan,Unit,5,3,5,,[Impact 2]n/[Hexshield],
+Flow Fighter,Unit,3,3,2,,[Rush],

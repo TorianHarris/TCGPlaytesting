@@ -1,0 +1,11 @@
+Name,Type,Level/Cost,Power,Health,Trait,Effect,Blitz
+Bird of Paradise,Unit,1,1,1,,On Play - Discover 2: Green card. ,
+Verdant Sprite,Unit,1,1,1,,"While in your Voltage, when you are Summoning a Green 5-cost or higher Unit, this card counts as 2 cards.",
+Dragonfly Beast,Unit,2,2,2,,[Ferocity],
+Thornscaled Slayer,Unit,4,4,3,,[Ferocity],
+Enchanting Growth,Instant,1,,,,Voltage Boost 1 - Quick.n/Give an allied Unit +1/+1 this turn. ,
+Verdant Ranger,Unit,3,3,2,,[Rush],
+Wild Hunt,Instant,2,,,,Choose an allied Unit then your opponent chooses an opposing Unit. Those Units battle.,
+Sylvan Sage,Unit,3,2,3,,On Play/On Move - Give another allied Unit +1/+1 this turn.,
+Preying Mantis,Unit,5,4,4,,[Breakthrough 2]n/[Ferocity],
+"Falk, Sylvan Hunter",Unit,6,6,6,,"[Ferocity]n/If this Unit is Voltage Summoned, it may battle an opposing Unit.",

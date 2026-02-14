@@ -184,6 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingNum: 0
+  increment: 1
   alterColors: 1
 --- !u!1 &1385084418370692
 GameObject:
@@ -222,7 +223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -34.0114}
+  m_AnchoredPosition: {x: 100, y: -53.0114}
   m_SizeDelta: {x: 200, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222614515393890882
@@ -612,7 +613,7 @@ MonoBehaviour:
   primaryValueText: {fileID: 7481283628552297920}
   powerText: {fileID: 5540329976702117390}
   healthText: {fileID: 0}
-  secondaryCardColor: {fileID: 6171330484792049393}
+  secondaryCardColor: {fileID: 0}
   typeText: {fileID: 8200676694503992807}
   mainEffectText: {fileID: 9011976586687982182}
   traitText: {fileID: 8844355112569378401}
@@ -621,6 +622,9 @@ MonoBehaviour:
   iceOverlay: {fileID: 4141104896433343412}
   nameFrame: {fileID: 959502814274431060}
   secondaryNameFrame: {fileID: 8946450041243373874}
+  powerFrame: {fileID: 0}
+  healthFrame: {fileID: 0}
+  primaryValueFrame: {fileID: 0}
   toPrimaryColor: []
   currentParent: {fileID: 0}
   newParent: {fileID: 0}

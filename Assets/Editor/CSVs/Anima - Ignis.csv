@@ -1,0 +1,13 @@
+Name,Type,Level/Cost,Power,Health,Exceed,Effect,Trait
+Pyro Imp,Unit,1,1,1,,On Play - Discover 2: Ignis card. ,
+Dread Hound,Unit,1,1,2,,On Play/On Move - Give another allied Unit +1/+0 this turn.,
+Gadget Brawler,Unit,2,2,2,,[Impact 1],*
+Oni Berserker,Unit,4,4,3,,[Impact 1],*
+Flame Strike,Instant,2,,,,[Quick] Deal 2 damage to an opposing Unit. ,
+Blitz Wyvern,Unit,3,3,2,,[Haste],*
+Flame Lance,Instant,2,,,,Give your leader +1/+0 and Breakthrough 1 this turn. Voltage Boost 2 - Give your leader +2/+0 and Breakthrough 2 this turn instead. ,
+Gatling Claw Dragon,Unit,3,2,3,,On Play/On Move - Deal 1 damage to the opposing Front Zone Unit in front of this Unit.,
+Blazing Titan,Unit,5,4,5,,[Breakthrough 2],*
+"Zenichi, Twin-Blade Warrior",Unit,5,5,6,1,[Impact 2]n/On Play - Deal 2 damage to an opposing Unit.,*
+Fireball,Instant,4,,,,Deal 5 damage to an opposing Unit.,
+Dragon Rider,Unit,3,3,2,1,[Rush],

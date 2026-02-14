@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Armored Dragon
   m_EditorClassIdentifier: 
-  cost: 2
+  cost: 1
   power: 80
   health: 20
   type: 0
   color: 0
-  mainEffect: 'N1 Berserker Claw: +0 APn/If there are more allied Scions than opposing
-    Scions, this attack gains +20 AP.'
+  mainEffect: 'N1 Berserker Claw: +10 APn/You may draw 1. If you do, discard 1.'
   secondaryEffect: 
   trait: Dragon
   cardArt: {fileID: 21300000, guid: 7783facbfc24648069d24c947f59ab48, type: 3}

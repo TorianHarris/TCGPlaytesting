@@ -1,0 +1,41 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Rarity
+Realization,Instant,1,,,,"Draw 1, then you may place a card from your hand to your EX Gauge facedown. ",1 - BRONZE
+Arcane Flicker,Instant,1,,,,Deal 1 damage to an opposing Unit. Attuned: Do this 1 more time.,1 - BRONZE
+Mana Herald,Unit,1,1,3,,[Conduit 1],1 - BRONZE
+Conductive Sigil,Permanent,1,,,,"Durability 4.n/When you summon an allied Unit to this Zone , [exhaust this card] give that Unit Conduit +1.",1 - BRONZE
+Spiral Shot,Instant,2,,,,Deal 2 damage to an opposing Unit. Charge 1.,1 - BRONZE
+Concentration,Instant,2,,,,Choose 1. Attuned - Choose up to 2 instead:n/1) Draw 1.n/2) Reduce the cost of the next Spell you play this turn by 2.,2 - SILVER
+Starlit Observatory,Permanent,2,,,,"Durability 3.n/When an allied Unit is summoned to this Zone, [exhaust this card] draw 1.",1 - BRONZE
+Academy Mage,Unit,2,1,4,,"Once per turn, when you play a Spell give this Unit +1/+0.",1 - BRONZE
+Brillant Alchemist,Unit,3,3,3,,On Play - Attuned: Draw 1.,1 - BRONZE
+Rune Witch,Unit,3,1,4,,"[Conduit]n/When you play a Spell, Charge 1.",1 - BRONZE
+Brainstorm,Instant,3,,,,"If there is an allied card at each Zone, this card cost -1.n/Draw 2.",1 - BRONZE
+Mage Flare,Instant,4,,,,Choose 1:n/1) Deal 4 to an opposing Unit.n/2) Deal 2 to all opposing Units in a Zone.,2 - SILVER
+Magical Mastery,Instant,5,,,,Choose up to 2:n/1)Deal 1 damage to all opposing Units in a Zone.n/2)Draw 2.n/3) Charge 3.n/4)Heal 4.,3 - GOLD
+Grim Eradicator,Unit,6,4,6,,[Conduit 3],1 - BRONZE
+Frostspark,Instant,2,,,,Choose 1:n/1) Give an opposing Unit -2/-0 this turn.n/2) Exhaust an opposing Unit with 3 or less Power.,1 - BRONZE
+,,,,,,,1 - BRONZE
+,,,,,,,1 - BRONZE
+,,,,,,,1 - BRONZE
+,,,,,,,1 - BRONZE
+,,,,,,,1 - BRONZE
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,2 - SILVER
+,,,,,,,3 - GOLD
+,,,,,,,3 - GOLD
+,,,,,,,3 - GOLD
+,,,,,,,3 - GOLD
+,,,,,,,3 - GOLD
+,,,,,,,3 - GOLD
+,,,,,,,4 - DIAMOND
+,,,,,,,4 - DIAMOND

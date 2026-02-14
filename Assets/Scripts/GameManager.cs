@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     public Deck playerDeck;
     public Deck opponentDeck;
     public int startingHandSize = 3;
+    public int startingExtraDeckCardsInHand = 0;
     public int startingShields = 0;
     public string tokenFolder;
     [Space(10)]

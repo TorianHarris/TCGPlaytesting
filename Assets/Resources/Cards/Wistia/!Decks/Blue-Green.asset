@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
+  m_Name: Blue-Green
+  m_EditorClassIdentifier: 
+  leader: {fileID: 11400000, guid: ee39f292582e88640ba01d55061075a3, type: 2}
+  cards:
+  - {fileID: 11400000, guid: 5f57423460494ee448769fca11119604, type: 2}
+  - {fileID: 11400000, guid: 5f57423460494ee448769fca11119604, type: 2}
+  - {fileID: 11400000, guid: 5f57423460494ee448769fca11119604, type: 2}
+  - {fileID: 11400000, guid: 1e1ab164f85fd904e80dedb825d25d13, type: 2}
+  - {fileID: 11400000, guid: 1e1ab164f85fd904e80dedb825d25d13, type: 2}
+  - {fileID: 11400000, guid: 1e1ab164f85fd904e80dedb825d25d13, type: 2}
+  - {fileID: 11400000, guid: 40a2cf270ef1bfd4fa4a93c8a1190fa0, type: 2}
+  - {fileID: 11400000, guid: 40a2cf270ef1bfd4fa4a93c8a1190fa0, type: 2}
+  - {fileID: 11400000, guid: ab09218057751d74e9984cf7b8197dd4, type: 2}
+  - {fileID: 11400000, guid: ab09218057751d74e9984cf7b8197dd4, type: 2}
+  - {fileID: 11400000, guid: ab09218057751d74e9984cf7b8197dd4, type: 2}
+  - {fileID: 11400000, guid: dae6000cf79f58d49be11d10b4d20c62, type: 2}
+  - {fileID: 11400000, guid: dae6000cf79f58d49be11d10b4d20c62, type: 2}
+  - {fileID: 11400000, guid: dae6000cf79f58d49be11d10b4d20c62, type: 2}
+  - {fileID: 11400000, guid: 65122e469436d3543bf418e721e65122, type: 2}
+  - {fileID: 11400000, guid: 65122e469436d3543bf418e721e65122, type: 2}
+  - {fileID: 11400000, guid: 65122e469436d3543bf418e721e65122, type: 2}
+  - {fileID: 11400000, guid: 3c5dc6f768f1b734aba0eea16a75aa2e, type: 2}
+  - {fileID: 11400000, guid: 3c5dc6f768f1b734aba0eea16a75aa2e, type: 2}
+  - {fileID: 11400000, guid: 3c5dc6f768f1b734aba0eea16a75aa2e, type: 2}
+  - {fileID: 11400000, guid: 5f2f6baf47662544f8f52bd1dff4e307, type: 2}
+  - {fileID: 11400000, guid: f8dddb92c179f294d8a5a5891780c249, type: 2}
+  - {fileID: 11400000, guid: f8dddb92c179f294d8a5a5891780c249, type: 2}
+  - {fileID: 11400000, guid: ceea36bb52bca4940bdcfea27151cd7e, type: 2}
+  - {fileID: 11400000, guid: ceea36bb52bca4940bdcfea27151cd7e, type: 2}
+  - {fileID: 11400000, guid: ceea36bb52bca4940bdcfea27151cd7e, type: 2}
+  - {fileID: 11400000, guid: a4580267a5a3ea24b90934658926ba20, type: 2}
+  - {fileID: 11400000, guid: a4580267a5a3ea24b90934658926ba20, type: 2}
+  - {fileID: 11400000, guid: a4580267a5a3ea24b90934658926ba20, type: 2}
+  - {fileID: 11400000, guid: 8af94439deff1514aadb5dfb6159b8c9, type: 2}
+  - {fileID: 11400000, guid: 8af94439deff1514aadb5dfb6159b8c9, type: 2}
+  - {fileID: 11400000, guid: 8af94439deff1514aadb5dfb6159b8c9, type: 2}
+  - {fileID: 11400000, guid: 008c2f439093da54d917350394444c54, type: 2}
+  - {fileID: 11400000, guid: 008c2f439093da54d917350394444c54, type: 2}
+  - {fileID: 11400000, guid: 008c2f439093da54d917350394444c54, type: 2}
+  - {fileID: 11400000, guid: 4537d2b1767c0dd4780d8e7a70c65d44, type: 2}
+  - {fileID: 11400000, guid: 4537d2b1767c0dd4780d8e7a70c65d44, type: 2}
+  - {fileID: 11400000, guid: c368751da1c3f234491b23e47b63c66a, type: 2}
+  - {fileID: 11400000, guid: c368751da1c3f234491b23e47b63c66a, type: 2}
+  - {fileID: 11400000, guid: c368751da1c3f234491b23e47b63c66a, type: 2}
+  extraDeck: []

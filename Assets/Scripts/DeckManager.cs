@@ -57,13 +57,15 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         {
             Draw();
         }
+        for (int i = 0; i < GameManager.Instance.startingExtraDeckCardsInHand; i++)
+        {
+            drawFromExtraDeck();
+        }
 
         for (int i = 0; i < GameManager.Instance.startingShields; i++)
         {
             CreateShield();
         }
-
-        if (mainPlayer) turnCount = 1;
     }
 
     public void Draw()

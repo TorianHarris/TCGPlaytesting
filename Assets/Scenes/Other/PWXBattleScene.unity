@@ -3834,6 +3834,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 342874287}
+        m_TargetAssemblyTypeName: DeckManager, Assembly-CSharp
+        m_MethodName: Draw
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 369335447}
         m_TargetAssemblyTypeName: NumCounter, Assembly-CSharp
         m_MethodName: plusMaxNum
@@ -5238,6 +5250,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 663926453}
+        m_TargetAssemblyTypeName: DeckManager, Assembly-CSharp
+        m_MethodName: Draw
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 516018057}
         m_TargetAssemblyTypeName: NumCounter, Assembly-CSharp
         m_MethodName: plusMaxNum
@@ -5287,18 +5311,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1787644907}
-        m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
-        m_MethodName: ActiveAllCards
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CardZone, Assembly-CSharp
         m_MethodName: ActiveAllCards
         m_Mode: 1
@@ -6303,7 +6315,7 @@ MonoBehaviour:
   holdingTimer: 0
   timeTilRelease: 5
   playerDeck: {fileID: 11400000, guid: b168bed799849514288632f220bfe4ce, type: 2}
-  opponentDeck: {fileID: 11400000, guid: b168bed799849514288632f220bfe4ce, type: 2}
+  opponentDeck: {fileID: 11400000, guid: e707047b64838fe42907fea2bb553c6e, type: 2}
   startingHandSize: 6
   startingShields: 6
   tokenFolder: Cards/BxD/!Tokens
@@ -6355,8 +6367,10 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   cardframe: {fileID: 1722740845861868, guid: 099554ff757a2cc429c679da11dbcc66, type: 3}
-  leaderCardframe: {fileID: 1722740845861868, guid: 384c5f8139a534a05aace5db0b3e38e0,
+  leaderCardframe: {fileID: 1722740845861868, guid: a117de9a56e964ae6a3ecf7011b10ebb,
     type: 3}
+  playerCardZones: []
+  opponentCardZones: []
 --- !u!4 &1104206486
 Transform:
   m_ObjectHideFlags: 0
@@ -6972,9 +6986,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: 0684eaf01774ae34890af2cbc3a88de0, type: 3}
+  CSV: {fileID: 4900000, guid: 412d166cebcfda440812e146f14935cd, type: 3}
   gameFolder: 7
-  classFolder: 5
+  classFolder: 0
   altFolder: 
   Generate: 0
 --- !u!1 &1375314873

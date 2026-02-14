@@ -1,0 +1,14 @@
+Name,Type,Level/Cost,HP,AP,Trait,Effect,Blitz
+Gilded Falcon,Unit,1,1,1,,On Play - Discover 2: Sol card. ,
+Gloryseeker,Unit,1,1,2,,On Play/On Move - Give another allied Unit +0/+1 this turn.,
+Palace Guard,Unit,2,2,2,,[Barrier],*
+Opulent Hero,Unit,4,3,4,,[Barrier],*
+Aegis Defense,Instant,2,,,,Give an allied Unit Barrier. Voltage Boost 2 - Give all allied Units Barrier instead.,
+Divine Priestess,Unit,3,2,3,,On Play/On Move - Give another allied Unit Barrier.,
+Angelic Grace,Instant,1,,,,Voltage Boost 1 - Quick.n/Give an allied Unit +0/+2 this turn. ,
+Shining Vanguard,Unit,3,2,3,,"At the start of your opponent's turn, gain +0/+2 this turn.",*
+Steel Titan,Unit,5,4,5,,[Breakthrough 2],*
+zzz,Unit,5,6,6,2,"On Play - This Unit Binds an opposing Unit with a lower cost than it. When that Unit is Unbound, your opponent can pay 2 Voltage. If they don't, trash it instead. ",
+Holy Flare,Instant,3,,,,An allied Unit Suppresses an opposing Unit with a lower cost than it.,
+"Veradis, Holy Defender",Unit,5,5,6,1,"Once per turn, when this Unit takes damage, it gains Barrier.",*
+Skylight Guardian,Unit,4,3,6,1,[Taunt][Hexproof],

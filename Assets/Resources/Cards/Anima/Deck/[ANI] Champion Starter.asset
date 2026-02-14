@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
+  m_Name: '[ANI] Champion Starter'
+  m_EditorClassIdentifier: 
+  leader: {fileID: 11400000, guid: f3d64aca91a530b46a4374198d90c88d, type: 2}
+  cards:
+  - {fileID: 11400000, guid: f8f43b148db4d1441b92864ebbfb445b, type: 2}
+  - {fileID: 11400000, guid: f8f43b148db4d1441b92864ebbfb445b, type: 2}
+  - {fileID: 11400000, guid: f8f43b148db4d1441b92864ebbfb445b, type: 2}
+  - {fileID: 11400000, guid: 494b97c6d84f8954ab5ccbf53b1cc513, type: 2}
+  - {fileID: 11400000, guid: 494b97c6d84f8954ab5ccbf53b1cc513, type: 2}
+  - {fileID: 11400000, guid: 494b97c6d84f8954ab5ccbf53b1cc513, type: 2}
+  - {fileID: 11400000, guid: 4bc9aa50d778f784a9092b74b93d2a02, type: 2}
+  - {fileID: 11400000, guid: 4bc9aa50d778f784a9092b74b93d2a02, type: 2}
+  - {fileID: 11400000, guid: 4bc9aa50d778f784a9092b74b93d2a02, type: 2}
+  - {fileID: 11400000, guid: 962fce75290a0444a961052a33c88bfc, type: 2}
+  - {fileID: 11400000, guid: 962fce75290a0444a961052a33c88bfc, type: 2}
+  - {fileID: 11400000, guid: 962fce75290a0444a961052a33c88bfc, type: 2}
+  - {fileID: 11400000, guid: 3a6424dd4a3174d4bb80be926069a312, type: 2}
+  - {fileID: 11400000, guid: 3a6424dd4a3174d4bb80be926069a312, type: 2}
+  - {fileID: 11400000, guid: 3a6424dd4a3174d4bb80be926069a312, type: 2}
+  - {fileID: 11400000, guid: bc0cf89c9a74967468d26113fbd0697f, type: 2}
+  - {fileID: 11400000, guid: bc0cf89c9a74967468d26113fbd0697f, type: 2}
+  - {fileID: 11400000, guid: 3c290ab28ad16ef4585f1c668429eda8, type: 2}
+  - {fileID: 11400000, guid: 3c290ab28ad16ef4585f1c668429eda8, type: 2}
+  - {fileID: 11400000, guid: 4b76bde3fd5a687489438dc38e1d79c7, type: 2}
+  - {fileID: 11400000, guid: 4b76bde3fd5a687489438dc38e1d79c7, type: 2}
+  - {fileID: 11400000, guid: 8bf68803c92f0f94eaf369f902d5bf40, type: 2}
+  - {fileID: 11400000, guid: 8bf68803c92f0f94eaf369f902d5bf40, type: 2}
+  extraDeck:
+  - {fileID: 11400000, guid: be377ae6ede64e845894abdbbfa1df7b, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
   m_Name: zzTestDeck
   m_EditorClassIdentifier: 
-  leader: {fileID: 11400000, guid: 051e9469b28f32c46bb9c0a2e2b7f9b0, type: 2}
+  leader: {fileID: 11400000, guid: ee39f292582e88640ba01d55061075a3, type: 2}
   cards:
   - {fileID: 11400000, guid: 8565eeee6d8b1914f8680f8d457b36f4, type: 2}
   - {fileID: 11400000, guid: 8565eeee6d8b1914f8680f8d457b36f4, type: 2}

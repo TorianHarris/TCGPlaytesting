@@ -6196,6 +6196,8 @@ MonoBehaviour:
   cardframe: {fileID: 1722740845861868, guid: f38ecf1d31a674d79adb0736e6d8a3bf, type: 3}
   leaderCardframe: {fileID: 1722740845861868, guid: 384c5f8139a534a05aace5db0b3e38e0,
     type: 3}
+  playerCardZones: []
+  opponentCardZones: []
 --- !u!4 &1104206486
 Transform:
   m_ObjectHideFlags: 0
@@ -6696,9 +6698,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: 624e9b13976ae4ea087a1a4f15bd4862, type: 3}
-  gameFolder: 3
-  classFolder: 5
+  CSV: {fileID: 4900000, guid: 268950aecafd70c408c7046cdbb9cd5a, type: 3}
+  gameFolder: 1
+  classFolder: 3
   altFolder: 
   Generate: 0
 --- !u!1001 &1381338994

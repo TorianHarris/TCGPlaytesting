@@ -1,0 +1,12 @@
+Name,Type,Level/Cost,HP,AP,Trait,Effect,Blitz
+River Dancer,Unit,1,1,1,,On Play - Discover 2:  Aether card. ,
+Bubble Draco,Unit,1,1,2,,On Play/On Move - Give an opposing Unit -1 cost this turn. ,
+Aqua Solider,Unit,2,2,2,,[Stealth 1],
+Abyssal Drake,Unit,4,3,4,,[Stealth 1],
+Frostbite,Instant,2,,,,[Quick] Return an opposing 2 cost or lower non-attacking Unit to the hand.,
+"Zepher, Prince of Gales",Unit,6,4,4,,[Stealth 2]n/On Play - Return an opposing 3 cost or lower Unit to the hand.,
+Insight,Instant,1,,,,Draw 1.,
+Martial Mermaid,Unit,3,3,3,,On Play/On Attack -  Give an opposing Unit -1 cost this turn. ,
+Ice Titan,Unit,5,4,5,,[Breakthrough 2],
+Flow Fighter,Unit,3,3,2,,On Play - Move an opposing Unit to an adjacent Zone. This does not trigger opposing movement effects.,
+Gale Winds,Instant,4,,,,Return an opposing Unit to the hand. ,

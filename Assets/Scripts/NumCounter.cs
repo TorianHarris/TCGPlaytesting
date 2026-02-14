@@ -7,6 +7,7 @@ public class NumCounter : MonoBehaviour
 {
     public Text text;
     public int num = 1;
+    public int numLimit = 1;
     private int maxNum = 1;
     public bool hasMaxNum;
     public bool resetNumOnMaxIncrease = true;
@@ -33,7 +34,7 @@ public class NumCounter : MonoBehaviour
 
     public void plusMaxNum()
     {
-        maxNum++;
+        if (maxNum < numLimit) maxNum++;
         if (resetNumOnMaxIncrease) num = maxNum;
         updateTxt();
     }

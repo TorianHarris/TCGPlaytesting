@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1
   power: 4
-  health: 1
+  health: 0
   type: 0
   color: 3
   mainEffect: 'Invoke: Until the end of the next turn, reduce the cost of the next

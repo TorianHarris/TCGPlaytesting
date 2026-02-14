@@ -3265,6 +3265,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3161973578116107915, guid: 0b41352d9c501430290f0e81fa27dbf9,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.74509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161973578116107915, guid: 0b41352d9c501430290f0e81fa27dbf9,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5611759
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161973578116107915, guid: 0b41352d9c501430290f0e81fa27dbf9,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.003921563
+      objectReference: {fileID: 0}
     - target: {fileID: 3907152550920539667, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
       propertyPath: m_Name
@@ -3273,7 +3288,7 @@ PrefabInstance:
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
       propertyPath: m_text
-      value: +500
+      value: Cndt
       objectReference: {fileID: 0}
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
@@ -6417,6 +6432,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3161973578116107915, guid: 0b41352d9c501430290f0e81fa27dbf9,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.056069676
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161973578116107915, guid: 0b41352d9c501430290f0e81fa27dbf9,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5701753
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161973578116107915, guid: 0b41352d9c501430290f0e81fa27dbf9,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.6603774
+      objectReference: {fileID: 0}
     - target: {fileID: 3907152550920539667, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
       propertyPath: m_Name
@@ -6425,7 +6455,7 @@ PrefabInstance:
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
       propertyPath: m_text
-      value: +1k
+      value: Dur
       objectReference: {fileID: 0}
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
@@ -6803,11 +6833,11 @@ MonoBehaviour:
   holding: 0
   holdingTimer: 0
   timeTilRelease: 0
-  playerDeck: {fileID: 11400000, guid: 2e4ff7bf2052cab48b3971086fa63048, type: 2}
-  opponentDeck: {fileID: 11400000, guid: 2e4ff7bf2052cab48b3971086fa63048, type: 2}
+  playerDeck: {fileID: 11400000, guid: e8fae115f2ce9264a915ed1e0eba29fd, type: 2}
+  opponentDeck: {fileID: 11400000, guid: c632af081c5429948aa2884a1e061a21, type: 2}
   startingHandSize: 4
   startingShields: 0
-  tokenFolder: Cards/Blitz/zzTokens
+  tokenFolder: Cards/Wistia/zzTokens
   unitName: Unit
   instantName: Spell
   permanentName: Construct
@@ -6855,8 +6885,8 @@ MonoBehaviour:
   opponentLogColor:
     serializedVersion: 2
     rgba: 0
-  cardframe: {fileID: 1722740845861868, guid: f38ecf1d31a674d79adb0736e6d8a3bf, type: 3}
-  leaderCardframe: {fileID: 1722740845861868, guid: 384c5f8139a534a05aace5db0b3e38e0,
+  cardframe: {fileID: 1722740845861868, guid: ba05704978a605a4981d3fccd675a812, type: 3}
+  leaderCardframe: {fileID: 1722740845861868, guid: 636a9e1968189c04ca14404deb29cfee,
     type: 3}
   playerCardZones:
   - {fileID: 1458932161}
@@ -8116,8 +8146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CSV: {fileID: 4900000, guid: b85439749f77f174ba4e5a6fc59ab370, type: 3}
-  gameFolder: 0
+  CSV: {fileID: 4900000, guid: 4ca2616dc6fe66b48b9238aa7a793752, type: 3}
+  gameFolder: 7
   classFolder: 4
   altFolder: 
   Generate: 0
@@ -8425,6 +8455,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3161973578116107915, guid: 0b41352d9c501430290f0e81fa27dbf9,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.003921563
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161973578116107915, guid: 0b41352d9c501430290f0e81fa27dbf9,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.74509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161973578116107915, guid: 0b41352d9c501430290f0e81fa27dbf9,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.31377575
+      objectReference: {fileID: 0}
     - target: {fileID: 3907152550920539667, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
       propertyPath: m_Name
@@ -8433,7 +8478,7 @@ PrefabInstance:
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}
       propertyPath: m_text
-      value: Bar
+      value: SB
       objectReference: {fileID: 0}
     - target: {fileID: 5584327023352729483, guid: 0b41352d9c501430290f0e81fa27dbf9,
         type: 3}

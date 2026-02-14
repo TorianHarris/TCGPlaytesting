@@ -1,0 +1,21 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Column 8
+Spark Wyrm,Unit,1,2,2,Dragon,[Crush 1],Basic
+Howling Fangs,Instant,1,,,,Deal 1 damage to an opposing Unit. Deal 1 damage to your opponent.,1 - BRONZE
+Infernal Pit,Permanent,1,,,,"Durability 3.n/When an allied Unit in this Zone attacks, [exhaust this card] Charge 1.",
+Dread Hound,Unit,1,2,2,Beast,On Play - Draw 1. Discard 1.,1 - BRONZE
+Wicked Succubus,Unit,2,3,2,,On Attack - Charge 1.,1 - BRONZE
+Dragon Fire,Instant,2,,,,"You can discard 1 as an additional cost.n/Deal 2 to an opposing Unit. If you paid the additional cost, deal 3 damage instead.",1 - BRONZE
+Enkindled Flame,Unit,2,2,3,,"When this card is discarded, deal 1 damage to your opponent.",1 - BRONZE
+Gambler's Haven,Permanent,2,,,,"When you discard a card, [exhaust this card] draw 1.",
+Cursed Ogre,Unit,2,3,3,,On Play - Discard 1.,
+Master Masamune,Unit,2,2,2,,[First Strike],
+Ember Mage,Unit,3,3,3,,On Play - Give another allied Unit in this Zone +2/+0 this turn.,1 - BRONZE
+Blazejet Wyvern,Unit,3,2,3,,On Attack -  Gain +1/+0 and Crush +1.,
+Phoenixwing Lancer,Unit,4,3,3,,[Rush]n/On Play - Frenzy: Gain +1/+1. ,2 - SILVER
+Ignis Magnum,Unit,5,4,5,,"Once per turn, when this Unit gains Attack, Charge 2.n/On Play - Frenzy: Gain +1/+0.",
+Hellhound,Unit,6,6,6,,This Unit cannot attack your opponent.,
+Hell Wyvern,Unit,6,4,4,,"If you discarded a card this turn, this card cost -2.",2 - SILVER
+Wildlands Terror,Unit,6,5,5,,On Attack - Discard your hand. Draw 3.,
+Blazing Drake,Unit,7,6,6,,On Play - Frenzy: Destroy an opposing Unit in this Zone.,
+"Prometheus, Dragonic Commander",Unit,8,6,6,,"On Play - Give all other allied Units in this Zone +2/+0, First Strike, and Crush +2 this turn.",4 - DIAMOND
+Behemoth Omega,Unit,10,7,7,,On Play - Destroy all other cards in this Zone. Deal damage to each player for each card destroyed by this effect.,4 - DIAMOND

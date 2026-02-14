@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
   m_Name: '[PWX]Test'
   m_EditorClassIdentifier: 
-  leader: {fileID: 0}
+  leader: {fileID: 11400000, guid: c3b76cfcb5df7a24ca919e6491a3ffef, type: 2}
   cards:
   - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}
   - {fileID: 11400000, guid: 148382a880f7e094e89ffeeeb3a35c1f, type: 2}

@@ -1,0 +1,12 @@
+Name,Type,Level/Cost,HP,AP,Trait,Effect,Blitz
+Gilded Falcon,Unit,1,1,1,,On Play - Discover 2: Light card. ,
+Gloryseeker,Unit,1,1,2,,On Play/On Move - Give another allied Unit +0/+1 this turn.,
+Palace Guard,Unit,2,2,1,,[Fortified],
+Opulent Hero,Unit,4,3,3,,[Fortified],
+Aegis Defense,Instant,2,,,,Give an allied Unit Barrier. Voltage Boost 2 - Give all allied Units Barrier instead.,
+Divine Priestess,Unit,3,2,4,,On Play - Give another allied Unit Barrier.,
+Angelic Grace,Instant,1,,,,Voltage Boost 1 - Quick.n/Give an allied Unit +0/+2 this turn. ,
+Shining Vanguard,Unit,4,3,3,,"At the start of your opponent's turn, gain +0/+2 this turn.",
+Skylight Guardian,Unit,5,4,4,,[Breakthrough 1]n/[Fortified],
+Winged Flagbearer,Unit,3,3,2,,[Rush],
+Holy Flare,Instant,2,,,,[Quick] Reverse an opposing non-attacking Unit with 2 or less Health.,

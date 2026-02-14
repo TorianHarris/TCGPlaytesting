@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f880c058bec4a4c1eb07c8c8b93ca4bd, type: 3}
+  m_Name: Landmaster
+  m_EditorClassIdentifier: 
+  LeaderLevels:
+  - cardName: Izudia, Gilded Ranger
+    level: 0
+    primaryValue: 0
+    power: 1
+    health: 1
+    primaryColor: 3
+    secondaryColor: 2
+    mainEffect: 
+    trait: Landmaster
+    cardArt: {fileID: 21300000, guid: 23cb6b20bff79cf4489182c25b941f39, type: 3}
