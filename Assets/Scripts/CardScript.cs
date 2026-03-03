@@ -195,6 +195,7 @@ public class CardScript : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
         cardManager.cardReference.changeEnhancedCard();
         GameManager.Instance.magnifiedCard.SetActive(true);
         GameManager.Instance.magnifier.SetActive(true);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(GameManager.Instance.magnifiedCard.GetComponentInChildren<VerticalLayoutGroup>().GetComponent<RectTransform>());
     }
 
     public void ToggleActive()

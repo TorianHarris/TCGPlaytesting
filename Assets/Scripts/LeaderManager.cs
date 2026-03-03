@@ -147,6 +147,8 @@ public class LeaderManager : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         GameManager.Instance.magnifiedLeaderCard.GetComponent<LeaderManager>().FillLeaderInfo(leader);
         GameManager.Instance.magnifiedLeaderCard.SetActive(true);
         GameManager.Instance.magnifier.SetActive(true);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(GameManager.Instance.magnifiedCard.GetComponentInChildren<VerticalLayoutGroup>().GetComponent<RectTransform>());
+
     }
 
     public void ToggleActive()

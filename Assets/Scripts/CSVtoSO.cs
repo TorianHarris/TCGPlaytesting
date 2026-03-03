@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 public class CSVtoSO : MonoBehaviour
 {
     public TextAsset CSV;
-    public enum gameName { Aether, Anima, Blitz, Break, BXD, Dawn, Fortuna, Saga, Scions, Wistia, WitchAcademy  }
+    public enum gameName { Aether, Anima, Blitz, Break, BXD, Dawn, Fortuna, LinkRush, Saga, Scions, Wistia, WitchAcademy  }
     public enum className { Red, Yellow, Purple, Green, Blue, White, Gray, Orange, Black }
     public gameName gameFolder;
     public className classFolder;
