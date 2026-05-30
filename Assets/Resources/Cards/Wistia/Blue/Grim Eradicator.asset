@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Grim Eradicator
   m_EditorClassIdentifier: 
-  cost: 6
-  power: 4
-  health: 6
+  cost: 5
+  power: 5
+  health: 4
   type: 0
   color: 4
-  mainEffect: '[Conduit 3]'
-  secondaryEffect: 1 - BRONZE
+  mainEffect: 'Invoke - Add a Magic Blast to your hand. Attuned: The next Spell you
+    play this turn has -3 cost.'
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 7f1881e81bc02443e86d519b33619ddc, type: 3}
   exposed: 0

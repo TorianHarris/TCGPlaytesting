@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Blazing Drake
   m_EditorClassIdentifier: 
   cost: 4
-  power: 7000
+  power: 5000
   health: 1000
   type: 0
   color: 0

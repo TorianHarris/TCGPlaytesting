@@ -1796,6 +1796,7 @@ MonoBehaviour:
   deckCount: {fileID: 1047853682}
   extraDeckCount: {fileID: 0}
   damageArea: {fileID: 396237384}
+  holdArea: {fileID: 0}
   deckViewer: {fileID: 902110558}
   cardLibrary: []
   cards: []
@@ -2442,7 +2443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotate: 0
-  facedown: 1
+  facedown: 0
 --- !u!114 &396237386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2622,7 +2623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotate: 0
-  facedown: 1
+  facedown: 0
 --- !u!114 &409336863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4027,6 +4028,7 @@ MonoBehaviour:
   deckCount: {fileID: 1444521148}
   extraDeckCount: {fileID: 0}
   damageArea: {fileID: 409336857}
+  holdArea: {fileID: 0}
   deckViewer: {fileID: 65250170}
   cardLibrary: []
   cards: []
@@ -6314,10 +6316,11 @@ MonoBehaviour:
   holding: 0
   holdingTimer: 0
   timeTilRelease: 5
-  playerDeck: {fileID: 11400000, guid: b168bed799849514288632f220bfe4ce, type: 2}
-  opponentDeck: {fileID: 11400000, guid: e707047b64838fe42907fea2bb553c6e, type: 2}
-  startingHandSize: 6
-  startingShields: 6
+  playerDeck: {fileID: 11400000, guid: 4dddce6b8de0edf4d9ae1bbfe3279a78, type: 2}
+  opponentDeck: {fileID: 11400000, guid: 4dddce6b8de0edf4d9ae1bbfe3279a78, type: 2}
+  startingHandSize: 5
+  startingExtraDeckCardsInHand: 0
+  startingShields: 0
   tokenFolder: Cards/BxD/!Tokens
   unitName: Scion
   instantName: Arts
@@ -6366,7 +6369,7 @@ MonoBehaviour:
   opponentLogColor:
     serializedVersion: 2
     rgba: 0
-  cardframe: {fileID: 1722740845861868, guid: 099554ff757a2cc429c679da11dbcc66, type: 3}
+  cardframe: {fileID: 1722740845861868, guid: b2735a7853c93244294ab948d25556a9, type: 3}
   leaderCardframe: {fileID: 1722740845861868, guid: a117de9a56e964ae6a3ecf7011b10ebb,
     type: 3}
   playerCardZones: []

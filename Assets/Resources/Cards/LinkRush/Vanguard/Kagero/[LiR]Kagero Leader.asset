@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f880c058bec4a4c1eb07c8c8b93ca4bd, type: 3}
+  m_Name: '[LiR]Kagero Leader'
+  m_EditorClassIdentifier: 
+  LeaderLevels:
+  - cardName: Toshiki Kai
+    level: 1
+    primaryValue: 2
+    power: 2000
+    health: 0
+    primaryColor: 0
+    secondaryColor: 0
+    mainEffect: 
+    trait: Kagero
+    cardArt: {fileID: 21300000, guid: 69f90c6fda6764bb98c855d8ff1225f9, type: 3}
+  - cardName: Lizard Soldier, Conroe
+    level: 2
+    primaryValue: 4
+    power: 3000
+    health: 0
+    primaryColor: 0
+    secondaryColor: 0
+    mainEffect: 'On Ascend - (EB1) Discover 5: Add a Level 2 or lower <<Kagero>>
+      card to your hand. '
+    trait: Kagero
+    cardArt: {fileID: 21300000, guid: cd7f1b7a334c71d49bbaa98de42b003e, type: 3}
+  - cardName: Dragon Armored Knight
+    level: 3
+    primaryValue: 6
+    power: 4000
+    health: 0
+    primaryColor: 0
+    secondaryColor: 0
+    mainEffect: On Ascend - Link Charge 2. The next time Energize this turn you may
+      use a card from your Link Zone.
+    trait: Kagero
+    cardArt: {fileID: 21300000, guid: 895b704290fbc964eb40c019129cc20e, type: 3}
+  - cardName: Dragonic Overlord
+    level: 4
+    primaryValue: 8
+    power: 5000
+    health: 0
+    primaryColor: 0
+    secondaryColor: 0
+    mainEffect: '[OPT] On Attack - (EB2) If this Leader is attacking an opposing
+      Unit in an Attacker Zone, Stand this Leader.'
+    trait: Kagero
+    cardArt: {fileID: 21300000, guid: 35acd2b4dc8a4fc4db77b4c43cee4d87, type: 3}
+  - cardName: Dragonic Overlord The End
+    level: 4
+    primaryValue: 8
+    power: 5000
+    health: 0
+    primaryColor: 0
+    secondaryColor: 0
+    mainEffect: '[CROSSRIDE] - Dragonic Overlord
+
+      [OPT] On Attack - (EB2 &
+      Discard 1) Stand this Leader.'
+    trait: Kagero
+    cardArt: {fileID: 21300000, guid: 826cbf65a18721a4184ec983adafe60e, type: 3}

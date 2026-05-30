@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 1
-  mainEffect: Summon 2 Defender Tokens.
-  secondaryEffect: "Summon a Defender Token.\r"
+  mainEffect: Summon 2 Automaton Tokens to a Zone.
+  secondaryEffect: 1 - BRONZE
   trait: 
   cardArt: {fileID: 21300000, guid: 89c32ea67a80240dcb56d3b9402b701f, type: 3}
   exposed: 0

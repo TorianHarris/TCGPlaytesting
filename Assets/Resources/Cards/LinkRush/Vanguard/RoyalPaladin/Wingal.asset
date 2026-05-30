@@ -18,8 +18,8 @@ MonoBehaviour:
   type: 0
   color: 1
   mainEffect: This card in the Link Zone can be treated as Level 0 when an allied
-    Blaster Blade Link Attacks.n/On Play - [EB1] Search for a Blaster Blade and add
-    it to your hand.
+    "Blaster Blade" Link Attacks.n/On Play - (EB1) Search for a "Blaster Blade" and
+    add it to your hand.
   secondaryEffect: 
   trait: Royal Paladin / High Beast
   cardArt: {fileID: 21300000, guid: 24ee8103dc49c0d4da5a1e58ff39f1ab, type: 3}

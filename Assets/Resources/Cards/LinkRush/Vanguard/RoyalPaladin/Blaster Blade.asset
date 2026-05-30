@@ -17,10 +17,10 @@ MonoBehaviour:
   health: 1000
   type: 0
   color: 1
-  mainEffect: On Play - [EB1] Deal 3000 damage to an opposing Unit.n/On Link -  Deal
-    1000 damage to an opposing Unit. [EB1] Increase this damage by +1000 for each
+  mainEffect: On Play - (EB1) Deal 3000 damage to an opposing Unit.n/On Link -  Deal
+    1000 damage to an opposing Unit. (EB1) Increase this damage by +1000 for each
     of this attack's Linkage.
   secondaryEffect: 
-  trait: Royal Paladin / Soldier
+  trait: Royal Paladin / Knight
   cardArt: {fileID: 21300000, guid: 7dec49832f137544587c4327683ad181, type: 3}
   exposed: 0

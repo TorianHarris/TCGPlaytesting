@@ -17,6 +17,7 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
     public Text extraDeckCount;
 
     public Transform damageArea;
+    public Transform holdArea;
     public GameObject deckViewer;
 
     public List<Card> cardLibrary;
@@ -122,19 +123,18 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
             GameManager.log((mainPlayer ? "Player" : "Opponent") + " shuffled their deck", mainPlayer);
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2) && mouseOver)
+        if (Input.GetKeyDown(KeyCode.Return) && mouseOver)
         {
-            shuffleTopX(2);
-        }
+            if (holdArea != null && int.TryParse(GameManager.Instance.sb.ToString(), out int result))
+            {
+                for (int i = 0; i < result; i++)
+                {
+                    cards[0].createCard(cardFrame, holdArea, this, true);
+                    cards.RemoveAt(0);
+                }
+            }
 
-        if (Input.GetKeyDown(KeyCode.Alpha3) && mouseOver)
-        {
-            shuffleTopX(3);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Alpha4) && mouseOver)
-        {
-            shuffleTopX(4);
+            GameManager.Instance.sb.Clear();
         }
     }
 
@@ -161,23 +161,6 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         cards = firstPart;
         print("shuffled top " + num);
     }
-
-    // public void backToDeck(string c, bool exposed)
-    // {
-    //     foreach (Card item in cardLibrary)
-    //     {
-    //         if (item.name.Equals(c))
-    //         {
-    //             Card createdCard = ScriptableObject.Instantiate(item);
-    //             createdCard.name = createdCard.name.Replace("(Clone)", "").Trim();
-    //             createdCard.exposed = exposed;
-    //             cards.Add(createdCard);
-    //             shuffle();
-    //             exposedCheck();
-    //             return;
-    //         }
-    //     }
-    // }
 
     public void backToDeck(Card c, bool mainDeck, bool exposed)
     {

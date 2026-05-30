@@ -30,8 +30,8 @@ MonoBehaviour:
     health: 0
     primaryColor: 1
     secondaryColor: 0
-    mainEffect: 'Action - [Banish this card] Discover 5: Place a <Royal Paladin>
-      Unit into your Link Zone and give it Flux this turn.'
+    mainEffect: 'On Ascend - Discover 5: Summon a Level 1 <<Royal Paladin>> Unit.
+      If you did not, Link Charge 1.'
     trait: Royal Paladin
     cardArt: {fileID: 21300000, guid: d85e60d73182f64408771508e79143b8, type: 3}
   - cardName: Swordsman of Light, Ahmes
@@ -41,8 +41,8 @@ MonoBehaviour:
     health: 0
     primaryColor: 1
     secondaryColor: 0
-    mainEffect: 'On Ascend - Discover 7: Summon a Blaster Blader. If you did not,
-      Charge 1.'
+    mainEffect: 'On Ascend - Discover 7: Summon a "Blaster Blader". If you did not,
+      Link Charge 1.'
     trait: Royal Paladin
     cardArt: {fileID: 21300000, guid: eb590e3ff7fc54642ade18220c3edb54, type: 3}
   - cardName: King of Knights, Alfred
@@ -52,7 +52,17 @@ MonoBehaviour:
     health: 0
     primaryColor: 1
     secondaryColor: 0
-    mainEffect: 'Action - <<OPT>> [VB2 & Discard 1] Search for a <Royal Paladin>
+    mainEffect: 'Action - [OPT] (EB1 & Discard 1) Search for a <<Royal Paladin>>
       Unit and Summon it. '
     trait: Royal Paladin
     cardArt: {fileID: 21300000, guid: 1362b3ef64d253e45ab896bda8f4f19c, type: 3}
+  - cardName: Majesty Lord Blaster
+    level: 4
+    primaryValue: 8
+    power: 5000
+    health: 0
+    primaryColor: 1
+    secondaryColor: 3
+    mainEffect: 
+    trait: Royal Paladin
+    cardArt: {fileID: 21300000, guid: bc8850256c0f8af44afc7de6e9d86b0a, type: 3}

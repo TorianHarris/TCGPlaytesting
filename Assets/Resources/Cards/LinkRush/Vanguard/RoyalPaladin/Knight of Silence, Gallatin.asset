@@ -19,6 +19,6 @@ MonoBehaviour:
   color: 1
   mainEffect: '[Power Attacker +1000]'
   secondaryEffect: 
-  trait: Royal Paladin / Soldier
+  trait: Royal Paladin / Knight
   cardArt: {fileID: 21300000, guid: 44d6df257b5d506448ee23c2194885e5, type: 3}
   exposed: 0

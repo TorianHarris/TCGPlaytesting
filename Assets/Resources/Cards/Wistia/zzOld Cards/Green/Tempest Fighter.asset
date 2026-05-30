@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Tempest Fighter
   m_EditorClassIdentifier: 
   cost: 2
-  power: 1
+  power: 3
   health: 2
   type: 0
   color: 3
-  mainEffect: 'On Summon - Combo 2: Gain +2/+0 until the end of the turn.'
-  secondaryEffect: "\r"
+  mainEffect: 'On Play - Flow: Charge 1.'
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 235ab8044382f4cd3b87a5a79ac9b5c3, type: 3}
   exposed: 0

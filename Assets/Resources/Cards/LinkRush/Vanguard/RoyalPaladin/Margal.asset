@@ -18,7 +18,7 @@ MonoBehaviour:
   type: 0
   color: 1
   mainEffect: On Play / On Link - If you summoned a Unit from your deck this turn,
-    [EB1] draw 1.
+    (EB1) draw 1.
   secondaryEffect: 
   trait: Royal Paladin / High Beast
   cardArt: {fileID: 21300000, guid: a97fee2eeb2d4b64ebe28054b5abcdd2, type: 3}

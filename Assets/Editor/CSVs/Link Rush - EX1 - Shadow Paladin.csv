@@ -1,0 +1,15 @@
+Name,Type,Size,Power,Boost,Trait,Effect,Other
+Abyss Healer,Unit,1,1000,2000,Shadow Paladin,"On Play / On Link - Dread 10: Give another Unit the following effect this turn: ""If this Unit is destroyed by allied <<Shadow Paladin>> effect, return it to your hand.""",
+Howl Owl,Unit,1,2000,1000,Shadow Paladin / High Beast,"On Play / On Link - If an allied Unit was destroyed this turn, (EB1) draw 1.",
+Darkside Trumpeter,Unit,1,2000,1000,Shadow Paladin,"On Play / On Link - Dread 10: If an allied Unit was destroyed this turn, give another allied Unit [Vigilance] this turn.",
+"Witch of Nostrum, Arianrhod",Unit,1,2000,1000,Shadow Paladin / Witch,On Play - Draw 1. Discard 1.,
+Grim Reaper,Unit,1,2000,1000,Shadow Paladin,"On Play / On Link - If an allied Unit was destroyed this turn, give another allied Unit +1000 Power this turn.",
+Blaster Javelin,Unit,2,3000,1000,Shadow Paladin / Knight,"Dread 15: When this Unit would be destroyed by an allied <<Shadow Paladin>> effect, it may be treated as two Units.n/On Play - (EB1) Mill1. Add a ""Blaster Dark"" from your Trash to your hand.",
+"Black Sage, Charon",Unit,2,3000,1000,Shadow Paladin,[Power Attacker +1000],
+"Dark Shield, Mac Lir",Unit,2,2000,2000,Shadow Paladin,Counter - (EB1) This card gains +2000 Counter.,
+"Darkness Maiden, Macha",Unit,3,4000,1000,Shadow Paladin,On Play - (EB1) Mill 1. Summon a Level 2 or lower <<Shadow Paladin>> Unit from your Trash. Destroy it at the end of this turn.,
+"Skull Witch, Nemain",Instant,2,,1000,Shadow Paladin / Witch,[EB1 & Destroy an allied Unit] Draw 2.n/When you would summon this card from your Trash by a <<Shadow Paladin>> effect you can add this card to your hand instead.,Trigger - Add this card to your hand.
+Blaster Dark,Unit,3,4000,1000,Shadow Paladin / Knight,On Play - (EB1 & Destroy another allied Unit) Deal 4000 to an opposing Unit.n/On Link - (EB1) Deal X000 damage to an opposing Unit. X is equal to 2000 times the number of allied Units destroyed this turn.,
+"Knight of Darkness, Rugos",Unit,3,4000,1000,Shadow Paladin / Knight,[Power Attacker +1000],
+"Dark Mage, Badhabh Caar",Unit,4,5000,1000,Shadow Paladin,On Play - Mill 2 then Dread 10: choose 2 cards at random from your Trash and summon 1. Destroy that Unit at the end of the turn.,
+Cursed Lancer,Unit,4,5000,1000,Shadow Paladin,"On Attack - If an allied Unit was destroyed this turn, choose 1. If 2 or more allied Units were destroyed this turn, choose both instead:n/1) Link Charge 1.n/2) Refresh 1 Energy.",

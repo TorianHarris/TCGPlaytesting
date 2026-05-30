@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Demonic Dragon Mage, Kimnara
+  m_EditorClassIdentifier: 
+  cost: 2
+  power: 3000
+  health: 1000
+  type: 0
+  color: 0
+  mainEffect: 'On Play - Deal 2000 damage to an opposing Unit in an Attacker Zone.n/On
+    Link - Linkage 2: Deal 1000 damage to an opposing Unit.'
+  secondaryEffect: 
+  trait: Kagero / Dragon
+  cardArt: {fileID: 21300000, guid: abc53beeb50d3b143b7cddce63ccf1df, type: 3}
+  exposed: 0

@@ -1,0 +1,15 @@
+Name,Type,Size,Power,Boost,Trait,Effect,Other
+"Dragon Monk, Genjo",Instant,1,,1000,Kagero,Discover 2: Place a card into your Link Zone then (EB1) draw 1. ,Trigger - Add this card to your hand.
+Gatling Claw Dragon,Unit,1,2000,1000,Kagero / Dragon,"On Play / On Link - If an opposing Unit was destroyed this turn, (EB1) draw 1.",
+"Demonic Dragon Mage, Rakshasa",Unit,1,2000,1000,Kagero,On Play / On Link - Deal 1000 damage to an opposing Unit.,
+"Dragon Monk, Gojo",Unit,1,2000,1000,Kagero,On Play - Draw 1. Discard 1.,
+"Embodiment of Spear, Tahr",Unit,1,2000,1000,Kagero,"On Attack / On Link - If there is 1 or less opposing Units, give another allied target +1000 Power turn.",
+"Flame of Hope, Aermo",Unit,2,3000,1000,Kagero,"On Play / On Link - (Discard 1) Refresh 1 Energy. If this card is Linked to an ""Overlord"" card, you do not have to pay the cost. ",
+"Embodiment of Armor, Bahr",Unit,2,3000,1000,Kagero,[Power Attacker +1000],
+"Wyvern Guard, Barri",Unit,2,2000,2000,Kagero,Counter - [EB1] This card gains +2000 Counter.,
+"Demonic Dragon Mage, Kimnara",Unit,2,3000,1000,Kagero / Dragon,On Play - Deal 2000 damage to an opposing Unit in an Attacker Zone.n/On Link - Linkage 2: Deal 1000 damage to an opposing Unit.,
+"Wyvern Strike, Tejas",Unit,3,4000,1000,Kagero / Dragon,"[Breakthrough]n/On Link - (EB1) If a opposing Unit was destroyed this turn, give the attacker [Breakthrough] this turn.",
+Berserk Dragon,Unit,3,4000,1000,Kagero / Dragon,"On Play - (EB1) Deal 3000 damage to an opposing Unit.n/On Attack - If there is 1 or less opposing Units, this Unit gains +1000 Power this turn.",
+"Dragon Knight, Nehalem",Unit,3,4000,1000,Kagero / Dragon / Rider,[Power Attacker +1000],
+Blazing Flare Dragon,Unit,4,5000,1000,Kagero / Dragon,On Play - Deal 2000 damage to an opposing Unit. (EB2) Deal 6000 damage instead.,
+Vortex Dragon,Unit,4,5000,1000,Kagero / Dragon,On Attack - (EB1) Repeat this X times: Deal 2000 damage to an opposing Unit. X equals this attack's Linkage. Each opposing Unit must be chosen once before it can be chosen again.,

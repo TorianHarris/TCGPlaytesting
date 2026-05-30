@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 7
   power: 6
-  health: 6
+  health: 7
   type: 0
   color: 0
-  mainEffect: 'On Play - Frenzy: Destroy an opposing Unit in this Zone.'
+  mainEffect: Invoke/On Attack - Deal 1 damage to all opposing Units.
   secondaryEffect: 
-  trait: 
-  cardArt: {fileID: 21300000, guid: 278da0ccc1f2545feb9d7ab5b65059e5, type: 3}
+  trait: Dragon
+  cardArt: {fileID: 21300000, guid: c2b07a3f6b3ce4f4894ed7085c4d5676, type: 3}
   exposed: 0

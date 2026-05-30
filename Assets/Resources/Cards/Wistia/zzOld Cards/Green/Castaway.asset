@@ -15,11 +15,11 @@ MonoBehaviour:
   cost: 2
   power: 0
   health: 0
-  type: 2
+  type: 1
   color: 3
-  mainEffect: Return a 2-cost or lower Unit to its owner's hand and if you do, draw
-    a card.
-  secondaryEffect: "Return a 2-cost or lower opposing Unit to its owner's hand.\r"
+  mainEffect: Recall an opposing 2-cost or lower Unit. If this is a Free Action,
+    recall an opposing 3-cost or lower Unit instead.
+  secondaryEffect: 
   trait: 
-  cardArt: {fileID: 21300000, guid: 23f1b2840462c47d3b5874951b1d3bc0, type: 3}
+  cardArt: {fileID: 21300000, guid: a4e928d46de1d410581c49ce14d886b4, type: 3}
   exposed: 0

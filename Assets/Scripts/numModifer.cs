@@ -8,7 +8,7 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
 {
     public int startingNum;
     public int increment = 1;
-    private string nameInLog;
+    private string nameInLog = "";
     TMP_Text txt;
     int currentNum;
     Color origColor;
@@ -18,7 +18,8 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
     // Start is called before the first frame update
     void Start()
     {
-        nameInLog = transform.GetComponentInParent<CardManager>() ? $"{transform.GetComponentInParent<CardManager>().name}'s {gameObject.name}" : transform.parent.name;
+        if (transform.GetComponentInParent<CardManager>())
+            nameInLog = transform.GetComponentInParent<CardManager>() ? $"{transform.GetComponentInParent<CardManager>().name}'s {gameObject.name}" : transform.parent.name;
         txt = GetComponent<TMP_Text>();
         int.TryParse(txt.text, out startingNum);
         currentNum = startingNum;
@@ -40,15 +41,17 @@ public class numModifer : MonoBehaviour, IPointerClickHandler
     }
     public void decreaseNum()
     {
-        currentNum-= increment;
-        GameManager.holdLog(nameInLog + " was changed: ", currentNum + increment, currentNum);
+        currentNum -= increment;
+        if (nameInLog != "")
+            GameManager.holdLog(nameInLog + " was changed: ", currentNum + increment, currentNum);
         displayNum();
     }
 
     public void increaseNum()
     {
-        currentNum+= increment;
-        GameManager.holdLog(nameInLog + " was changed: ", currentNum - increment, currentNum);
+        currentNum += increment;
+        if (nameInLog != "")
+            GameManager.holdLog(nameInLog + " was changed: ", currentNum - increment, currentNum);
         displayNum();
     }
 

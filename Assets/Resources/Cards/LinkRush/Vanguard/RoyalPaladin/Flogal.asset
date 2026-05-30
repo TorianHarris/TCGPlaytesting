@@ -17,7 +17,8 @@ MonoBehaviour:
   health: 1000
   type: 0
   color: 1
-  mainEffect: On Play / On Link - [EB1] Give another allied Unit Vigilance this turn.
+  mainEffect: On Play / On Link - (EB1) Give another allied Unit [Vigilance] this
+    turn.
   secondaryEffect: 
   trait: Royal Paladin / High Beast
   cardArt: {fileID: 21300000, guid: 11cfe988289cdaf48b97b0be46dc8584, type: 3}

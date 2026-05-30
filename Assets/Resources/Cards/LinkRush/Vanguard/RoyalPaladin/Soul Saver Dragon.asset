@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 1000
   type: 0
   color: 1
-  mainEffect: 'On Attack - Give X allied targets +1000 Power this turn. X equals
-    this attack''s Linkage. '
+  mainEffect: 'On Attack - Linkage 3: Give all other allied targets +1000 Power this
+    turn.'
   secondaryEffect: 
   trait: Royal Paladin / Dragon
   cardArt: {fileID: 21300000, guid: a91d3b7da417da14e88f8a2159fd36da, type: 3}

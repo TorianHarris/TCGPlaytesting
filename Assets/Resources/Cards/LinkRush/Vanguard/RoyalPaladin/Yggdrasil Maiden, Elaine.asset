@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 2000
   type: 0
   color: 1
-  mainEffect: 'On Play/On Link - Shuffle up to 2 cards from your Trash into your
+  mainEffect: 'On Play / On Link - Shuffle up to 2 cards from your Trash into your
     deck. '
   secondaryEffect: 
   trait: 'Royal Paladin '

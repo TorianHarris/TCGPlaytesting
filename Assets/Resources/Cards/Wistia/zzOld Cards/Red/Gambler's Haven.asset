@@ -12,15 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Gambler's Haven
   m_EditorClassIdentifier: 
-  cost: 3
+  cost: 2
   power: 0
   health: 0
   type: 3
   color: 0
-  mainEffect: Before you draw during your Draw Phase, look at the top of your deck
-    then you may discard it. Action - [Exhaust this card and discard a Gambler's
-    Haven from your hand] Discard a card. Draw 2 cards.
-  secondaryEffect: "\r"
+  mainEffect: When you discard a card, [exhaust this card] draw 1.
+  secondaryEffect: 
   trait: 
   cardArt: {fileID: 21300000, guid: 99bcabf27c26a41f1acb04601ca14e45, type: 3}
   exposed: 0

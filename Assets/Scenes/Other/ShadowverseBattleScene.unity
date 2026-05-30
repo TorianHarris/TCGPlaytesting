@@ -1439,6 +1439,16 @@ PrefabInstance:
       propertyPath: num
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7502914534837026089, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
+        type: 3}
+      propertyPath: numLimit
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502914534837026089, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
+        type: 3}
+      propertyPath: hasMaxNum
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7502914534837026091, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
         type: 3}
       propertyPath: m_Name
@@ -1631,6 +1641,7 @@ MonoBehaviour:
   deckCount: {fileID: 1047853682}
   extraDeckCount: {fileID: 0}
   damageArea: {fileID: 396237384}
+  holdArea: {fileID: 0}
   deckViewer: {fileID: 902110558}
   cardLibrary: []
   cards: []
@@ -2177,6 +2188,16 @@ PrefabInstance:
     - target: {fileID: 7502914534837026089, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
         type: 3}
       propertyPath: num
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502914534837026089, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
+        type: 3}
+      propertyPath: numLimit
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502914534837026089, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
+        type: 3}
+      propertyPath: hasMaxNum
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7502914534837026091, guid: 4ea26cc03bd4a40a29862ab5c4cb893c,
@@ -3723,6 +3744,7 @@ MonoBehaviour:
   deckCount: {fileID: 1444521148}
   extraDeckCount: {fileID: 0}
   damageArea: {fileID: 409336857}
+  holdArea: {fileID: 0}
   deckViewer: {fileID: 65250170}
   cardLibrary: []
   cards: []
@@ -5667,9 +5689,10 @@ MonoBehaviour:
   holding: 0
   holdingTimer: 0
   timeTilRelease: 0
-  playerDeck: {fileID: 11400000, guid: d28e43c2e244446f7aeda83db99aeb7b, type: 2}
-  opponentDeck: {fileID: 11400000, guid: ba87318bd689a4c9db55de1e272484a5, type: 2}
+  playerDeck: {fileID: 11400000, guid: b5ab63d5e8aba48f9ac37c1907c59099, type: 2}
+  opponentDeck: {fileID: 11400000, guid: 6f857d270bf4a4756986f73be73b579e, type: 2}
   startingHandSize: 4
+  startingExtraDeckCardsInHand: 0
   startingShields: 0
   tokenFolder: Tokens/ShadowverseTokens
   unitName: Unit
@@ -5723,6 +5746,8 @@ MonoBehaviour:
     type: 3}
   leaderCardframe: {fileID: 6190421512664949010, guid: 1259f63fe79c046c9b0f6a292c1056f7,
     type: 3}
+  playerCardZones: []
+  opponentCardZones: []
 --- !u!4 &1104206486
 Transform:
   m_ObjectHideFlags: 0
@@ -6072,7 +6097,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Generate: 0
   sprites:
-  - {fileID: 21300000, guid: f9fd5fe8fe8304f45a7db0a8101293f4, type: 3}
+  - {fileID: 21300000, guid: 6cfff45149c0b6449a2060fa23bc0d26, type: 3}
+  - {fileID: 21300000, guid: a45780c7848702941bcd27c2d2e492a3, type: 3}
 --- !u!1001 &1381338994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7369,9 +7395,9 @@ RectTransform:
   - {fileID: 1912719025}
   - {fileID: 2013991337}
   - {fileID: 538052150}
-  - {fileID: 65250172}
   - {fileID: 1861154209}
   - {fileID: 516018056}
+  - {fileID: 65250172}
   m_Father: {fileID: 1475303881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}

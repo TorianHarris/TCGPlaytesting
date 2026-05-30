@@ -447,7 +447,7 @@ MonoBehaviour:
   powerImage: {fileID: 2115609200497476546}
   healthImage: {fileID: 0}
   secondaryFrame: {fileID: 1772625488643820}
-  healthPrefix: +
+  healthPrefix: 
   toPrimaryColor:
   - {fileID: 114041170485853140}
   - {fileID: 959502814274431060}

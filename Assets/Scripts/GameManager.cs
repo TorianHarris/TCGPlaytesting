@@ -1,3 +1,5 @@
+using System;
+using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -78,6 +80,8 @@ public class GameManager : MonoBehaviour
     [Space(10)]
     public List<CardZone> playerCardZones;
     public List<CardZone> opponentCardZones;
+    [HideInInspector]
+    public StringBuilder sb = new StringBuilder();
 
     void Awake()
     {
@@ -138,10 +142,22 @@ public class GameManager : MonoBehaviour
             logger.SetActive(!logger.activeSelf);
         if (Input.GetKeyDown(diceKeyCode))
         {
-            int randomNumber = Random.Range(1, 7);
+            int randomNumber = UnityEngine.Random.Range(1, 7);
             log("Dice Roll: " + randomNumber);
         }
-
+        // detect number keys and append to stringbuilder, also detect escape key to clear stringbuilder
+        for (int i = 0; i <= 9; i++)
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha0 + i) || Input.GetKeyDown(KeyCode.Keypad0 + i))
+            {
+                sb.Append(i);
+                Debug.Log("Current held number: " + sb.ToString());
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            sb.Clear();
+        }
     }
     public void ActiveAllPlayerZones()
     {
@@ -207,6 +223,35 @@ public class GameManager : MonoBehaviour
         //Instance.holding = false;
     }
 
+    public static string formattedString(String s)
+    {
+        return s
+        .Replace("(", "<b>(")
+        .Replace(")", ")</b>")
+        .Replace("[", "<b>[")
+        .Replace("]", "]</b>")
+        .Replace("n/", "\n")
+        .Replace("<<<", "<b>")
+        .Replace(">>>", "</b>")
+        .Replace("<<", "<b><")
+        .Replace(">>", "></b>")
+        .Replace("#O", "<sprite name=\"Orange\">")
+        .Replace("#R", "<sprite name=\"Red\">")
+        .Replace("#G", "<sprite name=\"Green\">")
+        .Replace("#Y", "<sprite name=\"Yellow\">")
+        .Replace("#B", "<sprite name=\"Blue\">")
+        .Replace("#P", "<sprite name=\"Purple\">")
+        .Replace("N0", "<sprite name=\"N0\">")
+        .Replace("N1", "<sprite name=\"N1\">")
+        .Replace("N2", "<sprite name=\"N2\">")
+        .Replace("N3", "<sprite name=\"N3\">")
+        .Replace("N4", "<sprite name=\"N4\">")
+        .Replace("N5", "<sprite name=\"N5\">")
+        .Replace("N6", "<sprite name=\"N6\">")
+        .Replace("Nx", "<sprite name=\"Nx\">")
+        .Replace("L1", "<sprite name=\"L1\">")
+        .Replace("L2", "<sprite name=\"L2\">");
+    }
     // public static void holdLog(string msg, int num, Color clr)
     // {
     //     if (Instance.heldLog != "" && Instance.heldLog != msg)

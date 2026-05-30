@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f880c058bec4a4c1eb07c8c8b93ca4bd, type: 3}
+  m_Name: '[LiR] PBD-PBO'
+  m_EditorClassIdentifier: 
+  LeaderLevels:
+  - cardName: Ren Suzugamori
+    level: 1
+    primaryValue: 2
+    power: 2000
+    health: 0
+    primaryColor: 2
+    secondaryColor: 0
+    mainEffect: 
+    trait: Shadow Paladin
+    cardArt: {fileID: 21300000, guid: 86bcbacd0782882419db1c702f7bca80, type: 3}
+  - cardName: Fullbau
+    level: 2
+    primaryValue: 4
+    power: 3000
+    health: 0
+    primaryColor: 2
+    secondaryColor: 0
+    mainEffect: On Ascend - Draw 2. Discard 2.
+    trait: Shadow Paladin
+    cardArt: {fileID: 21300000, guid: acac032f447dadb40b0fda87dc0ba466, type: 3}
+  - cardName: Dark Heart Trumpeter
+    level: 3
+    primaryValue: 6
+    power: 4000
+    health: 0
+    primaryColor: 2
+    secondaryColor: 0
+    mainEffect: 'On Ascend - Summon a Level 3 or lower <<Shadow Paladin>> Unit from
+      your Trash. Destroy it at the end of this turn. '
+    trait: Shadow Paladin
+    cardArt: {fileID: 21300000, guid: 8a1f4ba0598dcae408c858b331fd68f5, type: 3}
+  - cardName: Phantom Blaster Dragon
+    level: 4
+    primaryValue: 8
+    power: 5000
+    health: 0
+    primaryColor: 2
+    secondaryColor: 0
+    mainEffect: 'On Attack - (EB1 & Destroy at least 1 allied Unit) Choose 1 for
+      each allied Unit that was destroyed this turn. You can only choose each once:
+
+      1)
+      Gain [Double Breaker] this turn.
+
+      2) Gain +1000 Power this turn.
+
+      3)
+      Destroy an opposing Unit. '
+    trait: Shadow Paladin
+    cardArt: {fileID: 21300000, guid: 03afc53549e77f74187681e05832691e, type: 3}
+  - cardName: Phantom Blaster Overlord
+    level: 4
+    primaryValue: 8
+    power: 5000
+    health: 0
+    primaryColor: 2
+    secondaryColor: 0
+    mainEffect: '[CROSSRIDE] - Phantom Blaster Dragon
+
+      On Attack - (Destroy
+      all allied Units) Choose 1 for each allied Unit that was destroyed by this
+      effect. You can only choose each once:
+
+      1) Gain [Double Breaker] and
+      [Breakthrough] this turn.
+
+      2) Gain +1000 Power until the start of your
+      next turn.
+
+      3) Summon a "Blaster Dark" from your Trash.  '
+    trait: Shadow Paladin
+    cardArt: {fileID: 21300000, guid: cdd3166029fa4cf4c843c4224e73ad99, type: 3}

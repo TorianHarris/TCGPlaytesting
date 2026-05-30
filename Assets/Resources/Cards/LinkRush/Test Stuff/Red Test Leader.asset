@@ -16,7 +16,7 @@ MonoBehaviour:
   - cardName: Alpha Dragon
     level: 1
     primaryValue: 2
-    power: 1000
+    power: 2000
     health: 0
     primaryColor: 0
     secondaryColor: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
   - cardName: Gamma Dragon
     level: 3
     primaryValue: 6
-    power: 5000
+    power: 4000
     health: 0
     primaryColor: 0
     secondaryColor: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   - cardName: Omega Dragon
     level: 4
     primaryValue: 8
-    power: 7000
+    power: 5000
     health: 0
     primaryColor: 0
     secondaryColor: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hammer Dragon
   m_EditorClassIdentifier: 
   cost: 1
-  power: 1000
+  power: 2000
   health: 1000
   type: 0
   color: 0
