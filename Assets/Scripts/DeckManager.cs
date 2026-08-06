@@ -46,12 +46,19 @@ public class DeckManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         shuffle(cards);
         shuffle(extraDeckCards);
         //draw starting hand
-        if (deck.leader)
+        if (deck.leader.Count > 0)
         {
-            for (int i = deck.leader.LeaderLevels.Length - 1; i >= 0; i--)
+            for (int i = 0; i < deck.leader.Count; i++)
             {
-                deck.leader.LeaderLevels[i].createLeader(leaderCardFrame, leaderZone.transform);
+                if (deck.leader[i].LeaderLevels != null && deck.leader[i].LeaderLevels.Length > 0)
+                {
+                    for (int e = deck.leader[i].LeaderLevels.Length - 1; e >= 0; e--)
+                    {
+                        deck.leader[i].LeaderLevels[e].createLeader(leaderCardFrame, leaderZone.transform);
+                    }
+                }
             }
+
         }
 
         for (int i = 0; i < GameManager.Instance.startingHandSize; i++)
