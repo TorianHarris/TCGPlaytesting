@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
   m_Name: '[ANI] Buff Landmaster'
   m_EditorClassIdentifier: 
-  leader: {fileID: 11400000, guid: 015f6fb8a98f9d545a759a57053bad29, type: 2}
+  leader:
+  - {fileID: 11400000, guid: cffbf6a9894e14d0b9cfc068b883a56a, type: 2}
+  - {fileID: 11400000, guid: f3d64aca91a530b46a4374198d90c88d, type: 2}
   cards:
   - {fileID: 11400000, guid: b59539c7ab1370d4d977ae79d776ba9f, type: 2}
   - {fileID: 11400000, guid: b59539c7ab1370d4d977ae79d776ba9f, type: 2}

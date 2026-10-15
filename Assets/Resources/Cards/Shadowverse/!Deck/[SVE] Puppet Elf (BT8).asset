@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
   m_Name: '[SVE] Puppet Elf (BT8)'
   m_EditorClassIdentifier: 
-  leader: {fileID: 11400000, guid: 83fde259696f547b19e0590f5de1ae84, type: 2}
+  leader:
+  - {fileID: 11400000, guid: 83fde259696f547b19e0590f5de1ae84, type: 2}
   cards:
   - {fileID: 11400000, guid: d0d4b81832515420e8fe26c1bc5203ad, type: 2}
   - {fileID: 11400000, guid: d0d4b81832515420e8fe26c1bc5203ad, type: 2}

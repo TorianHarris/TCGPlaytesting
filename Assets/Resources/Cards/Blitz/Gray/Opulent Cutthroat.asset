@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Opulent Cutthroat
+  m_EditorClassIdentifier: 
+  cost: 5
+  power: 4
+  health: 5
+  type: 0
+  color: 6
+  mainEffect: On Play - Steal 1.n/Once per turn, when you play card with the Thief
+    trait from your EX Area, give an allied Thief Unit Rush and +1/+0.
+  secondaryEffect: 
+  trait: Thief
+  cardArt: {fileID: 21300000, guid: a45b463baa99a0e4ba0f34394ecf7516, type: 3}
+  exposed: 0

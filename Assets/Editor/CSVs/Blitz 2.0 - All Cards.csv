@@ -1,0 +1,17 @@
+Name,Type,Cost,Power,Health,Trait,Effect,Other
+Gilded Hawk,Unit,1,1,1,Wind/Avian,"On play - Deal 1 to an opposing unit.n/If this unit is placed from your Battle Area to you Ex Area, deal 1 to an opposing unit. 
+",
+Graceful Winds,Instant,1,,,Wind,"Put another card in your Battle Area into your Ex Area. Draw 1. 
+",
+Steal,Instant,1,,,Thief,Steal 1.,
+Glitter Bandit,Unit,1,1,2,Rouge/Thief/Wind/Avian,On Play - Add a Falcon Token to your Ex Area.,
+Falcon Call,Instant,1,,,Rogue/Wind/Avian,Add 3 Falcon Tokens to your Ex Area.,
+Nightclad Assassin,Unit,2,2,3,Rogue,On Play - Combo 2: Gain Rush. Combo: Gain Haste.,
+Tempest Fighter,Unit,2,2,2,Wind,Defender.n/On Play - [Put another card in your Battle Area into your Ex Area] Gain +1/+1.,
+Verdant Consort,Unit,2,2,3,Rouge/Thief,On Play - If you played 2 or more cards from your Ex Area or Combo 4: Draw 1.,
+Usurping Thief,Unit,3,1,4,Thief,Haste.n/Strike - Steal 1.,
+Bandit Raid,Instant,3,,,Thief,Deal 3 damage to an opposing Unit. Steal 1.,
+Elven Keeper,Unit,3,2,2,Rouge/Wind/Avian,"On Play - Add 2 Falcon Tokens to your Ex Area.n/Once per turn, when you play a Falcon Token, it costs 1 less.",
+Shadowed Assassin,Unit,4,3,4,Rouge/Thief,On Play - Deal X damage to an opposing Unit. X is equal to the number of cards in your Ex Area with the Thief trait.,
+Opulent Cutthroat,Unit,5,4,5,Thief,"On Play - Steal 1.n/Once per turn, when you play card with the Thief trait from your EX Area, give an allied Thief Unit Rush and +1/+0.",
+Grand Heist,Instant,6,,,Thief,Steal 3. Reduce the cost of each card drawn by this effect by 2.,

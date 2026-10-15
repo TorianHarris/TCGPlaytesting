@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
   m_Name: Green Bloom
   m_EditorClassIdentifier: 
-  leader: {fileID: 0}
+  leader: []
   cards:
   - {fileID: 11400000, guid: 4a653276ee80b6746a34576090deb2c7, type: 2}
   - {fileID: 11400000, guid: 4a653276ee80b6746a34576090deb2c7, type: 2}

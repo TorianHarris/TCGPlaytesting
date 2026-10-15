@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f880c058bec4a4c1eb07c8c8b93ca4bd, type: 3}
+  m_Name: Training Dummy 1
+  m_EditorClassIdentifier: 
+  LeaderLevels:
+  - cardName: Training Dummy
+    level: 3
+    primaryValue: 3
+    power: 0
+    health: 0
+    primaryColor: 0
+    secondaryColor: 0
+    mainEffect: End of Your Turn - If you have 1 or less cards in your hand, reduce
+      the cost of a card with Afterburner in your EX Area by 1. If you have no cards
+      in hand, reduce the cost by 2 instead.
+    trait: 
+    cardArt: {fileID: 21300000, guid: 38f43769d9c331a41a2723ebbbac45e8, type: 3}
+  - cardName: Training Avatar
+    level: 3
+    primaryValue: 3
+    power: 4
+    health: 3
+    primaryColor: 0
+    secondaryColor: 0
+    mainEffect: On Attack - [Discard 1 or more cards] Deal damage to an opposing
+      Unit for each card discarded this turn.
+    trait: 
+    cardArt: {fileID: 21300000, guid: 3f2ef59a99940b94bb8fdab50522c10f, type: 3}

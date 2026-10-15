@@ -38,7 +38,7 @@ public class CardManager : MonoBehaviour
         if (cardType)
             cardType.text = typeName;
         if (powerText)
-            powerText.text = type == Card.cardType.Unit ? power.ToString() : "";
+            powerText.text = power.ToString();
         if (healthText)
             healthText.text = healthPrefix + health.ToString();
         if (mainEffectText)
@@ -74,7 +74,7 @@ public class CardManager : MonoBehaviour
         if (cardType)
             cardType.text = typeName;
         if (powerText)
-            powerText.text = type == Card.cardType.Unit ? power.ToString() : "";
+            powerText.text = power.ToString();
         if (healthText)
             healthText.text = healthPrefix + health.ToString();
         if (mainEffectText)
@@ -94,8 +94,8 @@ public class CardManager : MonoBehaviour
                 img.color = color;
             }
         }
-        if (powerImage) powerImage.SetActive(type == Card.cardType.Unit);
-        if (healthImage) healthImage.SetActive(type == Card.cardType.Unit);
+        if (powerImage) powerImage.SetActive(type != Card.cardType.Instant && type != Card.cardType.Permanent);
+        if (healthImage) healthImage.SetActive(type != Card.cardType.Instant && type != Card.cardType.Permanent);
         if (secondaryFrame) secondaryFrame.SetActive(!string.IsNullOrWhiteSpace(secondaryEffect));
 
         cardReference = reference;

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4db1938416144ba1b13ad062fda1fa3, type: 3}
   m_Name: '[SVE] Manaria Witch Starter'
   m_EditorClassIdentifier: 
-  leader: {fileID: 11400000, guid: 2fbc4103c28274e2790ee0665e9e2526, type: 2}
+  leader:
+  - {fileID: 11400000, guid: 0f77d7f93384a4a0dbc73816bd891e4f, type: 2}
   cards:
   - {fileID: 11400000, guid: 8d8d967cef6ec4618a089d52a9b69af0, type: 2}
   - {fileID: 11400000, guid: 8d8d967cef6ec4618a089d52a9b69af0, type: 2}

@@ -5689,8 +5689,8 @@ MonoBehaviour:
   holding: 0
   holdingTimer: 0
   timeTilRelease: 0
-  playerDeck: {fileID: 11400000, guid: b5ab63d5e8aba48f9ac37c1907c59099, type: 2}
-  opponentDeck: {fileID: 11400000, guid: 6f857d270bf4a4756986f73be73b579e, type: 2}
+  playerDeck: {fileID: 11400000, guid: 87dde31fe6f92464d9a4f6f839580f7b, type: 2}
+  opponentDeck: {fileID: 11400000, guid: fdd0888fbee8944d7b6e30df86468653, type: 2}
   startingHandSize: 4
   startingExtraDeckCardsInHand: 0
   startingShields: 0
@@ -5698,10 +5698,10 @@ MonoBehaviour:
   unitName: Unit
   instantName: Spell
   permanentName: 
-  leaderName: Alter
+  leaderName: Leader
   flashName: Skill
   reactionName: 
-  equipName: 
+  equipName: Weapon
   itemBeingDragged: {fileID: 0}
   logger: {fileID: 1636970004}
   logText: {fileID: 1840217157}
@@ -6097,8 +6097,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Generate: 0
   sprites:
-  - {fileID: 21300000, guid: 6cfff45149c0b6449a2060fa23bc0d26, type: 3}
-  - {fileID: 21300000, guid: a45780c7848702941bcd27c2d2e492a3, type: 3}
+  - {fileID: 21300000, guid: 33e409c62a7029d429efeb092d7b4878, type: 3}
+  - {fileID: 21300000, guid: b70eaf6e12d80d342bc1bad355997434, type: 3}
+  - {fileID: 21300000, guid: 155ec662f4276844a98d6b4111d740ae, type: 3}
+  - {fileID: 21300000, guid: 67722576566a32542835b7e9c2a7d515, type: 3}
+  - {fileID: 21300000, guid: c7b33936930fdf446b889bd68428b6a5, type: 3}
+  - {fileID: 21300000, guid: 75dea3aafa5c53540a750012855c5c51, type: 3}
+  - {fileID: 21300000, guid: 8bc7b2e438b9eb54aa3cbd1b431a4832, type: 3}
+  - {fileID: 21300000, guid: 9408022ae20a75c44bd50b684c8668ab, type: 3}
+  - {fileID: 21300000, guid: 7b8ad9324eef7ec408f3cbb4a50d98b9, type: 3}
+  - {fileID: 21300000, guid: 249b548dc12a1c542b412f05ee972b72, type: 3}
+  - {fileID: 21300000, guid: 45bea0f7344c02742bad0f997a7d20b4, type: 3}
+  - {fileID: 21300000, guid: dd7d6e08266e8404ea36ce721f3a3a7c, type: 3}
+  - {fileID: 21300000, guid: 07709506eede85149bcd0ed7b820731d, type: 3}
+  - {fileID: 21300000, guid: e860c0779da93914fab4200a494438b8, type: 3}
+  - {fileID: 21300000, guid: 85895d73f48ba6945a06ee3b59a80cc5, type: 3}
+  - {fileID: 21300000, guid: c2235933ac721a445af439d147d08835, type: 3}
+  - {fileID: 21300000, guid: 92787651a27925640a3f0200f289eed7, type: 3}
+  - {fileID: 21300000, guid: 7e49ce93391c3814883704b811037077, type: 3}
+  - {fileID: 21300000, guid: 807ab7a1e56bcc2408bd3fa50d2fdaeb, type: 3}
+  - {fileID: 21300000, guid: 08915ff0869db3243b3df49fbccaab92, type: 3}
+  - {fileID: 21300000, guid: 87ac2babdac17ff41b5faaa1efaa7d0c, type: 3}
 --- !u!1001 &1381338994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6747,6 +6766,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475303877}
   m_CullTransparentMesh: 1
+--- !u!1 &1515677960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1515677962}
+  - component: {fileID: 1515677961}
+  m_Layer: 0
+  m_Name: CSV to Card
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1515677961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515677960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b972849b279247d3996e811c081f92c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CSV: {fileID: 4900000, guid: 49077e9e44937fe42b05de8d029b3c45, type: 3}
+  gameFolder: 2
+  classFolder: 7
+  altFolder: 
+  Generate: 0
+--- !u!4 &1515677962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515677960}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 974.8686, y: 599.77686, z: -3.4380755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1526716036
 GameObject:
   m_ObjectHideFlags: 0
@@ -9922,3 +9990,4 @@ SceneRoots:
   - {fileID: 1475303881}
   - {fileID: 353899308}
   - {fileID: 1346386375}
+  - {fileID: 1515677962}
