@@ -51,6 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "TCGPlaytesting.sln",
-    "cSpell.words": ["Actived"]
+    "cSpell.words": ["Actived"],
+    "dotnet.defaultSolution": "TCGPlaytesting.sln"
 }
