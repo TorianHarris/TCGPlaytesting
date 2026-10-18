@@ -1,4 +1,7 @@
 Name,Type,Cost,Power,Health,Trait,Effect,Other
 Monstrous Chimera,Flash,6,1,1,,On Fuse - Gain +1/+1 for each unique Trait amoungst the Materials used for this card.,
-Tempest Sylph,Flash,4,3,4,Wind/Rogue,On Fuse - [Put another card on your Battle Area into your Ex Area] Recall an opposing unit.,
-Twinblade Featherfolk,Flash,8,3,7,Rogue/Wind/Avian,"On Fuse - Choose 1. Combo 6: Choose both instead:n/1) Gain Haste.n/2) Gain ""Strike: Once per turn, Ready this Unit.""",
+Tempest Sylph,Flash,4,4,3,Wind/Rogue,On Fuse - [Put another card on your Battle Area into your Ex Area] Recall an opposing unit.,
+Twinblade Featherfolk,Flash,7,3,7,Rogue/Wind/Avian,"On Fuse - Choose 1. Combo 6: Choose both instead:n/1) Gain Haste.n/2) Gain ""Strike: Once per turn, Ready this Unit.""",
+Vanguard General,Flash,4,3,4,Warrior/Earth,[Defender]n/On Sync - Exhaust an opposing Unit.,
+Flame Invoker,Flash,4,3,4,Mage/Fire,"On Sync - [Discard 1] Deal 2 damage to an opposing Unit. If the discarded card was a Spell, deal 3 damage instead.",
+"Mikael, Crimson Fencer",Flash,7,6,6,Spellblade,On Sync - Play a Spell from your Trash whose cost is less than or equal to your Legion then banish it.,

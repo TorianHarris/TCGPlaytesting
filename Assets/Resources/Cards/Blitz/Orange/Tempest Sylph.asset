@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Tempest Sylph
   m_EditorClassIdentifier: 
   cost: 4
-  power: 3
-  health: 4
+  power: 4
+  health: 3
   type: 2
   color: 7
   mainEffect: On Fuse - [Put another card on your Battle Area into your Ex Area]
     Recall an opposing unit.
-  secondaryEffect: 
+  secondaryEffect: "\r"
   trait: Wind/Rogue
   cardArt: {fileID: 21300000, guid: a3b5d87dceff4e84883dff4b9a70083f, type: 3}
   exposed: 0

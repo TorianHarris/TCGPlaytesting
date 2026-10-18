@@ -19,7 +19,7 @@ MonoBehaviour:
   color: 7
   mainEffect: On Fuse - Gain +1/+1 for each unique Trait amoungst the Materials used
     for this card.
-  secondaryEffect: 
+  secondaryEffect: "\r"
   trait: 
   cardArt: {fileID: 21300000, guid: 29e09a9915a75ad41853ea8a78dc81ef, type: 3}
   exposed: 0
