@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Usurping Thief
   m_EditorClassIdentifier: 
-  cost: 3
+  cost: 2
   power: 1
-  health: 4
+  health: 3
   type: 0
   color: 6
-  mainEffect: Haste.n/Strike - Steal 1.
+  mainEffect: Haste.n/Strike - Steal 1. Discard 1.
   secondaryEffect: 
   trait: Thief
   cardArt: {fileID: 21300000, guid: 7836ac7f0e0d55c4ab6f71ddbc4d7ebf, type: 3}

@@ -20,6 +20,6 @@ MonoBehaviour:
   mainEffect: On Fuse - [Put another card on your Battle Area into your Ex Area]
     Recall an opposing unit.
   secondaryEffect: 
-  trait: Wind
+  trait: Wind/Rogue
   cardArt: {fileID: 21300000, guid: a3b5d87dceff4e84883dff4b9a70083f, type: 3}
   exposed: 0

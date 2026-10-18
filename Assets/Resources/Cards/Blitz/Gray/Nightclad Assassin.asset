@@ -19,6 +19,6 @@ MonoBehaviour:
   color: 6
   mainEffect: 'On Play - Combo 2: Gain Rush. Combo: Gain Haste.'
   secondaryEffect: 
-  trait: Rogue
+  trait: Rogue/Elven
   cardArt: {fileID: 21300000, guid: 2dff2db62fe575a41a458510af54ef7a, type: 3}
   exposed: 0

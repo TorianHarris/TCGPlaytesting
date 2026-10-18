@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 2
   type: 0
   color: 6
-  mainEffect: On Play - Add a Falcon Token to your Ex Area.
+  mainEffect: On Play - Steal 1. Discard 1.
   secondaryEffect: 
-  trait: Rouge/Thief/Wind/Avian
+  trait: Rouge/Thief/Avian
   cardArt: {fileID: 21300000, guid: 763d96f8cbc5c0d479c3c565b1b66913, type: 3}
   exposed: 0

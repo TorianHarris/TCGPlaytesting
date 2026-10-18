@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Elven Keeper
+  m_Name: Traveler's Respite
   m_EditorClassIdentifier: 
-  cost: 3
-  power: 2
-  health: 2
-  type: 0
+  cost: 2
+  power: 0
+  health: 0
+  type: 1
   color: 6
-  mainEffect: On Play - Add 2 Falcon Tokens to your Ex Area.n/Once per turn, when
-    you play a Falcon Token, it costs 1 less.
+  mainEffect: If this card is discarded, draw 1.n/Draw 1.
   secondaryEffect: 
-  trait: Rouge/Wind/Avian
-  cardArt: {fileID: 21300000, guid: b3b63d70a15d94d87abfc5759d06745e, type: 3}
+  trait: 
+  cardArt: {fileID: 21300000, guid: e02f91af6932c0542ac8b33cf6900e23, type: 3}
   exposed: 0

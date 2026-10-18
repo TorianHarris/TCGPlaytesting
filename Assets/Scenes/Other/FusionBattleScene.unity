@@ -5689,8 +5689,8 @@ MonoBehaviour:
   holding: 0
   holdingTimer: 0
   timeTilRelease: 0
-  playerDeck: {fileID: 11400000, guid: 388c6eb7bd0afb14baa9b902bb0dab16, type: 2}
-  opponentDeck: {fileID: 11400000, guid: 1d039e1cb312ceb4088652b90b44ead7, type: 2}
+  playerDeck: {fileID: 11400000, guid: 823ea87b3ad7ff3448e53b7d8f4cf220, type: 2}
+  opponentDeck: {fileID: 11400000, guid: 388c6eb7bd0afb14baa9b902bb0dab16, type: 2}
   startingHandSize: 4
   startingExtraDeckCardsInHand: 0
   startingShields: 0

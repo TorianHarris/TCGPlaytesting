@@ -19,6 +19,6 @@ MonoBehaviour:
   color: 6
   mainEffect: Add 3 Falcon Tokens to your Ex Area.
   secondaryEffect: 
-  trait: Rogue/Wind/Avian
+  trait: Wind/Avian/Elven
   cardArt: {fileID: 21300000, guid: a5535df1fb8d5491baaae92998df874a, type: 3}
   exposed: 0

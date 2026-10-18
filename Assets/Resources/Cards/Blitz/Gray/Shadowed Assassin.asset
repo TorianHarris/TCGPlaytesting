@@ -18,8 +18,8 @@ MonoBehaviour:
   type: 0
   color: 6
   mainEffect: On Play - Deal X damage to an opposing Unit. X is equal to the number
-    of cards in your Ex Area with the Thief trait.
+    of cards in your Ex Area.
   secondaryEffect: 
-  trait: Rouge/Thief
+  trait: Rouge/Thief/Dark
   cardArt: {fileID: 21300000, guid: ff0d885fc6218d943a61bbbe0997f911, type: 3}
   exposed: 0
