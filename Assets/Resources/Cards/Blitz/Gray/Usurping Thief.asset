@@ -17,7 +17,7 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 6
-  mainEffect: Haste.n/Strike - Steal 1. Discard 1.
+  mainEffect: Haste.n/(*)Strike - Steal 1. Discard 1.
   secondaryEffect: 
   trait: Thief
   cardArt: {fileID: 21300000, guid: 7836ac7f0e0d55c4ab6f71ddbc4d7ebf, type: 3}

@@ -19,15 +19,26 @@ public class blitzModifer : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         if (eventData.button == PointerEventData.InputButton.Right)
-            num--;
+            numDecrease();
         else
-            num++;
-        txt.text = num.ToString();
+            numIncrease();
     }
 
     public void goSecond()
     {
         num++;
+        txt.text = num.ToString();
+    }
+
+    public void numIncrease()
+    {
+        num++;
+        txt.text = num.ToString();
+    }
+
+    public void numDecrease()
+    {
+        num--;
         txt.text = num.ToString();
     }
 }

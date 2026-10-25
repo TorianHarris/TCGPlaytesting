@@ -26,9 +26,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2caa3cff367af8b4b9d8db14b1e63af0, type: 2}
   - {fileID: 11400000, guid: 2caa3cff367af8b4b9d8db14b1e63af0, type: 2}
   - {fileID: 11400000, guid: 2caa3cff367af8b4b9d8db14b1e63af0, type: 2}
-  - {fileID: 11400000, guid: da77ed905a4a2264fae7f25c42ce364c, type: 2}
-  - {fileID: 11400000, guid: da77ed905a4a2264fae7f25c42ce364c, type: 2}
-  - {fileID: 11400000, guid: da77ed905a4a2264fae7f25c42ce364c, type: 2}
+  - {fileID: 11400000, guid: 0a5a856759a658444a6cf27c82ea5373, type: 2}
+  - {fileID: 11400000, guid: 0a5a856759a658444a6cf27c82ea5373, type: 2}
+  - {fileID: 11400000, guid: 0a5a856759a658444a6cf27c82ea5373, type: 2}
   - {fileID: 11400000, guid: 4157ff17849bafd459b0babfc548f116, type: 2}
   - {fileID: 11400000, guid: 4157ff17849bafd459b0babfc548f116, type: 2}
   - {fileID: 11400000, guid: 4157ff17849bafd459b0babfc548f116, type: 2}
@@ -56,11 +56,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d6d28112ec97b0d4f8beb767ad961107, type: 2}
   - {fileID: 11400000, guid: d6d28112ec97b0d4f8beb767ad961107, type: 2}
   extraDeck:
-  - {fileID: 11400000, guid: 53d73b28498dfe144a83a7b4b33fd45d, type: 2}
-  - {fileID: 11400000, guid: 53d73b28498dfe144a83a7b4b33fd45d, type: 2}
+  - {fileID: 11400000, guid: caf2302fa7d5ef643a39f8ac40749e09, type: 2}
+  - {fileID: 11400000, guid: caf2302fa7d5ef643a39f8ac40749e09, type: 2}
   - {fileID: 11400000, guid: 4d4e1e6dd2483f246b71372e8df4d9fe, type: 2}
   - {fileID: 11400000, guid: 4d4e1e6dd2483f246b71372e8df4d9fe, type: 2}
   - {fileID: 11400000, guid: 4d4e1e6dd2483f246b71372e8df4d9fe, type: 2}
-  - {fileID: 11400000, guid: 7d3fff8e06c0e9242a1b0dfc846e8902, type: 2}
-  - {fileID: 11400000, guid: 7d3fff8e06c0e9242a1b0dfc846e8902, type: 2}
-  - {fileID: 11400000, guid: 7d3fff8e06c0e9242a1b0dfc846e8902, type: 2}
+  - {fileID: 11400000, guid: 6a230f1eaa4cb474eacdc6c799b0d36c, type: 2}
+  - {fileID: 11400000, guid: 6a230f1eaa4cb474eacdc6c799b0d36c, type: 2}
+  - {fileID: 11400000, guid: a3943816e977e904e9185f83deee8696, type: 2}

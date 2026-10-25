@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Flame Invoker
+  m_Name: Jack Blader
   m_EditorClassIdentifier: 
-  cost: 4
-  power: 3
-  health: 4
-  type: 2
-  color: 7
-  mainEffect: On Sync - [Discard 1] Deal 2 damage to an opposing Unit. If the discarded
-    card was a Spell, deal 3 damage instead.
-  secondaryEffect: "\r"
-  trait: Mage/Fire
-  cardArt: {fileID: 0}
+  cost: 1
+  power: 2
+  health: 2
+  type: 0
+  color: 6
+  mainEffect: 'On Play - Legion 4: Gain +1/+1.'
+  secondaryEffect: 
+  trait: Warrior
+  cardArt: {fileID: 21300000, guid: cb1e6ef7f680b634cbe142e781fceea4, type: 3}
   exposed: 0

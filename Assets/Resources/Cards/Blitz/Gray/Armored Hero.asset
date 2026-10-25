@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 1
   type: 0
   color: 6
-  mainEffect: 
+  mainEffect: On Destroy - Summon a Mercenary Token.
   secondaryEffect: 
   trait: Warrior
-  cardArt: {fileID: 0}
+  cardArt: {fileID: 21300000, guid: 463815cf5257243fb8bd873743d173f6, type: 3}
   exposed: 0

@@ -1,7 +1,13 @@
-Name,Type,Cost,Power,Health,Trait,Effect,Other
-Monstrous Chimera,Flash,6,1,1,,On Fuse - Gain +1/+1 for each unique Trait amoungst the Materials used for this card.,
-Tempest Sylph,Flash,4,4,3,Wind/Rogue,On Fuse - [Put another card on your Battle Area into your Ex Area] Recall an opposing unit.,
-Twinblade Featherfolk,Flash,7,3,7,Rogue/Wind/Avian,"On Fuse - Choose 1. Combo 6: Choose both instead:n/1) Gain Haste.n/2) Gain ""Strike: Once per turn, Ready this Unit.""",
-Vanguard General,Flash,4,3,4,Warrior/Earth,[Defender]n/On Sync - Exhaust an opposing Unit.,
-Flame Invoker,Flash,4,3,4,Mage/Fire,"On Sync - [Discard 1] Deal 2 damage to an opposing Unit. If the discarded card was a Spell, deal 3 damage instead.",
-"Mikael, Crimson Fencer",Flash,7,6,6,Spellblade,On Sync - Play a Spell from your Trash whose cost is less than or equal to your Legion then banish it.,
+Name,Type,Cost,Power,Health,Trait,Effect,Level
+Monstrous Chimera,Flash,6,1,1,,On Fuse - Gain +1/+1 for each unique Trait amoungst the Materials used for this card.,6
+Tempest Sylph,Flash,4,4,4,Wind/Rogue,On Fuse - Recall an opposing unit 3 cost or lower Unit. Combo 3: Recall an opposing Unit instead.,4
+Twinblade Featherfolk,Flash,7,3,7,Rogue/Wind/Avian,"On Fuse - Choose 1. Combo 6: Choose both instead:n/1) Gain Haste.n/2) Gain ""Strike: Once per turn, Ready this Unit.""",7
+Vanguard General,Flash,4,4,4,Warrior/Earth,[Defender]n/On Ascend - Exhaust an opposing Unit.,4
+Flame Invoker,Flash,4,4,4,Mage/Fire,On Sync - Deal 2 damage to an opposing Unit.,4
+"Iceschil, Gilded Aristocrat",Flash,6,5,5,Thief,"Choose a 4-cost or lower Thief-trait card in your Ex Area. It costs 0 this turn. If you used a Unit that didn't start in your deck as material, choose an 8-cost or lower Thief-trait card in your Ex Area instead.",8
+Runic Magus,Flash,3,3,3,Mage,On Sync - [Discard a Spell] Deal 3 to an opposing Unit.,4
+Tricky Knave,Flash,3,3,3,Thief,"Strike - If you have 2 or less cards in your EX Area, Steal 1. Otherwise, reduce the cost of a Thief-trait card by 1. ",4
+Prince of Gales,Flash,5,3,4,Wind/Avian,On Sync - Summon 3 Falcon tokens. Give them Rush and Assault. ,6
+Valiant Spearhand,Flash,5,5,4,Warrior/Bushido,Strike - Deal X damage to an opposing Unit. X equals your Legion.,5
+"Mikael, Crimson Fencer",Flash,8,6,6,[Spellblade]/Warrior/Mage ,Banish X units and X Spells from your Trash. Create a Damage Pool equal to the total cards banished (2X).n/Deal damage from your Damage Pool to opposing units up to their remaining Health. Deal any excess damage from your Damage Pool to your opponent.,9
+Triumphant Champion,Flash,6,4,7,Warrior/Light,On Ascend - Summon a Squire Token.n/Strike - Give another allied Unit +1/+1.,6

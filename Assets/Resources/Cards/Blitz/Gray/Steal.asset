@@ -17,7 +17,8 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 6
-  mainEffect: 'Steal 1. Combo: 3: Steal 2 instead.'
+  mainEffect: 'Steal 1. Combo 3: Reduce the cost of a Thief-trait card in your Ex
+    Area by 1.'
   secondaryEffect: 
   trait: Thief
   cardArt: {fileID: 21300000, guid: 2175937c58a316c4c8afc6543b6fc82d, type: 3}

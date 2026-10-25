@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
-  m_Name: Tempest Sylph
+  m_Name: Twinblade Featherfolk
   m_EditorClassIdentifier: 
-  cost: 4
-  power: 4
-  health: 3
+  cost: 7
+  power: 3
+  health: 7
   type: 2
-  color: 7
-  mainEffect: On Fuse - [Put another card on your Battle Area into your Ex Area]
-    Recall an opposing unit.
-  secondaryEffect: "\r"
-  trait: Wind/Rogue
-  cardArt: {fileID: 21300000, guid: a3b5d87dceff4e84883dff4b9a70083f, type: 3}
+  color: 1
+  mainEffect: 'On Fuse - Choose 1. Combo 6: Choose both instead:n/1) Gain Haste.n/2)
+    Gain "Strike: Once per turn, Ready this Unit."'
+  secondaryEffect: 7
+  trait: Rogue/Wind/Avian
+  cardArt: {fileID: 21300000, guid: 21d8437d0c0681e41be2bc969da0c584, type: 3}
   exposed: 0

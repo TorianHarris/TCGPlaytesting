@@ -17,7 +17,7 @@ MonoBehaviour:
     rgba: 4278323608
   Yellow:
     serializedVersion: 2
-    rgba: 4279075767
+    rgba: 4284715663
   Purple:
     serializedVersion: 2
     rgba: 4293012362
@@ -29,7 +29,7 @@ MonoBehaviour:
     rgba: 4294926902
   White:
     serializedVersion: 2
-    rgba: 4284715663
+    rgba: 4294967295
   Gray:
     serializedVersion: 2
     rgba: 4287203710
@@ -38,7 +38,7 @@ MonoBehaviour:
     rgba: 4278281919
   Black:
     serializedVersion: 2
-    rgba: 4280687132
+    rgba: 4282398521
   playerLogColor:
     serializedVersion: 2
     rgba: 4294948928

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
+  m_Name: Tempest Sylph
+  m_EditorClassIdentifier: 
+  cost: 4
+  power: 4
+  health: 4
+  type: 2
+  color: 1
+  mainEffect: 'On Fuse - Recall an opposing unit 3 cost or lower Unit. Combo 3: Recall
+    an opposing Unit instead.'
+  secondaryEffect: 4
+  trait: Wind/Rogue
+  cardArt: {fileID: 21300000, guid: a3b5d87dceff4e84883dff4b9a70083f, type: 3}
+  exposed: 0

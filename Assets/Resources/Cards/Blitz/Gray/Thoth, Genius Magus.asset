@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394856ffd8df3485fa6bc9fed9e09d87, type: 3}
   m_Name: Thoth, Genius Magus
   m_EditorClassIdentifier: 
-  cost: 6
-  power: 5
-  health: 5
+  cost: 7
+  power: 4
+  health: 4
   type: 0
   color: 6
   mainEffect: On Play - Put the top card of your deck into your EX Area and give

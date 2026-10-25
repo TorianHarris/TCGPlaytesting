@@ -17,9 +17,8 @@ MonoBehaviour:
   health: 3
   type: 0
   color: 6
-  mainEffect: Rush.n/[Inheritance]Strike - Draw 1. Discard 1. If you discarded a
-    Spell, deal 1 damage to your opponent.
+  mainEffect: 'Rush.n/[Inheritance]Strike - Discover 1: Add a Spell to your hand.'
   secondaryEffect: 
-  trait: Spellblade/Sorceror
+  trait: Spellblade
   cardArt: {fileID: 21300000, guid: dee3f750e8f3d3d429fb1d43ac7b590f, type: 3}
   exposed: 0

@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 0
   type: 1
   color: 6
-  mainEffect: '[Trash a card in your Ex Area with the Thief trait] Deal 3 damage
-    to an opposing Unit.'
+  mainEffect: '[Trash a Thief-trait card in your Ex Area] Deal 3 damage to an opposing
+    Unit.'
   secondaryEffect: 
   trait: Thief
   cardArt: {fileID: 21300000, guid: 57a7fb841a509f349a8c5e437bd6019d, type: 3}

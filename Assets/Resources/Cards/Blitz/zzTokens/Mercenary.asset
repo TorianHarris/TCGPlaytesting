@@ -16,7 +16,7 @@ MonoBehaviour:
   power: 1
   health: 1
   type: 0
-  color: 6
+  color: 8
   mainEffect: 
   secondaryEffect: 
   trait: Warrior

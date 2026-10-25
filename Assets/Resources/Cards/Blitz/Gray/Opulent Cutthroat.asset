@@ -17,8 +17,8 @@ MonoBehaviour:
   health: 5
   type: 0
   color: 6
-  mainEffect: On Play - Steal 1.n/When you play card with the Thief trait from your
-    EX Area, deal 2 damage to an opposing Unit and 1 to your opponent.
+  mainEffect: On Play - Steal 1.n/When you Steal or play a Thief-trait card from
+    your EX Area, deal 2 damage to an opposing Unit and 1 to your opponent.
   secondaryEffect: 
   trait: Thief
   cardArt: {fileID: 21300000, guid: a45b463baa99a0e4ba0f34394ecf7516, type: 3}
